@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>דשבורד פרוייקטים</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+    
+    /* ══ VARIABLES & RESET ══ */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg: #f8f9fc;
+      --white: #fff;
+      --border: #e5e7ee;
+      --text: #1e293b;
+      --text2: #475569;
+      --text3: #94a3b8;
+      --blue: #3b82f6;
+      --blue-l: #eff6ff;
+      --green: #10b981;
+      --green-l: #ecfdf5;
+      --orange: #f59e0b;
+      --orange-l: #fffbeb;
+      --red: #ef4444;
+      --red-l: #fef2f2;
+      --purple: #8b5cf6;
+      --purple-l: #f5f3ff;
+      --gray: #64748b;
+      --gray-l: #f1f5f9;
+      --cyan: #06b6d4;
+      --cyan-l: #ecfeff;
+      --pink: #ec4899;
+      --pink-l: #fdf2f8;
+      --side: 260px;
+      --sh: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
+    }
+
+    body {
+      font-family: 'Heebo', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--gray-l); }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+    /* ══ SIDEBAR ══ */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: var(--side);
+      height: 100vh;
+      background: var(--white);
+      border-left: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+      overflow-y: auto;
+    }
+    
+    .sidebar-logo {
+      padding: 1.5rem 1.3rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-logo h1 { font-size: 1.1rem; font-weight: 800; color: var(--blue); }
+    .sidebar-logo .sub { font-size: 0.72rem; color: var(--text3); margin-top: 0.15rem; }
+    
+    .sidebar-section {
+      padding: 1rem 1.3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar-section label {
+      display: block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .sidebar-section select, 
+    .sidebar-section input {
+      width: 100%;
+      font-family: 'Heebo';
+      font-size: 0.85rem;
+      padding: 0.55rem 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+      direction: rtl;
+    }
+    .sidebar-section select:focus, 
+    .sidebar-section input:focus {
+      outline: none;
+      border-color: var(--blue);
+    }
+    
+    .sidebar-kw {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.6rem;
+    }
+    .skw {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background: var(--gray-l);
+      color: var(--text2);
+      cursor: pointer;
+      border: 1px solid transparent;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .skw:hover { border-color: var(--blue); color: var(--blue); }
+    .skw.active { background: var(--blue-l); color: var(--blue); border-color: var(--blue); }
+    .skw .cnt { opacity: 0.45; font-size: 0.6rem; margin-right: 0.15rem; }
+    
+    .conn-list { max-height: 300px; overflow-y: auto; }
+    .conn-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.55rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .conn-item:hover {
+      background: var(--blue-l);
+      margin: 0 -1.3rem;
+      padding-right: 1.3rem;
+      padding-left: 1.3rem;
+    }
+    .ci-name { font-weight: 600; }
+    .ci-kw { font-size: 0.68rem; color: var(--text3); }
+    .ci-score {
+      font-family: 'IBM Plex Mono';
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 999px;
+    }
+    .ci-s3 { background: var(--red-l); color: var(--red); }
+    .ci-s2 { background: var(--orange-l); color: var(--orange); }
+    .ci-s1 { background: var(--blue-l); color: var(--blue); }
+    
+    .conn-empty { font-size: 0.8rem; color: var(--text3); padding: 1rem 0; text-align: center; }
+    .sidebar-clear {
+      display: inline-block;
+      font-size: 0.72rem;
+      color: var(--blue);
+      cursor: pointer;
+      margin-top: 0.4rem;
+      font-weight: 500;
+    }
+
+    /* ══ MAIN LAYOUT ══ */
+    .main {
+      margin-right: var(--side);
+      padding: 0 2rem 3rem;
+      min-height: 100vh;
+    }
+    
+    .tabs-bar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      padding: 1.2rem 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    .tabs { display: flex; gap: 0; }
+    .tab {
+      padding: 0.7rem 1.4rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text3);
+      cursor: pointer;
+      position: relative;
+      border: none;
+      background: none;
+      font-family: 'Heebo';
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      transition: color 0.2s;
+    }
+    .tab:hover { color: var(--text2); }
+    .tab.active { color: var(--blue); }
+    .tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      right: 0;
+      left: 0;
+      height: 2px;
+      background: var(--blue);
+      border-radius: 2px 2px 0 0;
+    }
+    .tab .tab-count {
+      font-family: 'IBM Plex Mono';
+      font-size: 0.66rem;
+      font-weight: 600;
+      background: var(--gray-l);
+      color: var(--text3);
+      padding: 0.1rem 0.4rem;
+      border-radius: 99px;
+    }
+    .tab.active .tab-count { background: var(--blue-l); color: var(--blue); }
+    
+    .tabs-date { font-size: 0.78rem; color: var(--text3); font-family: 'IBM Plex Mono'; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    
+    /* ══ CARDS & STATS ══ */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem 1.3rem;
+      box-shadow: var(--sh);
+      position: relative;
+      overflow: hidden;
+    }
+    .stat::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+    }
+    .stat:nth-child(1)::after { background: var(--blue); }
+    .stat:nth-child(2)::after { background: var(--green); }
+    .stat:nth-child(3)::after { background: var(--orange); }
+    .stat:nth-child(4)::after { background: var(--red); }
+    
+    .s-num { font-family: 'IBM Plex Mono'; font-size: 1.8rem; font-weight: 600; line-height: 1; }
+    .stat:nth-child(1) .s-num { color: var(--blue); }
+    .stat:nth-child(2) .s-num { color: var(--green); }
+    .stat:nth-child(3) .s-num { color: var(--orange); }
+    .stat:nth-child(4) .s-num { color: var(--red); }
+    .s-label { font-size: 0.78rem; color: var(--text3); margin-top: 0.35rem; font-weight: 500; }
+    
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--sh);
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+    .card-head {
+      padding: 1rem 1.3rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-head h3 { font-size: 0.92rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; }
+    
+    .ch-icon {
+      width: 26px;
+      height: 26px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+    }
+    .ch-icon.blue { background: var(--blue-l); }
+    .ch-icon.green { background: var(--green-l); }
+    .ch-icon.purple { background: var(--purple-l); }
+    .ch-icon.orange { background: var(--orange-l); }
+    .ch-icon.cyan { background: var(--cyan-l); }
+    .ch-icon.pink { background: var(--pink-l); }
+    
+    .card-body { padding: 1.3rem; }
+    
+    /* Bars */
+    .sbar { margin-bottom: 1rem; }
+    .sbar:last-child { margin-bottom: 0; }
+    .sbar-top { display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 0.4rem; }
+    .sbar-name { font-weight: 600; }
+    .sbar-val { font-family: 'IBM Plex Mono'; font-weight: 500; color: var(--text2); }
+    .sbar-track { height: 8px; background: var(--gray-l); border-radius: 99px; overflow: hidden; }
+    .sbar-fill { height: 100%; border-radius: 99px; transition: width 0.8s ease; }
+    
+    .mini-bars { display: flex; align-items: flex-end; gap: 6px; height: 120px; padding-top: 10px; }
+    .mini-bar-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      height: 100%;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+    .mini-bar { width: 100%; border-radius: 4px 4px 0 0; min-height: 4px; transition: opacity 0.2s; }
+    .mini-bar-col:hover .mini-bar { opacity: 0.8; }
+    .mini-bar-label { font-size: 0.62rem; color: var(--text3); text-align: center; white-space: nowrap; max-width: 50px; overflow: hidden; text-overflow: ellipsis; }
+    .mini-bar-val { font-family: 'IBM Plex Mono'; font-size: 0.65rem; color: var(--text2); font-weight: 600; }
+    
+    /* ══ NETWORK CANVAS ══ */
+    #netCanvas { width: 100%; height: 420px; border-radius: 10px; background: #fafbfe; cursor: grab; }
+    .net-legend, .gantt-legend { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 0.8rem; }
+    .net-leg { display: flex; align-items: center; gap: 0.35rem; font-size: 0.72rem; color: var(--text3); }
+    .net-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    /* ══ TABLE ══ */
+    .tbl-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.8rem; }
+    .tbl-top h3 { font-size: 1.1rem; font-weight: 700; }
+    .tbl-filters { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+    .tbl-filters select, .tbl-filters input {
+      font-family: 'Heebo'; font-size: 0.8rem; padding: 0.5rem 0.6rem; border: 1px solid var(--border); border-radius: 8px; background: var(--white); color: var(--text); direction: rtl; min-width: 120px;
+    }
+    .tbl-card { background: var(--white); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--sh); overflow: hidden; }
+    .tbl-wrap { overflow-x: auto; max-height: calc(100vh - 180px); overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    thead { position: sticky; top: 0; z-index: 2; }
+    th { background: var(--gray-l); padding: 0.75rem 1rem; text-align: right; font-weight: 600; font-size: 0.76rem; color: var(--text3); text-transform: uppercase; border-bottom: 2px solid var(--border); white-space: nowrap; }
+    td { padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tbody tr { cursor: pointer; transition: background 0.15s; }
+    tbody tr:hover { background: var(--blue-l); }
+    tbody tr.hl { background: #eff6ff; }
+    
+    .badge { display: inline-block; padding: 0.18rem 0.6rem; border-radius: 999px; font-size: 0.7rem; font-weight: 600; white-space: nowrap; }
+    .b-prod { background: var(--green-l); color: var(--green); }
+    .b-done { background: var(--blue-l); color: var(--blue); }
+    .b-hold { background: var(--orange-l); color: var(--orange); }
+    .b-old { background: var(--gray-l); color: var(--gray); }
+
+    /* ══ PEOPLE TOGGLE ══ */
+    .people-tabs { display: flex; gap: 0; }
+    .ptab { padding: 0.4rem 0.9rem; font-size: 0.76rem; font-weight: 600; color: var(--text3); cursor: pointer; border: 1px solid var(--border); background: var(--white); font-family: 'Heebo'; border-radius: 0; transition: all 0.15s; }
+    .ptab:first-child { border-radius: 0 8px 8px 0; }
+    .ptab:last-child { border-radius: 8px 0 0 8px; }
+    .ptab:hover { color: var(--text2); background: var(--gray-l); }
+    .ptab.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+
+    /* ══ GANTT ══ */
+    .gantt-container { display: flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; max-height: 420px; }
+    .gantt-labels { min-width: 160px; width: 160px; background: var(--gray-l); border-left: 1px solid var(--border); overflow-y: auto; flex-shrink: 0; }
+    .gantt-labels::-webkit-scrollbar { display: none; }
+    .gl-header { height: 40px; display: flex; align-items: center; padding: 0 0.7rem; font-size: 0.72rem; font-weight: 600; color: var(--text3); border-bottom: 2px solid var(--border); background: var(--white); }
+    .gl-row { height: 30px; display: flex; align-items: center; padding: 0 0.7rem; font-size: 0.76rem; font-weight: 600; border-bottom: 1px solid #eef1f5; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .gl-row:hover, .gl-row.active { background: var(--blue-l); }
+    .gl-status { width: 7px; height: 7px; border-radius: 50%; margin-left: 0.4rem; flex-shrink: 0; }
+    
+    .gantt-timeline-wrap { flex: 1; overflow: auto; position: relative; }
+    .gantt-timeline { position: relative; }
+    .gantt-cols { display: flex; height: 40px; border-bottom: 2px solid var(--border); position: sticky; top: 0; background: var(--white); z-index: 2; }
+    .gcol { display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 700; color: var(--text2); border-left: 1px solid var(--border); flex-shrink: 0; cursor: pointer; transition: background 0.15s; user-select: none; }
+    .gcol:hover { background: var(--blue-l); color: var(--blue); }
+    .gcol.now-col { background: var(--red-l); color: var(--red); }
+    .gcol.active-col { background: var(--blue-l); color: var(--blue); font-weight: 800; }
+    .gcol-month { font-size: 0.66rem; font-weight: 600; color: var(--text3); cursor: default; }
+    .gcol-month.now-col { background: var(--red-l); color: var(--red); }
+    
+    .gantt-rows { position: relative; }
+    .gr { height: 30px; display: flex; align-items: center; border-bottom: 1px solid #f3f4f8; position: relative; }
+    .gr-stripe { position: absolute; top: 0; bottom: 0; border-left: 1px solid #f3f4f8; }
+    .gantt-bar { position: absolute; height: 18px; top: 6px; border-radius: 5px; cursor: pointer; display: flex; align-items: center; padding: 0 5px; font-size: 0.6rem; font-weight: 600; color: #fff; overflow: hidden; white-space: nowrap; transition: filter 0.15s, opacity 0.2s; z-index: 1; }
+    .gantt-bar:hover { filter: brightness(1.1); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
+    .gantt-bar.dim { opacity: 0.15; }
+    .gantt-now-line { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--red); z-index: 3; pointer-events: none; }
+    
+    .gantt-back-btn { display: inline-flex; align-items: center; gap: 0.3rem; font-family: 'Heebo'; font-size: 0.78rem; font-weight: 600; color: var(--blue); background: var(--blue-l); border: 1px solid var(--blue); border-radius: 8px; padding: 0.3rem 0.8rem; cursor: pointer; transition: all 0.15s; }
+    .gantt-back-btn:hover { background: var(--blue); color: #fff; }
+    .gantt-view-label { font-size: 0.78rem; color: var(--text2); font-weight: 600; margin-right: 0.8rem; }
+    
+    .gantt-tip { position: fixed; z-index: 300; background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 0.9rem; box-shadow: 0 4px 16px rgba(0,0,0,0.12); font-size: 0.78rem; max-width: 250px; opacity: 0; pointer-events: none; transition: opacity 0.12s; }
+    .gantt-tip.show { opacity: 1; }
+    .gt-name { font-weight: 700; margin-bottom: 0.15rem; }
+    .gt-dates { font-family: 'IBM Plex Mono'; font-size: 0.72rem; color: var(--text2); margin-bottom: 0.2rem; }
+    .gt-dur { font-size: 0.72rem; color: var(--text3); }
+    .gt-status { margin-top: 0.3rem; }
+
+    /* Time Stats & Other Canvas Elements */
+    .time-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 1.5rem; }
+    .time-stat { background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.2rem; box-shadow: var(--sh); position: relative; overflow: hidden; }
+    .time-stat::after { content: ''; position: absolute; bottom: 0; right: 0; left: 0; height: 3px; }
+    .time-stat:nth-child(1)::after { background: var(--green); }
+    .time-stat:nth-child(2)::after { background: var(--blue); }
+    .time-stat:nth-child(3)::after { background: var(--orange); }
+    .time-stat:nth-child(4)::after { background: var(--purple); }
+    
+    .ts-num { font-family: 'IBM Plex Mono'; font-size: 1.6rem; font-weight: 600; line-height: 1; }
+    .time-stat:nth-child(1) .ts-num { color: var(--green); }
+    .time-stat:nth-child(2) .ts-num { color: var(--blue); }
+    .time-stat:nth-child(3) .ts-num { color: var(--orange); }
+    .time-stat:nth-child(4) .ts-num { color: var(--purple); }
+    .ts-label { font-size: 0.75rem; color: var(--text3); margin-top: 0.3rem; font-weight: 500; }
+    
+    #monthlyCanvas { width: 100%; height: 200px; }
+    .dur-bar-row { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.7rem; }
+    .dur-bar-name { width: 150px; min-width: 150px; font-size: 0.82rem; font-weight: 600; text-align: left; direction: rtl; }
+    .dur-bar-track { flex: 1; height: 22px; background: var(--gray-l); border-radius: 6px; overflow: hidden; }
+    .dur-bar-fill { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-right: 8px; font-size: 0.7rem; font-weight: 600; color: #fff; }
+    .dur-bar-val { font-family: 'IBM Plex Mono'; font-size: 0.75rem; color: var(--text2); min-width: 60px; text-align: center; }
+    
+    /* TOOLTIPS & OVERLAYS */
+    .tip { position: fixed; z-index: 200; pointer-events: none; background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.12); max-width: 260px; font-size: 0.8rem; opacity: 0; transition: opacity 0.12s; }
+    .tip.show { opacity: 1; }
+    .tip-name { font-weight: 700; margin-bottom: 0.2rem; }
+    .tip-desc { color: var(--text2); font-size: 0.74rem; margin-bottom: 0.35rem; }
+    .tip-kw { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+    .tip-kw span { font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 99px; background: var(--purple-l); color: var(--purple); }
+    
+    .net-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 100; background: rgba(248,249,252,0.97); backdrop-filter: blur(8px); display: flex; flex-direction: column; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
+    .net-overlay.open { opacity: 1; pointer-events: all; }
+    .net-overlay-head { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; border-bottom: 1px solid var(--border); background: var(--white); }
+    .net-overlay-head h2 { font-size: 1.15rem; font-weight: 800; color: var(--blue); }
+    .no-sub { font-size: 0.78rem; color: var(--text3); margin-top: 0.1rem; }
+    .net-close { width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--border); background: var(--white); cursor: pointer; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; color: var(--text2); transition: background 0.2s ease; }
+    .net-close:hover { background: var(--red-l); color: var(--red); }
+    
+    .net-overlay-body { flex: 1; position: relative; overflow: hidden; }
+    #fullNetCanvas { width: 100%; height: 100%; }
+    .net-overlay-info { position: absolute; top: 1rem; right: 1.2rem; width: 270px; background: var(--white); border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 4px 24px rgba(0,0,0,0.1); overflow: hidden; max-height: calc(100% - 2rem); overflow-y: auto; }
+    .noi-head { padding: 0.9rem 1.1rem; border-bottom: 1px solid var(--border); background: var(--blue-l); }
+    .noi-head h3 { font-size: 0.9rem; font-weight: 700; color: var(--blue); }
+    .noi-sub { font-size: 0.72rem; color: var(--text2); margin-top: 0.12rem; }
+    .noi-list { padding: 0.3rem 0; }
+    .noi-item { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1.1rem; border-bottom: 1px solid var(--border); font-size: 0.8rem; cursor: pointer; }
+    .noi-item:last-child { border-bottom: none; }
+    .noi-item:hover { background: var(--blue-l); }
+    .noi-name { font-weight: 600; }
+    .noi-kw { font-size: 0.66rem; color: var(--text3); margin-top: 0.08rem; }
+    .noi-score { font-family: 'IBM Plex Mono'; font-size: 0.7rem; font-weight: 600; padding: 0.12rem 0.5rem; border-radius: 999px; }
+    .overlay-legend { position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); display: flex; gap: 1rem; background: var(--white); padding: 0.5rem 1.2rem; border-radius: 999px; border: 1px solid var(--border); box-shadow: 0 2px 12px rgba(0,0,0,0.06); font-size: 0.72rem; }
+    
+    /* ══ MEDIA QUERIES ══ */
+    @media(max-width:1250px) {
+      .tbl-filters select, .tbl-filters input { font-size: 0.75rem; padding: 0.4rem 0.5rem; min-width: 100px; }
+    }
+    @media(max-width:1100px) {
+      .stats { grid-template-columns: repeat(3, 1fr); }
+      .time-stats { grid-template-columns: repeat(2, 1fr); }
+      .grid2 { grid-template-columns: 1fr; }
+    }
+    @media(max-width:860px) {
+      .sidebar { position: relative; width: 100%; height: auto; border-bottom: 1px solid var(--border); border-left: none; }
+      .main { margin-right: 0; padding: 0 1rem 2rem; }
+      .stats, .time-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <h1>📊 דשבורד פרוייקטים</h1>
+    <div class="sub">ניתוח קשרים • מילות מפתח</div>
+  </div>
+  <div class="sidebar-section">
+    <label for="selProject">בחר פרוייקט</label>
+    <select id="selProject"><option value="">הכל</option></select>
+  </div>
+  <div class="sidebar-section">
+    <label for="searchBox">חיפוש</label>
+    <input type="text" id="searchBox" placeholder="שם, תיאור, מילת מפתח...">
+  </div>
+  <div class="sidebar-section">
+    <label>נושאים</label>
+    <div class="sidebar-kw" id="sidebarKW"></div>
+  </div>
+  <div class="sidebar-section" id="connPanel" style="display:none">
+    <label id="connLabel">קשרים</label>
+    <span class="sidebar-clear" onclick="clearFilter()">✕ נקה</span>
+    <div class="conn-list" id="connList"></div>
+  </div>
+</aside>
+
+<main class="main">
+  <header class="tabs-bar">
+    <div class="tabs">
+      <button class="tab active" data-tab="overview" onclick="switchTab('overview')">
+        <span>📈</span>סקירה<span class="tab-count" id="tcO"></span>
+      </button>
+      <button class="tab" data-tab="timeline" onclick="switchTab('timeline')">
+        <span>📅</span>ציר זמן<span class="tab-count" id="tcT"></span>
+      </button>
+      <button class="tab" data-tab="table" onclick="switchTab('table')">
+        <span>📋</span>טבלה<span class="tab-count" id="tcTbl"></span>
+      </button>
+    </div>
+    <div class="tabs-date" id="dateLabel"></div>
+  </header>
+
+  <section class="tab-content active" id="tab-overview">
+    <div class="stats" id="statsRow"></div>
+    <div class="grid2">
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon green">●</span>סטטוס</h3></div>
+        <div class="card-body" id="statusBars"></div>
+      </div>
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon purple">▤</span>מילות מפתח</h3></div>
+        <div class="card-body"><div class="mini-bars" id="kwBars"></div></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3><span class="ch-icon blue">◉</span>רשת קשרים</h3></div>
+      <div class="card-body">
+        <canvas id="netCanvas"></canvas>
+        <div class="net-legend" id="netLegend"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="ch-icon orange">◈</span>אנשים</h3>
+        <div class="people-tabs">
+          <button class="ptab active" onclick="setPeopleView('manager')">מנהל פרוייקט</button>
+          <button class="ptab" onclick="setPeopleView('manager_b')">מנהל פרוייקט ב</button>
+          <button class="ptab" onclick="setPeopleView('developer')">מפתח</button>
+          <button class="ptab" onclick="setPeopleView('clients')">לקוחות</button>
+        </div>
+      </div>
+      <div class="card-body" id="peopleBars"></div>
+    </div>
+  </section>
+
+  <section class="tab-content" id="tab-timeline">
+    <div class="time-stats" id="timeStats"></div>
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="ch-icon cyan">◫</span>גנט — ציר זמן</h3>
+        <div id="ganttControls"></div>
+      </div>
+      <div class="card-body" style="padding:0" id="ganttBody"></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3><span class="ch-icon pink">▥</span>פרוייקטים פתוחים לפי חודש</h3></div>
+      <div class="card-body"><canvas id="monthlyCanvas"></canvas></div>
+    </div>
+    <div class="grid2">
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon orange">⏱</span>משך (חודשים)</h3></div>
+        <div class="card-body" id="durationBars"></div>
+      </div>
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon purple">📊</span>לפי שנה</h3></div>
+        <div class="card-body" id="yearBars"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tab-content" id="tab-table">
+    <div class="tbl-top">
+      <h3>כל הפרוייקטים</h3>
+      <div class="tbl-filters">
+        <input type="text" id="tblSearch" placeholder="🔍 חיפוש...">
+        <select id="tblStatus"><option value="">כל הסטטוסים</option></select>
+        <select id="tblManager"><option value="">כל המנהלים</option></select>
+        <select id="tblManagerB"><option value="">כל האחראים</option></select>
+        <select id="tblDeveloper"><option value="">כל המפתחים</option></select>
+      </div>
+    </div>
+    <div class="tbl-card">
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr id="tHead"></tr></thead>
+          <tbody id="tBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="net-overlay" id="netOverlay">
+  <div class="net-overlay-head">
+    <div>
+      <h2 id="overlayTitle"></h2>
+      <div class="no-sub" id="overlaySub"></div>
+    </div>
+    <button class="net-close" onclick="closeOverlay()">✕</button>
+  </div>
+  <div class="net-overlay-body">
+    <canvas id="fullNetCanvas"></canvas>
+    <div class="net-overlay-info" id="overlayInfo"></div>
+    <div class="overlay-legend" id="overlayLegend"></div>
+  </div>
+</div>
+
+<div class="tip" id="tip">
+  <div class="tip-name"></div>
+  <div class="tip-desc"></div>
+  <div class="tip-kw"></div>
+</div>
+
+<div class="gantt-tip" id="ganttTip">
+  <div class="gt-name"></div>
+  <div class="gt-dates"></div>
+  <div class="gt-dur"></div>
+  <div class="gt-status"></div>
+</div>
+
+<script>
+// --- GLOBAL STATE & CONFIG ---
+let projectsData = [];
+let selectedProject = null;
+let selectedKeyword = null;
+let activeTab = 'overview';
+let ganttYear = null;
+
+const STATUS_COLORS = { 'בפרודקשן': '#10b981', 'הושלם': '#3b82f6', 'מושהה': '#f59e0b', 'גרסה ישנה': '#94a3b8' };
+const BADGE_CLASSES = { 'בפרודקשן': 'b-prod', 'הושלם': 'b-done', 'מושהה': 'b-hold', 'גרסה ישנה': 'b-old' };
+const BAR_COLORS = ['#3b82f6','#8b5cf6','#10b981','#f59e0b','#ef4444','#ec4899','#06b6d4','#64748b','#6366f1','#14b8a6'];
+const MONTH_NAMES = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
+
+// --- UTILITIES ---
+function parseDate(s) {
+  if (!s) return null;
+  const p = s.split('/');
+  if (p.length === 3) {
+    const d = parseInt(p[0]);
+    const m = parseInt(p[1]) - 1;
+    const y = parseInt(p[2]);
+    return new Date(y < 100 ? 2000 + y : y, m, d);
+  }
+  return null;
+}
+
+function monthDiff(a, b) {
+  return (b.getFullYear() - a.getFullYear()) * 12 + (b.getMonth() - a.getMonth());
+}
+
+function fmtMonth(d) {
+  return d.toLocaleDateString('he-IL', { month: 'short', year: '2-digit' });
+}
+
+function switchTab(t) {
+  activeTab = t;
+  document.querySelectorAll('.tab').forEach(x => x.classList.toggle('active', x.dataset.tab === t));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.toggle('active', c.id === 'tab-' + t));
+  
+  if (t === 'overview') requestAnimationFrame(() => drawMiniNet());
+  if (t === 'timeline') {
+    buildGantt();
+    requestAnimationFrame(() => drawMonthlyChart());
+  }
+}
+
+// --- INITIALIZATION ---
+async function boot() {
+  try {
+    const r = await fetch('projects_full.json');
+    if (!r.ok) throw new Error("Network issue");
+    projectsData = await r.json();
+  } catch(err) {
+    document.querySelector('.main').innerHTML = `
+      <div style="padding:3rem;text-align:center;color:#94a3b8">
+        <h2>שגיאה בטעינת נתונים</h2>
+        <p>לא ניתן לטעון projects_full.json. אנא ודא שהקובץ קיים והשרת רץ.</p>
+      </div>`;
+    return;
+  }
+  
+  projectsData.forEach(p => {
+    p._start = parseDate(p.start);
+    p._end = parseDate(p.end);
+  });
+  
+  document.getElementById('dateLabel').textContent = new Date().toLocaleDateString('he-IL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  ['tcO', 'tcT', 'tcTbl'].forEach(id => document.getElementById(id).textContent = projectsData.length);
+  
+  buildAll();
+}
+
+function buildAll() {
+  buildStats();
+  buildStatusBars();
+  buildKWBars();
+  buildPeopleBars();
+  buildSelectors();
+  buildSidebarKW();
+  buildTable();
+  drawMiniNet();
+  buildTimeline();
+}
+
+// --- OVERVIEW TAB FUNCTIONS ---
+function buildStats() {
+  const s = {};
+  projectsData.forEach(p => s[p.status] = (s[p.status] || 0) + 1);
+  
+  const statsArray = [
+    { n: projectsData.length, l: 'סה״כ' },
+    { n: s['בפרודקשן'] || 0, l: 'בפרודקשן' },
+    { n: s['מושהה'] || 0, l: 'מושהים' },
+    { n: s['הושלם'] || 0, l: 'הושלמו' }
+  ];
+  
+  document.getElementById('statsRow').innerHTML = statsArray.map(c => `
+    <div class="stat">
+      <div class="s-num">${c.n}</div>
+      <div class="s-label">${c.l}</div>
+    </div>
+  `).join('');
+}
+
+function buildStatusBars() {
+  const s = {};
+  projectsData.forEach(p => s[p.status] = (s[p.status] || 0) + 1);
+  const mx = Math.max(...Object.values(s));
+  
+  document.getElementById('statusBars').innerHTML = Object.entries(s).map(([k, v]) => `
+    <div class="sbar">
+      <div class="sbar-top">
+        <span class="sbar-name">${k}</span>
+        <span class="sbar-val">${v} (${Math.round(v / projectsData.length * 100)}%)</span>
+      </div>
+      <div class="sbar-track">
+        <div class="sbar-fill" style="width:${v / mx * 100}%;background:${STATUS_COLORS[k] || '#94a3b8'}"></div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function buildKWBars() {
+  const f = {};
+  projectsData.forEach(p => p.keywords.forEach(k => f[k] = (f[k] || 0) + 1));
+  const sorted = Object.entries(f).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const mx = sorted[0] ? sorted[0][1] : 1;
+  
+  document.getElementById('kwBars').innerHTML = sorted.map(([k, v], i) => `
+    <div class="mini-bar-col" onclick="clickKW('${k}')">
+      <div class="mini-bar-val">${v}</div>
+      <div class="mini-bar" style="height:${v / mx * 85}%;background:${BAR_COLORS[i % BAR_COLORS.length]}"></div>
+      <div class="mini-bar-label" title="${k}">${k}</div>
+    </div>
+  `).join('');
+}
+
+let peopleView = 'manager';
+function buildPeopleBars() {
+  const colors = { manager: 'var(--orange)', manager_b: 'var(--purple)', developer: 'var(--blue)', clients: 'var(--green)' };
+  const field = { manager: 'manager', manager_b: 'manager_b', developer: 'developer', clients: 'clients' };
+  
+  const f = field[peopleView];
+  const clr = colors[peopleView];
+  const s = {};
+  
+  projectsData.forEach(p => {
+    const v = p[f];
+    if (v && v !== 'אין') s[v] = (s[v] || 0) + 1;
+  });
+  
+  const values = Object.values(s);
+  const mx = values.length ? Math.max(...values) : 1;
+  
+  const html = Object.entries(s).sort((a, b) => b[1] - a[1]).map(([k, v]) => `
+    <div class="sbar">
+      <div class="sbar-top">
+        <span class="sbar-name">${k}</span>
+        <span class="sbar-val">${v}</span>
+      </div>
+      <div class="sbar-track">
+        <div class="sbar-fill" style="width:${v / mx * 100}%;background:${clr}"></div>
+      </div>
+    </div>
+  `).join('');
+  
+  document.getElementById('peopleBars').innerHTML = html || '<div class="conn-empty">אין נתונים</div>';
+}
+
+function setPeopleView(v) {
+  peopleView = v;
+  const viewMap = { manager: 'מנהל פרוייקט', manager_b: 'מנהל פרוייקט ב', developer: 'מפתח', clients: 'לקוחות' };
+  
+  document.querySelectorAll('.ptab').forEach(t => {
+    t.classList.toggle('active', t.textContent === viewMap[v]);
+  });
+  
+  buildPeopleBars();
+}
+
+// --- SIDEBAR & FILTER LOGIC ---
+function buildSelectors() {
+  const ps = document.getElementById('selProject');
+  projectsData.forEach(p => {
+    const o = document.createElement('option');
+    o.value = p.id;
+    o.textContent = p.name;
+    ps.appendChild(o);
+  });
+  
+  ps.onchange = () => {
+    selectedProject = ps.value ? projectsData.find(x => x.id == ps.value) : null;
+    selectedKeyword = null;
+    applyFilters();
+  };
+  
+  // Status Filter
+  const sf = document.getElementById('tblStatus');
+  [...new Set(projectsData.map(p => p.status))].forEach(s => {
+    if(s && s !== 'אין') {
+      const o = document.createElement('option');
+      o.value = s; o.textContent = s;
+      sf.appendChild(o);
+    }
+  });
+  sf.onchange = () => buildTable();
+  
+  // Manager Filter
+  const mf = document.getElementById('tblManager');
+  [...new Set(projectsData.map(p => p.manager))].forEach(m => {
+    if(m && m !== 'אין') {
+      const o = document.createElement('option');
+      o.value = m; o.textContent = m;
+      mf.appendChild(o);
+    }
+  });
+  mf.onchange = () => buildTable();
+
+  // Manager B (אחראי) Filter
+  const mbf = document.getElementById('tblManagerB');
+  [...new Set(projectsData.map(p => p.manager_b))].forEach(m => {
+    if(m && m !== 'אין') {
+      const o = document.createElement('option');
+      o.value = m; o.textContent = m;
+      mbf.appendChild(o);
+    }
+  });
+  mbf.onchange = () => buildTable();
+
+  // Developer Filter
+  const df = document.getElementById('tblDeveloper');
+  [...new Set(projectsData.map(p => p.developer))].forEach(d => {
+    if(d && d !== 'אין') {
+      const o = document.createElement('option');
+      o.value = d; o.textContent = d;
+      df.appendChild(o);
+    }
+  });
+  df.onchange = () => buildTable();
+  
+  document.getElementById('tblSearch').oninput = () => buildTable();
+  
+  document.getElementById('searchBox').oninput = e => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) {
+      selectedProject = null;
+      selectedKeyword = null;
+    } else {
+      const match = projectsData.find(p => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q));
+      if (match) {
+        selectedProject = match;
+        selectedKeyword = null;
+        document.getElementById('selProject').value = match.id;
+      }
+    }
+    applyFilters();
+  };
+}
+
+function buildSidebarKW() {
+  const f = {};
+  projectsData.forEach(p => p.keywords.forEach(k => f[k] = (f[k] || 0) + 1));
+  
+  document.getElementById('sidebarKW').innerHTML = Object.entries(f).sort((a, b) => b[1] - a[1]).map(([k, v]) => `
+    <span class="skw" data-kw="${k}" onclick="clickKW('${k}')">
+      ${k}<span class="cnt">${v}</span>
+    </span>
+  `).join('');
+}
+
+function clickKW(kw) {
+  if (selectedKeyword === kw) {
+    selectedKeyword = null;
+  } else {
+    selectedKeyword = kw;
+    selectedProject = null;
+    document.getElementById('selProject').value = '';
+  }
+  applyFilters();
+}
+
+function clearFilter() {
+  selectedProject = null;
+  selectedKeyword = null;
+  document.getElementById('selProject').value = '';
+  document.getElementById('searchBox').value = '';
+  applyFilters();
+}
+
+function applyFilters() {
+  document.querySelectorAll('.skw').forEach(el => el.classList.toggle('active', el.dataset.kw === selectedKeyword));
+  buildConns();
+  buildTable();
+  
+  if (activeTab === 'overview') drawMiniNet();
+  if (selectedProject || selectedKeyword) openOverlay();
+  else closeOverlay();
+}
+
+function buildConns() {
+  const panel = document.getElementById('connPanel');
+  const list = document.getElementById('connList');
+  const label = document.getElementById('connLabel');
+  
+  if (selectedProject) {
+    panel.style.display = '';
+    label.textContent = `קשרים — ${selectedProject.name}`;
+    const sims = selectedProject.similar_projects || [];
+    
+    if (!sims.length) {
+      list.innerHTML = '<div class="conn-empty">אין קשרים</div>';
+      return;
+    }
+    
+    list.innerHTML = sims.map(s => `
+      <div class="conn-item" onclick="selectById('${s.project_id}')">
+        <div>
+          <div class="ci-name">${s.project_name}</div>
+          <div class="ci-kw">${s.shared_keywords.join(', ')}</div>
+        </div>
+        <span class="ci-score ${s.score >= 3 ? 'ci-s3' : s.score >= 2 ? 'ci-s2' : 'ci-s1'}">${s.score}</span>
+      </div>
+    `).join('');
+    
+  } else if (selectedKeyword) {
+    panel.style.display = '';
+    const rel = projectsData.filter(p => p.keywords.includes(selectedKeyword));
+    label.textContent = `"${selectedKeyword}" — ${rel.length}`;
+    
+    list.innerHTML = rel.map(p => `
+      <div class="conn-item" onclick="selectById('${p.id}')">
+        <div><div class="ci-name">${p.name}</div></div>
+        <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
+      </div>
+    `).join('');
+    
+  } else {
+    panel.style.display = 'none';
+  }
+}
+
+function selectById(id) {
+  selectedProject = projectsData.find(p => p.id == id);
+  selectedKeyword = null;
+  document.getElementById('selProject').value = id;
+  applyFilters();
+}
+
+// --- TABLE TAB FUNCTIONS ---
+function buildTable() {
+  const headers = ['#', 'שם', 'סטטוס', 'מנהל', 'אחראי', 'מפתח', 'לקוח', 'התחלה', 'סיום', 'קשרים', 'תיאור'];
+  document.getElementById('tHead').innerHTML = headers.map(c => `<th>${c}</th>`).join('');
+  
+  const sf = document.getElementById('tblStatus').value;
+  const mf = document.getElementById('tblManager').value;
+  const mbf = document.getElementById('tblManagerB').value;
+  const df = document.getElementById('tblDeveloper').value;
+  const sq = document.getElementById('tblSearch').value.trim().toLowerCase();
+  
+  let rows = projectsData;
+  if (sf) rows = rows.filter(p => p.status === sf);
+  if (mf) rows = rows.filter(p => p.manager === mf);
+  if (mbf) rows = rows.filter(p => p.manager_b === mbf);
+  if (df) rows = rows.filter(p => p.developer === df);
+  
+  if (sq) rows = rows.filter(p => 
+    p.name.toLowerCase().includes(sq) || 
+    p.description.toLowerCase().includes(sq) || 
+    p.keywords.some(k => k.includes(sq))
+  );
+  
+  const hlIds = new Set();
+  if (selectedProject) {
+    hlIds.add(selectedProject.id);
+    (selectedProject.similar_projects || []).forEach(s => hlIds.add(s.project_id));
+  } else if (selectedKeyword) {
+    projectsData.forEach(p => {
+      if (p.keywords.includes(selectedKeyword)) hlIds.add(p.id);
+    });
+  }
+  
+  document.getElementById('tBody').innerHTML = rows.map(p => {
+    const hl = (selectedProject || selectedKeyword) && hlIds.has(p.id) ? 'hl' : '';
+    return `
+      <tr class="${hl}" onclick="selectById('${p.id}')">
+        <td style="font-family:'IBM Plex Mono';color:var(--text3)">${p.id}</td>
+        <td style="font-weight:600">${p.name}</td>
+        <td><span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span></td>
+        <td>${p.manager || ''}</td>
+        <td>${p.manager_b || ''}</td>
+        <td>${p.developer || ''}</td>
+        <td>${p.clients || ''}</td>
+        <td style="font-family:'IBM Plex Mono';font-size:0.76rem;color:var(--text2)">${p.start || ''}</td>
+        <td style="font-family:'IBM Plex Mono';font-size:0.76rem;color:var(--text2)">${p.end || ''}</td>
+        <td style="font-family:'IBM Plex Mono';text-align:center">${p.total_connections}</td>
+        <td style="max-width:200px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--text2)" title="${p.description}">${p.description}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+// --- TIMELINE / GANTT FUNCTIONS ---
+function buildTimeline() {
+  const now = new Date();
+  const wd = projectsData.filter(p => p._start);
+  const active = wd.filter(p => p._start <= now && (!p._end || p._end >= now) && (p.status === 'בפרודקשן' || p.status === 'מושהה'));
+  const done = wd.filter(p => p.status === 'הושלם');
+  
+  const completedProjects = wd.filter(p => p._end);
+  const totalMonths = completedProjects.reduce((a, p) => a + Math.max(1, monthDiff(p._start, p._end)), 0);
+  const avg = completedProjects.length ? (totalMonths / completedProjects.length) : 0;
+  
+  const timeStatsArr = [
+    { n: active.length, l: 'פתוחים כעת' },
+    { n: done.length, l: 'הושלמו' },
+    { n: projectsData.filter(p => !p._end).length, l: 'ללא סיום' },
+    { n: avg.toFixed(1), l: 'ממוצע חודשים' }
+  ];
+  
+  document.getElementById('timeStats').innerHTML = timeStatsArr.map(c => `
+    <div class="time-stat">
+      <div class="ts-num">${c.n}</div>
+      <div class="ts-label">${c.l}</div>
+    </div>
+  `).join('');
+  
+  ganttYear = null;
+  buildGantt();
+  buildDurationBars(wd);
+  buildYearBars(wd);
+  requestAnimationFrame(() => drawMonthlyChart());
+}
+
+function buildGantt() {
+  const wd = projectsData.filter(p => p._start).sort((a, b) => a._start - b._start);
+  if (!wd.length) {
+    document.getElementById('ganttBody').innerHTML = '<div class="conn-empty" style="padding:2rem">אין נתוני תאריכים</div>';
+    return;
+  }
+  
+  if (ganttYear) {
+    buildGanttMonths(wd, ganttYear);
+  } else {
+    buildGanttYears(wd);
+  }
+}
+
+function buildGanttYears(wd) {
+  const now = new Date();
+  const allD = wd.flatMap(p => [p._start, p._end].filter(Boolean));
+  const minY = Math.min(...allD.map(d => d.getFullYear()));
+  const maxY = Math.max(...allD.map(d => d.getFullYear()), now.getFullYear());
+  
+  const years = [];
+  for (let y = minY; y <= maxY; y++) years.push(y);
+  
+  const colW = Math.max(80, 600 / years.length);
+  const totalW = years.length * colW;
+  const nowY = now.getFullYear();
+
+  document.getElementById('ganttControls').innerHTML = `<span class="gantt-view-label">תצוגת שנים — לחץ על שנה לפירוט חודשי</span>`;
+
+  let labelsHTML = `<div class="gl-header">פרוייקט</div>`;
+  let colsHTML = years.map(y => `<div class="gcol${y === nowY ? ' now-col' : ''}" style="width:${colW}px;min-width:${colW}px" onclick="drillYear(${y})">${y}</div>`).join('');
+  let rowsHTML = '';
+
+  wd.forEach(p => {
+    const clr = STATUS_COLORS[p.status] || '#94a3b8';
+    labelsHTML += `
+      <div class="gl-row" data-gid="${p.id}" onmouseenter="ganttHL('${p.id}')" onmouseleave="ganttHL(null)" onclick="selectById('${p.id}')">
+        <div class="gl-status" style="background:${clr}"></div>${p.name}
+      </div>`;
+
+    const s = p._start;
+    const e = p._end || now;
+    const sYear = s.getFullYear(), sMonth = s.getMonth();
+    const eYear = e.getFullYear(), eMonth = e.getMonth();
+    
+    const startFrac = (sYear - minY) + (sMonth / 12);
+    const endFrac = (eYear - minY) + (eMonth + 1) / 12;
+    const rightPx = startFrac * colW;
+    const wPx = Math.max(6, (endFrac - startFrac) * colW);
+    const dur = Math.max(1, monthDiff(s, e));
+    
+    const stripes = years.map((_, i) => `<div class="gr-stripe" style="right:${i * colW}px"></div>`).join('');
+
+    rowsHTML += `
+      <div class="gr" data-gid="${p.id}" onmouseenter="ganttHL('${p.id}')" onmouseleave="ganttHL(null)">
+        <div style="position:absolute;top:0;bottom:0;left:0;right:0">${stripes}</div>
+        <div class="gantt-bar" style="right:${rightPx}px;width:${wPx}px;background:${clr}" 
+             data-pid="${p.id}" data-name="${p.name}" data-start="${p.start || ''}" 
+             data-end="${p.end || 'פתוח'}" data-dur="${dur}" data-status="${p.status}" 
+             onmouseenter="ganttTipShow(event,this)" onmouseleave="ganttTipHide()" onclick="selectById('${p.id}')">
+          ${wPx > 50 ? p.name : ''}
+        </div>
+      </div>`;
+  });
+
+  const nowFrac = (nowY - minY) + (now.getMonth() + now.getDate() / 30) / 12;
+  const nowPx = nowFrac * colW;
+
+  const legendHTML = Object.entries(STATUS_COLORS).map(([s, c]) => `
+    <div class="net-leg"><div class="net-dot" style="background:${c}"></div>${s}</div>
+  `).join('');
+
+  document.getElementById('ganttBody').innerHTML = `
+    <div class="gantt-container">
+      <div class="gantt-labels" id="ganttLabels">${labelsHTML}</div>
+      <div class="gantt-timeline-wrap" id="ganttScroll">
+        <div class="gantt-timeline" style="width:${totalW}px">
+          <div class="gantt-cols">${colsHTML}</div>
+          <div class="gantt-rows">
+            ${rowsHTML}
+            <div class="gantt-now-line" style="right:${nowPx}px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gantt-legend">
+      ${legendHTML}
+      <div class="net-leg"><div style="width:2px;height:12px;background:var(--red);border-radius:1px"></div>היום</div>
+    </div>`;
+    
+  syncGanttScroll();
+}
+
+function drillYear(year) {
+  ganttYear = year;
+  buildGantt();
+}
+
+function buildGanttMonths(wd, year) {
+  const now = new Date();
+  const colW = 60;
+  const totalW = 12 * colW;
+  const yStart = new Date(year, 0, 1);
+  const yEnd = new Date(year, 11, 31);
+
+  const filtered = wd.filter(p => {
+    const s = p._start, e = p._end || now;
+    return s <= yEnd && e >= yStart;
+  });
+
+  document.getElementById('ganttControls').innerHTML = `
+    <button class="gantt-back-btn" onclick="ganttYear=null;buildGantt()">← חזרה לשנים</button>
+    <span class="gantt-view-label">${year} — תצוגה חודשית</span>`;
+
+  let labelsHTML = `<div class="gl-header">פרוייקט</div>`;
+  let colsHTML = '';
+  for (let m = 0; m < 12; m++) {
+    const isNow = year === now.getFullYear() && m === now.getMonth();
+    colsHTML += `<div class="gcol gcol-month${isNow ? ' now-col' : ''}" style="width:${colW}px;min-width:${colW}px">${MONTH_NAMES[m]}</div>`;
+  }
+
+  let rowsHTML = '';
+  filtered.forEach(p => {
+    const clr = STATUS_COLORS[p.status] || '#94a3b8';
+    labelsHTML += `
+      <div class="gl-row" data-gid="${p.id}" onmouseenter="ganttHL('${p.id}')" onmouseleave="ganttHL(null)" onclick="selectById('${p.id}')">
+        <div class="gl-status" style="background:${clr}"></div>${p.name}
+      </div>`;
+
+    const s = p._start, e = p._end || now;
+    const cs = s < yStart ? yStart : s;
+    const ce = e > yEnd ? yEnd : e;
+    
+    const startMonth = cs.getMonth() + (cs.getDate() - 1) / 30;
+    const endMonth = ce.getMonth() + (ce.getDate()) / 30;
+    const rightPx = startMonth * colW;
+    const wPx = Math.max(6, (endMonth - startMonth) * colW);
+    const dur = Math.max(1, monthDiff(s, e));
+
+    const stripes = Array.from({length: 12}, (_, i) => `<div class="gr-stripe" style="right:${i * colW}px"></div>`).join('');
+
+    rowsHTML += `
+      <div class="gr" data-gid="${p.id}" onmouseenter="ganttHL('${p.id}')" onmouseleave="ganttHL(null)">
+        <div style="position:absolute;top:0;bottom:0;left:0;right:0">${stripes}</div>
+        <div class="gantt-bar" style="right:${rightPx}px;width:${wPx}px;background:${clr}" 
+             data-pid="${p.id}" data-name="${p.name}" data-start="${p.start || ''}" 
+             data-end="${p.end || 'פתוח'}" data-dur="${dur}" data-status="${p.status}" 
+             onmouseenter="ganttTipShow(event,this)" onmouseleave="ganttTipHide()" onclick="selectById('${p.id}')">
+          ${wPx > 45 ? p.name : ''}
+        </div>
+      </div>`;
+  });
+
+  let nowLine = '';
+  if (year === now.getFullYear()) {
+    const nowFrac = now.getMonth() + (now.getDate() / 30);
+    nowLine = `<div class="gantt-now-line" style="right:${nowFrac * colW}px"></div>`;
+  }
+  
+  const legendHTML = Object.entries(STATUS_COLORS).map(([s, c]) => `
+    <div class="net-leg"><div class="net-dot" style="background:${c}"></div>${s}</div>
+  `).join('');
+
+  document.getElementById('ganttBody').innerHTML = `
+    <div class="gantt-container">
+      <div class="gantt-labels" id="ganttLabels">${labelsHTML}</div>
+      <div class="gantt-timeline-wrap" id="ganttScroll">
+        <div class="gantt-timeline" style="width:${totalW}px">
+          <div class="gantt-cols">${colsHTML}</div>
+          <div class="gantt-rows">${rowsHTML}${nowLine}</div>
+        </div>
+      </div>
+    </div>
+    <div class="gantt-legend">
+      ${legendHTML}
+      <div class="net-leg"><div style="width:2px;height:12px;background:var(--red);border-radius:1px"></div>היום</div>
+      <div class="net-leg" style="color:var(--text2);font-weight:600">${filtered.length} פרוייקטים ב-${year}</div>
+    </div>`;
+    
+  syncGanttScroll();
+}
+
+function syncGanttScroll() {
+  const l = document.getElementById('ganttLabels'), s = document.getElementById('ganttScroll');
+  if (!l || !s) return;
+  s.onscroll = () => { l.scrollTop = s.scrollTop; };
+  l.onscroll = () => { s.scrollTop = l.scrollTop; };
+}
+
+function ganttHL(id) {
+  document.querySelectorAll('.gl-row').forEach(r => r.classList.toggle('active', r.dataset.gid === id));
+  document.querySelectorAll('.gantt-bar').forEach(b => {
+    if (id) b.classList.toggle('dim', b.dataset.pid !== id);
+    else b.classList.remove('dim');
+  });
+}
+
+function ganttTipShow(e, el) {
+  const t = document.getElementById('ganttTip');
+  t.querySelector('.gt-name').textContent = el.dataset.name;
+  t.querySelector('.gt-dates').textContent = `${el.dataset.start} → ${el.dataset.end}`;
+  t.querySelector('.gt-dur').textContent = `${el.dataset.dur} חודשים`;
+  t.querySelector('.gt-status').innerHTML = `<span class="badge ${BADGE_CLASSES[el.dataset.status] || 'b-old'}">${el.dataset.status}</span>`;
+  t.style.left = (e.clientX + 10) + 'px';
+  t.style.top = (e.clientY - 60) + 'px';
+  t.classList.add('show');
+}
+
+function ganttTipHide() {
+  document.getElementById('ganttTip').classList.remove('show');
+}
+
+function drawMonthlyChart() {
+  const cv = document.getElementById('monthlyCanvas');
+  if (!cv) return;
+  const ctx = cv.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = cv.getBoundingClientRect();
+  const W = rect.width, H = rect.height;
+  
+  cv.width = W * dpr;
+  cv.height = H * dpr;
+  ctx.scale(dpr, dpr);
+  
+  const wd = projectsData.filter(p => p._start);
+  if (!wd.length) return;
+  
+  const allD = wd.flatMap(p => [p._start, p._end].filter(Boolean));
+  let minD = new Date(Math.min(...allD));
+  let maxD = new Date(Math.max(...allD));
+  
+  minD = new Date(minD.getFullYear(), minD.getMonth(), 1);
+  maxD = new Date(maxD.getFullYear(), maxD.getMonth() + 1, 0);
+  
+  const totalM = monthDiff(minD, maxD) + 1;
+  const statuses = ['בפרודקשן', 'מושהה', 'הושלם', 'גרסה ישנה'];
+  const monthData = [];
+  
+  for (let i = 0; i < totalM; i++) {
+    const d = new Date(minD.getFullYear(), minD.getMonth() + i, 15);
+    const counts = {};
+    statuses.forEach(s => counts[s] = 0);
+    
+    wd.forEach(p => {
+      if (p._start <= d && (!p._end || p._end >= d)) {
+        counts[p.status] = (counts[p.status] || 0) + 1;
+      }
+    });
+    
+    monthData.push({
+      date: d,
+      counts: counts,
+      total: Object.values(counts).reduce((a, b) => a + b, 0)
+    });
+  }
+  
+  const maxV = Math.max(...monthData.map(m => m.total), 1);
+  const pad = { t: 20, b: 30, r: 10, l: 30 };
+  const cW = W - pad.l - pad.r;
+  const cH = H - pad.t - pad.b;
+  const barW = Math.max(4, cW / totalM - 2);
+  
+  ctx.clearRect(0, 0, W, H);
+  ctx.strokeStyle = '#eef0f5';
+  ctx.lineWidth = 0.5;
+  
+  // Draw Grid Y
+  for (let i = 0; i <= 4; i++) {
+    const y = pad.t + cH * (1 - i / 4);
+    ctx.beginPath();
+    ctx.moveTo(pad.l, y);
+    ctx.lineTo(W - pad.r, y);
+    ctx.stroke();
+    
+    ctx.font = '500 9px IBM Plex Mono';
+    ctx.fillStyle = '#94a3b8';
+    ctx.textAlign = 'right';
+    ctx.fillText(Math.round(maxV * i / 4), pad.l - 4, y + 3);
+  }
+  
+  // Draw Bars
+  monthData.forEach((m, i) => {
+    const x = pad.l + i * (cW / totalM);
+    let yOff = 0;
+    
+    statuses.forEach(s => {
+      const v = m.counts[s] || 0;
+      if (!v) return;
+      const h = (v / maxV) * cH;
+      
+      ctx.fillStyle = STATUS_COLORS[s] || '#94a3b8';
+      ctx.fillRect(x, pad.t + cH - yOff - h, barW, h);
+      yOff += h;
+    });
+    
+    if (i % 3 === 0) {
+      ctx.font = '500 8px Heebo';
+      ctx.fillStyle = '#94a3b8';
+      ctx.textAlign = 'center';
+      ctx.fillText(fmtMonth(m.date), x + barW / 2, H - 8);
+    }
+  });
+}
+
+function buildDurationBars(data) {
+  const wb = data.filter(p => p._end)
+    .map(p => ({
+      name: p.name,
+      months: Math.max(1, monthDiff(p._start, p._end)),
+      status: p.status
+    }))
+    .sort((a, b) => b.months - a.months);
+    
+  const mx = Math.max(...wb.map(d => d.months), 1);
+  
+  document.getElementById('durationBars').innerHTML = wb.map(d => `
+    <div class="dur-bar-row">
+      <div class="dur-bar-name">${d.name}</div>
+      <div class="dur-bar-track">
+        <div class="dur-bar-fill" style="width:${d.months / mx * 100}%;background:${STATUS_COLORS[d.status] || '#94a3b8'}">
+          ${d.months > 3 ? d.months + '' : ''}
+        </div>
+      </div>
+      <div class="dur-bar-val">${d.months} חודשים</div>
+    </div>
+  `).join('');
+}
+
+function buildYearBars(data) {
+  const y = {};
+  data.forEach(p => {
+    const yr = p._start.getFullYear();
+    y[yr] = (y[yr] || 0) + 1;
+  });
+  
+  const mx = Math.max(...Object.values(y));
+  
+  document.getElementById('yearBars').innerHTML = Object.entries(y).sort((a, b) => a[0] - b[0]).map(([yr, v]) => `
+    <div class="sbar">
+      <div class="sbar-top">
+        <span class="sbar-name">${yr}</span>
+        <span class="sbar-val">${v}</span>
+      </div>
+      <div class="sbar-track">
+        <div class="sbar-fill" style="width:${v / mx * 100}%;background:var(--purple)"></div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// --- NETWORK CANVAS ---
+function getNetworkScale(count, W, H) {
+  let nr, fs, lo, rep, att, id, it;
+  if (count <= 3) {
+    nr = [30, 45]; fs = [14, 16]; lo = 22; rep = 2000; att = 0.003; id = 220; it = 120;
+  } else if (count <= 6) {
+    nr = [22, 34]; fs = [12, 14]; lo = 18; rep = 1500; att = 0.005; id = 180; it = 150;
+  } else if (count <= 10) {
+    nr = [16, 26]; fs = [10, 12]; lo = 16; rep = 1200; att = 0.006; id = 150; it = 180;
+  } else if (count <= 15) {
+    nr = [12, 20]; fs = [9, 11]; lo = 14; rep = 1000; att = 0.007; id = 120; it = 200;
+  } else {
+    nr = [8, 14]; fs = [7.5, 9]; lo = 12; rep = 800; att = 0.008; id = 90; it = 250;
+  }
+  
+  const scaleFactor = Math.min(1, Math.sqrt(W * H / 500000));
+  
+  return {
+    minR: nr[0] * scaleFactor,
+    maxR: nr[1] * scaleFactor,
+    fontNormal: fs[0],
+    fontHover: fs[1],
+    labelOffset: lo * scaleFactor,
+    repulsion: rep,
+    attraction: att,
+    idealDist: id * scaleFactor,
+    iterations: it,
+    edgeLabelSize: Math.max(8, 11 - count * 0.2),
+    kwLabelSize: Math.max(7, 9 - count * 0.15)
+  };
+}
+
+function buildEdges(srcData) {
+  const edges = [];
+  const seen = new Set();
+  
+  srcData.forEach(p => {
+    (p.similar_projects || []).forEach(x => {
+      const k = [p.id, x.project_id].sort().join('-');
+      if (!seen.has(k)) {
+        seen.add(k);
+        edges.push({ src: p.id, tgt: x.project_id, w: x.score, kw: x.shared_keywords });
+      }
+    });
+  });
+  return edges;
+}
+
+function layoutNodes(nodes, edges, W, H, scale, insetW) {
+  const nodeMap = {};
+  nodes.forEach(n => nodeMap[n.id] = n);
+  
+  const usableW = W - insetW;
+  const cx = usableW / 2;
+  const cy = H / 2;
+  const rad = Math.min(usableW, H) * 0.35;
+
+  // Initialize in a circle
+  nodes.forEach((n, i) => {
+    const angle = 2 * Math.PI * i / nodes.length - Math.PI / 2;
+    n.x = cx + Math.cos(angle) * rad;
+    n.y = cy + Math.sin(angle) * rad;
+    n.vx = 0;
+    n.vy = 0;
+  });
+
+  // Force-directed layout
+  for (let s = 0; s < scale.iterations; s++) {
+    const alpha = 1 - s / scale.iterations;
+
+    // Repulsion
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        let dx = nodes[j].x - nodes[i].x;
+        let dy = nodes[j].y - nodes[i].y;
+        let d = Math.sqrt(dx * dx + dy * dy) || 1;
+        const minDist = nodes[i].r + nodes[j].r + 20;
+        
+        let force = scale.repulsion * alpha / (d * d);
+        if (d < minDist) force *= 3;
+        
+        nodes[i].vx -= dx / d * force;
+        nodes[i].vy -= dy / d * force;
+        nodes[j].vx += dx / d * force;
+        nodes[j].vy += dy / d * force;
+      }
+    }
+
+    // Attraction (Springs)
+    edges.forEach(e => {
+      const a = nodeMap[e.src];
+      const b = nodeMap[e.tgt];
+      if (!a || !b) return;
+      
+      let dx = b.x - a.x;
+      let dy = b.y - a.y;
+      let d = Math.sqrt(dx * dx + dy * dy) || 1;
+      
+      let force = (d - scale.idealDist) * scale.attraction * alpha * e.w;
+      a.vx += dx / d * force;
+      a.vy += dy / d * force;
+      b.vx -= dx / d * force;
+      b.vy -= dy / d * force;
+    });
+
+    // Gravity and Constraints
+    nodes.forEach(n => {
+      n.vx += (cx - n.x) * 0.001 * alpha;
+      n.vy += (cy - n.y) * 0.001 * alpha;
+      n.x += n.vx;
+      n.y += n.vy;
+      n.vx *= 0.85; // friction
+      n.vy *= 0.85;
+      
+      // Clamp to bounds
+      n.x = Math.max(n.r + 15, Math.min(usableW - n.r - 15, n.x));
+      n.y = Math.max(n.r + 15, Math.min(H - n.r - 15, n.y));
+    });
+  }
+}
+
+function renderGraph(ctx, W, H, nodes, edges, nodeMap, options) {
+  ctx.clearRect(0, 0, W, H);
+  const { scale, mainId, hoverN, showGrid, showEdgeKW } = options;
+  
+  if (showGrid) {
+    ctx.strokeStyle = '#eef0f5';
+    ctx.lineWidth = 0.5;
+    for (let x = 0; x < W; x += 50) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+    for (let y = 0; y < H; y += 50) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  }
+
+  // Draw Edges
+  edges.forEach(e => {
+    const a = nodeMap[e.src];
+    const b = nodeMap[e.tgt];
+    if (!a || !b) return;
+    
+    const isMain = mainId && (e.src == mainId || e.tgt == mainId);
+    
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(b.x, b.y);
+    
+    if (e.w >= 3) {
+      ctx.strokeStyle = '#ef4444';
+      ctx.lineWidth = Math.min(5, 2 + e.w);
+      ctx.globalAlpha = isMain ? 1 : 0.7;
+    } else if (e.w >= 2) {
+      ctx.strokeStyle = '#f59e0b';
+      ctx.lineWidth = 3;
+      ctx.globalAlpha = isMain ? 1 : 0.6;
+    } else {
+      ctx.strokeStyle = '#b0bec5';
+      ctx.lineWidth = 1.5;
+      ctx.globalAlpha = 0.4;
+    }
+    
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+    
+    // Edge Labels
+    const mx = (a.x + b.x) / 2;
+    const my = (a.y + b.y) / 2;
+    ctx.font = `700 ${scale.edgeLabelSize}px IBM Plex Mono`;
+    ctx.fillStyle = e.w >= 3 ? '#ef4444' : e.w >= 2 ? '#f59e0b' : '#94a3b8';
+    ctx.textAlign = 'center';
+    ctx.fillText(e.w, mx, my - 6);
+    
+    if (showEdgeKW && nodes.length <= 12) {
+      ctx.font = `400 ${scale.kwLabelSize}px Heebo`;
+      ctx.fillStyle = '#78909c';
+      ctx.fillText(e.kw.join(', '), mx, my + 8);
+    }
+  });
+
+  // Draw Nodes
+  nodes.forEach(n => {
+    const isMain = mainId && n.id == mainId;
+    const isHover = hoverN && hoverN.id === n.id;
+    const r = isMain ? n.r + 5 : isHover ? n.r + 3 : n.r;
+    
+    // Glow effect
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, r + 10, 0, Math.PI * 2);
+    const grad = ctx.createRadialGradient(n.x, n.y, r, n.x, n.y, r + 10);
+    grad.addColorStop(0, (STATUS_COLORS[n.status] || '#94a3b8') + (isMain ? '40' : '18'));
+    grad.addColorStop(1, 'transparent');
+    ctx.fillStyle = grad;
+    ctx.fill();
+    
+    // Circle
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+    ctx.fillStyle = STATUS_COLORS[n.status] || '#94a3b8';
+    ctx.fill();
+    
+    // Border
+    ctx.strokeStyle = isMain ? '#1e293b' : isHover ? '#475569' : '#fff';
+    ctx.lineWidth = isMain ? 3 : isHover ? 2 : 1.5;
+    ctx.stroke();
+    
+    // Text Label
+    const fz = isMain || isHover ? scale.fontHover : scale.fontNormal;
+    ctx.font = `${isMain ? '800' : isHover ? '700' : '600'} ${fz}px Heebo`;
+    ctx.fillStyle = '#1e293b';
+    ctx.textAlign = 'center';
+    ctx.fillText(n.label, n.x, n.y + r + scale.labelOffset);
+    
+    if (nodes.length <= 10) {
+      ctx.font = `400 ${Math.max(8, fz - 2)}px Heebo`;
+      ctx.fillStyle = '#94a3b8';
+      ctx.fillText(n.status, n.x, n.y + r + scale.labelOffset + 14);
+    }
+  });
+}
+
+function showTip(tip, event, node) {
+  tip.querySelector('.tip-name').textContent = node.label;
+  tip.querySelector('.tip-desc').textContent = node.desc;
+  tip.querySelector('.tip-kw').innerHTML = node.kw.map(k => `<span>${k}</span>`).join('');
+  tip.style.left = (event.clientX + 12) + 'px';
+  tip.style.top = (event.clientY + 12) + 'px';
+  tip.classList.add('show');
+}
+
+let miniHoverNode = null;
+
+function drawMiniNet() {
+  const cv = document.getElementById('netCanvas');
+  const ctx = cv.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rect = cv.getBoundingClientRect();
+  const W = rect.width;
+  const H = rect.height;
+  
+  cv.width = W * dpr;
+  cv.height = H * dpr;
+  ctx.scale(dpr, dpr);
+  
+  const scale = getNetworkScale(projectsData.length, W, H);
+  const maxConns = Math.max(...projectsData.map(p => p.total_connections), 1);
+  
+  const nodes = projectsData.map(p => ({
+    id: p.id, label: p.name, status: p.status, conns: p.total_connections, 
+    kw: p.keywords, desc: p.description, 
+    r: scale.minR + (p.total_connections / maxConns) * (scale.maxR - scale.minR),
+    x: 0, y: 0, vx: 0, vy: 0
+  }));
+  
+  const edges = buildEdges(projectsData);
+  const nodeMap = {};
+  nodes.forEach(n => nodeMap[n.id] = n);
+  
+  layoutNodes(nodes, edges, W, H, scale, 0);
+  
+  const hlIds = new Set();
+  const hlEdges = new Set();
+  
+  if (selectedProject) {
+    hlIds.add(selectedProject.id);
+    (selectedProject.similar_projects || []).forEach(s => hlIds.add(s.project_id));
+    edges.forEach((e, i) => {
+      if (e.src == selectedProject.id || e.tgt == selectedProject.id) hlEdges.add(i);
+    });
+  } else if (selectedKeyword) {
+    projectsData.forEach(p => { if (p.keywords.includes(selectedKeyword)) hlIds.add(p.id); });
+    edges.forEach((e, i) => {
+      if (hlIds.has(e.src) && hlIds.has(e.tgt) && e.kw.includes(selectedKeyword)) hlEdges.add(i);
+    });
+  }
+  
+  const hasFilter = hlIds.size > 0;
+  ctx.clearRect(0, 0, W, H);
+  
+  edges.forEach((e, i) => {
+    const a = nodeMap[e.src];
+    const b = nodeMap[e.tgt];
+    if (!a || !b) return;
+    
+    const hl = hlEdges.has(i);
+    const dim = hasFilter && !hl;
+    
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(b.x, b.y);
+    
+    if (dim) {
+      ctx.strokeStyle = '#e5e7ee';
+      ctx.lineWidth = 0.5;
+    } else if (e.w >= 2) {
+      ctx.strokeStyle = hl ? '#ef4444' : '#f59e0b';
+      ctx.lineWidth = Math.min(1 + e.w, 4);
+      ctx.globalAlpha = hl ? 1 : 0.5;
+    } else {
+      ctx.strokeStyle = '#cbd5e1';
+      ctx.lineWidth = 1;
+      ctx.globalAlpha = 0.3;
+    }
+    
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+  });
+  
+  nodes.forEach(n => {
+    const hl = hlIds.has(n.id);
+    const dim = hasFilter && !hl;
+    const isHover = miniHoverNode && miniHoverNode.id === n.id;
+    const r = isHover ? n.r + 2 : n.r;
+    
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+    ctx.fillStyle = dim ? '#e5e7ee' : (STATUS_COLORS[n.status] || '#94a3b8');
+    ctx.globalAlpha = dim ? 0.3 : 1;
+    ctx.fill();
+    ctx.globalAlpha = 1;
+    
+    if (!dim) {
+      ctx.strokeStyle = isHover ? '#1e293b' : '#fff';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+      
+      ctx.font = `${isHover ? '600' : '500'} ${scale.fontNormal}px Heebo`;
+      ctx.fillStyle = '#475569';
+      ctx.textAlign = 'center';
+      ctx.fillText(n.label, n.x, n.y + r + scale.labelOffset);
+    }
+  });
+  
+  document.getElementById('netLegend').innerHTML = Object.entries(STATUS_COLORS).map(([s, c]) => `
+    <div class="net-leg"><div class="net-dot" style="background:${c}"></div>${s}</div>
+  `).join('');
+  
+  const tip = document.getElementById('tip');
+  
+  function getNodeAtMouse(e) {
+    const r = cv.getBoundingClientRect();
+    const mx = e.clientX - r.left;
+    const my = e.clientY - r.top;
+    return nodes.find(n => Math.hypot(n.x - mx, n.y - my) <= n.r + 4);
+  }
+  
+  cv.onmousemove = e => {
+    const n = getNodeAtMouse(e);
+    miniHoverNode = n;
+    drawMiniNet();
+    
+    if (n) {
+      cv.style.cursor = 'pointer';
+      showTip(tip, e, n);
+    } else {
+      cv.style.cursor = 'grab';
+      tip.classList.remove('show');
+    }
+  };
+  
+  cv.onclick = e => {
+    const n = getNodeAtMouse(e);
+    if (n) selectById(n.id);
+    else clearFilter();
+  };
+  
+  cv.onmouseleave = () => {
+    miniHoverNode = null;
+    tip.classList.remove('show');
+    drawMiniNet();
+  };
+}
+
+// --- OVERLAY FUNCTIONS ---
+let fullNodes = [], fullEdges = [], fullNodeMap = {}, fullHoverNode = null, fullScale = null;
+
+function openOverlay() {
+  document.getElementById('netOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  
+  let fIds = new Set();
+  
+  if (selectedProject) {
+    fIds.add(selectedProject.id);
+    (selectedProject.similar_projects || []).forEach(s => fIds.add(s.project_id));
+    document.getElementById('overlayTitle').textContent = selectedProject.name;
+    document.getElementById('overlaySub').textContent = `${selectedProject.similar_projects.length} קשרים`;
+  } else if (selectedKeyword) {
+    projectsData.forEach(p => { if (p.keywords.includes(selectedKeyword)) fIds.add(p.id); });
+    document.getElementById('overlayTitle').textContent = `נושא: ${selectedKeyword}`;
+    document.getElementById('overlaySub').textContent = `${fIds.size} פרוייקטים`;
+  }
+  
+  const fData = projectsData.filter(p => fIds.has(p.id));
+  fullEdges = [];
+  const seen = new Set();
+  
+  fData.forEach(p => {
+    (p.similar_projects || []).forEach(s => {
+      if (!fIds.has(s.project_id)) return;
+      const k = [p.id, s.project_id].sort().join('-');
+      if (!seen.has(k)) {
+        seen.add(k);
+        fullEdges.push({ src: p.id, tgt: s.project_id, w: s.score, kw: s.shared_keywords });
+      }
+    });
+  });
+  
+  const info = document.getElementById('overlayInfo');
+  
+  if (selectedProject) {
+    const sims = selectedProject.similar_projects || [];
+    info.innerHTML = `
+      <div class="noi-head">
+        <h3>${selectedProject.name}</h3>
+        <div class="noi-sub">${selectedProject.description}</div>
+      </div>
+      <div class="noi-list">
+        ${sims.length ? sims.map(s => `
+          <div class="noi-item" onclick="selectById('${s.project_id}')">
+            <div>
+              <div class="noi-name">${s.project_name}</div>
+              <div class="noi-kw">${s.shared_keywords.join(', ')}</div>
+            </div>
+            <span class="noi-score ${s.score >= 3 ? 'ci-s3' : s.score >= 2 ? 'ci-s2' : 'ci-s1'}">${s.score}</span>
+          </div>
+        `).join('') : '<div class="conn-empty">אין</div>'}
+      </div>
+    `;
+  } else if (selectedKeyword) {
+    info.innerHTML = `
+      <div class="noi-head">
+        <h3>${selectedKeyword}</h3>
+        <div class="noi-sub">${fData.length} פרוייקטים</div>
+      </div>
+      <div class="noi-list">
+        ${fData.map(p => `
+          <div class="noi-item" onclick="selectById('${p.id}')">
+            <div><div class="noi-name">${p.name}</div></div>
+            <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+  
+  requestAnimationFrame(() => {
+    const cv = document.getElementById('fullNetCanvas');
+    const ctx = cv.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    const par = cv.parentElement;
+    const W = par.clientWidth;
+    const H = par.clientHeight;
+    
+    cv.width = W * dpr;
+    cv.height = H * dpr;
+    cv.style.width = W + 'px';
+    cv.style.height = H + 'px';
+    ctx.scale(dpr, dpr);
+    
+    const iW = 290; // Inset for sidebar
+    fullScale = getNetworkScale(fData.length, W - iW, H);
+    const mxC = Math.max(...fData.map(p => p.total_connections), 1);
+    
+    fullNodes = fData.map(p => ({
+      id: p.id, label: p.name, status: p.status, conns: p.total_connections, 
+      kw: p.keywords, desc: p.description, 
+      r: fullScale.minR + (p.total_connections / mxC) * (fullScale.maxR - fullScale.minR),
+      x: 0, y: 0, vx: 0, vy: 0
+    }));
+    
+    fullNodeMap = {};
+    fullNodes.forEach(n => fullNodeMap[n.id] = n);
+    
+    layoutNodes(fullNodes, fullEdges, W, H, fullScale, iW);
+    renderGraph(ctx, W, H, fullNodes, fullEdges, fullNodeMap, { 
+      scale: fullScale, mainId: selectedProject ? selectedProject.id : null, hoverN: fullHoverNode, showGrid: true, showEdgeKW: true 
+    });
+    
+    document.getElementById('overlayLegend').innerHTML = Object.entries(STATUS_COLORS).map(([s, c]) => `
+      <div class="net-leg"><div class="net-dot" style="background:${c}"></div>${s}</div>
+    `).join('');
+    
+    const tip = document.getElementById('tip');
+    
+    function getNodeAtMouse(e) {
+      const r = cv.getBoundingClientRect();
+      const mx = e.clientX - r.left;
+      const my = e.clientY - r.top;
+      return fullNodes.find(n => Math.hypot(n.x - mx, n.y - my) <= n.r + 5);
+    }
+    
+    cv.onmousemove = e => {
+      const n = getNodeAtMouse(e);
+      fullHoverNode = n;
+      renderGraph(ctx, W, H, fullNodes, fullEdges, fullNodeMap, { 
+        scale: fullScale, mainId: selectedProject ? selectedProject.id : null, hoverN: fullHoverNode, showGrid: true, showEdgeKW: true 
+      });
+      
+      if (n) {
+        cv.style.cursor = 'pointer';
+        showTip(tip, e, n);
+      } else {
+        cv.style.cursor = 'default';
+        tip.classList.remove('show');
+      }
+    };
+    
+    cv.onclick = e => {
+      const n = getNodeAtMouse(e);
+      if (n && n.id !== (selectedProject ? selectedProject.id : null)) selectById(n.id);
+    };
+    
+    cv.onmouseleave = () => {
+      fullHoverNode = null;
+      tip.classList.remove('show');
+      renderGraph(ctx, W, H, fullNodes, fullEdges, fullNodeMap, { 
+        scale: fullScale, mainId: selectedProject ? selectedProject.id : null, hoverN: null, showGrid: true, showEdgeKW: true 
+      });
+    };
+  });
+}
+
+function closeOverlay() {
+  document.getElementById('netOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeOverlay();
+    clearFilter();
+  }
+});
+
+// Start the dashboard
+document.addEventListener('DOMContentLoaded', boot);
+</script>
+</body>
+</html>
