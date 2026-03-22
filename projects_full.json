@@ -4,7 +4,7 @@
     "name": "תהליכי אקספוננט",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
     "manager_b": "רחלי יעקובסון",
     "start": "02/09/24",
@@ -14,29 +14,100 @@
     "description": "הכנסה אוטומטית של מידע מאקספוננט לשכבות AGOL",
     "keywords": [
       "אקספוננט",
-      "אוטומיזציה"
-    ],
-    "similar_projects": [],
-    "total_connections": 0,
-    "max_similarity_score": 0
-  },
-  {
-    "id": "2",
-    "name": "תהליכי AGOL",
-    "responsible": "מידד",
-    "developer": "מידד",
-    "developer_b": "אין",
-    "manager": "גיא לנזרי",
-    "manager_b": "אין",
-    "start": "02/01/24",
-    "end": "05/10/25",
-    "status": "בפרודקשן",
-    "clients": "גיא לנזרי",
-    "description": "תהליכי אוטומיזציה של הכנסות ידניות חישובי שטחים, חיבור בין טבלאות ועוד, ב-AGOL",
-    "keywords": [
+      "אוטומיזציה",
       "agol"
     ],
     "similar_projects": [
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
       {
         "project_id": "3",
         "project_name": "קרדיטים",
@@ -84,19 +155,227 @@
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 6,
-    "max_similarity_score": 1
+    "total_connections": 19,
+    "max_similarity_score": 2
+  },
+  {
+    "id": "2",
+    "name": "תהליכי AGOL",
+    "responsible": "מידד",
+    "developer": "מידד",
+    "developer_b": "",
+    "manager": "גיא לנזרי",
+    "manager_b": "",
+    "start": "02/01/24",
+    "end": "05/10/25",
+    "status": "בפרודקשן",
+    "clients": "גיא לנזרי",
+    "description": "תהליכי אוטומיזציה של הכנסות ידניות חישובי שטחים, חיבור בין טבלאות ועוד, ב-AGOL",
+    "keywords": [
+      "agol",
+      "אוטומיזציה"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 19,
+    "max_similarity_score": 2
   },
   {
     "id": "3",
     "name": "קרדיטים",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "02/02/25",
     "end": "01/11/25",
     "status": "בפרודקשן",
@@ -154,6 +433,32 @@
         "score": 2
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -176,9 +481,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 21,
     "max_similarity_score": 2
   },
   {
@@ -186,9 +571,9 @@
     "name": "רשת קדסטר",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/24",
     "end": "01/03/25",
     "status": "בפרודקשן",
@@ -210,22 +595,14 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
-        "shared_keywords": [
-          "קדסטר"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "קדסטר"
         ],
         "score": 1
       }
     ],
-    "total_connections": 3,
+    "total_connections": 2,
     "max_similarity_score": 2
   },
   {
@@ -233,11 +610,11 @@
     "name": "עומדים",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא לנזרי",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "start": "01/05/25",
+    "end": "01/02/26",
     "status": "בפרודקשן",
     "clients": "ישי",
     "description": "שליפה של עומדים שנמחקו שונו וכדומה מתוך שכבת עומדים",
@@ -279,10 +656,10 @@
     "name": "הקצאת משימות",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
-    "manager_b": "אין",
-    "start": "01/01/25",
+    "manager_b": "",
+    "start": "01/10/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
     "clients": "גיא לנזרי",
@@ -338,6 +715,32 @@
         "score": 2
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -360,9 +763,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 21,
     "max_similarity_score": 2
   },
   {
@@ -373,8 +856,8 @@
     "developer_b": "אבינועם",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא לנזרי",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "start": "01/10/25",
+    "end": "01/02/26",
     "status": "גרסה ישנה",
     "clients": "יערנים",
     "description": "אתר המראה את השינויים שנעשו בעומדים במרוצות השנים",
@@ -409,9 +892,9 @@
     "name": "שליחת מייל עדכון",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "הושלם",
@@ -469,6 +952,32 @@
         "score": 2
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -499,9 +1008,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 9,
+    "total_connections": 22,
     "max_similarity_score": 2
   },
   {
@@ -509,11 +1098,11 @@
     "name": "עיסקאות",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא לנזרי",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "start": "01/02/24",
+    "end": "01/01/25",
     "status": "מושהה",
     "clients": "קקל",
     "description": "חיבור בין המידע של קק\"ל רמי וקדסטר לעיסקאות נדלן למצוא אם קקל קיבלה את מה שמגיע לה",
@@ -530,11 +1119,11 @@
     "name": "מציאת עשן",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "manager_b": "",
+    "start": "01/08/25",
+    "end": "01/11/25",
     "status": "מושהה",
     "clients": "קקל",
     "description": "מציאת עשן מתוך תמונה וקרודינטות",
@@ -553,7 +1142,7 @@
     "developer": "מידד",
     "developer_b": "ורד",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -572,10 +1161,10 @@
     "name": "דוח פיקוח תשתיות",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
     "manager_b": "רחלי יעקובסון",
-    "start": "01/01/25",
+    "start": "01/08/24",
     "end": "01/01/26",
     "status": "מושהה",
     "clients": "קקל",
@@ -592,9 +1181,49 @@
           "מייל"
         ],
         "score": 1
+      },
+      {
+        "project_id": "41",
+        "project_name": "בסיסי נתונים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "49",
+        "project_name": "תחזוקות של מערכת",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 1,
+    "total_connections": 6,
     "max_similarity_score": 1
   },
   {
@@ -602,11 +1231,11 @@
     "name": "תיקון גאומטרי",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא לנזרי",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "start": "01/08/24",
+    "end": "01/05/25",
     "status": "הושלם",
     "clients": "מיכאל",
     "description": "תיקון גאומטרי של שכבת שריפות",
@@ -624,6 +1253,26 @@
           "agol",
           "אגול",
           "גאומטריה"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "שריפות"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "שריפות"
         ],
         "score": 3
       },
@@ -664,6 +1313,14 @@
         "score": 2
       },
       {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -686,9 +1343,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 21,
     "max_similarity_score": 3
   },
   {
@@ -696,11 +1433,11 @@
     "name": "הורדת וורטקסים",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
-    "manager_b": "אין",
-    "start": "01/01/25",
-    "end": "01/01/26",
+    "manager_b": "",
+    "start": "01/01/24",
+    "end": "01/02/25",
     "status": "מושהה",
     "clients": "מיכאל",
     "description": "הורדה של וורטקסים משכבת קווי גובה",
@@ -758,6 +1495,32 @@
         "score": 2
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -780,9 +1543,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 21,
     "max_similarity_score": 3
   },
   {
@@ -790,9 +1633,9 @@
     "name": "תהליכי ארקייד",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "גיא לנזרי",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "הושלם",
@@ -851,6 +1694,32 @@
         "score": 2
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
         "project_id": "2",
         "project_name": "תהליכי AGOL",
         "shared_keywords": [
@@ -873,9 +1742,89 @@
           "אגול"
         ],
         "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 21,
     "max_similarity_score": 2
   },
   {
@@ -883,9 +1832,9 @@
     "name": "שחזור חלקות קדסטר",
     "responsible": "מידד",
     "developer": "מידד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/24",
     "end": "01/01/25",
     "status": "הושלם",
@@ -908,22 +1857,14 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
-        "shared_keywords": [
-          "קדסטר"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "קדסטר"
         ],
         "score": 1
       }
     ],
-    "total_connections": 3,
+    "total_connections": 2,
     "max_similarity_score": 2
   },
   {
@@ -971,7 +1912,7 @@
     "name": "תהליכי אבינועם",
     "responsible": "אבינועם",
     "developer": "אבינועם",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "אורי רוזנברג",
     "manager_b": "ערן",
     "start": "01/01/26",
@@ -1024,9 +1965,49 @@
           "תכנון"
         ],
         "score": 1
+      },
+      {
+        "project_id": "35",
+        "project_name": "דוח שמירה תכנונית הימנותא",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "36",
+        "project_name": "דוח מבא\"ת-הימנותא",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "37",
+        "project_name": "דוח מבא\"ת-קקל ",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "40",
+        "project_name": "בעלויות קקל מרמ\"י",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 1,
+    "total_connections": 6,
     "max_similarity_score": 1
   },
   {
@@ -1043,11 +2024,77 @@
     "clients": "קקל",
     "description": "קומפוננטה באנגולר להצגת שכבות",
     "keywords": [
-      "קומפוננת מפה"
+      "קומפוננת מפה",
+      "שרותי gis"
     ],
-    "similar_projects": [],
-    "total_connections": 0,
-    "max_similarity_score": 0
+    "similar_projects": [
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 8,
+    "max_similarity_score": 1
   },
   {
     "id": "22",
@@ -1067,6 +2114,14 @@
       "api"
     ],
     "similar_projects": [
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
       {
         "project_id": "23",
         "project_name": "תוכניות תיכנון",
@@ -1090,9 +2145,65 @@
           "api"
         ],
         "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 3,
+    "total_connections": 11,
     "max_similarity_score": 1
   },
   {
@@ -1168,9 +2279,49 @@
           "מפה"
         ],
         "score": 1
+      },
+      {
+        "project_id": "35",
+        "project_name": "דוח שמירה תכנונית הימנותא",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "36",
+        "project_name": "דוח מבא\"ת-הימנותא",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "37",
+        "project_name": "דוח מבא\"ת-קקל ",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "40",
+        "project_name": "בעלויות קקל מרמ\"י",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 6,
+    "total_connections": 11,
     "max_similarity_score": 3
   },
   {
@@ -1296,7 +2447,7 @@
     "responsible": "אורי אורן",
     "developer": "אורי אורן",
     "developer_b": "",
-    "manager": "אין",
+    "manager": "",
     "manager_b": "",
     "start": "01/01/16",
     "end": "",
@@ -1343,6 +2494,24 @@
         "score": 4
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
         "project_id": "3",
         "project_name": "קרדיטים",
         "shared_keywords": [
@@ -1391,7 +2560,7 @@
         "score": 1
       }
     ],
-    "total_connections": 7,
+    "total_connections": 9,
     "max_similarity_score": 4
   },
   {
@@ -1426,6 +2595,24 @@
         "score": 4
       },
       {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
         "project_id": "3",
         "project_name": "קרדיטים",
         "shared_keywords": [
@@ -1474,7 +2661,7 @@
         "score": 1
       }
     ],
-    "total_connections": 7,
+    "total_connections": 9,
     "max_similarity_score": 4
   },
   {
@@ -1568,7 +2755,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1600,7 +2787,7 @@
       },
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1608,7 +2795,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1616,7 +2803,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1624,7 +2811,7 @@
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1640,53 +2827,29 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 16,
+    "total_connections": 13,
     "max_similarity_score": 1
   },
   {
     "id": "31",
-    "name": "עדכון שכבות חודשי ממפ\"י",
+    "name": "עדכון שכבות קדסטר ממפ\"י",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/03/22",
-    "end": "",
+    "manager_b": "",
+    "start": "01/01/23",
+    "end": "01/01/24",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
-    "description": "עדכון חודשי של שכבות מאתר מפ\"י ל-sde: קדסטר, גושים, גושי שומא, חלקות שומה + \nעדכון של ארכיון קדסטר",
+    "description": "עדכון חודשי של שכבות מאתר מפ\"י ל-sde: \nקדסטר, גושים, גושי שומא, חלקות שומה + \nעדכון של ארכיון קדסטר",
     "keywords": [
       "מקרקעין",
       "קדסטר",
@@ -1694,15 +2857,6 @@
       "גושים"
     ],
     "similar_projects": [
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
-        "shared_keywords": [
-          "מקרקעין",
-          "קדסטר"
-        ],
-        "score": 2
-      },
       {
         "project_id": "4",
         "project_name": "רשת קדסטר",
@@ -1753,7 +2907,7 @@
       },
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1761,7 +2915,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1769,7 +2923,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1777,7 +2931,7 @@
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1793,42 +2947,26 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 15,
-    "max_similarity_score": 2
+    "total_connections": 12,
+    "max_similarity_score": 1
   },
   {
     "id": "32",
     "name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/04/22",
-    "end": "",
+    "end": "01/01/23",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "עדכון נתונים חודשי מה-sde ל-db אחרים: \nעדכון נתוני ישוב ב-kklprd + עדכון נתוני ישוב,מועצה איזורית,נפה ומחוז ב-karkaprd",
@@ -1847,7 +2985,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1871,7 +3009,7 @@
       },
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1879,7 +3017,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1887,7 +3025,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1895,7 +3033,7 @@
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -1911,38 +3049,14 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
+    "total_connections": 10,
     "max_similarity_score": 1
   },
   {
@@ -1950,11 +3064,11 @@
     "name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/03/22",
-    "end": "",
+    "end": "01/01/23",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "עדכון יומי מ-karkaprd ל-sde של: \nחלקות הימנותא, מגרשי תמורה, עסקאות, חלקות בהליך פירוק שיתוף, חלקות  בהליך משפטי, שימושים",
@@ -1965,24 +3079,16 @@
       "עסקאות",
       "פירוק שיתוף",
       "הליך משפטי",
-      "שימושים"
+      "שימושים",
+      "חלקות קקל"
     ],
     "similar_projects": [
       {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
-          "הימנותא",
+          "חלקות קקל",
           "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין",
-          "עסקאות"
         ],
         "score": 2
       },
@@ -1996,7 +3102,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2020,7 +3126,7 @@
       },
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2028,7 +3134,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2036,15 +3142,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2060,22 +3158,14 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
+    "total_connections": 10,
     "max_similarity_score": 2
   },
   {
@@ -2083,23 +3173,23 @@
     "name": "עדכון יומי של שכבות מבא\"ת",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/23",
-    "end": "",
+    "end": "01/01/24",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "עדכון יומי של שכבות xplan מסרוויסים של מנהל התכנון (קווים כחולים + ייעודים) +\nחיתוכים עם חלקות הימנותא וקלל + \nעדכון ארכיון xplan + \nיירוט יומי של חלקות הימנותא בתכניות שהשתנו + יירוט יומי של חלקות קקל בתכניות שהשתנו",
     "keywords": [
+      "ארכיון xplan",
       "מקרקעין",
-      "xplan",
-      "ארכיון xplan"
+      "xplan"
     ],
     "similar_projects": [
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2108,7 +3198,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2117,7 +3207,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2126,7 +3216,7 @@
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2143,15 +3233,6 @@
         "score": 2
       },
       {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
         "project_id": "30",
         "project_name": "מקרקעין",
         "shared_keywords": [
@@ -2161,7 +3242,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2185,80 +3266,68 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
+    "total_connections": 10,
     "max_similarity_score": 2
   },
   {
     "id": "35",
-    "name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+    "name": "דוח שמירה תכנונית הימנותא",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/01/23",
-    "end": "",
+    "end": "01/01/24",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
-    "description": "לכל תכניות מבא\"ת שיורטו בסקריפט מבאת-הימנותא יומי: הפקת ושליחת דוחות pdf באימייל למשתמשים",
+    "description": "  דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים. \nלכל תכניות מבא\"ת שיורטו בסקריפט מבאת-הימנותא יומי: הפקת ושליחת דוחות pdf באימייל למשתמשים",
     "keywords": [
       "מקרקעין",
-      "xplan"
+      "xplan",
+      "תכנון"
     ],
     "similar_projects": [
       {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "34",
+        "project_name": "עדכון יומי של שכבות מבא\"ת",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2275,13 +3344,29 @@
         "score": 2
       },
       {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_id": "40",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
-          "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
         "score": 2
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
       },
       {
         "project_id": "30",
@@ -2293,7 +3378,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2314,185 +3399,60 @@
           "מקרקעין"
         ],
         "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
       }
     ],
-    "total_connections": 13,
-    "max_similarity_score": 2
+    "total_connections": 12,
+    "max_similarity_score": 3
   },
   {
     "id": "36",
-    "name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+    "name": "דוח מבא\"ת-הימנותא",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/05/23",
-    "end": "",
-    "status": "בביצוע",
+    "end": "01/01/24",
+    "status": "בפרודקשן",
     "clients": "מקרקעין",
-    "description": "דוח pdf מבא\"ת-הימנותא שמיוצר ע\"י הרצת geoprocessing service דרך פריט באגול - לפי בחירת המשתמש",
+    "description": "דוח מבא\"ת-הימנותא בהרצה יזומה:\nדוח pdf מבא\"ת-הימנותא שמיוצר ע\"י הרצת geoprocessing service דרך פריט באגול - לפי בחירת המשתמש",
     "keywords": [
       "מקרקעין",
-      "xplan"
+      "xplan",
+      "תכנון"
     ],
     "similar_projects": [
       {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
-      {
-        "project_id": "39",
-        "project_name": "מערכת פירסומים מגאודע",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "30",
-        "project_name": "מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "32",
-        "project_name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "33",
-        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      }
-    ],
-    "total_connections": 13,
-    "max_similarity_score": 2
-  },
-  {
-    "id": "37",
-    "name": "דוח מבא\"ת-קקל בהרצה יזומה",
-    "responsible": "ורד",
-    "developer": "ורד",
-    "developer_b": "אין",
-    "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/02/25",
-    "end": "",
-    "status": "בפרודקשן",
-    "clients": "מקרקעין",
-    "description": "דוח pdf מבא\"ת-קקל שמיוצר ע\"י הרצת geoprocessing service דרך פריט באגול - לפי בחירת המשתמש",
-    "keywords": [
-      "מקרקעין",
-      "xplan"
-    ],
-    "similar_projects": [
       {
         "project_id": "34",
         "project_name": "עדכון יומי של שכבות מבא\"ת",
@@ -2503,33 +3463,6 @@
         "score": 2
       },
       {
-        "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
         "project_id": "39",
         "project_name": "מערכת פירסומים מגאודע",
         "shared_keywords": [
@@ -2539,13 +3472,29 @@
         "score": 2
       },
       {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_id": "40",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
-          "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
         "score": 2
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
       },
       {
         "project_id": "30",
@@ -2557,7 +3506,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2578,84 +3527,202 @@
           "מקרקעין"
         ],
         "score": 1
+      }
+    ],
+    "total_connections": 12,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "37",
+    "name": "דוח מבא\"ת-קקל ",
+    "responsible": "ורד",
+    "developer": "ורד",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "",
+    "start": "01/02/25",
+    "end": "01/01/26",
+    "status": "בפרודקשן",
+    "clients": "מקרקעין",
+    "description": "דוח מבא\"ת-קקל בהרצה יזומה:\nדוח pdf מבא\"ת-קקל שמיוצר ע\"י הרצת geoprocessing service דרך פריט באגול - לפי בחירת המשתמש",
+    "keywords": [
+      "מקרקעין",
+      "xplan",
+      "תכנון"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "35",
+        "project_name": "דוח שמירה תכנונית הימנותא",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "36",
+        "project_name": "דוח מבא\"ת-הימנותא",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "34",
+        "project_name": "עדכון יומי של שכבות מבא\"ת",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "39",
+        "project_name": "מערכת פירסומים מגאודע",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין"
+        ],
+        "score": 2
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
+        "project_name": "בעלויות קקל מרמ\"י",
+        "shared_keywords": [
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "30",
+        "project_name": "מקרקעין",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       },
       {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
+        "project_id": "31",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       },
       {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_id": "32",
+        "project_name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
+        "shared_keywords": [
+          "מקרקעין"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "33",
+        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
-    "max_similarity_score": 2
+    "total_connections": 12,
+    "max_similarity_score": 3
   },
   {
     "id": "38",
-    "name": "פגיעות חלקות קקל בתכניות xplan",
+    "name": "פגיעות חלקות קקל בתכניות מבא\"ת",
     "responsible": "ורד",
     "developer": "ורד",
     "developer_b": "גיא לנזרי",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/03/25",
-    "end": "",
+    "end": "01/01/26",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "experience builder של פגיעות חלקות קקל בתכניות מבא\"ת",
     "keywords": [
       "מקרקעין",
       "xplan",
-      "חלקות קקל"
+      "חלקות קקל",
+      "תכנון",
+      "agol"
     ],
     "similar_projects": [
       {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
-        "score": 2
+        "score": 3
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "37",
+        "project_name": "דוח מבא\"ת-קקל ",
+        "shared_keywords": [
+          "xplan",
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "33",
+        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
+        "shared_keywords": [
+          "חלקות קקל",
           "מקרקעין"
         ],
         "score": 2
       },
       {
-        "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_id": "34",
+        "project_name": "עדכון יומי של שכבות מבא\"ת",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2672,13 +3739,93 @@
         "score": 2
       },
       {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_id": "40",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
-          "xplan",
-          "מקרקעין"
+          "מקרקעין",
+          "תכנון"
         ],
         "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
       },
       {
         "project_id": "30",
@@ -2690,7 +3837,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2705,51 +3852,107 @@
         "score": 1
       },
       {
-        "project_id": "33",
-        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
         "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
+        "project_name": "שירותים גיאוגרפיים",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
         "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "גיבויים",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
-    "max_similarity_score": 2
+    "total_connections": 31,
+    "max_similarity_score": 3
   },
   {
     "id": "39",
     "name": "מערכת פירסומים מגאודע",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/08/24",
-    "end": "",
+    "end": "01/01/26",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "עדכון פרסומי גאודע יומיים דרך קבצי אקסל מקישור one drive + \nהשוואות בין יירוטי גאודע ליירוטי דוח מש\"ת ושליחת אימיילים למשתמשים",
@@ -2770,7 +3973,7 @@
       },
       {
         "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_name": "דוח שמירה תכנונית הימנותא",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2779,7 +3982,7 @@
       },
       {
         "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-הימנותא",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2788,7 +3991,7 @@
       },
       {
         "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_name": "דוח מבא\"ת-קקל ",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2797,16 +4000,7 @@
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
           "xplan",
           "מקרקעין"
@@ -2823,7 +4017,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2847,51 +4041,88 @@
       },
       {
         "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "בעלויות קקל מרמ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
+    "total_connections": 10,
     "max_similarity_score": 2
   },
   {
     "id": "40",
-    "name": "טעינת בעלויות קקל מרמ\"י",
+    "name": "בעלויות קקל מרמ\"י",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
+    "manager_b": "",
     "start": "01/05/23",
-    "end": "",
+    "end": "01/01/24",
     "status": "בפרודקשן",
     "clients": "מקרקעין",
     "description": "טעינת קובץ הבעלויות החודשי מרמ\"י ל-sde",
     "keywords": [
       "מקרקעין",
       "בעלויות",
-      "רמ\"י"
+      "רמ\"י",
+      "תכנון"
     ],
     "similar_projects": [
+      {
+        "project_id": "35",
+        "project_name": "דוח שמירה תכנונית הימנותא",
+        "shared_keywords": [
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "36",
+        "project_name": "דוח מבא\"ת-הימנותא",
+        "shared_keywords": [
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "37",
+        "project_name": "דוח מבא\"ת-קקל ",
+        "shared_keywords": [
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "מקרקעין",
+          "תכנון"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "תכנון"
+        ],
+        "score": 1
+      },
       {
         "project_id": "30",
         "project_name": "מקרקעין",
@@ -2902,7 +4133,7 @@
       },
       {
         "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_name": "עדכון שכבות קדסטר ממפ\"י",
         "shared_keywords": [
           "מקרקעין"
         ],
@@ -2933,478 +4164,2443 @@
         "score": 1
       },
       {
-        "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
         "project_id": "39",
         "project_name": "מערכת פירסומים מגאודע",
         "shared_keywords": [
           "מקרקעין"
         ],
         "score": 1
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
       }
     ],
-    "total_connections": 13,
-    "max_similarity_score": 1
-  },
-  {
-    "id": "41",
-    "name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-    "responsible": "ורד",
-    "developer": "ורד",
-    "developer_b": "אין",
-    "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/01/25",
-    "end": "",
-    "status": "בפרודקשן",
-    "clients": "מקרקעין",
-    "description": "מפה של פגיעות חלקות הימנותא בתכניות מבא\"ת",
-    "keywords": [
-      "מקרקעין",
-      "xplan",
-      "הימנותא"
-    ],
-    "similar_projects": [
-      {
-        "project_id": "33",
-        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
-        "shared_keywords": [
-          "הימנותא",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "39",
-        "project_name": "מערכת פירסומים מגאודע",
-        "shared_keywords": [
-          "xplan",
-          "מקרקעין"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "30",
-        "project_name": "מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "32",
-        "project_name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      }
-    ],
-    "total_connections": 13,
+    "total_connections": 12,
     "max_similarity_score": 2
   },
   {
-    "id": "42",
-    "name": "מפת עסקאות ואירועים לעסקה",
+    "id": "41",
+    "name": "בסיסי נתונים גיאוגרפיים",
     "responsible": "ורד",
     "developer": "ורד",
-    "developer_b": "אין",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/01/25",
-    "end": "",
+    "manager_b": "",
+    "start": "01/01/22",
+    "end": "01/03/26",
     "status": "בפרודקשן",
-    "clients": "מקרקעין",
-    "description": "מפה של עסקאות ואירועים לעסקה ממערכת מקרקעין",
+    "clients": "קקל",
+    "description": "תחזוקת בסיסי נתונים גיאוגרפיים (sde) , טעינת נתונים, עדכונים, שינוי סכמות וכו'",
     "keywords": [
-      "מקרקעין",
-      "עסקאות",
-      "אירוע לעסקה"
+      "תשתיות"
     ],
     "similar_projects": [
       {
-        "project_id": "33",
-        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
+        "project_id": "12",
+        "project_name": "דוח פיקוח תשתיות",
         "shared_keywords": [
-          "מקרקעין",
-          "עסקאות"
-        ],
-        "score": 2
-      },
-      {
-        "project_id": "30",
-        "project_name": "מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
+          "תשתיות"
         ],
         "score": 1
       },
       {
-        "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
         "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "32",
-        "project_name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "39",
-        "project_name": "מערכת פירסומים מגאודע",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
-        "shared_keywords": [
-          "מקרקעין"
+          "תשתיות"
         ],
         "score": 1
       },
       {
         "project_id": "43",
-        "project_name": "wab ללשכה משפטית: קדסטר וחניונים",
+        "project_name": "גיבויים",
         "shared_keywords": [
-          "מקרקעין"
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "49",
+        "project_name": "תחזוקות של מערכת",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "תשתיות"
         ],
         "score": 1
       }
     ],
-    "total_connections": 13,
+    "total_connections": 5,
+    "max_similarity_score": 1
+  },
+  {
+    "id": "42",
+    "name": "שירותים גיאוגרפיים",
+    "responsible": "ורד",
+    "developer": "ורד",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "",
+    "start": "01/01/22",
+    "end": "01/03/26",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": " תחזוקת שרת שירותים גיאוגרפיים arcgis server",
+    "keywords": [
+      "תשתיות",
+      "agol"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol",
+          "תשתיות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "תשתיות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "דוח פיקוח תשתיות",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "41",
+        "project_name": "בסיסי נתונים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "49",
+        "project_name": "תחזוקות של מערכת",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 22,
     "max_similarity_score": 2
   },
   {
     "id": "43",
-    "name": "wab ללשכה משפטית: קדסטר וחניונים",
-    "responsible": "ורד",
-    "developer": "ורד",
-    "developer_b": "אין",
+    "name": "גיבויים",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
     "manager": "רחלי יעקובסון",
-    "manager_b": "אין",
-    "start": "01/01/25",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/18",
     "end": "",
     "status": "בפרודקשן",
-    "clients": "מקרקעין",
-    "description": "web mapping application ללשכה משפטית: שכבת קדסטר לפי בעלויות + שכבת חניונים",
+    "clients": "קקל",
+    "description": "גיבוי נתונים והגדרות של אפליקציות מהאונליין לשרתי קק\"ל מספר תהליכים שונים עם מספר גיבויים והגדרות שונות לכל גיבוי כולל תהליכי ניקוי ותחזוקה לגיבוי ולניהול מקום אכסון",
     "keywords": [
-      "מקרקעין",
-      "משפטית",
-      "קדסטר",
-      "חניונים"
+      "agol",
+      "תשתיות"
     ],
     "similar_projects": [
       {
-        "project_id": "31",
-        "project_name": "עדכון שכבות חודשי ממפ\"י",
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
         "shared_keywords": [
-          "מקרקעין",
-          "קדסטר"
+          "agol",
+          "תשתיות"
         ],
         "score": 2
       },
       {
-        "project_id": "4",
-        "project_name": "רשת קדסטר",
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
         "shared_keywords": [
-          "קדסטר"
+          "agol",
+          "תשתיות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "15",
-        "project_name": "שחזור חלקות קדסטר",
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
         "shared_keywords": [
-          "קדסטר"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "30",
-        "project_name": "מקרקעין",
+        "project_id": "3",
+        "project_name": "קרדיטים",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "32",
-        "project_name": "עדכון חודשי מממ\"ג למערכת מקרקעין",
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "33",
-        "project_name": "עדכון יומי ממערכת מקרקעין לממ\"ג",
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "34",
-        "project_name": "עדכון יומי של שכבות מבא\"ת",
+        "project_id": "12",
+        "project_name": "דוח פיקוח תשתיות",
         "shared_keywords": [
-          "מקרקעין"
+          "תשתיות"
         ],
         "score": 1
       },
       {
-        "project_id": "35",
-        "project_name": " דוח מבא\"ת-הימנותא אוטומטי ליירוטים היומיים \n(מערכת מש\"ת = שמירה תכנונית)",
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "36",
-        "project_name": "דוח מבא\"ת-הימנותא בהרצה יזומה",
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "37",
-        "project_name": "דוח מבא\"ת-קקל בהרצה יזומה",
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
         "project_id": "38",
-        "project_name": "פגיעות חלקות קקל בתכניות xplan",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
         "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "39",
-        "project_name": "מערכת פירסומים מגאודע",
-        "shared_keywords": [
-          "מקרקעין"
-        ],
-        "score": 1
-      },
-      {
-        "project_id": "40",
-        "project_name": "טעינת בעלויות קקל מרמ\"י",
-        "shared_keywords": [
-          "מקרקעין"
+          "agol"
         ],
         "score": 1
       },
       {
         "project_id": "41",
-        "project_name": " מפת פגיעות חלקות הימנותא בתכניות xplan",
+        "project_name": "בסיסי נתונים גיאוגרפיים",
         "shared_keywords": [
-          "מקרקעין"
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "49",
+        "project_name": "תחזוקות של מערכת",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 22,
+    "max_similarity_score": 2
+  },
+  {
+    "id": "44",
+    "name": "ניהול ותחזוקות של שכבת שריפות",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/18",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "מספר רב של תהליכים שמנהלים את שכבת השריפות: הם כוללים תהליך תחזוקה ל ID בקרת איכות ודוחות שונים שנשלחים במייל של סטטוס וסיכומים של שכבת השריפות הארגונית",
+    "keywords": [
+      "אגול",
+      "אוטומיזציה",
+      "agol",
+      "מחלקת gis",
+      "שריפות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "אוטומיזציה",
+          "מחלקת gis",
+          "שריפות"
+        ],
+        "score": 5
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "שריפות"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "27",
+        "project_name": "סביבות עבודה באגול",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "28",
+        "project_name": "שינויים בפריט relationship",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
         ],
         "score": 1
       },
       {
         "project_id": "42",
-        "project_name": "מפת עסקאות ואירועים לעסקה",
+        "project_name": "שירותים גיאוגרפיים",
         "shared_keywords": [
-          "מקרקעין"
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 15,
-    "max_similarity_score": 2
+    "total_connections": 21,
+    "max_similarity_score": 5
+  },
+  {
+    "id": "45",
+    "name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/21",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "שני אינדקסים שונים אחד מבוסס שמ\"ט ואחד מבוסס חישה מרחוק",
+    "keywords": [
+      "אגול",
+      "אוטומיזציה",
+      "agol",
+      "מחלקת gis",
+      "שריפות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "אוטומיזציה",
+          "מחלקת gis",
+          "שריפות"
+        ],
+        "score": 5
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol",
+          "אגול",
+          "שריפות"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol",
+          "אגול"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "27",
+        "project_name": "סביבות עבודה באגול",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "28",
+        "project_name": "שינויים בפריט relationship",
+        "shared_keywords": [
+          "אגול",
+          "מחלקת gis"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 5
+  },
+  {
+    "id": "46",
+    "name": "גדרות מרעה",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "דן בן עמרם",
+    "start": "01/01/23",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "תהליך שמטרתו היא לתחזקה את שכבת גדרות מרעה ולתת לה שמות תקינים ומעודכנים",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "47",
+    "name": "יחידות עבודה",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/20",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "מספר רב של תהליכים שמטרתם לתחזק ולעשות אוטמוטיזציה לתהליכי העבודה על יחידות העבודה היערניות",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "48",
+    "name": "כלי אינטרנט",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/19",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "מספר רב של כלים שמופעלים באפליקציות באינטרנט כלי הדפסה וניהול שכבות של משבצות מרעה תוכניות ויחידות עבודה",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "49",
+    "name": "תחזוקות של מערכת",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/19",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "כלים שמתחזקים את המכונות השונות ואת בסיס הנתונים של ה SDE ",
+    "keywords": [
+      "תשתיות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "12",
+        "project_name": "דוח פיקוח תשתיות",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "41",
+        "project_name": "בסיסי נתונים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 5,
+    "max_similarity_score": 1
+  },
+  {
+    "id": "50",
+    "name": "משבצות מרעה",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/23",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "תהליכים שמתחזקים מידע של משבצות מרעה להנגשה כשירות לאקספונט תהליך לילה ותהליך שעתי שמוציא מפות מרעה",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "51",
+    "name": "סנכרון שכבות",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/22",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "תהליכים שמסכרנים שכבות מה SDE הארגוני אל האונליין ובחזקה",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis",
+      "תשתיות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol",
+          "תשתיות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol",
+          "תשתיות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "דוח פיקוח תשתיות",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "41",
+        "project_name": "בסיסי נתונים גיאוגרפיים",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "49",
+        "project_name": "תחזוקות של מערכת",
+        "shared_keywords": [
+          "תשתיות"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 24,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "52",
+    "name": "פריטים חדשים באונליין",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "",
+    "start": "01/01/20",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "תהליך שמדווח לאחראי תוכן על פריטים חדשים לפי הגדרות מסוימות באונליין",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "53",
+    "name": "תוכניות עבודה",
+    "responsible": "רועי",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "גיא לנזרי",
+    "start": "01/01/20",
+    "end": "",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "תהליכים שמנהלים את שכבות תוכניות עבודה מספר רב של תהליכים והוצאת דוחות ",
+    "keywords": [
+      "אוטומיזציה",
+      "agol",
+      "שרותי gis"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה",
+          "שרותי gis"
+        ],
+        "score": 3
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי AGOL",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים של שריפות יש אינדקס מבוסס שמ\"ט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "12",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "21",
+        "project_name": "קומפוננת מפה לאנגולר",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "gis base",
+        "shared_keywords": [
+          "שרותי gis"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 21,
+    "max_similarity_score": 3
   }
 ]
