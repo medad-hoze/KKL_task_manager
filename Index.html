@@ -7,7 +7,6 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
     
-    /* ══ VARIABLES & RESET ══ */
     * { margin: 0; padding: 0; box-sizing: border-box; }
     
     :root {
@@ -33,6 +32,8 @@
       --cyan-l: #ecfeff;
       --pink: #ec4899;
       --pink-l: #fdf2f8;
+      --teal: #14b8a6;
+      --teal-l: #f0fdfa;
       --side: 260px;
       --sh: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
     }
@@ -44,13 +45,11 @@
       min-height: 100vh;
     }
 
-    /* Custom Scrollbar */
     ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: var(--gray-l); }
     ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: var(--text3); }
 
-    /* ══ SIDEBAR ══ */
     .sidebar {
       position: fixed;
       top: 0;
@@ -282,6 +281,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 0.6rem;
     }
     .card-head h3 { font-size: 0.92rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; }
     
@@ -300,6 +301,7 @@
     .ch-icon.orange { background: var(--orange-l); }
     .ch-icon.cyan { background: var(--cyan-l); }
     .ch-icon.pink { background: var(--pink-l); }
+    .ch-icon.teal { background: var(--teal-l); }
     
     .card-body { padding: 1.3rem; }
     
@@ -311,6 +313,9 @@
     .sbar-val { font-family: 'IBM Plex Mono'; font-weight: 500; color: var(--text2); }
     .sbar-track { height: 8px; background: var(--gray-l); border-radius: 99px; overflow: hidden; }
     .sbar-fill { height: 100%; border-radius: 99px; transition: width 0.8s ease; }
+    .sbar.clickable { cursor: pointer; padding: 0.3rem; margin: 0 -0.3rem 0.4rem; border-radius: 6px; transition: background 0.15s; }
+    .sbar.clickable:hover { background: var(--gray-l); }
+    .sbar.clickable.active { background: var(--blue-l); }
     
     .mini-bars { display: flex; align-items: flex-end; gap: 6px; height: 120px; padding-top: 10px; }
     .mini-bar-col {
@@ -328,13 +333,11 @@
     .mini-bar-label { font-size: 0.62rem; color: var(--text3); text-align: center; white-space: nowrap; max-width: 50px; overflow: hidden; text-overflow: ellipsis; }
     .mini-bar-val { font-family: 'IBM Plex Mono'; font-size: 0.65rem; color: var(--text2); font-weight: 600; }
     
-    /* ══ NETWORK CANVAS ══ */
     #netCanvas { width: 100%; height: 420px; border-radius: 10px; background: #fafbfe; cursor: grab; }
     .net-legend, .gantt-legend { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 0.8rem; }
     .net-leg { display: flex; align-items: center; gap: 0.35rem; font-size: 0.72rem; color: var(--text3); }
     .net-dot { width: 10px; height: 10px; border-radius: 50%; }
 
-    /* ══ TABLE ══ */
     .tbl-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.8rem; }
     .tbl-top h3 { font-size: 1.1rem; font-weight: 700; }
     .tbl-filters { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
@@ -357,15 +360,30 @@
     .b-hold { background: var(--orange-l); color: var(--orange); }
     .b-old { background: var(--gray-l); color: var(--gray); }
 
-    /* ══ PEOPLE TOGGLE ══ */
-    .people-tabs { display: flex; gap: 0; }
+    .people-tabs { display: flex; gap: 0; flex-wrap: wrap; }
     .ptab { padding: 0.4rem 0.9rem; font-size: 0.76rem; font-weight: 600; color: var(--text3); cursor: pointer; border: 1px solid var(--border); background: var(--white); font-family: 'Heebo'; border-radius: 0; transition: all 0.15s; }
     .ptab:first-child { border-radius: 0 8px 8px 0; }
     .ptab:last-child { border-radius: 8px 0 0 8px; }
     .ptab:hover { color: var(--text2); background: var(--gray-l); }
     .ptab.active { background: var(--blue); color: #fff; border-color: var(--blue); }
 
-    /* ══ GANTT ══ */
+    /* Person filter pill (shows when filtering by a person) */
+    .person-filter-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--blue-l);
+      color: var(--blue);
+      border: 1px solid var(--blue);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-right: 0.5rem;
+    }
+    .person-filter-pill:hover { background: var(--blue); color: #fff; }
+
     .gantt-container { display: flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; max-height: 420px; }
     .gantt-labels { min-width: 160px; width: 160px; background: var(--gray-l); border-left: 1px solid var(--border); overflow-y: auto; flex-shrink: 0; }
     .gantt-labels::-webkit-scrollbar { display: none; }
@@ -457,6 +475,25 @@
     .noi-score { font-family: 'IBM Plex Mono'; font-size: 0.7rem; font-weight: 600; padding: 0.12rem 0.5rem; border-radius: 999px; }
     .overlay-legend { position: absolute; bottom: 1rem; left: 50%; transform: translateX(-50%); display: flex; gap: 1rem; background: var(--white); padding: 0.5rem 1.2rem; border-radius: 999px; border: 1px solid var(--border); box-shadow: 0 2px 12px rgba(0,0,0,0.06); font-size: 0.72rem; }
     
+    /* Person details modal */
+    .person-modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 150; background: rgba(30,41,59,0.5); backdrop-filter: blur(4px); display: none; align-items: center; justify-content: center; padding: 2rem; }
+    .person-modal.open { display: flex; }
+    .pm-content { background: var(--white); border-radius: 16px; max-width: 800px; width: 100%; max-height: 85vh; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+    .pm-head { padding: 1.3rem 1.6rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+    .pm-head h2 { font-size: 1.2rem; font-weight: 800; color: var(--text); }
+    .pm-head .pm-role { font-size: 0.78rem; color: var(--text3); margin-top: 0.2rem; font-weight: 500; }
+    .pm-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.7rem; padding: 1.1rem 1.6rem; background: var(--bg); border-bottom: 1px solid var(--border); }
+    .pm-stat { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 0.7rem 0.8rem; }
+    .pm-stat-num { font-family: 'IBM Plex Mono'; font-size: 1.3rem; font-weight: 700; }
+    .pm-stat-lbl { font-size: 0.7rem; color: var(--text3); margin-top: 0.15rem; }
+    .pm-body { padding: 1rem 1.6rem; overflow-y: auto; flex: 1; }
+    .pm-proj { padding: 0.7rem 0.8rem; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.6rem; cursor: pointer; transition: all 0.15s; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+    .pm-proj:hover { background: var(--blue-l); border-color: var(--blue); }
+    .pm-proj-info { flex: 1; min-width: 0; }
+    .pm-proj-name { font-weight: 700; font-size: 0.88rem; margin-bottom: 0.15rem; }
+    .pm-proj-desc { font-size: 0.72rem; color: var(--text3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .pm-proj-meta { font-size: 0.68rem; color: var(--text3); font-family: 'IBM Plex Mono'; margin-top: 0.2rem; }
+    
     /* ══ MEDIA QUERIES ══ */
     @media(max-width:1250px) {
       .tbl-filters select, .tbl-filters input { font-size: 0.75rem; padding: 0.4rem 0.5rem; min-width: 100px; }
@@ -465,6 +502,7 @@
       .stats { grid-template-columns: repeat(3, 1fr); }
       .time-stats { grid-template-columns: repeat(2, 1fr); }
       .grid2 { grid-template-columns: 1fr; }
+      .pm-stats { grid-template-columns: repeat(2, 1fr); }
     }
     @media(max-width:860px) {
       .sidebar { position: relative; width: 100%; height: auto; border-bottom: 1px solid var(--border); border-left: none; }
@@ -538,10 +576,11 @@
       <div class="card-head">
         <h3><span class="ch-icon orange">◈</span>אנשים</h3>
         <div class="people-tabs">
-          <button class="ptab active" onclick="setPeopleView('manager')">מנהל פרוייקט</button>
-          <button class="ptab" onclick="setPeopleView('manager_b')">מנהל פרוייקט ב</button>
-          <button class="ptab" onclick="setPeopleView('developer')">מפתח</button>
-          <button class="ptab" onclick="setPeopleView('clients')">לקוחות</button>
+          <button class="ptab active" data-pv="manager" onclick="setPeopleView('manager')">מנהל פרוייקט</button>
+          <button class="ptab" data-pv="manager_b" onclick="setPeopleView('manager_b')">מנהל פרוייקט ב</button>
+          <button class="ptab" data-pv="developer" onclick="setPeopleView('developer')">מפתח</button>
+          <button class="ptab" data-pv="client_manager" onclick="setPeopleView('client_manager')">מנהל לקוחות</button>
+          <button class="ptab" data-pv="clients" onclick="setPeopleView('clients')">לקוחות</button>
         </div>
       </div>
       <div class="card-body" id="peopleBars"></div>
@@ -582,6 +621,7 @@
         <select id="tblManager"><option value="">כל המנהלים</option></select>
         <select id="tblManagerB"><option value="">כל האחראים</option></select>
         <select id="tblDeveloper"><option value="">כל המפתחים</option></select>
+        <select id="tblClientManager"><option value="">כל מנהלי הלקוחות</option></select>
       </div>
     </div>
     <div class="tbl-card">
@@ -610,6 +650,21 @@
   </div>
 </div>
 
+<!-- Person details modal -->
+<div class="person-modal" id="personModal" onclick="if(event.target===this)closePersonModal()">
+  <div class="pm-content">
+    <div class="pm-head">
+      <div>
+        <h2 id="pmName"></h2>
+        <div class="pm-role" id="pmRole"></div>
+      </div>
+      <button class="net-close" onclick="closePersonModal()">✕</button>
+    </div>
+    <div class="pm-stats" id="pmStats"></div>
+    <div class="pm-body" id="pmBody"></div>
+  </div>
+</div>
+
 <div class="tip" id="tip">
   <div class="tip-name"></div>
   <div class="tip-desc"></div>
@@ -635,6 +690,15 @@ const STATUS_COLORS = { 'בפרודקשן': '#10b981', 'הושלם': '#3b82f6', 
 const BADGE_CLASSES = { 'בפרודקשן': 'b-prod', 'הושלם': 'b-done', 'מושהה': 'b-hold', 'גרסה ישנה': 'b-old' };
 const BAR_COLORS = ['#3b82f6','#8b5cf6','#10b981','#f59e0b','#ef4444','#ec4899','#06b6d4','#64748b','#6366f1','#14b8a6'];
 const MONTH_NAMES = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
+
+// People role config — keep all role metadata in one place
+const PEOPLE_ROLES = {
+  manager:        { field: 'manager',        label: 'מנהל פרוייקט',    color: 'var(--orange)' },
+  manager_b:      { field: 'manager_b',      label: 'מנהל פרוייקט ב',  color: 'var(--purple)' },
+  developer:      { field: 'developer',      label: 'מפתח',            color: 'var(--blue)' },
+  client_manager: { field: 'client_manager', label: 'מנהל לקוחות',     color: 'var(--teal)' },
+  clients:        { field: 'clients',        label: 'לקוחות',          color: 'var(--green)' }
+};
 
 // --- UTILITIES ---
 function parseDate(s) {
@@ -687,6 +751,8 @@ async function boot() {
   projectsData.forEach(p => {
     p._start = parseDate(p.start);
     p._end = parseDate(p.end);
+    // Ensure client_manager field exists even if missing in JSON, to avoid undefined
+    if (p.client_manager === undefined) p.client_manager = '';
   });
   
   document.getElementById('dateLabel').textContent = new Date().toLocaleDateString('he-IL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
@@ -762,11 +828,9 @@ function buildKWBars() {
 
 let peopleView = 'manager';
 function buildPeopleBars() {
-  const colors = { manager: 'var(--orange)', manager_b: 'var(--purple)', developer: 'var(--blue)', clients: 'var(--green)' };
-  const field = { manager: 'manager', manager_b: 'manager_b', developer: 'developer', clients: 'clients' };
-  
-  const f = field[peopleView];
-  const clr = colors[peopleView];
+  const role = PEOPLE_ROLES[peopleView];
+  const f = role.field;
+  const clr = role.color;
   const s = {};
   
   projectsData.forEach(p => {
@@ -778,10 +842,10 @@ function buildPeopleBars() {
   const mx = values.length ? Math.max(...values) : 1;
   
   const html = Object.entries(s).sort((a, b) => b[1] - a[1]).map(([k, v]) => `
-    <div class="sbar">
+    <div class="sbar clickable" onclick="openPersonModal('${peopleView}', ${JSON.stringify(k).replace(/"/g, '&quot;')})">
       <div class="sbar-top">
         <span class="sbar-name">${k}</span>
-        <span class="sbar-val">${v}</span>
+        <span class="sbar-val">${v} פרוייקטים</span>
       </div>
       <div class="sbar-track">
         <div class="sbar-fill" style="width:${v / mx * 100}%;background:${clr}"></div>
@@ -794,13 +858,72 @@ function buildPeopleBars() {
 
 function setPeopleView(v) {
   peopleView = v;
-  const viewMap = { manager: 'מנהל פרוייקט', manager_b: 'מנהל פרוייקט ב', developer: 'מפתח', clients: 'לקוחות' };
-  
   document.querySelectorAll('.ptab').forEach(t => {
-    t.classList.toggle('active', t.textContent === viewMap[v]);
+    t.classList.toggle('active', t.dataset.pv === v);
+  });
+  buildPeopleBars();
+}
+
+// --- PERSON DETAILS MODAL ---
+function openPersonModal(roleKey, personName) {
+  const role = PEOPLE_ROLES[roleKey];
+  const projects = projectsData.filter(p => p[role.field] === personName);
+  
+  document.getElementById('pmName').textContent = personName;
+  document.getElementById('pmRole').textContent = role.label;
+  
+  // Compute statistics
+  const statusCounts = {};
+  projects.forEach(p => statusCounts[p.status] = (statusCounts[p.status] || 0) + 1);
+  
+  const completed = projects.filter(p => p._end);
+  const totalMonths = completed.reduce((a, p) => a + Math.max(1, monthDiff(p._start, p._end)), 0);
+  const avgDuration = completed.length ? (totalMonths / completed.length).toFixed(1) : '—';
+  
+  const active = projects.filter(p => p.status === 'בפרודקשן').length;
+  
+  const stats = [
+    { n: projects.length, l: 'סה״כ פרוייקטים' },
+    { n: active, l: 'בפרודקשן' },
+    { n: statusCounts['הושלם'] || 0, l: 'הושלמו' },
+    { n: avgDuration, l: 'ממוצע חודשים' }
+  ];
+  
+  document.getElementById('pmStats').innerHTML = stats.map(s => `
+    <div class="pm-stat">
+      <div class="pm-stat-num" style="color:${role.color}">${s.n}</div>
+      <div class="pm-stat-lbl">${s.l}</div>
+    </div>
+  `).join('');
+  
+  // Sort by start date desc
+  const sorted = [...projects].sort((a, b) => {
+    if (!a._start && !b._start) return 0;
+    if (!a._start) return 1;
+    if (!b._start) return -1;
+    return b._start - a._start;
   });
   
-  buildPeopleBars();
+  document.getElementById('pmBody').innerHTML = sorted.map(p => `
+    <div class="pm-proj" onclick="closePersonModal();selectById('${p.id}')">
+      <div class="pm-proj-info">
+        <div class="pm-proj-name">${p.name}</div>
+        <div class="pm-proj-desc">${p.description || ''}</div>
+        <div class="pm-proj-meta">${p.start || '—'} → ${p.end || 'פתוח'}</div>
+      </div>
+      <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
+    </div>
+  `).join('') || '<div class="conn-empty">אין פרוייקטים</div>';
+  
+  document.getElementById('personModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePersonModal() {
+  document.getElementById('personModal').classList.remove('open');
+  if (!document.getElementById('netOverlay').classList.contains('open')) {
+    document.body.style.overflow = '';
+  }
 }
 
 // --- SIDEBAR & FILTER LOGIC ---
@@ -819,49 +942,24 @@ function buildSelectors() {
     applyFilters();
   };
   
-  // Status Filter
-  const sf = document.getElementById('tblStatus');
-  [...new Set(projectsData.map(p => p.status))].forEach(s => {
-    if(s && s !== 'אין') {
-      const o = document.createElement('option');
-      o.value = s; o.textContent = s;
-      sf.appendChild(o);
-    }
-  });
-  sf.onchange = () => buildTable();
+  // Helper to populate a filter dropdown
+  const populateFilter = (id, field) => {
+    const el = document.getElementById(id);
+    [...new Set(projectsData.map(p => p[field]))].forEach(v => {
+      if(v && v !== 'אין') {
+        const o = document.createElement('option');
+        o.value = v; o.textContent = v;
+        el.appendChild(o);
+      }
+    });
+    el.onchange = () => buildTable();
+  };
   
-  // Manager Filter
-  const mf = document.getElementById('tblManager');
-  [...new Set(projectsData.map(p => p.manager))].forEach(m => {
-    if(m && m !== 'אין') {
-      const o = document.createElement('option');
-      o.value = m; o.textContent = m;
-      mf.appendChild(o);
-    }
-  });
-  mf.onchange = () => buildTable();
-
-  // Manager B (אחראי) Filter
-  const mbf = document.getElementById('tblManagerB');
-  [...new Set(projectsData.map(p => p.manager_b))].forEach(m => {
-    if(m && m !== 'אין') {
-      const o = document.createElement('option');
-      o.value = m; o.textContent = m;
-      mbf.appendChild(o);
-    }
-  });
-  mbf.onchange = () => buildTable();
-
-  // Developer Filter
-  const df = document.getElementById('tblDeveloper');
-  [...new Set(projectsData.map(p => p.developer))].forEach(d => {
-    if(d && d !== 'אין') {
-      const o = document.createElement('option');
-      o.value = d; o.textContent = d;
-      df.appendChild(o);
-    }
-  });
-  df.onchange = () => buildTable();
+  populateFilter('tblStatus', 'status');
+  populateFilter('tblManager', 'manager');
+  populateFilter('tblManagerB', 'manager_b');
+  populateFilter('tblDeveloper', 'developer');
+  populateFilter('tblClientManager', 'client_manager');
   
   document.getElementById('tblSearch').oninput = () => buildTable();
   
@@ -973,13 +1071,14 @@ function selectById(id) {
 
 // --- TABLE TAB FUNCTIONS ---
 function buildTable() {
-  const headers = ['#', 'שם', 'סטטוס', 'מנהל', 'אחראי', 'מפתח', 'לקוח', 'התחלה', 'סיום', 'קשרים', 'תיאור'];
+  const headers = ['#', 'שם', 'סטטוס', 'מנהל', 'אחראי', 'מפתח', 'מנהל לקוחות', 'לקוח', 'התחלה', 'סיום', 'קשרים', 'תיאור'];
   document.getElementById('tHead').innerHTML = headers.map(c => `<th>${c}</th>`).join('');
   
   const sf = document.getElementById('tblStatus').value;
   const mf = document.getElementById('tblManager').value;
   const mbf = document.getElementById('tblManagerB').value;
   const df = document.getElementById('tblDeveloper').value;
+  const cmf = document.getElementById('tblClientManager').value;
   const sq = document.getElementById('tblSearch').value.trim().toLowerCase();
   
   let rows = projectsData;
@@ -987,6 +1086,7 @@ function buildTable() {
   if (mf) rows = rows.filter(p => p.manager === mf);
   if (mbf) rows = rows.filter(p => p.manager_b === mbf);
   if (df) rows = rows.filter(p => p.developer === df);
+  if (cmf) rows = rows.filter(p => p.client_manager === cmf);
   
   if (sq) rows = rows.filter(p => 
     p.name.toLowerCase().includes(sq) || 
@@ -1014,6 +1114,7 @@ function buildTable() {
         <td>${p.manager || ''}</td>
         <td>${p.manager_b || ''}</td>
         <td>${p.developer || ''}</td>
+        <td>${p.client_manager || ''}</td>
         <td>${p.clients || ''}</td>
         <td style="font-family:'IBM Plex Mono';font-size:0.76rem;color:var(--text2)">${p.start || ''}</td>
         <td style="font-family:'IBM Plex Mono';font-size:0.76rem;color:var(--text2)">${p.end || ''}</td>
@@ -1932,12 +2033,15 @@ function closeOverlay() {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (document.getElementById('personModal').classList.contains('open')) {
+      closePersonModal();
+      return;
+    }
     closeOverlay();
     clearFilter();
   }
 });
 
-// Start the dashboard
 document.addEventListener('DOMContentLoaded', boot);
 </script>
 </body>

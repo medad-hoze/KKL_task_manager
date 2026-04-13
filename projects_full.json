@@ -7,6 +7,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "רחלי יעקובסון",
+    "client_manager": "רונן דנציגר",
     "start": "02/09/24",
     "end": "05/12/25",
     "status": "בפרודקשן",
@@ -109,7 +110,16 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -118,7 +128,7 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -127,7 +137,7 @@
         "score": 2
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol",
@@ -208,7 +218,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -216,7 +226,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -224,7 +234,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -232,7 +242,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -240,7 +250,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -248,7 +258,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -256,7 +266,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -264,7 +274,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -272,7 +282,7 @@
         "score": 1
       },
       {
-        "project_id": "68",
+        "project_id": "69",
         "project_name": "ממשקי מרעה 2",
         "shared_keywords": [
           "אקספוננט"
@@ -280,15 +290,31 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "אקספוננט"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 35,
     "max_similarity_score": 2
   },
   {
@@ -299,6 +325,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "02/01/24",
     "end": "05/10/25",
     "status": "בפרודקשן",
@@ -400,7 +427,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -481,7 +517,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -489,7 +525,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -497,7 +533,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -505,7 +541,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -513,7 +549,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -521,7 +557,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -529,7 +565,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -537,7 +573,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -545,7 +581,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -553,7 +589,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -561,15 +597,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 2
   },
   {
@@ -580,6 +624,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "02/02/25",
     "end": "01/11/25",
     "status": "בפרודקשן",
@@ -744,7 +789,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -752,7 +797,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -760,6 +805,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -767,7 +820,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -775,7 +828,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -783,7 +836,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -791,7 +844,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -799,7 +852,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -807,7 +860,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -815,7 +868,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -823,7 +876,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -831,15 +884,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 1
   },
   {
@@ -850,6 +911,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/24",
     "end": "01/03/25",
     "status": "בפרודקשן",
@@ -889,6 +951,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "אביחי מורניו",
     "start": "01/05/25",
     "end": "01/02/26",
     "status": "בפרודקשן",
@@ -924,7 +987,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "עומדים"
@@ -932,7 +995,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "עומדים"
@@ -951,6 +1014,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "ערן שור",
     "start": "01/10/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -1114,7 +1178,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -1122,7 +1186,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -1130,6 +1194,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -1137,7 +1209,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -1145,7 +1217,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -1153,7 +1225,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -1161,7 +1233,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -1169,7 +1241,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -1177,7 +1249,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -1185,7 +1257,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -1193,7 +1265,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -1201,15 +1273,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 1
   },
   {
@@ -1220,6 +1300,7 @@
     "developer_b": "אבינועם",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "ערן שור",
     "start": "01/10/25",
     "end": "01/02/26",
     "status": "גרסה ישנה",
@@ -1248,7 +1329,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "עומדים"
@@ -1256,7 +1337,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "עומדים"
@@ -1275,6 +1356,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "הושלם",
@@ -1447,7 +1529,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -1455,7 +1537,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -1463,6 +1545,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -1470,7 +1560,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -1478,7 +1568,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -1486,7 +1576,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -1494,7 +1584,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -1502,7 +1592,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -1510,7 +1600,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -1518,7 +1608,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -1526,7 +1616,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -1534,15 +1624,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 34,
     "max_similarity_score": 1
   },
   {
@@ -1553,6 +1651,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "אביחי מורניו",
     "start": "01/02/24",
     "end": "01/01/25",
     "status": "מושהה",
@@ -1574,6 +1673,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/08/25",
     "end": "01/11/25",
     "status": "מושהה",
@@ -1595,6 +1695,7 @@
     "developer_b": "ורד",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -1616,6 +1717,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "רחלי יעקובסון",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/08/24",
     "end": "01/01/26",
     "status": "מושהה",
@@ -1686,6 +1788,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "ערן שור",
     "start": "01/08/24",
     "end": "01/05/25",
     "status": "הושלם",
@@ -1725,7 +1828,7 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol",
@@ -1863,7 +1966,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -1871,7 +1974,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -1879,6 +1982,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -1886,7 +1997,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -1894,7 +2005,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -1902,7 +2013,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -1910,7 +2021,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -1918,7 +2029,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -1926,7 +2037,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -1934,7 +2045,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -1942,15 +2053,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 2
   },
   {
@@ -1961,6 +2080,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/24",
     "end": "01/02/25",
     "status": "מושהה",
@@ -1982,7 +2102,7 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol",
@@ -2136,7 +2256,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -2144,7 +2264,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -2152,6 +2272,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -2159,7 +2287,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -2167,7 +2295,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -2175,7 +2303,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -2183,7 +2311,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -2191,7 +2319,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -2199,7 +2327,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -2207,7 +2335,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -2215,15 +2343,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 2
   },
   {
@@ -2234,6 +2370,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/25",
     "end": "01/01/26",
     "status": "הושלם",
@@ -2246,7 +2383,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -2255,7 +2392,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -2264,7 +2401,7 @@
         "score": 2
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -2425,7 +2562,15 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -2433,7 +2578,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -2441,7 +2586,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -2449,7 +2594,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -2457,7 +2602,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -2465,7 +2610,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -2473,7 +2618,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -2481,7 +2626,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -2489,15 +2634,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 2
   },
   {
@@ -2508,6 +2661,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/24",
     "end": "01/01/25",
     "status": "הושלם",
@@ -2548,6 +2702,7 @@
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "רחלי יעקובסון",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/03/26",
     "end": "22/03/26",
     "status": "בפרודקשן",
@@ -2612,6 +2767,7 @@
     "developer_b": "מידד",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "ערן שור",
     "start": "01/12/25",
     "end": "31/12/26",
     "status": "בפרודקשן",
@@ -2641,7 +2797,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "עומדים"
@@ -2649,7 +2805,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "עומדים"
@@ -2668,6 +2824,7 @@
     "developer_b": "",
     "manager": "אורי רוזנברג",
     "manager_b": "",
+    "client_manager": "ערן שור",
     "start": "01/01/26",
     "end": "01/05/26",
     "status": "בפרודקשן",
@@ -2700,6 +2857,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אבי קיי",
     "start": "01/01/20",
     "end": "01/01/22",
     "status": "בפרודקשן",
@@ -2760,7 +2918,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "יערות"
@@ -2768,7 +2926,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "יערות"
@@ -2776,15 +2934,31 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
         "shared_keywords": [
           "יערות"
         ],
         "score": 1
       }
     ],
-    "total_connections": 9,
+    "total_connections": 11,
     "max_similarity_score": 1
   },
   {
@@ -2795,6 +2969,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/23",
     "end": "01/06/23",
     "status": "בפרודקשן",
@@ -2881,6 +3056,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/23",
     "end": "01/04/23",
     "status": "בפרודקשן",
@@ -2981,14 +3157,30 @@
       },
       {
         "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
         "shared_keywords": [
           "api"
         ],
         "score": 1
       }
     ],
-    "total_connections": 12,
+    "total_connections": 14,
     "max_similarity_score": 1
   },
   {
@@ -2999,6 +3191,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אבי קיי",
     "start": "01/01/25",
     "end": "01/07/25",
     "status": "מושהה",
@@ -3106,7 +3299,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "מפק"
@@ -3114,7 +3307,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "מפק"
@@ -3123,14 +3316,30 @@
       },
       {
         "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
         "shared_keywords": [
           "api"
         ],
         "score": 1
       }
     ],
-    "total_connections": 14,
+    "total_connections": 16,
     "max_similarity_score": 3
   },
   {
@@ -3141,6 +3350,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/24",
     "end": "30/05/24",
     "status": "בפרודקשן",
@@ -3197,7 +3407,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "מפק"
@@ -3205,7 +3415,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "מפק"
@@ -3214,14 +3424,30 @@
       },
       {
         "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
         "shared_keywords": [
           "api"
         ],
         "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 10,
     "max_similarity_score": 3
   },
   {
@@ -3232,6 +3458,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/03/26",
     "end": "",
     "status": "פיתוח",
@@ -3271,7 +3498,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "מפק"
@@ -3279,7 +3506,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "מפק"
@@ -3288,14 +3515,30 @@
       },
       {
         "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
         "shared_keywords": [
           "api"
         ],
         "score": 1
       }
     ],
-    "total_connections": 6,
+    "total_connections": 8,
     "max_similarity_score": 2
   },
   {
@@ -3306,6 +3549,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/16",
     "end": "02/01/16",
     "status": "בפרודקשן",
@@ -3337,6 +3581,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/25",
     "end": "",
     "status": "פיתוח",
@@ -3383,7 +3628,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "פיתוח"
@@ -3402,6 +3647,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/03/26",
     "end": "",
     "status": "פיתוח",
@@ -3448,7 +3694,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "פיתוח"
@@ -3467,11 +3713,12 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/25",
     "end": "",
     "status": "בביצוע",
     "clients": "חינוך",
-    "description": "הצגת מפה ושרות לעדכון מרכז שדה במערכת חינוך",
+    "description": "גליה קדרון - הצגת מפה ושרות לעדכון מרכז שדה במערכת חינוך",
     "keywords": [
       "חינוך",
       "מפה",
@@ -3514,6 +3761,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/23",
     "end": "01/02/23",
     "status": "בפרודקשן",
@@ -3640,6 +3888,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/23",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -3760,6 +4009,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/04/22",
     "end": "01/01/23",
     "status": "בפרודקשן",
@@ -3862,6 +4112,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/03/22",
     "end": "01/01/23",
     "status": "בפרודקשן",
@@ -3971,6 +4222,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/23",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -4079,6 +4331,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/01/23",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -4207,6 +4460,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/05/23",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -4335,6 +4589,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/02/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -4463,6 +4718,7 @@
     "developer_b": "גיא נזרי",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/03/25",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -4736,7 +4992,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -4744,7 +5000,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -4752,6 +5008,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -4759,7 +5023,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -4767,7 +5031,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -4775,7 +5039,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -4783,7 +5047,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -4791,7 +5055,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -4799,7 +5063,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -4807,7 +5071,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -4815,7 +5079,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -4823,15 +5087,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 43,
+    "total_connections": 45,
     "max_similarity_score": 3
   },
   {
@@ -4842,6 +5114,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/08/24",
     "end": "01/01/26",
     "status": "בפרודקשן",
@@ -4950,6 +5223,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אביחי מורניו",
     "start": "01/05/23",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -5074,6 +5348,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/22",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -5135,6 +5410,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/22",
     "end": "01/01/24",
     "status": "בפרודקשן",
@@ -5325,7 +5601,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -5333,7 +5609,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -5341,6 +5617,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -5348,7 +5632,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -5356,7 +5640,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -5364,7 +5648,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -5372,7 +5656,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -5380,7 +5664,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -5388,7 +5672,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -5396,7 +5680,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -5404,7 +5688,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -5412,15 +5696,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 34,
+    "total_connections": 36,
     "max_similarity_score": 2
   },
   {
@@ -5431,6 +5723,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/18",
     "end": "01/03/18",
     "status": "בפרודקשן",
@@ -5621,7 +5914,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -5629,7 +5922,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -5637,6 +5930,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -5644,7 +5945,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -5652,7 +5953,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -5660,7 +5961,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -5668,7 +5969,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -5676,7 +5977,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -5684,7 +5985,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -5692,7 +5993,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -5700,7 +6001,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -5708,15 +6009,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 34,
+    "total_connections": 36,
     "max_similarity_score": 2
   },
   {
@@ -5727,6 +6036,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "ערן שור",
     "start": "01/01/18",
     "end": "30/01/19",
     "status": "בפרודקשן",
@@ -5841,7 +6151,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -5938,7 +6257,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -5946,7 +6265,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -5954,7 +6273,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -5962,7 +6281,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -5970,7 +6289,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -5978,7 +6297,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -5986,7 +6305,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -5994,7 +6313,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -6002,7 +6321,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -6010,7 +6329,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -6018,15 +6337,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 34,
+    "total_connections": 36,
     "max_similarity_score": 4
   },
   {
@@ -6037,6 +6364,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "ערן שור",
     "start": "01/01/21",
     "end": "15/06/21",
     "status": "בפרודקשן",
@@ -6151,7 +6479,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -6248,7 +6585,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -6256,7 +6593,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -6264,7 +6601,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -6272,7 +6609,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -6280,7 +6617,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -6288,7 +6625,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -6296,7 +6633,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -6304,7 +6641,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -6312,7 +6649,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -6320,7 +6657,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -6328,15 +6665,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 34,
+    "total_connections": 36,
     "max_similarity_score": 4
   },
   {
@@ -6347,6 +6692,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "דן בן עמרם",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/23",
     "end": "15/02/23",
     "status": "בפרודקשן",
@@ -6455,7 +6801,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -6552,7 +6907,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -6560,7 +6915,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -6568,7 +6923,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -6576,7 +6931,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -6584,7 +6939,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -6592,7 +6947,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -6600,7 +6955,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -6608,7 +6963,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -6616,7 +6971,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -6624,7 +6979,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -6632,15 +6987,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 35,
     "max_similarity_score": 3
   },
   {
@@ -6651,6 +7014,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/20",
     "end": "30/12/20",
     "status": "בפרודקשן",
@@ -6759,7 +7123,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -6856,7 +7229,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -6864,7 +7237,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -6872,7 +7245,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -6880,7 +7253,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -6888,7 +7261,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -6896,7 +7269,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -6904,7 +7277,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -6912,7 +7285,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -6920,7 +7293,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -6928,7 +7301,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -6936,15 +7309,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 35,
     "max_similarity_score": 3
   },
   {
@@ -6955,6 +7336,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/19",
     "end": "15/01/21",
     "status": "בפרודקשן",
@@ -7063,7 +7445,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -7160,7 +7551,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -7168,7 +7559,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -7176,7 +7567,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -7184,7 +7575,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -7192,7 +7583,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -7200,7 +7591,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -7208,7 +7599,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -7216,7 +7607,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -7224,7 +7615,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -7232,7 +7623,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -7240,15 +7631,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 35,
     "max_similarity_score": 3
   },
   {
@@ -7259,6 +7658,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/01/19",
     "end": "01/03/21",
     "status": "בפרודקשן",
@@ -7320,6 +7720,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "רונן דנציגר",
     "start": "01/04/25",
     "end": "15/07/25",
     "status": "בפרודקשן",
@@ -7428,7 +7829,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -7525,7 +7935,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -7533,7 +7943,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -7541,7 +7951,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -7549,7 +7959,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -7557,7 +7967,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -7565,7 +7975,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -7573,7 +7983,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -7581,7 +7991,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -7589,7 +7999,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -7597,7 +8007,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -7605,15 +8015,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 35,
     "max_similarity_score": 3
   },
   {
@@ -7624,6 +8042,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "20/05/22",
     "end": "20/09/22",
     "status": "בפרודקשן",
@@ -7751,7 +8170,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -7856,7 +8284,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -7864,7 +8292,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -7872,7 +8300,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -7880,7 +8308,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -7888,7 +8316,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -7896,7 +8324,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -7904,7 +8332,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -7912,7 +8340,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -7920,7 +8348,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -7928,7 +8356,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -7936,15 +8364,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 36,
+    "total_connections": 38,
     "max_similarity_score": 3
   },
   {
@@ -7955,6 +8391,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/03/20",
     "end": "01/05/20",
     "status": "בפרודקשן",
@@ -8063,7 +8500,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -8160,7 +8606,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -8168,7 +8614,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -8176,7 +8622,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -8184,7 +8630,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -8192,7 +8638,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -8200,7 +8646,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -8208,7 +8654,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -8216,7 +8662,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -8224,7 +8670,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -8232,7 +8678,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -8240,15 +8686,23 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 35,
     "max_similarity_score": 3
   },
   {
@@ -8259,6 +8713,7 @@
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "גיא נזרי",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/20",
     "end": "01/06/21",
     "status": "בפרודקשן",
@@ -8367,7 +8822,16 @@
         "score": 2
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol",
@@ -8464,7 +8928,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -8472,7 +8936,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -8480,7 +8944,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -8488,7 +8952,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -8496,7 +8960,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -8504,7 +8968,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -8512,7 +8976,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -8520,7 +8984,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -8528,7 +8992,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -8536,7 +9000,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -8544,8 +9008,315 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 35,
+    "max_similarity_score": 3
+  },
+  {
+    "id": "54",
+    "name": "שטחי תרומות",
+    "responsible": "דן בן עמרם",
+    "developer": "רועי",
+    "developer_b": "",
+    "manager": "דן בן עמרם",
+    "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
+    "start": "01/06/25",
+    "end": "01/07/25",
+    "status": "בפרודקשן",
+    "clients": "קקל",
+    "description": "יורם שושן - מתחזק שכבות של שטחי תרומות ",
+    "keywords": [
+      "agol",
+      "אוטומיזציה"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי אגול",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים שרפות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "63",
+        "project_name": "דוחות שימוש",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "15",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "55",
+        "project_name": "תכנון מפורט שלב ב",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
+        "project_name": "איסוף זרעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "61",
+        "project_name": "סקר מצב יער",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "62",
+        "project_name": "דיווח ביצוע",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "64",
+        "project_name": "סקר מפגעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "66",
+        "project_name": "דשבורד תהליכים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "67",
+        "project_name": "ממשק הליכים וספקים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "68",
+        "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
+        "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "71",
+        "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
@@ -8553,16 +9324,17 @@
       }
     ],
     "total_connections": 33,
-    "max_similarity_score": 3
+    "max_similarity_score": 2
   },
   {
-    "id": "54",
+    "id": "55",
     "name": "תכנון מפורט שלב ב",
     "responsible": "רחלי יעקובסון",
     "developer": "רחל משולם",
     "developer_b": "גיא נזרי",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/25",
     "end": "31/07/25",
     "status": "בפרודקשן",
@@ -8577,7 +9349,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -8598,7 +9370,7 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -8607,7 +9379,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -8616,7 +9388,7 @@
         "score": 2
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -8625,7 +9397,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -8634,7 +9406,7 @@
         "score": 2
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol",
@@ -8843,7 +9615,15 @@
         "score": 1
       },
       {
-        "project_id": "58",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "שרותי sig"
@@ -8851,7 +9631,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -8859,7 +9639,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -8867,7 +9647,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -8875,7 +9655,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -8883,25 +9663,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 38,
+    "total_connections": 40,
     "max_similarity_score": 5
   },
   {
-    "id": "55",
+    "id": "56",
     "name": "תכנון מפורת שלב א",
     "responsible": "רחלי יעקובסון",
     "developer": "רחל משולם",
     "developer_b": "רחלי אנגלרד",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/09/21",
     "end": "06/01/22",
     "status": "גרסה ישנה",
@@ -8916,7 +9705,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -8937,7 +9726,7 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -8946,7 +9735,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -8955,7 +9744,7 @@
         "score": 2
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -8964,7 +9753,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -8973,7 +9762,7 @@
         "score": 2
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol",
@@ -9182,7 +9971,15 @@
         "score": 1
       },
       {
-        "project_id": "58",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "שרותי sig"
@@ -9190,7 +9987,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -9198,7 +9995,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -9206,7 +10003,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -9214,7 +10011,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -9222,25 +10019,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 38,
+    "total_connections": 40,
     "max_similarity_score": 5
   },
   {
-    "id": "56",
+    "id": "57",
     "name": "איסוף זרעים",
     "responsible": "רחלי יעקובסון",
     "developer": "רחל משולם",
     "developer_b": "רחלי אנגלרד",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "07/01/22",
     "end": "01/09/24",
     "status": "בפרודקשן",
@@ -9255,7 +10061,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -9265,7 +10071,7 @@
         "score": 3
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -9284,7 +10090,7 @@
         "score": 2
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -9293,7 +10099,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -9302,7 +10108,7 @@
         "score": 2
       },
       {
-        "project_id": "58",
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "field maps",
@@ -9311,7 +10117,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -9320,7 +10126,7 @@
         "score": 2
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol",
@@ -9329,7 +10135,7 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol",
@@ -9338,7 +10144,7 @@
         "score": 2
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol",
@@ -9499,7 +10305,15 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -9507,7 +10321,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -9515,7 +10329,7 @@
         "score": 1
       },
       {
-        "project_id": "68",
+        "project_id": "69",
         "project_name": "ממשקי מרעה 2",
         "shared_keywords": [
           "אקספוננט"
@@ -9523,25 +10337,42 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "אקספוננט"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 36,
     "max_similarity_score": 3
   },
   {
-    "id": "57",
+    "id": "58",
     "name": "ניטור בריאות יער פיילוט",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/03/22",
     "end": "01/10/22",
     "status": "הושלם",
@@ -9552,7 +10383,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "64",
+        "project_id": "65",
         "project_name": "שטחים בנויים",
         "shared_keywords": [
           "חישה מרחוק"
@@ -9564,13 +10395,14 @@
     "max_similarity_score": 1
   },
   {
-    "id": "58",
+    "id": "59",
     "name": "ערכי טבע",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/22",
     "end": "01/11/22",
     "status": "הושלם",
@@ -9582,7 +10414,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "field maps",
@@ -9591,7 +10423,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "field maps",
@@ -9600,7 +10432,7 @@
         "score": 2
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "שרותי sig"
@@ -9608,7 +10440,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "שרותי sig"
@@ -9616,7 +10448,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "שרותי sig"
@@ -9624,7 +10456,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "field maps"
@@ -9632,7 +10464,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "שרותי sig"
@@ -9644,13 +10476,14 @@
     "max_similarity_score": 2
   },
   {
-    "id": "59",
+    "id": "60",
     "name": "תשתית אזור",
     "responsible": "גיא נזרי",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/08/25",
     "end": "01/02/26",
     "status": "בפרודקשן",
@@ -9661,7 +10494,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "make"
@@ -9673,13 +10506,14 @@
     "max_similarity_score": 1
   },
   {
-    "id": "60",
+    "id": "61",
     "name": "סקר מצב יער",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/24",
     "end": "01/10/24",
     "status": "בפרודקשן",
@@ -9692,7 +10526,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -9701,7 +10535,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -9710,7 +10544,7 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -9719,7 +10553,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -9728,7 +10562,7 @@
         "score": 2
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol",
@@ -9737,7 +10571,7 @@
         "score": 2
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol",
@@ -9746,8 +10580,17 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol",
           "יערות"
@@ -9923,7 +10766,15 @@
         "score": 1
       },
       {
-        "project_id": "58",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "שרותי sig"
@@ -9931,7 +10782,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -9939,7 +10790,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -9947,7 +10798,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -9955,25 +10806,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 33,
+    "total_connections": 36,
     "max_similarity_score": 2
   },
   {
-    "id": "61",
+    "id": "62",
     "name": "דיווח ביצוע",
     "responsible": "רחלי יעקובסון",
     "developer": "רחל משולם",
     "developer_b": "גיא נזרי",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/26",
     "end": "",
     "status": "בביצוע",
@@ -9987,7 +10847,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -10006,7 +10866,7 @@
         "score": 2
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -10015,7 +10875,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -10024,7 +10884,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -10033,7 +10893,7 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol",
@@ -10194,7 +11054,15 @@
         "score": 1
       },
       {
-        "project_id": "58",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "field maps"
@@ -10202,7 +11070,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -10210,7 +11078,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -10218,7 +11086,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -10226,7 +11094,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -10234,7 +11102,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -10242,25 +11110,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 34,
     "max_similarity_score": 3
   },
   {
-    "id": "62",
+    "id": "63",
     "name": "דוחות שימוש",
     "responsible": "רחלי יעקובסון",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/12/25",
     "end": "04/01/25",
     "status": "הושלם",
@@ -10372,6 +11249,15 @@
         "score": 2
       },
       {
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol",
+          "אוטומיזציה"
+        ],
+        "score": 2
+      },
+      {
         "project_id": "3",
         "project_name": "קרדיטים",
         "shared_keywords": [
@@ -10444,7 +11330,7 @@
         "score": 1
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
@@ -10452,7 +11338,7 @@
         "score": 1
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -10460,7 +11346,7 @@
         "score": 1
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -10468,7 +11354,7 @@
         "score": 1
       },
       {
-        "project_id": "59",
+        "project_id": "60",
         "project_name": "תשתית אזור",
         "shared_keywords": [
           "make"
@@ -10476,7 +11362,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -10484,7 +11370,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -10492,7 +11378,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -10500,7 +11386,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -10508,7 +11394,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -10516,7 +11402,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -10524,7 +11410,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -10532,25 +11418,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 34,
     "max_similarity_score": 2
   },
   {
-    "id": "63",
+    "id": "64",
     "name": "סקר מפגעים",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "רחלי אנגלרד",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "ערן שור",
     "start": "01/09/21",
     "end": "08/02/22",
     "status": "הושלם",
@@ -10563,7 +11458,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -10573,7 +11468,7 @@
         "score": 3
       },
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -10582,7 +11477,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -10591,7 +11486,7 @@
         "score": 2
       },
       {
-        "project_id": "58",
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "field maps",
@@ -10600,7 +11495,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -10609,7 +11504,7 @@
         "score": 2
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -10618,7 +11513,7 @@
         "score": 2
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol",
@@ -10787,7 +11682,15 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -10795,7 +11698,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -10803,7 +11706,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -10811,7 +11714,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -10819,25 +11722,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 34,
     "max_similarity_score": 3
   },
   {
-    "id": "64",
+    "id": "65",
     "name": "שטחים בנויים",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "אבי קיי",
     "start": "01/10/24",
     "end": "01/12/24",
     "status": "הושלם",
@@ -10848,7 +11760,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "57",
+        "project_id": "58",
         "project_name": "ניטור בריאות יער פיילוט",
         "shared_keywords": [
           "חישה מרחוק"
@@ -10860,13 +11772,14 @@
     "max_similarity_score": 1
   },
   {
-    "id": "65",
+    "id": "66",
     "name": "דשבורד תהליכים",
     "responsible": "רחל משולם",
     "developer": "רחל משולם",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/02/23",
     "end": "01/03/23",
     "status": "הושלם",
@@ -10879,7 +11792,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "54",
+        "project_id": "55",
         "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol",
@@ -10888,7 +11801,7 @@
         "score": 2
       },
       {
-        "project_id": "55",
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol",
@@ -10897,7 +11810,7 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -10906,7 +11819,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -10915,7 +11828,7 @@
         "score": 2
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol",
@@ -11100,7 +12013,15 @@
         "score": 1
       },
       {
-        "project_id": "58",
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "59",
         "project_name": "ערכי טבע",
         "shared_keywords": [
           "שרותי sig"
@@ -11108,7 +12029,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -11116,7 +12037,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -11124,7 +12045,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -11132,7 +12053,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -11140,7 +12061,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -11148,25 +12069,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 34,
+    "total_connections": 36,
     "max_similarity_score": 2
   },
   {
-    "id": "66",
+    "id": "67",
     "name": "ממשק הליכים וספקים",
     "responsible": "רחלי אנגלרד",
     "developer": "רחלי אנגלרד",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/26",
     "end": "10/03/26",
     "status": "בפרודקשן",
@@ -11179,7 +12109,7 @@
     ],
     "similar_projects": [
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -11188,8 +12118,17 @@
         "score": 2
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol",
           "יערות"
@@ -11366,7 +12305,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -11374,7 +12313,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -11382,6 +12321,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -11389,7 +12336,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -11397,7 +12344,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -11405,7 +12352,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -11413,7 +12360,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -11421,7 +12368,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -11429,25 +12376,34 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 35,
     "max_similarity_score": 2
   },
   {
-    "id": "67",
+    "id": "68",
     "name": "ממשק חדש לניהול יחידות עבודה",
     "responsible": "מיכאל לאב",
     "developer": "מיכאל לאב",
     "developer_b": "",
     "manager": "גיא נזרי",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/12/25",
     "end": "",
     "status": "בפרודקשן",
@@ -11479,7 +12435,7 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
@@ -11488,7 +12444,7 @@
         "score": 2
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol",
@@ -11497,7 +12453,7 @@
         "score": 2
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol",
@@ -11506,8 +12462,17 @@
         "score": 2
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol",
           "יערות"
@@ -11668,7 +12633,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -11676,6 +12641,14 @@
       },
       {
         "project_id": "55",
+        "project_name": "תכנון מפורט שלב ב",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -11683,7 +12656,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -11691,7 +12664,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -11699,7 +12672,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -11707,7 +12680,7 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
         "shared_keywords": [
           "agol"
@@ -11715,34 +12688,62 @@
         "score": 1
       },
       {
-        "project_id": "70",
+        "project_id": "71",
         "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 32,
+    "total_connections": 35,
     "max_similarity_score": 2
   },
   {
-    "id": "68",
+    "id": "69",
     "name": "ממשקי מרעה 2",
     "responsible": "רחלי אנגלרד",
     "developer": "רחלי אנגלרד",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/06/25",
     "end": "01/09/25",
     "status": "בפרודקשן",
     "clients": "מרעה",
     "description": "ממשקי מרעה בין ממג לאקספוננט בנושאי שיוכי מגדלים ,  מפות הסכם",
     "keywords": [
-      "אקספוננט"
+      "אקספוננט",
+      "api"
     ],
     "similar_projects": [
+      {
+        "project_id": "70",
+        "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "api",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
       {
         "project_id": "1",
         "project_name": "תהליכי אקספוננט",
@@ -11752,33 +12753,58 @@
         "score": 1
       },
       {
-        "project_id": "56",
-        "project_name": "איסוף זרעים",
+        "project_id": "22",
+        "project_name": "מרחק בין ישובים",
         "shared_keywords": [
-          "אקספוננט"
+          "api"
         ],
         "score": 1
       },
       {
-        "project_id": "69",
-        "project_name": "ממשקי זרעים",
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "24",
+        "project_name": "ממשק מרעה 1",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "25",
+        "project_name": "חיתום מסמכים ליערנות",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
+        "project_name": "איסוף זרעים",
         "shared_keywords": [
           "אקספוננט"
         ],
         "score": 1
       }
     ],
-    "total_connections": 3,
-    "max_similarity_score": 1
+    "total_connections": 8,
+    "max_similarity_score": 2
   },
   {
-    "id": "69",
+    "id": "70",
     "name": "ממשקי זרעים",
     "responsible": "רחלי אנגלרד",
     "developer": "רחלי אנגלרד",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/25",
     "end": "30/03/25",
     "status": "בפרודקשן",
@@ -11800,10 +12826,28 @@
         "score": 2
       },
       {
-        "project_id": "56",
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "api",
           "אקספוננט"
         ],
         "score": 2
@@ -11994,7 +13038,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -12002,6 +13046,14 @@
       },
       {
         "project_id": "55",
+        "project_name": "תכנון מפורט שלב ב",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "56",
         "project_name": "תכנון מפורת שלב א",
         "shared_keywords": [
           "agol"
@@ -12009,7 +13061,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -12017,7 +13069,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -12025,7 +13077,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -12033,7 +13085,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -12041,7 +13093,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -12049,7 +13101,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -12057,7 +13109,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -12065,33 +13117,34 @@
         "score": 1
       },
       {
-        "project_id": "68",
-        "project_name": "ממשקי מרעה 2",
+        "project_id": "71",
+        "project_name": "עומדי יער מתעדכנים",
         "shared_keywords": [
-          "אקספוננט"
+          "agol"
         ],
         "score": 1
       },
       {
-        "project_id": "70",
-        "project_name": "עומדי יער מתעדכנים",
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 36,
+    "total_connections": 39,
     "max_similarity_score": 2
   },
   {
-    "id": "70",
+    "id": "71",
     "name": "עומדי יער מתעדכנים",
     "responsible": "רחלי אנגלרד",
     "developer": "רחלי אנגלרד",
     "developer_b": "",
     "manager": "רחלי יעקובסון",
     "manager_b": "",
+    "client_manager": "רונן דנציגר",
     "start": "01/01/24",
     "end": "30/03/24",
     "status": "בפרודקשן",
@@ -12263,7 +13316,7 @@
       },
       {
         "project_id": "54",
-        "project_name": "תכנון מפורט שלב ב",
+        "project_name": "שטחי תרומות",
         "shared_keywords": [
           "agol"
         ],
@@ -12271,7 +13324,7 @@
       },
       {
         "project_id": "55",
-        "project_name": "תכנון מפורת שלב א",
+        "project_name": "תכנון מפורט שלב ב",
         "shared_keywords": [
           "agol"
         ],
@@ -12279,6 +13332,14 @@
       },
       {
         "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
         "project_name": "איסוף זרעים",
         "shared_keywords": [
           "agol"
@@ -12286,7 +13347,7 @@
         "score": 1
       },
       {
-        "project_id": "60",
+        "project_id": "61",
         "project_name": "סקר מצב יער",
         "shared_keywords": [
           "agol"
@@ -12294,7 +13355,7 @@
         "score": 1
       },
       {
-        "project_id": "61",
+        "project_id": "62",
         "project_name": "דיווח ביצוע",
         "shared_keywords": [
           "agol"
@@ -12302,7 +13363,7 @@
         "score": 1
       },
       {
-        "project_id": "62",
+        "project_id": "63",
         "project_name": "דוחות שימוש",
         "shared_keywords": [
           "agol"
@@ -12310,7 +13371,7 @@
         "score": 1
       },
       {
-        "project_id": "63",
+        "project_id": "64",
         "project_name": "סקר מפגעים",
         "shared_keywords": [
           "agol"
@@ -12318,7 +13379,7 @@
         "score": 1
       },
       {
-        "project_id": "65",
+        "project_id": "66",
         "project_name": "דשבורד תהליכים",
         "shared_keywords": [
           "agol"
@@ -12326,7 +13387,7 @@
         "score": 1
       },
       {
-        "project_id": "66",
+        "project_id": "67",
         "project_name": "ממשק הליכים וספקים",
         "shared_keywords": [
           "agol"
@@ -12334,7 +13395,7 @@
         "score": 1
       },
       {
-        "project_id": "67",
+        "project_id": "68",
         "project_name": "ממשק חדש לניהול יחידות עבודה",
         "shared_keywords": [
           "agol"
@@ -12342,15 +13403,478 @@
         "score": 1
       },
       {
-        "project_id": "69",
+        "project_id": "70",
         "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
         "shared_keywords": [
           "agol"
         ],
         "score": 1
       }
     ],
-    "total_connections": 31,
+    "total_connections": 33,
     "max_similarity_score": 1
+  },
+  {
+    "id": "72",
+    "name": "רשיונות כריתה ונטילה",
+    "responsible": "רחל משולם",
+    "developer": "רחלי אנגלרד",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "",
+    "client_manager": "רונן דנציגר",
+    "start": "01/02/26",
+    "end": "01/03/26",
+    "status": "בפרודקשן",
+    "clients": "אגף ייעור",
+    "description": "שליפת נתוני רשיונות כריתה ונטילה  מSQL לאגול לטובת תכנון מפורט דיווח ביצוע",
+    "keywords": [
+      "agol",
+      "יערות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "61",
+        "project_name": "סקר מצב יער",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "67",
+        "project_name": "ממשק הליכים וספקים",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "68",
+        "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "agol",
+          "יערות"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "2",
+        "project_name": "תהליכי אגול",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "3",
+        "project_name": "קרדיטים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "6",
+        "project_name": "הקצאת משימות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "8",
+        "project_name": "שליחת מייל עדכון",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "13",
+        "project_name": "תיקון גאומטרי",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "14",
+        "project_name": "הורדת וורטקסים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "15",
+        "project_name": "תהליכי ארקייד",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "38",
+        "project_name": "פגיעות חלקות קקל בתכניות מבא\"ת",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "42",
+        "project_name": "שירותים גיאוגרפיים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "43",
+        "project_name": "גיבויים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "44",
+        "project_name": "ניהול ותחזוקות של שכבת שריפות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "45",
+        "project_name": "אינדקסים שרפות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "46",
+        "project_name": "גדרות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "47",
+        "project_name": "יחידות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "48",
+        "project_name": "כלי אינטרנט",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "50",
+        "project_name": "משבצות מרעה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "51",
+        "project_name": "סנכרון שכבות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "52",
+        "project_name": "פריטים חדשים באונליין",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "53",
+        "project_name": "תוכניות עבודה",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "54",
+        "project_name": "שטחי תרומות",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "55",
+        "project_name": "תכנון מפורט שלב ב",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "56",
+        "project_name": "תכנון מפורת שלב א",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
+        "project_name": "איסוף זרעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "62",
+        "project_name": "דיווח ביצוע",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "63",
+        "project_name": "דוחות שימוש",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "64",
+        "project_name": "סקר מפגעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "66",
+        "project_name": "דשבורד תהליכים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "70",
+        "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "71",
+        "project_name": "עומדי יער מתעדכנים",
+        "shared_keywords": [
+          "agol"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "73",
+        "project_name": "פרצלציה יערנית לאקספונט",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 35,
+    "max_similarity_score": 2
+  },
+  {
+    "id": "73",
+    "name": "פרצלציה יערנית לאקספונט",
+    "responsible": "רחלי אנגלרד",
+    "developer": "רחלי אנגלרד",
+    "developer_b": "",
+    "manager": "רחלי יעקובסון",
+    "manager_b": "",
+    "client_manager": "רונן דנציגר",
+    "start": "01/08/24",
+    "end": "01/12/24",
+    "status": "בפרודקשן",
+    "clients": "אגף ייעור",
+    "description": "הנגשה של טבלאות הפרצלציה יערנית מSDE לאקספונט",
+    "keywords": [
+      "api",
+      "אקספוננט",
+      "יערות"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "69",
+        "project_name": "ממשקי מרעה 2",
+        "shared_keywords": [
+          "api",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "70",
+        "project_name": "ממשקי זרעים",
+        "shared_keywords": [
+          "api",
+          "אקספוננט"
+        ],
+        "score": 2
+      },
+      {
+        "project_id": "1",
+        "project_name": "תהליכי אקספוננט",
+        "shared_keywords": [
+          "אקספוננט"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "20",
+        "project_name": "מידע תיכנוני",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "22",
+        "project_name": "מרחק בין ישובים",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "23",
+        "project_name": "תוכניות תיכנון",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "24",
+        "project_name": "ממשק מרעה 1",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "25",
+        "project_name": "חיתום מסמכים ליערנות",
+        "shared_keywords": [
+          "api"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "57",
+        "project_name": "איסוף זרעים",
+        "shared_keywords": [
+          "אקספוננט"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "61",
+        "project_name": "סקר מצב יער",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "67",
+        "project_name": "ממשק הליכים וספקים",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "68",
+        "project_name": "ממשק חדש לניהול יחידות עבודה",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "72",
+        "project_name": "רשיונות כריתה ונטילה",
+        "shared_keywords": [
+          "יערות"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 13,
+    "max_similarity_score": 2
+  },
+  {
+    "id": "74",
+    "name": "למידת מכונה, מידע של קקל",
+    "responsible": "מידד",
+    "developer": "מידד",
+    "developer_b": "",
+    "manager": "",
+    "manager_b": "",
+    "client_manager": "",
+    "start": "01/04/26",
+    "end": "",
+    "status": "בביצוע",
+    "clients": "קקל",
+    "description": "",
+    "keywords": [],
+    "similar_projects": [],
+    "total_connections": 0,
+    "max_similarity_score": 0
   }
 ]
