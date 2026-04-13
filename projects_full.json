@@ -3536,9 +3536,17 @@
           "api"
         ],
         "score": 1
+      },
+      {
+        "project_id": "74",
+        "project_name": "למידת מכונה, מידע של קקל",
+        "shared_keywords": [
+          "מסמכים"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 8,
+    "total_connections": 9,
     "max_similarity_score": 2
   },
   {
@@ -3634,9 +3642,17 @@
           "פיתוח"
         ],
         "score": 1
+      },
+      {
+        "project_id": "74",
+        "project_name": "למידת מכונה, מידע של קקל",
+        "shared_keywords": [
+          "tool"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 5,
+    "total_connections": 6,
     "max_similarity_score": 3
   },
   {
@@ -3700,9 +3716,17 @@
           "פיתוח"
         ],
         "score": 1
+      },
+      {
+        "project_id": "74",
+        "project_name": "למידת מכונה, מידע של קקל",
+        "shared_keywords": [
+          "tool"
+        ],
+        "score": 1
       }
     ],
-    "total_connections": 5,
+    "total_connections": 6,
     "max_similarity_score": 3
   },
   {
@@ -13866,15 +13890,43 @@
     "developer_b": "",
     "manager": "",
     "manager_b": "",
-    "client_manager": "",
+    "client_manager": "פנימי \\ רוחבי",
     "start": "01/04/26",
     "end": "",
     "status": "בביצוע",
     "clients": "קקל",
-    "description": "",
-    "keywords": [],
-    "similar_projects": [],
-    "total_connections": 0,
-    "max_similarity_score": 0
+    "description": "הנגשה של כל המידע בקקל למנהלים ולמפתחים בשפה חופשית",
+    "keywords": [
+      "מסמכים",
+      "tool"
+    ],
+    "similar_projects": [
+      {
+        "project_id": "25",
+        "project_name": "חיתום מסמכים ליערנות",
+        "shared_keywords": [
+          "מסמכים"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "27",
+        "project_name": "סביבות עבודה באגול",
+        "shared_keywords": [
+          "tool"
+        ],
+        "score": 1
+      },
+      {
+        "project_id": "28",
+        "project_name": "שינויים בפריט relationship",
+        "shared_keywords": [
+          "tool"
+        ],
+        "score": 1
+      }
+    ],
+    "total_connections": 3,
+    "max_similarity_score": 1
   }
 ]
