@@ -34,6 +34,8 @@
       --pink-l: #fdf2f8;
       --teal: #14b8a6;
       --teal-l: #f0fdfa;
+      --indigo: #6366f1;
+      --indigo-l: #eef2ff;
       --side: 260px;
       --sh: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
     }
@@ -302,6 +304,7 @@
     .ch-icon.cyan { background: var(--cyan-l); }
     .ch-icon.pink { background: var(--pink-l); }
     .ch-icon.teal { background: var(--teal-l); }
+    .ch-icon.indigo { background: var(--indigo-l); }
     
     .card-body { padding: 1.3rem; }
     
@@ -359,6 +362,8 @@
     .b-done { background: var(--blue-l); color: var(--blue); }
     .b-hold { background: var(--orange-l); color: var(--orange); }
     .b-old { background: var(--gray-l); color: var(--gray); }
+    .b-files { background: var(--indigo-l); color: var(--indigo); font-family: 'IBM Plex Mono'; }
+    .b-nofiles { background: var(--gray-l); color: var(--text3); }
 
     .people-tabs { display: flex; gap: 0; flex-wrap: wrap; }
     .ptab { padding: 0.4rem 0.9rem; font-size: 0.76rem; font-weight: 600; color: var(--text3); cursor: pointer; border: 1px solid var(--border); background: var(--white); font-family: 'Heebo'; border-radius: 0; transition: all 0.15s; }
@@ -482,17 +487,72 @@
     .pm-head { padding: 1.3rem 1.6rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
     .pm-head h2 { font-size: 1.2rem; font-weight: 800; color: var(--text); }
     .pm-head .pm-role { font-size: 0.78rem; color: var(--text3); margin-top: 0.2rem; font-weight: 500; }
-    .pm-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.7rem; padding: 1.1rem 1.6rem; background: var(--bg); border-bottom: 1px solid var(--border); }
+    .pm-stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.6rem; padding: 1.1rem 1.6rem; background: var(--bg); border-bottom: 1px solid var(--border); }
     .pm-stat { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 0.7rem 0.8rem; }
     .pm-stat-num { font-family: 'IBM Plex Mono'; font-size: 1.3rem; font-weight: 700; }
-    .pm-stat-lbl { font-size: 0.7rem; color: var(--text3); margin-top: 0.15rem; }
+    .pm-stat-lbl { font-size: 0.68rem; color: var(--text3); margin-top: 0.15rem; }
     .pm-body { padding: 1rem 1.6rem; overflow-y: auto; flex: 1; }
     .pm-proj { padding: 0.7rem 0.8rem; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.6rem; cursor: pointer; transition: all 0.15s; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
     .pm-proj:hover { background: var(--blue-l); border-color: var(--blue); }
     .pm-proj-info { flex: 1; min-width: 0; }
-    .pm-proj-name { font-weight: 700; font-size: 0.88rem; margin-bottom: 0.15rem; }
+    .pm-proj-name { font-weight: 700; font-size: 0.88rem; margin-bottom: 0.15rem; display: flex; align-items: center; gap: 0.5rem; }
     .pm-proj-desc { font-size: 0.72rem; color: var(--text3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .pm-proj-meta { font-size: 0.68rem; color: var(--text3); font-family: 'IBM Plex Mono'; margin-top: 0.2rem; }
+
+    /* ══ FILES ANALYTICS — NEW ══ */
+    .files-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    @media(max-width:1100px) { .files-grid { grid-template-columns: 1fr; } }
+
+    .files-mini-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.7rem; margin-bottom: 1rem; }
+    .fms { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 0.9rem; }
+    .fms-num { font-family: 'IBM Plex Mono'; font-size: 1.3rem; font-weight: 700; line-height: 1; }
+    .fms.indigo .fms-num { color: var(--indigo); }
+    .fms.cyan   .fms-num { color: var(--cyan); }
+    .fms.teal   .fms-num { color: var(--teal); }
+    .fms.pink   .fms-num { color: var(--pink); }
+    .fms-lbl { font-size: 0.7rem; color: var(--text3); margin-top: 0.2rem; }
+
+    .uf-row {
+      display: grid; grid-template-columns: 22px 1fr auto; align-items: center;
+      gap: 0.7rem; padding: 0.55rem 0.45rem; border-radius: 8px;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .uf-row:hover { background: var(--gray-l); }
+    .uf-rank {
+      font-family: 'IBM Plex Mono'; font-size: 0.78rem; font-weight: 700;
+      color: var(--text3); text-align: center;
+    }
+    .uf-row:nth-child(1) .uf-rank { color: #d4af37; font-size: 0.95rem; }
+    .uf-row:nth-child(2) .uf-rank { color: #a8a8a8; font-size: 0.9rem; }
+    .uf-row:nth-child(3) .uf-rank { color: #cd7f32; font-size: 0.85rem; }
+    .uf-mid { min-width: 0; }
+    .uf-name { font-weight: 700; font-size: 0.85rem; margin-bottom: 0.25rem; }
+    .uf-bar-track { height: 6px; background: var(--gray-l); border-radius: 99px; overflow: hidden; }
+    .uf-bar-fill { height: 100%; border-radius: 99px; transition: width 0.8s ease; }
+    .uf-meta {
+      font-family: 'IBM Plex Mono'; font-size: 0.78rem; font-weight: 700;
+      color: var(--text2); white-space: nowrap; text-align: left; min-width: 70px;
+    }
+    .uf-meta-sub { font-size: 0.62rem; color: var(--text3); font-weight: 500; }
+
+    .ext-row {
+      display: flex; align-items: center; gap: 0.7rem;
+      padding: 0.4rem 0.3rem; font-size: 0.8rem;
+    }
+    .ext-icon { font-size: 1.05rem; flex-shrink: 0; }
+    .ext-name {
+      font-family: 'IBM Plex Mono'; font-weight: 600;
+      width: 55px; flex-shrink: 0; color: var(--text);
+    }
+    .ext-bar-track { flex: 1; height: 6px; background: var(--gray-l); border-radius: 99px; overflow: hidden; }
+    .ext-bar-fill { height: 100%; background: var(--indigo); border-radius: 99px; }
+    .ext-count {
+      font-family: 'IBM Plex Mono'; font-size: 0.75rem; font-weight: 600;
+      color: var(--text2); min-width: 35px; text-align: left;
+    }
+    .files-empty {
+      padding: 2rem 1rem; text-align: center; color: var(--text3); font-size: 0.85rem;
+    }
     
     /* ══ MEDIA QUERIES ══ */
     @media(max-width:1250px) {
@@ -502,12 +562,13 @@
       .stats { grid-template-columns: repeat(3, 1fr); }
       .time-stats { grid-template-columns: repeat(2, 1fr); }
       .grid2 { grid-template-columns: 1fr; }
-      .pm-stats { grid-template-columns: repeat(2, 1fr); }
+      .pm-stats { grid-template-columns: repeat(3, 1fr); }
     }
     @media(max-width:860px) {
       .sidebar { position: relative; width: 100%; height: auto; border-bottom: 1px solid var(--border); border-left: none; }
       .main { margin-right: 0; padding: 0 1rem 2rem; }
       .stats, .time-stats { grid-template-columns: repeat(2, 1fr); }
+      .pm-stats { grid-template-columns: repeat(2, 1fr); }
     }
 
     /* Files panel inside overlay info sidebar */
@@ -580,6 +641,9 @@
       <button class="tab" data-tab="timeline" onclick="switchTab('timeline')">
         <span>📅</span>ציר זמן<span class="tab-count" id="tcT"></span>
       </button>
+      <button class="tab" data-tab="files" onclick="switchTab('files')">
+        <span>📂</span>קבצים<span class="tab-count" id="tcF"></span>
+      </button>
       <button class="tab" data-tab="table" onclick="switchTab('table')">
         <span>📋</span>טבלה<span class="tab-count" id="tcTbl"></span>
       </button>
@@ -646,6 +710,35 @@
     </div>
   </section>
 
+  <!-- ══ NEW: FILES TAB ══ -->
+  <section class="tab-content" id="tab-files">
+    <div class="stats" id="filesStatsRow"></div>
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="ch-icon indigo">🏆</span>משתמשים מובילים — לפי מספר פרוייקטים עם קבצים</h3>
+        <span class="noi-count" id="filesUserCount"></span>
+      </div>
+      <div class="card-body" id="topUsersFiles"></div>
+    </div>
+    <div class="grid2">
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon teal">📁</span>פרוייקטים מובילים — לפי קבצים</h3></div>
+        <div class="card-body" id="topProjectsFiles"></div>
+      </div>
+      <div class="card" style="margin:0">
+        <div class="card-head"><h3><span class="ch-icon cyan">📑</span>סוגי קבצים</h3></div>
+        <div class="card-body" id="fileTypesBars"></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <h3><span class="ch-icon pink">⚠</span>פרוייקטים ללא נתונים</h3>
+        <span class="noi-count" id="noFilesCount"></span>
+      </div>
+      <div class="card-body" id="noFilesList"></div>
+    </div>
+  </section>
+
   <section class="tab-content" id="tab-table">
     <div class="tbl-top">
       <h3>כל הפרוייקטים</h3>
@@ -656,6 +749,11 @@
         <select id="tblManagerB"><option value="">כל האחראים</option></select>
         <select id="tblDeveloper"><option value="">כל המפתחים</option></select>
         <select id="tblClientManager"><option value="">כל מנהלי הלקוחות</option></select>
+        <select id="tblHasFiles">
+          <option value="">כל הפרוייקטים</option>
+          <option value="yes">עם קבצים</option>
+          <option value="no">ללא קבצים</option>
+        </select>
       </div>
     </div>
     <div class="tbl-card">
@@ -783,6 +881,7 @@ function switchTab(t) {
     buildGantt();
     requestAnimationFrame(() => drawMonthlyChart());
   }
+  if (t === 'files') buildFilesTab();
 }
 
 // --- INITIALIZATION ---
@@ -827,7 +926,7 @@ async function boot() {
   }
   
   document.getElementById('dateLabel').textContent = new Date().toLocaleDateString('he-IL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-  ['tcO', 'tcT', 'tcTbl'].forEach(id => document.getElementById(id).textContent = projectsData.length);
+  ['tcO', 'tcT', 'tcF', 'tcTbl'].forEach(id => document.getElementById(id).textContent = projectsData.length);
   
   buildAll();
 }
@@ -842,6 +941,7 @@ function buildAll() {
   buildTable();
   drawMiniNet();
   buildTimeline();
+  // Files tab is built lazily on switch
 }
 
 // --- OVERVIEW TAB FUNCTIONS ---
@@ -937,6 +1037,232 @@ function setPeopleView(v) {
   buildPeopleBars();
 }
 
+// --- FILES ANALYTICS — NEW HELPERS ----------------------------------
+function getFileCount(fd) {
+  if (!fd) return 0;
+  return (fd.scripts ? fd.scripts.length : 0)
+       + (fd.documents ? fd.documents.length : 0)
+       + (fd.other ? fd.other.length : 0);
+}
+
+function getProjectFileCount(project) {
+  return getFileCount(getProjectFiles(project));
+}
+
+// Returns: { user, fileCount, projectCount, projectsWithFiles, totalSize }
+function getUserFileStats() {
+  const out = [];
+  Object.entries(projectFilesByUser).forEach(([user, data]) => {
+    let fileCount = 0;
+    let totalSize = 0;
+    let projectsWithFiles = 0;
+    const projects = data.projects || {};
+    const projectCount = Object.keys(projects).length;
+    
+    Object.values(projects).forEach(proj => {
+      const c = getFileCount(proj);
+      if (c > 0) projectsWithFiles++;
+      fileCount += c;
+      ['scripts', 'documents', 'other'].forEach(k => {
+        (proj[k] || []).forEach(f => totalSize += (f.size_bytes || 0));
+      });
+    });
+    
+    out.push({ user, fileCount, projectCount, projectsWithFiles, totalSize });
+  });
+  // Rank by number of projects that have any files (each project = 1).
+  // Tie-break by total file count so a user with more files wins among equals.
+  return out.sort((a, b) =>
+    (b.projectsWithFiles - a.projectsWithFiles) || (b.fileCount - a.fileCount)
+  );
+}
+
+// Returns: [{ project, fileCount, user }] for projects that have file data
+function getProjectFileStats() {
+  const out = [];
+  projectsData.forEach(p => {
+    const fd = getProjectFiles(p);
+    if (fd) {
+      out.push({
+        project: p,
+        fileCount: getFileCount(fd),
+        user: fd.user || ''
+      });
+    }
+  });
+  return out.sort((a, b) => b.fileCount - a.fileCount);
+}
+
+// Returns: { '.py': 123, '.docx': 45, ... }
+function getFileTypeStats() {
+  const out = {};
+  Object.values(projectFilesByUser).forEach(data => {
+    Object.values(data.projects || {}).forEach(proj => {
+      ['scripts', 'documents', 'other'].forEach(k => {
+        (proj[k] || []).forEach(f => {
+          const ext = (f.extension || 'אחר').toLowerCase();
+          out[ext] = (out[ext] || 0) + 1;
+        });
+      });
+    });
+  });
+  return out;
+}
+
+function fmtBigSize(bytes) {
+  if (!bytes) return '0';
+  if (bytes < 1024) return bytes + 'B';
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(0) + 'K';
+  if (bytes < 1024 * 1024 * 1024) return (bytes / (1024 * 1024)).toFixed(1) + 'M';
+  return (bytes / (1024 * 1024 * 1024)).toFixed(2) + 'G';
+}
+
+// --- FILES TAB BUILDER ----------------------------------------------
+function buildFilesTab() {
+  if (!window.PROJECT_FILES) {
+    document.getElementById('tab-files').innerHTML = `
+      <div class="card">
+        <div class="card-body">
+          <div class="files-empty">
+            <h3 style="font-size:1.1rem;margin-bottom:0.5rem;color:var(--red)">⚠ projects_files.js לא נטען</h3>
+            <p style="font-size:0.85rem;color:var(--text2)">ודא שהקובץ <code style="font-family:'IBM Plex Mono'">projects_files.js</code> קיים ליד ה-HTML.</p>
+          </div>
+        </div>
+      </div>`;
+    return;
+  }
+
+  const userStats = getUserFileStats();
+  const projStats = getProjectFileStats();
+  const typeStats = getFileTypeStats();
+
+  // Top stats
+  const totalFiles = userStats.reduce((a, u) => a + u.fileCount, 0);
+  const totalUsers = userStats.length;
+  const totalSize = userStats.reduce((a, u) => a + u.totalSize, 0);
+  const projsWithFiles = projStats.filter(p => p.fileCount > 0).length;
+  const projsWithoutFiles = projectsData.length - projsWithFiles;
+
+  const statsArr = [
+    { n: totalFiles.toLocaleString('en-US'), l: 'סה״כ קבצים' },
+    { n: totalUsers, l: 'משתמשים עם נתונים' },
+    { n: projsWithFiles, l: 'פרוייקטים עם קבצים' },
+    { n: fmtBigSize(totalSize), l: 'גודל כולל' }
+  ];
+  document.getElementById('filesStatsRow').innerHTML = statsArr.map(c => `
+    <div class="stat">
+      <div class="s-num">${c.n}</div>
+      <div class="s-label">${c.l}</div>
+    </div>`).join('');
+
+  // Top users by files
+  document.getElementById('filesUserCount').textContent = `${userStats.length} משתמשים`;
+  // Bar scale uses the new ranking metric (projects-with-files), not file count
+  const userMax = userStats[0] ? userStats[0].projectsWithFiles : 1;
+  
+  if (!userStats.length) {
+    document.getElementById('topUsersFiles').innerHTML = '<div class="files-empty">אין נתוני משתמשים</div>';
+  } else {
+    document.getElementById('topUsersFiles').innerHTML = userStats.map((u, i) => {
+      const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : (i + 1);
+      const barW = userMax > 0 ? (u.projectsWithFiles / userMax * 100) : 0;
+      return `
+        <div class="uf-row" onclick="filterTableByUser('${u.user.replace(/'/g, "\\'")}')">
+          <div class="uf-rank">${medal}</div>
+          <div class="uf-mid">
+            <div class="uf-name">${u.user}</div>
+            <div class="uf-bar-track">
+              <div class="uf-bar-fill" style="width:${barW}%;background:${BAR_COLORS[i % BAR_COLORS.length]}"></div>
+            </div>
+          </div>
+          <div class="uf-meta">
+            ${u.projectsWithFiles} / ${u.projectCount} פרוייקטים
+            <div class="uf-meta-sub">${u.fileCount.toLocaleString('en-US')} קבצים סה״כ • ${fmtBigSize(u.totalSize)}</div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  // Top projects by files
+  const topProj = projStats.filter(p => p.fileCount > 0).slice(0, 15);
+  const projMax = topProj[0] ? topProj[0].fileCount : 1;
+  
+  if (!topProj.length) {
+    document.getElementById('topProjectsFiles').innerHTML = '<div class="files-empty">אין פרוייקטים עם קבצים</div>';
+  } else {
+    document.getElementById('topProjectsFiles').innerHTML = topProj.map(({ project, fileCount, user }) => `
+      <div class="sbar clickable" onclick="selectById('${project.id}')">
+        <div class="sbar-top">
+          <span class="sbar-name">${project.name}</span>
+          <span class="sbar-val">${fileCount}</span>
+        </div>
+        <div class="sbar-track">
+          <div class="sbar-fill" style="width:${fileCount / projMax * 100}%;background:var(--teal)"></div>
+        </div>
+        <div style="font-size:0.66rem;color:var(--text3);margin-top:0.2rem">${user}</div>
+      </div>`).join('');
+  }
+
+  // File types
+  const typesSorted = Object.entries(typeStats).sort((a, b) => b[1] - a[1]).slice(0, 12);
+  const typeMax = typesSorted[0] ? typesSorted[0][1] : 1;
+  
+  if (!typesSorted.length) {
+    document.getElementById('fileTypesBars').innerHTML = '<div class="files-empty">אין נתוני סוגי קבצים</div>';
+  } else {
+    document.getElementById('fileTypesBars').innerHTML = typesSorted.map(([ext, count]) => `
+      <div class="ext-row">
+        <span class="ext-icon">${fileIcon(ext)}</span>
+        <span class="ext-name">${ext}</span>
+        <div class="ext-bar-track">
+          <div class="ext-bar-fill" style="width:${count / typeMax * 100}%"></div>
+        </div>
+        <span class="ext-count">${count.toLocaleString('en-US')}</span>
+      </div>`).join('');
+  }
+
+  // Projects without files
+  const noFilesProjects = projectsData.filter(p => !getProjectFiles(p));
+  document.getElementById('noFilesCount').textContent = `${noFilesProjects.length} פרוייקטים`;
+  
+  if (!noFilesProjects.length) {
+    document.getElementById('noFilesList').innerHTML = '<div class="files-empty" style="color:var(--green)">✓ כל הפרוייקטים מקושרים לתיקייה</div>';
+  } else {
+    document.getElementById('noFilesList').innerHTML = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0.5rem">
+        ${noFilesProjects.map(p => `
+          <div class="conn-item" style="padding:0.5rem 0.7rem;border:1px solid var(--border);border-radius:8px;background:var(--bg)" onclick="selectById('${p.id}')">
+            <div style="min-width:0;flex:1">
+              <div class="ci-name" style="font-size:0.82rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${p.name}</div>
+              <div class="ci-kw">${p.responsible || p.manager || ''}</div>
+            </div>
+            <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
+          </div>`).join('')}
+      </div>`;
+  }
+}
+
+// Jump from files tab to filtered table view
+function filterTableByUser(user) {
+  switchTab('table');
+  // Try matching against any role field
+  const fields = ['tblManager', 'tblManagerB', 'tblDeveloper', 'tblClientManager'];
+  for (const fid of fields) {
+    const sel = document.getElementById(fid);
+    const opt = Array.from(sel.options).find(o => o.value === user);
+    if (opt) {
+      // Reset others, set this one
+      fields.forEach(f => { document.getElementById(f).value = ''; });
+      sel.value = user;
+      buildTable();
+      return;
+    }
+  }
+  // No match — at least show "has files" filter
+  document.getElementById('tblHasFiles').value = 'yes';
+  buildTable();
+}
+
 // --- PERSON DETAILS MODAL ---
 function openPersonModal(roleKey, personName) {
   const role = PEOPLE_ROLES[roleKey];
@@ -955,11 +1281,21 @@ function openPersonModal(roleKey, personName) {
   
   const active = projects.filter(p => p.status === 'בפרודקשן' || p.status === 'בביצוע').length;
   
+  // NEW: file stats for this person
+  let totalFiles = 0;
+  let projectsWithFiles = 0;
+  projects.forEach(p => {
+    const c = getProjectFileCount(p);
+    if (c > 0) projectsWithFiles++;
+    totalFiles += c;
+  });
+  
   const stats = [
-    { n: projects.length, l: 'סה״כ פרוייקטים' },
-    { n: active, l: 'בפרודקשן/בביצוע' },
+    { n: projects.length, l: 'סה״כ' },
+    { n: active, l: 'פעילים' },
     { n: statusCounts['הושלם'] || 0, l: 'הושלמו' },
-    { n: avgDuration, l: 'ממוצע חודשים' }
+    { n: avgDuration, l: 'ממוצע חודשים' },
+    { n: totalFiles, l: 'סה״כ קבצים' }
   ];
   
   document.getElementById('pmStats').innerHTML = stats.map(s => `
@@ -977,16 +1313,21 @@ function openPersonModal(roleKey, personName) {
     return b._start - a._start;
   });
   
-  document.getElementById('pmBody').innerHTML = sorted.map(p => `
-    <div class="pm-proj" onclick="closePersonModal();selectById('${p.id}')">
-      <div class="pm-proj-info">
-        <div class="pm-proj-name">${p.name}</div>
-        <div class="pm-proj-desc">${p.description || ''}</div>
-        <div class="pm-proj-meta">${p.start || '—'} → ${p.end || 'פתוח'}</div>
-      </div>
-      <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
-    </div>
-  `).join('') || '<div class="conn-empty">אין פרוייקטים</div>';
+  document.getElementById('pmBody').innerHTML = sorted.map(p => {
+    const fc = getProjectFileCount(p);
+    const fileBadge = fc > 0
+      ? `<span class="badge b-files">📂 ${fc}</span>`
+      : '';
+    return `
+      <div class="pm-proj" onclick="closePersonModal();selectById('${p.id}')">
+        <div class="pm-proj-info">
+          <div class="pm-proj-name">${p.name} ${fileBadge}</div>
+          <div class="pm-proj-desc">${p.description || ''}</div>
+          <div class="pm-proj-meta">${p.start || '—'} → ${p.end || 'פתוח'}</div>
+        </div>
+        <span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span>
+      </div>`;
+  }).join('') || '<div class="conn-empty">אין פרוייקטים</div>';
   
   document.getElementById('personModal').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -1034,6 +1375,8 @@ function buildSelectors() {
   populateFilter('tblDeveloper', 'developer');
   populateFilter('tblClientManager', 'client_manager');
   
+  // NEW: has-files filter
+  document.getElementById('tblHasFiles').onchange = () => buildTable();
   document.getElementById('tblSearch').oninput = () => buildTable();
   
   document.getElementById('searchBox').oninput = e => {
@@ -1144,7 +1487,7 @@ function selectById(id) {
 
 // --- TABLE TAB FUNCTIONS ---
 function buildTable() {
-  const headers = ['#', 'שם', 'סטטוס', 'מנהל', 'אחראי', 'מפתח', 'מנהל לקוחות', 'לקוח', 'התחלה', 'סיום', 'קשרים', 'תיאור'];
+  const headers = ['#', 'שם', 'סטטוס', 'קבצים', 'מנהל', 'אחראי', 'מפתח', 'מנהל לקוחות', 'לקוח', 'התחלה', 'סיום', 'קשרים', 'תיאור'];
   document.getElementById('tHead').innerHTML = headers.map(c => `<th>${c}</th>`).join('');
   
   const sf = document.getElementById('tblStatus').value;
@@ -1152,6 +1495,7 @@ function buildTable() {
   const mbf = document.getElementById('tblManagerB').value;
   const df = document.getElementById('tblDeveloper').value;
   const cmf = document.getElementById('tblClientManager').value;
+  const hff = document.getElementById('tblHasFiles').value; // NEW
   const sq = document.getElementById('tblSearch').value.trim().toLowerCase();
   
   let rows = projectsData;
@@ -1160,6 +1504,10 @@ function buildTable() {
   if (mbf) rows = rows.filter(p => p.manager_b === mbf);
   if (df) rows = rows.filter(p => p.developer === df);
   if (cmf) rows = rows.filter(p => p.client_manager === cmf);
+  
+  // NEW: has-files filter
+  if (hff === 'yes') rows = rows.filter(p => getProjectFileCount(p) > 0);
+  if (hff === 'no')  rows = rows.filter(p => getProjectFileCount(p) === 0);
   
   if (sq) rows = rows.filter(p => 
     p.name.toLowerCase().includes(sq) || 
@@ -1179,11 +1527,16 @@ function buildTable() {
   
   document.getElementById('tBody').innerHTML = rows.map(p => {
     const hl = (selectedProject || selectedKeyword) && hlIds.has(p.id) ? 'hl' : '';
+    const fc = getProjectFileCount(p);
+    const fileCell = fc > 0
+      ? `<span class="badge b-files">${fc}</span>`
+      : `<span class="badge b-nofiles">—</span>`;
     return `
       <tr class="${hl}" onclick="selectById('${p.id}')">
         <td style="font-family:'IBM Plex Mono';color:var(--text3)">${p.id}</td>
         <td style="font-weight:600">${p.name}</td>
         <td><span class="badge ${BADGE_CLASSES[p.status] || 'b-old'}">${p.status}</span></td>
+        <td style="text-align:center">${fileCell}</td>
         <td>${p.manager || ''}</td>
         <td>${p.manager_b || ''}</td>
         <td>${p.developer || ''}</td>
