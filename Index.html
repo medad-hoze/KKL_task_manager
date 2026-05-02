@@ -522,9 +522,6 @@
       font-family: 'IBM Plex Mono'; font-size: 0.78rem; font-weight: 700;
       color: var(--text3); text-align: center;
     }
-    .uf-row:nth-child(1) .uf-rank { color: #d4af37; font-size: 0.95rem; }
-    .uf-row:nth-child(2) .uf-rank { color: #a8a8a8; font-size: 0.9rem; }
-    .uf-row:nth-child(3) .uf-rank { color: #cd7f32; font-size: 0.85rem; }
     .uf-mid { min-width: 0; }
     .uf-name { font-weight: 700; font-size: 0.85rem; margin-bottom: 0.25rem; }
     .uf-bar-track { height: 6px; background: var(--gray-l); border-radius: 99px; overflow: hidden; }
@@ -1164,11 +1161,11 @@ function buildFilesTab() {
     document.getElementById('topUsersFiles').innerHTML = '<div class="files-empty">אין נתוני משתמשים</div>';
   } else {
     document.getElementById('topUsersFiles').innerHTML = userStats.map((u, i) => {
-      const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : (i + 1);
+      const rank = i + 1;
       const barW = userMax > 0 ? (u.projectsWithFiles / userMax * 100) : 0;
       return `
         <div class="uf-row" onclick="filterTableByUser('${u.user.replace(/'/g, "\\'")}')">
-          <div class="uf-rank">${medal}</div>
+          <div class="uf-rank">${rank}</div>
           <div class="uf-mid">
             <div class="uf-name">${u.user}</div>
             <div class="uf-bar-track">

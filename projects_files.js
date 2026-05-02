@@ -1,46 +1,8 @@
 window.PROJECT_FILES = {
   "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
-  "scanned_at": "2026-05-02T21:38:55",
-  "user_count": 4,
+  "scanned_at": "2026-05-03T00:07:11",
+  "user_count": 3,
   "users": {
-    "Example": {
-      "path": "Example",
-      "project_count": 4,
-      "projects": {
-        "Documents": {
-          "path": "Example/Documents",
-          "modified": "2026-05-02T20:55:23",
-          "total_files": 0,
-          "scripts": [],
-          "documents": [],
-          "other": []
-        },
-        "data": {
-          "path": "Example/data",
-          "modified": "2026-05-02T20:55:22",
-          "total_files": 0,
-          "scripts": [],
-          "documents": [],
-          "other": []
-        },
-        "results": {
-          "path": "Example/results",
-          "modified": "2026-05-02T20:55:23",
-          "total_files": 0,
-          "scripts": [],
-          "documents": [],
-          "other": []
-        },
-        "scripts": {
-          "path": "Example/scripts",
-          "modified": "2026-05-02T20:55:23",
-          "total_files": 0,
-          "scripts": [],
-          "documents": [],
-          "other": []
-        }
-      }
-    },
     "ורד": {
       "path": "ורד",
       "project_count": 9,
@@ -6974,46 +6936,6 @@ window.PROJECT_FILES = {
     }
   },
   "by_project": {
-    "documents": {
-      "user": "Example",
-      "original_name": "Documents",
-      "path": "Example/Documents",
-      "modified": "2026-05-02T20:55:23",
-      "total_files": 0,
-      "scripts": [],
-      "documents": [],
-      "other": []
-    },
-    "data": {
-      "user": "Example",
-      "original_name": "data",
-      "path": "Example/data",
-      "modified": "2026-05-02T20:55:22",
-      "total_files": 0,
-      "scripts": [],
-      "documents": [],
-      "other": []
-    },
-    "results": {
-      "user": "Example",
-      "original_name": "results",
-      "path": "Example/results",
-      "modified": "2026-05-02T20:55:23",
-      "total_files": 0,
-      "scripts": [],
-      "documents": [],
-      "other": []
-    },
-    "scripts": {
-      "user": "Example",
-      "original_name": "scripts",
-      "path": "Example/scripts",
-      "modified": "2026-05-02T20:55:23",
-      "total_files": 0,
-      "scripts": [],
-      "documents": [],
-      "other": []
-    },
     "בעלויותקקלמרמי": {
       "user": "ורד",
       "original_name": "בעלויות קקל מרמי",
