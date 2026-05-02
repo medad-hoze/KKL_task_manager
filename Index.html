@@ -509,6 +509,40 @@
       .main { margin-right: 0; padding: 0 1rem 2rem; }
       .stats, .time-stats { grid-template-columns: repeat(2, 1fr); }
     }
+
+    /* Files panel inside overlay info sidebar */
+    .noi-files { border-top: 2px solid var(--border); }
+    .noi-folder {
+      padding: 0.55rem 1.1rem; font-size: 0.72rem; color: var(--text2);
+      font-family: 'IBM Plex Mono'; background: var(--gray-l);
+      direction: ltr; text-align: right; word-break: break-all;
+    }
+    .noi-files-section { padding: 0.6rem 1.1rem; border-top: 1px solid var(--border); }
+    .noi-files-section h4 {
+      font-size: 0.78rem; font-weight: 700; margin-bottom: 0.45rem;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .noi-count {
+      font-family: 'IBM Plex Mono'; font-size: 0.66rem;
+      background: var(--gray-l); padding: 0.1rem 0.45rem;
+      border-radius: 99px; color: var(--text3); font-weight: 600;
+    }
+    .noi-file {
+      display: flex; align-items: center; gap: 0.45rem;
+      padding: 0.28rem 0; font-size: 0.74rem;
+    }
+    .noi-fext { font-size: 0.85rem; flex-shrink: 0; }
+    .noi-fname {
+      flex: 1; min-width: 0; white-space: nowrap;
+      overflow: hidden; text-overflow: ellipsis; color: var(--text);
+      direction: ltr; text-align: right;
+    }
+    .noi-fsize {
+      font-family: 'IBM Plex Mono'; font-size: 0.66rem;
+      color: var(--text3); flex-shrink: 0;
+    }
+    .noi-more { font-size: 0.7rem; color: var(--text3); padding-top: 0.3rem; font-style: italic; }
+    .noi-empty { font-size: 0.78rem; color: var(--text3); padding: 0.6rem 1.1rem; font-style: italic; }
   </style>
 </head>
 <body>
@@ -678,16 +712,34 @@
   <div class="gt-status"></div>
 </div>
 
+<!-- Load data via <script> tag to avoid CORS on file:// protocol -->
+<script src="projects_full.js"></script>
+<script src="projects_files.js"></script>
+
 <script>
 // --- GLOBAL STATE & CONFIG ---
 let projectsData = [];
+let projectFiles = {};        // by_project flat lookup (normalized name -> files)
+let projectFilesByUser = {};  // users.<name>.projects.<name>
 let selectedProject = null;
 let selectedKeyword = null;
 let activeTab = 'overview';
 let ganttYear = null;
 
-const STATUS_COLORS = { 'בפרודקשן': '#10b981', 'הושלם': '#3b82f6', 'מושהה': '#f59e0b', 'גרסה ישנה': '#94a3b8' };
-const BADGE_CLASSES = { 'בפרודקשן': 'b-prod', 'הושלם': 'b-done', 'מושהה': 'b-hold', 'גרסה ישנה': 'b-old' };
+const STATUS_COLORS = {
+  'בפרודקשן': '#10b981',
+  'בביצוע':   '#10b981',
+  'הושלם':    '#3b82f6',
+  'מושהה':    '#f59e0b',
+  'גרסה ישנה':'#94a3b8'
+};
+const BADGE_CLASSES = {
+  'בפרודקשן': 'b-prod',
+  'בביצוע':   'b-prod',
+  'הושלם':    'b-done',
+  'מושהה':    'b-hold',
+  'גרסה ישנה':'b-old'
+};
 const BAR_COLORS = ['#3b82f6','#8b5cf6','#10b981','#f59e0b','#ef4444','#ec4899','#06b6d4','#64748b','#6366f1','#14b8a6'];
 const MONTH_NAMES = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
 
@@ -736,14 +788,25 @@ function switchTab(t) {
 // --- INITIALIZATION ---
 async function boot() {
   try {
-    const r = await fetch('projects_full.json');
-    if (!r.ok) throw new Error("Network issue");
-    projectsData = await r.json();
+    if (window.PROJECTS_DATA) {
+      // Loaded via <script src="projects_full.js"> — works on file://
+      projectsData = window.PROJECTS_DATA;
+    } else {
+      // Fallback: try fetching JSON (works when served via http://)
+      const r = await fetch('projects_full.json');
+      if (!r.ok) throw new Error("Network issue");
+      projectsData = await r.json();
+    }
   } catch(err) {
     document.querySelector('.main').innerHTML = `
       <div style="padding:3rem;text-align:center;color:#94a3b8">
         <h2>שגיאה בטעינת נתונים</h2>
-        <p>לא ניתן לטעון projects_full.json. אנא ודא שהקובץ קיים והשרת רץ.</p>
+        <p>לא ניתן לטעון את הנתונים. אנא ודא שאחד מהקבצים הבאים קיים ליד ה-HTML:</p>
+        <ul style="list-style:none;margin-top:1rem;font-family:'IBM Plex Mono';font-size:0.9rem">
+          <li>📄 projects_full.js (מומלץ — עובד על file://)</li>
+          <li>📄 projects_full.json (דורש שרת מקומי)</li>
+        </ul>
+        <p style="margin-top:1rem;font-size:0.8rem">פרטי שגיאה: ${err.message}</p>
       </div>`;
     return;
   }
@@ -751,9 +814,17 @@ async function boot() {
   projectsData.forEach(p => {
     p._start = parseDate(p.start);
     p._end = parseDate(p.end);
-    // Ensure client_manager field exists even if missing in JSON, to avoid undefined
     if (p.client_manager === undefined) p.client_manager = '';
   });
+
+  // Pull in file data if available (won't error if file isn't loaded)
+  if (window.PROJECT_FILES) {
+    projectFiles = window.PROJECT_FILES.by_project || {};
+    projectFilesByUser = window.PROJECT_FILES.users || {};
+    console.log(`Loaded files for ${Object.keys(projectFiles).length} projects`);
+  } else {
+    console.log('projects_files.js not loaded — file data will not be shown');
+  }
   
   document.getElementById('dateLabel').textContent = new Date().toLocaleDateString('he-IL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   ['tcO', 'tcT', 'tcTbl'].forEach(id => document.getElementById(id).textContent = projectsData.length);
@@ -778,9 +849,11 @@ function buildStats() {
   const s = {};
   projectsData.forEach(p => s[p.status] = (s[p.status] || 0) + 1);
   
+  const activeCount = (s['בפרודקשן'] || 0) + (s['בביצוע'] || 0);
+  
   const statsArray = [
     { n: projectsData.length, l: 'סה״כ' },
-    { n: s['בפרודקשן'] || 0, l: 'בפרודקשן' },
+    { n: activeCount, l: 'בפרודקשן/בביצוע' },
     { n: s['מושהה'] || 0, l: 'מושהים' },
     { n: s['הושלם'] || 0, l: 'הושלמו' }
   ];
@@ -818,7 +891,7 @@ function buildKWBars() {
   const mx = sorted[0] ? sorted[0][1] : 1;
   
   document.getElementById('kwBars').innerHTML = sorted.map(([k, v], i) => `
-    <div class="mini-bar-col" onclick="clickKW('${k}')">
+    <div class="mini-bar-col" onclick="clickKW(${JSON.stringify(k).replace(/"/g, '&quot;')})">
       <div class="mini-bar-val">${v}</div>
       <div class="mini-bar" style="height:${v / mx * 85}%;background:${BAR_COLORS[i % BAR_COLORS.length]}"></div>
       <div class="mini-bar-label" title="${k}">${k}</div>
@@ -880,11 +953,11 @@ function openPersonModal(roleKey, personName) {
   const totalMonths = completed.reduce((a, p) => a + Math.max(1, monthDiff(p._start, p._end)), 0);
   const avgDuration = completed.length ? (totalMonths / completed.length).toFixed(1) : '—';
   
-  const active = projects.filter(p => p.status === 'בפרודקשן').length;
+  const active = projects.filter(p => p.status === 'בפרודקשן' || p.status === 'בביצוע').length;
   
   const stats = [
     { n: projects.length, l: 'סה״כ פרוייקטים' },
-    { n: active, l: 'בפרודקשן' },
+    { n: active, l: 'בפרודקשן/בביצוע' },
     { n: statusCounts['הושלם'] || 0, l: 'הושלמו' },
     { n: avgDuration, l: 'ממוצע חודשים' }
   ];
@@ -985,7 +1058,7 @@ function buildSidebarKW() {
   projectsData.forEach(p => p.keywords.forEach(k => f[k] = (f[k] || 0) + 1));
   
   document.getElementById('sidebarKW').innerHTML = Object.entries(f).sort((a, b) => b[1] - a[1]).map(([k, v]) => `
-    <span class="skw" data-kw="${k}" onclick="clickKW('${k}')">
+    <span class="skw" data-kw="${k}" onclick="clickKW(${JSON.stringify(k).replace(/"/g, '&quot;')})">
       ${k}<span class="cnt">${v}</span>
     </span>
   `).join('');
@@ -1129,7 +1202,7 @@ function buildTable() {
 function buildTimeline() {
   const now = new Date();
   const wd = projectsData.filter(p => p._start);
-  const active = wd.filter(p => p._start <= now && (!p._end || p._end >= now) && (p.status === 'בפרודקשן' || p.status === 'מושהה'));
+  const active = wd.filter(p => p._start <= now && (!p._end || p._end >= now) && (p.status === 'בפרודקשן' || p.status === 'בביצוע' || p.status === 'מושהה'));
   const done = wd.filter(p => p.status === 'הושלם');
   
   const completedProjects = wd.filter(p => p._end);
@@ -1392,7 +1465,7 @@ function drawMonthlyChart() {
   maxD = new Date(maxD.getFullYear(), maxD.getMonth() + 1, 0);
   
   const totalM = monthDiff(minD, maxD) + 1;
-  const statuses = ['בפרודקשן', 'מושהה', 'הושלם', 'גרסה ישנה'];
+  const statuses = ['בפרודקשן', 'בביצוע', 'מושהה', 'הושלם', 'גרסה ישנה'];
   const monthData = [];
   
   for (let i = 0; i < totalM; i++) {
@@ -1876,6 +1949,118 @@ function drawMiniNet() {
   };
 }
 
+// --- FILES LOOKUP & RENDERING --------------------------------------
+function normalizeProjectName(s) {
+  if (!s) return '';
+  // 1) NFC unicode normalize (collapses NFC vs NFD on Hebrew)
+  s = s.normalize('NFC');
+  // 2) Strip RTL/LTR/zero-width/format chars and combining marks
+  s = s.replace(/[\u200B-\u200F\u202A-\u202E\u2066-\u2069\uFEFF\u0300-\u036F]/g, '');
+  // 3) Lowercase + drop whitespace, separators, ALL quote variants
+  //    including Hebrew gershayim ״ (U+05F4) and geresh ׳ (U+05F3)
+  return s.toLowerCase().replace(
+    /[\s_\-.,;:!?'"`\\\/()\[\]{}<>\u05F3\u05F4\u2018\u2019\u201C\u201D\u2032\u2033]/g,
+    ''
+  );
+}
+function getProjectFiles(project) {
+  if (!project) return null;
+  // 1) exact match by user (responsible) + name -- most accurate
+  const user = project.responsible;
+  if (user && projectFilesByUser[user] && projectFilesByUser[user].projects) {
+    const proj = projectFilesByUser[user].projects[project.name];
+    if (proj) return { ...proj, user: user, original_name: project.name };
+  }
+  // 2) fall back to flat lookup by normalized name
+  return projectFiles[normalizeProjectName(project.name)] || null;
+}
+
+function fmtFileSize(bytes) {
+  if (bytes < 1024) return bytes + 'B';
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(0) + 'K';
+  return (bytes / (1024 * 1024)).toFixed(1) + 'M';
+}
+
+function fileIcon(ext) {
+  const e = (ext || '').toLowerCase();
+  if (['.py', '.ipynb'].includes(e)) return '🐍';
+  if (['.js', '.ts', '.jsx', '.tsx', '.html', '.css'].includes(e)) return '⚡';
+  if (['.sql'].includes(e)) return '🗄';
+  if (['.pdf'].includes(e)) return '📕';
+  if (['.docx', '.doc'].includes(e)) return '📘';
+  if (['.xlsx', '.xls', '.csv'].includes(e)) return '📊';
+  if (['.pptx', '.ppt'].includes(e)) return '📙';
+  if (['.md', '.txt'].includes(e)) return '📝';
+  if (['.json', '.xml', '.yaml', '.yml'].includes(e)) return '⚙';
+  return '📄';
+}
+
+function renderFileList(items, max) {
+  max = max || 25;
+  const shown = items.slice(0, max).map(f => `
+    <div class="noi-file" title="${f.path}">
+      <span class="noi-fext">${fileIcon(f.extension)}</span>
+      <span class="noi-fname">${f.name}</span>
+      <span class="noi-fsize">${fmtFileSize(f.size_bytes)}</span>
+    </div>`).join('');
+  const more = items.length > max
+    ? `<div class="noi-more">+ ${items.length - max} עוד...</div>` : '';
+  return shown + more;
+}
+
+function renderProjectFiles(fd, project) {
+if (!fd) {
+    const searched = project ? project.name : '';
+    const normalized = normalizeProjectName(searched);
+    const allKeys = Object.keys(projectFiles);
+    
+    // Distinguish "files JS not loaded" from "loaded but no match"
+    if (!window.PROJECT_FILES) {
+      return `
+        <div class="noi-files">
+          <div class="noi-empty" style="text-align:right;direction:rtl">
+            <strong style="color:var(--red)">⚠ projects_files.js לא נטען</strong>
+            <div style="margin-top:0.6rem;font-family:'IBM Plex Mono';font-size:0.72rem;color:var(--text2);line-height:1.6">
+              <div>בדוק שהקובץ קיים ליד ה-HTML</div>
+              <div>או שנה את ה-&lt;script src&gt; לשם הנכון</div>
+            </div>
+          </div>
+        </div>`;
+    }
+    // Find the 5 most similar keys by simple substring overlap
+    const scored = allKeys.map(k => {
+      let overlap = 0;
+      for (const c of normalized) if (k.includes(c)) overlap++;
+      return { k, overlap };
+    }).sort((a, b) => b.overlap - a.overlap).slice(0, 5);
+    return `
+      <div class="noi-files">
+        <div class="noi-empty" style="text-align:right;direction:rtl">
+          <strong>לא נמצאה תיקיית פרוייקט</strong>
+          <div style="margin-top:0.6rem;font-family:'IBM Plex Mono';font-size:0.7rem;color:var(--text2)">
+            <div>חיפוש: <span style="color:var(--text)">${searched}</span></div>
+            <div>נורמליזציה: <span style="color:var(--blue)">${normalized}</span></div>
+            <div style="margin-top:0.5rem">${allKeys.length} פרוייקטים בתיקייה. 5 הדומים ביותר:</div>
+            ${scored.map(s => `<div style="margin-top:0.15rem">• ${s.k}</div>`).join('')}
+          </div>
+        </div>
+      </div>`;
+  }
+  const section = (title, items) => items.length ? `
+    <div class="noi-files-section">
+      <h4>${title}<span class="noi-count">${items.length}</span></h4>
+      ${renderFileList(items)}
+    </div>` : '';
+  return `
+    <div class="noi-files">
+      <div class="noi-folder">📁 ${fd.user || ''} / ${fd.original_name || ''}</div>
+      ${section('🐍 סקריפטים', fd.scripts || [])}
+      ${section('📄 מסמכים', fd.documents || [])}
+      ${section('📦 אחר', fd.other || [])}
+    </div>`;
+}
+
+
 // --- OVERLAY FUNCTIONS ---
 let fullNodes = [], fullEdges = [], fullNodeMap = {}, fullHoverNode = null, fullScale = null;
 
@@ -1915,6 +2100,7 @@ function openOverlay() {
   
   if (selectedProject) {
     const sims = selectedProject.similar_projects || [];
+    const fileData = getProjectFiles(selectedProject);
     info.innerHTML = `
       <div class="noi-head">
         <h3>${selectedProject.name}</h3>
@@ -1929,9 +2115,9 @@ function openOverlay() {
             </div>
             <span class="noi-score ${s.score >= 3 ? 'ci-s3' : s.score >= 2 ? 'ci-s2' : 'ci-s1'}">${s.score}</span>
           </div>
-        `).join('') : '<div class="conn-empty">אין</div>'}
+        `).join('') : '<div class="conn-empty">אין קשרים</div>'}
       </div>
-    `;
+      ${renderProjectFiles(fileData, selectedProject)}    `;
   } else if (selectedKeyword) {
     info.innerHTML = `
       <div class="noi-head">

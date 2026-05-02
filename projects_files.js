@@ -1,0 +1,14006 @@
+window.PROJECT_FILES = {
+  "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
+  "scanned_at": "2026-05-02T21:38:55",
+  "user_count": 4,
+  "users": {
+    "Example": {
+      "path": "Example",
+      "project_count": 4,
+      "projects": {
+        "Documents": {
+          "path": "Example/Documents",
+          "modified": "2026-05-02T20:55:23",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "data": {
+          "path": "Example/data",
+          "modified": "2026-05-02T20:55:22",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "results": {
+          "path": "Example/results",
+          "modified": "2026-05-02T20:55:23",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "scripts": {
+          "path": "Example/scripts",
+          "modified": "2026-05-02T20:55:23",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        }
+      }
+    },
+    "ורד": {
+      "path": "ורד",
+      "project_count": 9,
+      "projects": {
+        "בעלויות קקל מרמי": {
+          "path": "ורד/בעלויות קקל מרמי",
+          "modified": "2026-05-02T20:55:14",
+          "total_files": 138,
+          "scripts": [
+            {
+              "name": "baaluyot_load.py",
+              "path": "ורד/בעלויות קקל מרמי/scripts/baaluyot_load.py",
+              "extension": ".py",
+              "size_bytes": 9366,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "sp_update_baaluyot.sql",
+              "path": "ורד/בעלויות קקל מרמי/scripts/sql/sp_update_baaluyot.sql",
+              "extension": ".sql",
+              "size_bytes": 101,
+              "modified": "2026-04-19T12:40:53"
+            }
+          ],
+          "documents": [
+            {
+              "name": "RAMITECH_05-04-2026.xlsx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/RAMITECH_05-04-2026.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 24292821,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "Log_Baaluyot_12042026_1013.txt",
+              "path": "ורד/בעלויות קקל מרמי/scripts/logs/Log_Baaluyot_12042026_1013.txt",
+              "extension": ".txt",
+              "size_bytes": 434,
+              "modified": "2026-04-19T12:40:53"
+            }
+          ],
+          "other": [
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000001.freelist",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.freelist",
+              "extension": ".freelist",
+              "size_bytes": 16728,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1965,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2837,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.freelist",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.freelist",
+              "extension": ".freelist",
+              "size_bytes": 61784,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1566732,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2021,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.freelist",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2380,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000024.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000024.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 44795212,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000024.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1428512,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000025.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:38"
+            },
+            {
+              "name": "a00000025.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 44895055,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000025.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1428512,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000026.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000026.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 44922726,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000026.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1433632,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000027.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:39"
+            },
+            {
+              "name": "a00000027.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 44935962,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000027.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1433632,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000028.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000028.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 44962466,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000028.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1433632,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000029.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:40"
+            },
+            {
+              "name": "a00000029.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45045270,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a00000029.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1433632,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a0000002a.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a0000002a.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45078886,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a0000002a.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1438752,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a0000002c.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:41"
+            },
+            {
+              "name": "a0000002c.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45122429,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002c.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1438752,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002d.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002d.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45513589,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002d.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1448992,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002e.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002e.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45570017,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002e.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1454112,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002f.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:42"
+            },
+            {
+              "name": "a0000002f.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45595081,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a0000002f.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1454112,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a00000030.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a00000030.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45650740,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a00000030.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1454112,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a00000031.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:43"
+            },
+            {
+              "name": "a00000031.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45676563,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000031.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1454112,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000032.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000032.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45798599,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000032.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000034.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:44"
+            },
+            {
+              "name": "a00000034.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45811346,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000034.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000035.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000035.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45858809,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000035.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000036.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:45"
+            },
+            {
+              "name": "a00000036.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 45858629,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000036.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000037.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000037.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60430590,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000037.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000038.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:46"
+            },
+            {
+              "name": "a00000038.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60434114,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a00000038.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a00000039.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a00000039.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60452790,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a00000039.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1459232,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a0000003a.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:47"
+            },
+            {
+              "name": "a0000003a.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60549341,
+              "modified": "2026-04-19T12:40:48"
+            },
+            {
+              "name": "a0000003a.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1464352,
+              "modified": "2026-04-19T12:40:48"
+            },
+            {
+              "name": "a0000003b.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:48"
+            },
+            {
+              "name": "a0000003b.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60532576,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003b.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1464352,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003c.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003c.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60695267,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003c.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1469472,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003d.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:49"
+            },
+            {
+              "name": "a0000003d.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60752935,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a0000003d.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1469472,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a00000040.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a00000040.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 60802345,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a00000040.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1469472,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a00000043.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:50"
+            },
+            {
+              "name": "a00000043.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 61306919,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000043.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1484832,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000044.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000044.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 61346465,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000044.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1484832,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000047.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:51"
+            },
+            {
+              "name": "a00000047.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 62159339,
+              "modified": "2026-04-19T12:40:52"
+            },
+            {
+              "name": "a00000047.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1489952,
+              "modified": "2026-04-19T12:40:52"
+            },
+            {
+              "name": "a00000048.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:52"
+            },
+            {
+              "name": "a00000048.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 61690704,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "a00000048.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1489952,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "a00000049.gdbindexes",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "a00000049.gdbtable",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 61704522,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "a00000049.gdbtablx",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 1489952,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "gdb",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "timestamps",
+              "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-19T12:40:53"
+            }
+          ]
+        },
+        "דוח מבאת-הימנותא": {
+          "path": "ורד/דוח מבאת-הימנותא",
+          "modified": "2026-05-02T20:54:28",
+          "total_files": 16,
+          "scripts": [
+            {
+              "name": "HimanutaXplan.py",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/HimanutaXplan.py",
+              "extension": ".py",
+              "size_bytes": 88720,
+              "modified": "2026-04-19T12:40:54"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_xplanPdf_25022026_1021.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1021.txt",
+              "extension": ".txt",
+              "size_bytes": 246,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1022.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1022.txt",
+              "extension": ".txt",
+              "size_bytes": 249,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1023.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1023.txt",
+              "extension": ".txt",
+              "size_bytes": 249,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1024.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1024.txt",
+              "extension": ".txt",
+              "size_bytes": 252,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1025.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1025.txt",
+              "extension": ".txt",
+              "size_bytes": 246,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1026.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1026.txt",
+              "extension": ".txt",
+              "size_bytes": 249,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1028.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1028.txt",
+              "extension": ".txt",
+              "size_bytes": 249,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "Log_xplanPdf_25022026_1625.txt",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1625.txt",
+              "extension": ".txt",
+              "size_bytes": 799,
+              "modified": "2026-04-19T12:40:53"
+            },
+            {
+              "name": "mavat_217-0660522.pdf",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/mavat_217-0660522.pdf",
+              "extension": ".pdf",
+              "size_bytes": 52462072,
+              "modified": "2026-04-19T12:40:54"
+            }
+          ],
+          "other": [
+            {
+              "name": "TemplateXplan.tbx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan.tbx",
+              "extension": ".tbx",
+              "size_bytes": 3584,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "TemplateXplan_Plans_Layout1.aprx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Plans_Layout1.aprx",
+              "extension": ".aprx",
+              "size_bytes": 96959,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "TemplateXplan_Plans_Layout2.aprx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Plans_Layout2.aprx",
+              "extension": ".aprx",
+              "size_bytes": 118224,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "TemplateXplan_Yiudim_Layout3.aprx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Yiudim_Layout3.aprx",
+              "extension": ".aprx",
+              "size_bytes": 986442,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "TemplateXplan_Yiudim_Layout4.aprx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Yiudim_Layout4.aprx",
+              "extension": ".aprx",
+              "size_bytes": 213326,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "himanutaXplan_toolbox.atbx",
+              "path": "ורד/דוח מבאת-הימנותא/scripts/himanutaXplan_toolbox.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1612,
+              "modified": "2026-04-19T12:40:54"
+            }
+          ]
+        },
+        "דוח מבאת-קקל": {
+          "path": "ורד/דוח מבאת-קקל",
+          "modified": "2026-05-02T20:55:21",
+          "total_files": 8,
+          "scripts": [
+            {
+              "name": "xplanToPdf_KKL.py",
+              "path": "ורד/דוח מבאת-קקל/scripts/xplanToPdf_KKL.py",
+              "extension": ".py",
+              "size_bytes": 37809,
+              "modified": "2026-04-19T12:40:55"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_xplanPdf_11032026_1631.txt",
+              "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/Log_xplanPdf_11032026_1631.txt",
+              "extension": ".txt",
+              "size_bytes": 1918,
+              "modified": "2026-04-19T12:40:54"
+            },
+            {
+              "name": "mavat_352-0951087.pdf",
+              "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/mavat_352-0951087.pdf",
+              "extension": ".pdf",
+              "size_bytes": 30671352,
+              "modified": "2026-04-19T12:40:55"
+            }
+          ],
+          "other": [
+            {
+              "name": "TemplateXplan.tbx",
+              "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan.tbx",
+              "extension": ".tbx",
+              "size_bytes": 3584,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "TemplateXplan_KKL_Plans_Layout1.aprx",
+              "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Plans_Layout1.aprx",
+              "extension": ".aprx",
+              "size_bytes": 69445,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "TemplateXplan_KKL_Plans_Layout2.aprx",
+              "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Plans_Layout2.aprx",
+              "extension": ".aprx",
+              "size_bytes": 91614,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "TemplateXplan_KKL_Yiudim_Layout3.aprx",
+              "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Yiudim_Layout3.aprx",
+              "extension": ".aprx",
+              "size_bytes": 941633,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "TemplateXplan_KKL_Yiudim_Layout4.aprx",
+              "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Yiudim_Layout4.aprx",
+              "extension": ".aprx",
+              "size_bytes": 147811,
+              "modified": "2026-04-19T12:40:55"
+            }
+          ]
+        },
+        "דוח שמירה תכנונית הימנותא": {
+          "path": "ורד/דוח שמירה תכנונית הימנותא",
+          "modified": "2026-05-02T20:54:40",
+          "total_files": 56,
+          "scripts": [
+            {
+              "name": "xplanToPdf.py",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/xplanToPdf.py",
+              "extension": ".py",
+              "size_bytes": 91549,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_xplanPdf_16042026_0400.txt",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/Log_xplanPdf_16042026_0400.txt",
+              "extension": ".txt",
+              "size_bytes": 3348,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "mavat_407-1459544.pdf",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/mavat_407-1459544.pdf",
+              "extension": ".pdf",
+              "size_bytes": 25623018,
+              "modified": "2026-04-19T12:41:01"
+            }
+          ],
+          "other": [
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000001.freelist",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 337,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1041,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.freelist",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.freelist",
+              "extension": ".freelist",
+              "size_bytes": 8536,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 224896,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.freelist",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 263,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a0000000a.gdbindexes",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:40:55"
+            },
+            {
+              "name": "a0000000a.gdbtable",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 598158136,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "a0000000a.gdbtablx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5150752,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "a0000000a.horizon",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "a0000000a.spx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.spx",
+              "extension": ".spx",
+              "size_bytes": 13668374,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "gdb",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "timestamps",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-19T12:41:01"
+            },
+            {
+              "name": "TemplateXplan_Plans_Layout1.aprx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Plans_Layout1.aprx",
+              "extension": ".aprx",
+              "size_bytes": 103708,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "TemplateXplan_Plans_Layout2.aprx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Plans_Layout2.aprx",
+              "extension": ".aprx",
+              "size_bytes": 126512,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "TemplateXplan_Yiudim_Layout3.aprx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Yiudim_Layout3.aprx",
+              "extension": ".aprx",
+              "size_bytes": 974778,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "TemplateXplan_Yiudim_Layout4.aprx",
+              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Yiudim_Layout4.aprx",
+              "extension": ".aprx",
+              "size_bytes": 217722,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ]
+        },
+        "מערכת פירסומים מגאודע": {
+          "path": "ורד/מערכת פירסומים מגאודע",
+          "modified": "2026-05-02T20:54:46",
+          "total_files": 14,
+          "scripts": [
+            {
+              "name": "pirsum_compare_missing.py",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_compare_missing.py",
+              "extension": ".py",
+              "size_bytes": 8374,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "pirsum_load.py",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_load.py",
+              "extension": ".py",
+              "size_bytes": 24827,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "pirsum_xplan_compare.py",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_xplan_compare.py",
+              "extension": ".py",
+              "size_bytes": 8507,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_geoda_compare_missing.sql",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_missing.sql",
+              "extension": ".sql",
+              "size_bytes": 6784,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_geoda_compare_missing_between_dates.sql",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_missing_between_dates.sql",
+              "extension": ".sql",
+              "size_bytes": 9042,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_geoda_compare_xplan.sql",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_xplan.sql",
+              "extension": ".sql",
+              "size_bytes": 7098,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_geoda_compare_xplan_between_dates.sql",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_xplan_between_dates.sql",
+              "extension": ".sql",
+              "size_bytes": 6906,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_geoda_pirsumim.sql",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_pirsumim.sql",
+              "extension": ".sql",
+              "size_bytes": 26012,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "documents": [
+            {
+              "name": "ExcelReport_58_15-04-2026_19-33-25.xlsx",
+              "path": "ורד/מערכת פירסומים מגאודע/data/FILES/ExcelReport_58_15-04-2026_19-33-25.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 15324,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "מכרז שמירה תכנונית הימנותא מעודכן 31-01-2023.pdf",
+              "path": "ורד/מערכת פירסומים מגאודע/documents/מכרז שמירה תכנונית הימנותא מעודכן 31-01-2023.pdf",
+              "extension": ".pdf",
+              "size_bytes": 747322,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "פרסומים מספק חיצוני - סקריפט השוואה.docx",
+              "path": "ורד/מערכת פירסומים מגאודע/documents/פרסומים מספק חיצוני - סקריפט השוואה.docx",
+              "extension": ".docx",
+              "size_bytes": 13856,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "פרסומים מספק חיצוני - עבור המכרז.docx",
+              "path": "ורד/מערכת פירסומים מגאודע/documents/פרסומים מספק חיצוני - עבור המכרז.docx",
+              "extension": ".docx",
+              "size_bytes": 16371,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "Log_Pirsumim_15042026_2000.txt",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/logs/15042026/Log_Pirsumim_15042026_2000.txt",
+              "extension": ".txt",
+              "size_bytes": 802,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "pirsum.txt",
+              "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum.txt",
+              "extension": ".txt",
+              "size_bytes": 88,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "other": []
+        },
+        "עדכון חודשי למערכת מקרקעין": {
+          "path": "ורד/עדכון חודשי למערכת מקרקעין",
+          "modified": "2026-05-02T20:54:52",
+          "total_files": 6,
+          "scripts": [
+            {
+              "name": "mk_MONTHLY_update.py",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/mk_MONTHLY_update.py",
+              "extension": ".py",
+              "size_bytes": 8972,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_shuma_parcels.sql",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/create_mk_shuma_parcels.sql",
+              "extension": ".sql",
+              "size_bytes": 20676,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_shuma_parcels_missing.sql",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/create_mk_shuma_parcels_missing.sql",
+              "extension": ".sql",
+              "size_bytes": 5786,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "sp_UPDATE_yishuv_data_from_sde.sql",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/sp_UPDATE_yishuv_data_from_sde.sql",
+              "extension": ".sql",
+              "size_bytes": 9194,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_Mk_Update_01042026_0300.txt",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/Log_Mk_Update_01042026_0300.txt",
+              "extension": ".txt",
+              "size_bytes": 696,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "shuma_parcels_missing.xls",
+              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/shuma_parcels_missing.xls",
+              "extension": ".xls",
+              "size_bytes": 5632,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "other": []
+        },
+        "עדכון יומי ממערכת מקרקעין": {
+          "path": "ורד/עדכון יומי ממערכת מקרקעין",
+          "modified": "2026-05-02T20:54:55",
+          "total_files": 12,
+          "scripts": [
+            {
+              "name": "mk_DAILY_update.py",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/mk_DAILY_update.py",
+              "extension": ".py",
+              "size_bytes": 21325,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_himanuta.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta.sql",
+              "extension": ".sql",
+              "size_bytes": 34114,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_himanuta_jerusalem.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta_jerusalem.sql",
+              "extension": ".sql",
+              "size_bytes": 29848,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_himanuta_missing.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta_missing.sql",
+              "extension": ".sql",
+              "size_bytes": 8166,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_iskaot.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_iskaot.sql",
+              "extension": ".sql",
+              "size_bytes": 21720,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_iskaot_missing.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_iskaot_missing.sql",
+              "extension": ".sql",
+              "size_bytes": 4338,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_kkl.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_kkl.sql",
+              "extension": ".sql",
+              "size_bytes": 33926,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_migrashey_tmura.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_migrashey_tmura.sql",
+              "extension": ".sql",
+              "size_bytes": 6360,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_peruk_shituf_parcels.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_peruk_shituf_parcels.sql",
+              "extension": ".sql",
+              "size_bytes": 23688,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_shimushim_iskaot.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_shimushim_iskaot.sql",
+              "extension": ".sql",
+              "size_bytes": 20982,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "create_mk_tik_mishpati_parcels.sql",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_tik_mishpati_parcels.sql",
+              "extension": ".sql",
+              "size_bytes": 23688,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_MkDaily_16042026_0700.txt",
+              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/logs/16042026/Log_MkDaily_16042026_0700.txt",
+              "extension": ".txt",
+              "size_bytes": 3422,
+              "modified": "2026-04-19T12:41:02"
+            }
+          ],
+          "other": []
+        },
+        "עדכון יומי של שכבות מבאת": {
+          "path": "ורד/עדכון יומי של שכבות מבאת",
+          "modified": "2026-05-02T20:55:06",
+          "total_files": 58,
+          "scripts": [
+            {
+              "name": "mavat_daily_load.py",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_daily_load.py",
+              "extension": ".py",
+              "size_bytes": 17422,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_mk_xplan_himanuta_changes_by_date.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_himanuta_changes_by_date.sql",
+              "extension": ".sql",
+              "size_bytes": 44932,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_mk_xplan_himanuta_intersections.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_himanuta_intersections.sql",
+              "extension": ".sql",
+              "size_bytes": 66374,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_mk_xplan_kkl_changes_by_date.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_changes_by_date.sql",
+              "extension": ".sql",
+              "size_bytes": 22122,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_mk_xplan_kkl_intersections.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_intersections.sql",
+              "extension": ".sql",
+              "size_bytes": 8872,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_mk_xplan_kkl_yiudim_intersections.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_yiudim_intersections.sql",
+              "extension": ".sql",
+              "size_bytes": 30226,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "create_xplan_archive.sql",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_xplan_archive.sql",
+              "extension": ".sql",
+              "size_bytes": 50070,
+              "modified": "2026-04-19T12:41:09"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_MkMavat_16042026_0005.txt",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/logs/16042026/Log_MkMavat_16042026_0005.txt",
+              "extension": ".txt",
+              "size_bytes": 2704,
+              "modified": "2026-04-19T12:41:09"
+            }
+          ],
+          "other": [
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000001.freelist",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.freelist",
+              "extension": ".freelist",
+              "size_bytes": 8536,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 425,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1557,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.freelist",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.freelist",
+              "extension": ".freelist",
+              "size_bytes": 16728,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 269284,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.freelist",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 336,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:02"
+            },
+            {
+              "name": "a0000000d.gdbindexes",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:03"
+            },
+            {
+              "name": "a0000000d.gdbtable",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 598157805,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "a0000000d.gdbtablx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5150752,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "a0000000d.spx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.spx",
+              "extension": ".spx",
+              "size_bytes": 13668374,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "gdb",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "timestamps",
+              "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "mavat_project.aprx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_project.aprx",
+              "extension": ".aprx",
+              "size_bytes": 79712,
+              "modified": "2026-04-19T12:41:09"
+            },
+            {
+              "name": "mavat_project.tbx",
+              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_project.tbx",
+              "extension": ".tbx",
+              "size_bytes": 3584,
+              "modified": "2026-04-19T12:41:09"
+            }
+          ]
+        },
+        "עדכון שכבות קדסטר ממפי": {
+          "path": "ורד/עדכון שכבות קדסטר ממפי",
+          "modified": "2026-05-02T20:55:10",
+          "total_files": 131,
+          "scripts": [
+            {
+              "name": "Monthly_1_Cadaster.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_1_Cadaster.py",
+              "extension": ".py",
+              "size_bytes": 9546,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_2_geom_fixing.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_2_geom_fixing.py",
+              "extension": ".py",
+              "size_bytes": 3829,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_3_SQL.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_3_SQL.py",
+              "extension": ".py",
+              "size_bytes": 1797,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_4_archive.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_4_archive.py",
+              "extension": ".py",
+              "size_bytes": 8511,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_4_archive_check.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_4_archive_check.py",
+              "extension": ".py",
+              "size_bytes": 8922,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_5_archive_SQL.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_5_archive_SQL.py",
+              "extension": ".py",
+              "size_bytes": 1427,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "Monthly_Cadaster_Main.py",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_Cadaster_Main.py",
+              "extension": ".py",
+              "size_bytes": 7710,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "create_mk_parcel.sql",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/sql/create_mk_parcel.sql",
+              "extension": ".sql",
+              "size_bytes": 12518,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "create_mk_parcel_archive.sql",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/sql/create_mk_parcel_archive.sql",
+              "extension": ".sql",
+              "size_bytes": 16460,
+              "modified": "2026-04-19T12:41:37"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Log_Cadaster_15042026_1715.txt",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/logs/Log_Cadaster_15042026_1715.txt",
+              "extension": ".txt",
+              "size_bytes": 8887,
+              "modified": "2026-04-19T12:41:37"
+            }
+          ],
+          "other": [
+            {
+              "name": "PARCEL_ALL_REPLICA_TMP.zip",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/PARCEL_ALL_REPLICA_TMP.zip",
+              "extension": ".zip",
+              "size_bytes": 667535922,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "SHEET_K.zip",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/SHEET_K.zip",
+              "extension": ".zip",
+              "size_bytes": 2275166,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "SHUMA_PARCELS.zip",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/SHUMA_PARCELS.zip",
+              "extension": ".zip",
+              "size_bytes": 11505349,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "SUB_GUSH_ALL.zip",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/SUB_GUSH_ALL.zip",
+              "extension": ".zip",
+              "size_bytes": 64691008,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "SUB_GUSH_SHUMA.zip",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/SUB_GUSH_SHUMA.zip",
+              "extension": ".zip",
+              "size_bytes": 1146553,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 321,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:16"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 9058,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 263,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000009.freelist",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.freelist",
+              "extension": ".freelist",
+              "size_bytes": 184664,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000009.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:17"
+            },
+            {
+              "name": "a00000009.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 116544416,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000009.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 2160672,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000009.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000009.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "gdb",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "timestamps",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000001.freelist",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.freelist",
+              "extension": ".freelist",
+              "size_bytes": 12632,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 696,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1634,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.freelist",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.freelist",
+              "extension": ".freelist",
+              "size_bytes": 110936,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 18466862,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:18"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.freelist",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 920,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a000000d7.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:19"
+            },
+            {
+              "name": "a000000d7.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 564218126,
+              "modified": "2026-04-19T12:41:24"
+            },
+            {
+              "name": "a000000d7.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5253152,
+              "modified": "2026-04-19T12:41:24"
+            },
+            {
+              "name": "a000000d7.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:24"
+            },
+            {
+              "name": "a000000d7.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.spx",
+              "extension": ".spx",
+              "size_bytes": 16810006,
+              "modified": "2026-04-19T12:41:24"
+            },
+            {
+              "name": "a000000e0.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:24"
+            },
+            {
+              "name": "a000000e0.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 688844293,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e0.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5452832,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e0.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e0.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.spx",
+              "extension": ".spx",
+              "size_bytes": 17276950,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e4.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e4.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 34969060,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e4.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 92192,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e4.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e4.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.spx",
+              "extension": ".spx",
+              "size_bytes": 368662,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e5.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:31"
+            },
+            {
+              "name": "a000000e5.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 39839630,
+              "modified": "2026-04-19T12:41:32"
+            },
+            {
+              "name": "a000000e5.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 102432,
+              "modified": "2026-04-19T12:41:32"
+            },
+            {
+              "name": "a000000e5.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:32"
+            },
+            {
+              "name": "a000000e5.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.spx",
+              "extension": ".spx",
+              "size_bytes": 393238,
+              "modified": "2026-04-19T12:41:32"
+            },
+            {
+              "name": "a000000e6.gdbindexes",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 116,
+              "modified": "2026-04-19T12:41:32"
+            },
+            {
+              "name": "a000000e6.gdbtable",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 501888280,
+              "modified": "2026-04-19T12:41:36"
+            },
+            {
+              "name": "a000000e6.gdbtablx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5253152,
+              "modified": "2026-04-19T12:41:36"
+            },
+            {
+              "name": "a000000e6.horizon",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-19T12:41:36"
+            },
+            {
+              "name": "a000000e6.spx",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.spx",
+              "extension": ".spx",
+              "size_bytes": 16810006,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "gdb",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-19T12:41:37"
+            },
+            {
+              "name": "timestamps",
+              "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-19T12:41:37"
+            }
+          ]
+        }
+      }
+    },
+    "מידד": {
+      "path": "מידד",
+      "project_count": 17,
+      "projects": {
+        "בקרת רמי": {
+          "path": "מידד/בקרת רמי",
+          "modified": "2026-05-02T20:45:20",
+          "total_files": 28,
+          "scripts": [
+            {
+              "name": "index.html",
+              "path": "מידד/בקרת רמי/scripts/index.html",
+              "extension": ".html",
+              "size_bytes": 83162,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "cadaster_network.py",
+              "path": "מידד/בקרת רמי/scripts/old/cadaster_network.py",
+              "extension": ".py",
+              "size_bytes": 23697,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "download_Yahud_parcel.py",
+              "path": "מידד/בקרת רמי/scripts/old/download_Yahud_parcel.py",
+              "extension": ".py",
+              "size_bytes": 2668,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "geometry_cut.py",
+              "path": "מידד/בקרת רמי/scripts/old/geometry_cut.py",
+              "extension": ".py",
+              "size_bytes": 8750,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/בקרת רמי/scripts/old/index.html",
+              "extension": ".html",
+              "size_bytes": 61901,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "new_compilation.py",
+              "path": "מידד/בקרת רמי/scripts/old/new_compilation.py",
+              "extension": ".py",
+              "size_bytes": 15832,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "prepareData.py",
+              "path": "מידד/בקרת רמי/scripts/old/prepareData.py",
+              "extension": ".py",
+              "size_bytes": 16507,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "report.py",
+              "path": "מידד/בקרת רמי/scripts/old/report.py",
+              "extension": ".py",
+              "size_bytes": 2779,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "prepareData.py",
+              "path": "מידד/בקרת רמי/scripts/prepareData.py",
+              "extension": ".py",
+              "size_bytes": 16507,
+              "modified": "2026-04-23T12:18:54"
+            },
+            {
+              "name": "test.py",
+              "path": "מידד/בקרת רמי/scripts/test.py",
+              "extension": ".py",
+              "size_bytes": 5981,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "utiles.py",
+              "path": "מידד/בקרת רמי/scripts/utiles.py",
+              "extension": ".py",
+              "size_bytes": 5746,
+              "modified": "2026-03-14T19:34:55"
+            }
+          ],
+          "documents": [
+            {
+              "name": "layers.txt",
+              "path": "מידד/בקרת רמי/docs/layers.txt",
+              "extension": ".txt",
+              "size_bytes": 601,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "בקרת רמי מנהלים.pptx",
+              "path": "מידד/בקרת רמי/docs/בקרת רמי מנהלים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 2008811,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "בקרת רמי.pdf",
+              "path": "מידד/בקרת רמי/docs/בקרת רמי.pdf",
+              "extension": ".pdf",
+              "size_bytes": 529678,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "מעקב אחרי שינויים בשטח חלקות קקל.pdf",
+              "path": "מידד/בקרת רמי/docs/מעקב אחרי שינויים בשטח חלקות קקל.pdf",
+              "extension": ".pdf",
+              "size_bytes": 500177,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "מעקב אחרי שינויים בשטח חלקות קקל.pptx",
+              "path": "מידד/בקרת רמי/docs/מעקב אחרי שינויים בשטח חלקות קקל.pptx",
+              "extension": ".pptx",
+              "size_bytes": 770237,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "סיכום תהליך.docx",
+              "path": "מידד/בקרת רמי/docs/סיכום תהליך.docx",
+              "extension": ".docx",
+              "size_bytes": 17141,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "תיקונים.txt",
+              "path": "מידד/בקרת רמי/docs/תיקונים.txt",
+              "extension": ".txt",
+              "size_bytes": 305,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "added_reports.xlsx",
+              "path": "מידד/בקרת רמי/scripts/added_reports.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 26748,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "changedFull_reports.xlsx",
+              "path": "מידד/בקרת רמי/scripts/changedFull_reports.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 42843,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "deleted_reports.xlsx",
+              "path": "מידד/בקרת רמי/scripts/deleted_reports.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 6663,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "add_layers.json",
+              "path": "מידד/בקרת רמי/scripts/old/add_layers.json",
+              "extension": ".json",
+              "size_bytes": 107891,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "added_reports.xlsx",
+              "path": "מידד/בקרת רמי/scripts/old/added_reports.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 57882,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "comparison_results.json",
+              "path": "מידד/בקרת רמי/scripts/old/comparison_results.json",
+              "extension": ".json",
+              "size_bytes": 94975,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "deleted_reports.xlsx",
+              "path": "מידד/בקרת רמי/scripts/old/deleted_reports.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 50157,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "network_report_summary.xlsx",
+              "path": "מידד/בקרת רמי/scripts/old/network_report_summary.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 11219,
+              "modified": "2026-03-14T19:34:55"
+            },
+            {
+              "name": "newLayer_wkt.json",
+              "path": "מידד/בקרת רמי/scripts/old/newLayer_wkt.json",
+              "extension": ".json",
+              "size_bytes": 114014,
+              "modified": "2026-03-14T19:34:55"
+            }
+          ],
+          "other": [
+            {
+              "name": "data.geojson",
+              "path": "מידד/בקרת רמי/scripts/data.geojson",
+              "extension": ".geojson",
+              "size_bytes": 185118,
+              "modified": "2026-03-14T19:34:55"
+            }
+          ]
+        },
+        "דוח פיקוח מכלאות": {
+          "path": "מידד/דוח פיקוח מכלאות",
+          "modified": "2026-05-02T20:45:20",
+          "total_files": 15,
+          "scripts": [
+            {
+              "name": "דו_ח_חוסרים_כולל_רשומות_שהושלמו_אוטומטית.html",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/from guy/דו_ח_חוסרים_כולל_רשומות_שהושלמו_אוטומטית.html",
+              "extension": ".html",
+              "size_bytes": 11549,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "gis_report.html",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/gis_report.html",
+              "extension": ".html",
+              "size_bytes": 981826,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "grazing_Shepard_Loc_and_Insp.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/grazing_Shepard_Loc_and_Insp.py",
+              "extension": ".py",
+              "size_bytes": 54049,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "create_report.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/old/create_report.py",
+              "extension": ".py",
+              "size_bytes": 6151,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "dataTransfer_between_layers.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/old/dataTransfer_between_layers.py",
+              "extension": ".py",
+              "size_bytes": 9007,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "remove_from_table.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/remove_from_table.py",
+              "extension": ".py",
+              "size_bytes": 570,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "sending_DailyMail.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/sending_DailyMail.py",
+              "extension": ".py",
+              "size_bytes": 22342,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "sending_mails_report.py",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/sending_mails_report.py",
+              "extension": ".py",
+              "size_bytes": 17890,
+              "modified": "2026-03-14T19:38:17"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Mail_Fix_Alet.pdf",
+              "path": "מידד/דוח פיקוח מכלאות/Documents/Mail_Fix_Alet.pdf",
+              "extension": ".pdf",
+              "size_bytes": 338173,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "Mail_Fix_Alet.pptx",
+              "path": "מידד/דוח פיקוח מכלאות/Documents/Mail_Fix_Alet.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1398345,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "~$בדיקות ותיקונים אוטומטיים.pptx",
+              "path": "מידד/דוח פיקוח מכלאות/Documents/~$בדיקות ותיקונים אוטומטיים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 165,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "בדיקות ותיקונים אוטומטיים.pdf",
+              "path": "מידד/דוח פיקוח מכלאות/Documents/בדיקות ותיקונים אוטומטיים.pdf",
+              "extension": ".pdf",
+              "size_bytes": 1316657,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "בדיקות ותיקונים אוטומטיים.pptx",
+              "path": "מידד/דוח פיקוח מכלאות/Documents/בדיקות ותיקונים אוטומטיים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1830113,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "data_to_mail.xlsx",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/data_to_mail.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 17462,
+              "modified": "2026-03-14T19:38:17"
+            },
+            {
+              "name": "סיכום מייל.xlsx",
+              "path": "מידד/דוח פיקוח מכלאות/scripts/from guy/סיכום מייל.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 9216,
+              "modified": "2026-03-14T19:38:17"
+            }
+          ],
+          "other": []
+        },
+        "דוח פיקוח תשתיות": {
+          "path": "מידד/דוח פיקוח תשתיות",
+          "modified": "2026-05-02T20:45:20",
+          "total_files": 9,
+          "scripts": [
+            {
+              "name": "7_report.html",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.html",
+              "extension": ".html",
+              "size_bytes": 3529,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "inspection_report.html",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/inspection_report.html",
+              "extension": ".html",
+              "size_bytes": 4386,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "sendMail_infra copy.py",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/old/sendMail_infra copy.py",
+              "extension": ".py",
+              "size_bytes": 12051,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "sendMail_infra.py",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/sendMail_infra.py",
+              "extension": ".py",
+              "size_bytes": 28573,
+              "modified": "2026-03-14T19:38:23"
+            }
+          ],
+          "documents": [
+            {
+              "name": "read_me.txt",
+              "path": "מידד/דוח פיקוח תשתיות/data/read_me.txt",
+              "extension": ".txt",
+              "size_bytes": 659,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "7_report.pdf",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.pdf",
+              "extension": ".pdf",
+              "size_bytes": 467347,
+              "modified": "2026-03-14T19:38:23"
+            }
+          ],
+          "other": [
+            {
+              "name": "examplePDF.jpg",
+              "path": "מידד/דוח פיקוח תשתיות/data/examplePDF.jpg",
+              "extension": ".jpg",
+              "size_bytes": 142020,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "kkl_logo.jpg",
+              "path": "מידד/דוח פיקוח תשתיות/data/kkl_logo.jpg",
+              "extension": ".jpg",
+              "size_bytes": 144044,
+              "modified": "2026-03-14T19:38:23"
+            },
+            {
+              "name": "KKL.png",
+              "path": "מידד/דוח פיקוח תשתיות/scripts/KKL.png",
+              "extension": ".png",
+              "size_bytes": 171179,
+              "modified": "2026-03-14T19:38:23"
+            }
+          ]
+        },
+        "הורדת וורטקסים": {
+          "path": "מידד/הורדת וורטקסים",
+          "modified": "2026-05-02T20:45:43",
+          "total_files": 3,
+          "scripts": [
+            {
+              "name": "push_to_elev_conours.py",
+              "path": "מידד/הורדת וורטקסים/scripts/push_to_elev_conours.py",
+              "extension": ".py",
+              "size_bytes": 3248,
+              "modified": "2026-04-23T12:01:51"
+            },
+            {
+              "name": "removing_PseudoNodes.py",
+              "path": "מידד/הורדת וורטקסים/scripts/removing_PseudoNodes.py",
+              "extension": ".py",
+              "size_bytes": 19348,
+              "modified": "2026-04-23T12:01:51"
+            }
+          ],
+          "documents": [
+            {
+              "name": "read_me.txt",
+              "path": "מידד/הורדת וורטקסים/scripts/read_me.txt",
+              "extension": ".txt",
+              "size_bytes": 3,
+              "modified": "2026-04-23T12:01:51"
+            }
+          ],
+          "other": []
+        },
+        "הקצאת משימות": {
+          "path": "מידד/הקצאת משימות",
+          "modified": "2026-05-02T20:45:43",
+          "total_files": 4,
+          "scripts": [
+            {
+              "name": "main.html",
+              "path": "מידד/הקצאת משימות/scripts/main.html",
+              "extension": ".html",
+              "size_bytes": 120233,
+              "modified": "2026-04-23T12:20:36"
+            },
+            {
+              "name": "mainPhone.html",
+              "path": "מידד/הקצאת משימות/scripts/mainPhone.html",
+              "extension": ".html",
+              "size_bytes": 116895,
+              "modified": "2026-03-14T19:38:48"
+            },
+            {
+              "name": "main_9_12_2025.html",
+              "path": "מידד/הקצאת משימות/scripts/old/main_9_12_2025.html",
+              "extension": ".html",
+              "size_bytes": 103201,
+              "modified": "2026-03-14T19:38:48"
+            }
+          ],
+          "documents": [
+            {
+              "name": "משימה.docx",
+              "path": "מידד/הקצאת משימות/docs/משימה.docx",
+              "extension": ".docx",
+              "size_bytes": 15966,
+              "modified": "2026-03-14T19:38:48"
+            }
+          ],
+          "other": []
+        },
+        "מציאת עשן": {
+          "path": "מידד/מציאת עשן",
+          "modified": "2026-05-02T20:45:43",
+          "total_files": 18,
+          "scripts": [
+            {
+              "name": "main.py",
+              "path": "מידד/מציאת עשן/scripts/main.py",
+              "extension": ".py",
+              "size_bytes": 2782,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "main_computerCamara.py",
+              "path": "מידד/מציאת עשן/scripts/main_computerCamara.py",
+              "extension": ".py",
+              "size_bytes": 4140,
+              "modified": "2026-03-14T19:35:01"
+            }
+          ],
+          "documents": [
+            {
+              "name": "GIS- Fire and Smoke.pdf",
+              "path": "מידד/מציאת עשן/docs/GIS- Fire and Smoke.pdf",
+              "extension": ".pdf",
+              "size_bytes": 870205,
+              "modified": "2026-03-14T19:35:02"
+            },
+            {
+              "name": "GIS- Fire and Smoke.pptx",
+              "path": "מידד/מציאת עשן/docs/GIS- Fire and Smoke.pptx",
+              "extension": ".pptx",
+              "size_bytes": 6155591,
+              "modified": "2026-03-14T19:35:02"
+            }
+          ],
+          "other": [
+            {
+              "name": "smoke.jpg",
+              "path": "מידד/מציאת עשן/data/detect/predict/smoke.jpg",
+              "extension": ".jpg",
+              "size_bytes": 258650,
+              "modified": "2026-03-14T19:35:02"
+            },
+            {
+              "name": "smoke.jpg",
+              "path": "מידד/מציאת עשן/data/detect/predict2/smoke.jpg",
+              "extension": ".jpg",
+              "size_bytes": 258650,
+              "modified": "2026-03-14T19:35:02"
+            },
+            {
+              "name": "result.jpg",
+              "path": "מידד/מציאת עשן/docs/result.jpg",
+              "extension": ".jpg",
+              "size_bytes": 169197,
+              "modified": "2026-03-14T19:35:02"
+            },
+            {
+              "name": "Dust_smoke_detection.mp4",
+              "path": "מידד/מציאת עשן/scripts/Dust_smoke_detection.mp4",
+              "extension": ".mp4",
+              "size_bytes": 18219785,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "Volo.mp4",
+              "path": "מידד/מציאת עשן/scripts/Volo.mp4",
+              "extension": ".mp4",
+              "size_bytes": 55187496,
+              "modified": "2026-03-14T19:35:02"
+            },
+            {
+              "name": "all_smoke_if_any_smoke.jpg",
+              "path": "מידד/מציאת עשן/scripts/all_smoke_if_any_smoke.jpg",
+              "extension": ".jpg",
+              "size_bytes": 258650,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "best.pt",
+              "path": "מידד/מציאת עשן/scripts/best.pt",
+              "extension": ".pt",
+              "size_bytes": 6262051,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "dust.jpg",
+              "path": "מידד/מציאת עשן/scripts/dust.jpg",
+              "extension": ".jpg",
+              "size_bytes": 53201,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "sig.mp4",
+              "path": "מידד/מציאת עשן/scripts/sig.mp4",
+              "extension": ".mp4",
+              "size_bytes": 13627368,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "smoke.jpg",
+              "path": "מידד/מציאת עשן/scripts/smoke.jpg",
+              "extension": ".jpg",
+              "size_bytes": 778051,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "smoke_detection.jpg",
+              "path": "מידד/מציאת עשן/scripts/smoke_detection.jpg",
+              "extension": ".jpg",
+              "size_bytes": 260149,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "smoke_sig_detection.mp4",
+              "path": "מידד/מציאת עשן/scripts/smoke_sig_detection.mp4",
+              "extension": ".mp4",
+              "size_bytes": 18752019,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "thresholded_detection.jpg",
+              "path": "מידד/מציאת עשן/scripts/thresholded_detection.jpg",
+              "extension": ".jpg",
+              "size_bytes": 75980,
+              "modified": "2026-03-14T19:35:01"
+            },
+            {
+              "name": "video_smoke.mp4",
+              "path": "מידד/מציאת עשן/scripts/video_smoke.mp4",
+              "extension": ".mp4",
+              "size_bytes": 8608277,
+              "modified": "2026-03-14T19:35:01"
+            }
+          ]
+        },
+        "ניהול פרוייקטים": {
+          "path": "מידד/ניהול פרוייקטים",
+          "modified": "2026-05-02T20:45:43",
+          "total_files": 4,
+          "scripts": [
+            {
+              "name": "Index.html",
+              "path": "מידד/ניהול פרוייקטים/scripts/Index.html",
+              "extension": ".html",
+              "size_bytes": 81335,
+              "modified": "2026-04-30T10:47:21"
+            },
+            {
+              "name": "read_from_sheet.py",
+              "path": "מידד/ניהול פרוייקטים/scripts/read_from_sheet.py",
+              "extension": ".py",
+              "size_bytes": 44873,
+              "modified": "2026-04-13T13:33:40"
+            }
+          ],
+          "documents": [
+            {
+              "name": "project_report.pdf",
+              "path": "מידד/ניהול פרוייקטים/scripts/project_report.pdf",
+              "extension": ".pdf",
+              "size_bytes": 966727,
+              "modified": "2026-05-02T20:41:41"
+            },
+            {
+              "name": "projects_full.json",
+              "path": "מידד/ניהול פרוייקטים/scripts/projects_full.json",
+              "extension": ".json",
+              "size_bytes": 345334,
+              "modified": "2026-05-02T20:41:38"
+            }
+          ],
+          "other": []
+        },
+        "ספר יער - ישן": {
+          "path": "מידד/ספר יער - ישן",
+          "modified": "2026-05-02T20:45:55",
+          "total_files": 6,
+          "scripts": [
+            {
+              "name": "index.html",
+              "path": "מידד/ספר יער - ישן/scripts/index.html",
+              "extension": ".html",
+              "size_bytes": 161051,
+              "modified": "2026-04-23T12:21:13"
+            }
+          ],
+          "documents": [
+            {
+              "name": "networkx_edges.json",
+              "path": "מידד/ספר יער - ישן/scripts/networkx_edges.json",
+              "extension": ".json",
+              "size_bytes": 2035828,
+              "modified": "2026-04-23T12:21:13"
+            },
+            {
+              "name": "networkx_edges2.json",
+              "path": "מידד/ספר יער - ישן/scripts/networkx_edges2.json",
+              "extension": ".json",
+              "size_bytes": 1392366,
+              "modified": "2026-04-23T12:21:13"
+            }
+          ],
+          "other": [
+            {
+              "name": "LOGO.jpg",
+              "path": "מידד/ספר יער - ישן/scripts/LOGO.jpg",
+              "extension": ".jpg",
+              "size_bytes": 201127,
+              "modified": "2026-04-23T12:21:13"
+            },
+            {
+              "name": "LOGO_KKL.jpg",
+              "path": "מידד/ספר יער - ישן/scripts/LOGO_KKL.jpg",
+              "extension": ".jpg",
+              "size_bytes": 30213,
+              "modified": "2026-04-23T12:21:13"
+            },
+            {
+              "name": "camera.png",
+              "path": "מידד/ספר יער - ישן/scripts/camera.png",
+              "extension": ".png",
+              "size_bytes": 929335,
+              "modified": "2026-04-23T12:21:13"
+            }
+          ]
+        },
+        "עדכון קדסטר": {
+          "path": "מידד/עדכון קדסטר",
+          "modified": "2026-05-02T20:45:55",
+          "total_files": 6,
+          "scripts": [
+            {
+              "name": "Monthly_1_Cadaster.py",
+              "path": "מידד/עדכון קדסטר/scripts/Monthly_1_Cadaster.py",
+              "extension": ".py",
+              "size_bytes": 4190,
+              "modified": "2026-03-14T19:37:17"
+            },
+            {
+              "name": "Monthly_2_geom_fixing.py",
+              "path": "מידד/עדכון קדסטר/scripts/Monthly_2_geom_fixing.py",
+              "extension": ".py",
+              "size_bytes": 3488,
+              "modified": "2026-03-14T19:37:17"
+            },
+            {
+              "name": "Monthly_3_archive.py",
+              "path": "מידד/עדכון קדסטר/scripts/Monthly_3_archive.py",
+              "extension": ".py",
+              "size_bytes": 7139,
+              "modified": "2026-03-14T19:37:17"
+            },
+            {
+              "name": "Monthly_4_SQL.py",
+              "path": "מידד/עדכון קדסטר/scripts/Monthly_4_SQL.py",
+              "extension": ".py",
+              "size_bytes": 884,
+              "modified": "2026-03-14T19:37:17"
+            },
+            {
+              "name": "Monthly_5_main.py",
+              "path": "מידד/עדכון קדסטר/scripts/Monthly_5_main.py",
+              "extension": ".py",
+              "size_bytes": 1692,
+              "modified": "2026-03-14T19:37:17"
+            }
+          ],
+          "documents": [
+            {
+              "name": "check_update.txt",
+              "path": "מידד/עדכון קדסטר/scripts/check_update.txt",
+              "extension": ".txt",
+              "size_bytes": 2133,
+              "modified": "2026-04-19T13:26:43"
+            }
+          ],
+          "other": []
+        },
+        "עומדים": {
+          "path": "מידד/עומדים",
+          "modified": "2026-05-02T20:46:45",
+          "total_files": 29,
+          "scripts": [
+            {
+              "name": "1_main_update.py",
+              "path": "מידד/עומדים/scripts/1_main_update.py",
+              "extension": ".py",
+              "size_bytes": 16426,
+              "modified": "2026-04-15T17:30:18"
+            },
+            {
+              "name": "2_push_to_AGOL.py",
+              "path": "מידד/עומדים/scripts/2_push_to_AGOL.py",
+              "extension": ".py",
+              "size_bytes": 4826,
+              "modified": "2026-04-15T17:29:48"
+            },
+            {
+              "name": "3_table_to_point.py",
+              "path": "מידד/עומדים/scripts/3_table_to_point.py",
+              "extension": ".py",
+              "size_bytes": 4738,
+              "modified": "2026-04-15T16:50:24"
+            },
+            {
+              "name": "4_push_Point_to_AGOL.py",
+              "path": "מידד/עומדים/scripts/4_push_Point_to_AGOL.py",
+              "extension": ".py",
+              "size_bytes": 6060,
+              "modified": "2026-03-19T14:33:31"
+            },
+            {
+              "name": "5_updateBatch.py",
+              "path": "מידד/עומדים/scripts/5_updateBatch.py",
+              "extension": ".py",
+              "size_bytes": 11167,
+              "modified": "2026-04-15T16:51:14"
+            },
+            {
+              "name": "6_Semy.py",
+              "path": "מידד/עומדים/scripts/6_Semy.py",
+              "extension": ".py",
+              "size_bytes": 14552,
+              "modified": "2026-04-15T17:28:37"
+            },
+            {
+              "name": "7_updateLastYearBatch.py",
+              "path": "מידד/עומדים/scripts/7_updateLastYearBatch.py",
+              "extension": ".py",
+              "size_bytes": 8702,
+              "modified": "2026-04-15T15:18:33"
+            },
+            {
+              "name": "8_update_treatmentForest.py",
+              "path": "מידד/עומדים/scripts/8_update_treatmentForest.py",
+              "extension": ".py",
+              "size_bytes": 10467,
+              "modified": "2026-05-01T11:31:37"
+            },
+            {
+              "name": "a_Network_Prepare.py",
+              "path": "מידד/עומדים/scripts/a_Network_Prepare.py",
+              "extension": ".py",
+              "size_bytes": 4031,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "b_Network_Stands.py",
+              "path": "מידד/עומדים/scripts/b_Network_Stands.py",
+              "extension": ".py",
+              "size_bytes": 12124,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "checkByGeomKey.py",
+              "path": "מידד/עומדים/scripts/checkByGeomKey.py",
+              "extension": ".py",
+              "size_bytes": 8165,
+              "modified": "2026-03-19T14:33:31"
+            },
+            {
+              "name": "checkDuplicates.py",
+              "path": "מידד/עומדים/scripts/checkDuplicates.py",
+              "extension": ".py",
+              "size_bytes": 28951,
+              "modified": "2026-03-19T14:33:31"
+            },
+            {
+              "name": "insert_pic.py",
+              "path": "מידד/עומדים/scripts/insert_pic.py",
+              "extension": ".py",
+              "size_bytes": 7310,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "insert_pic.py",
+              "path": "מידד/עומדים/scripts/old/insert_pic.py",
+              "extension": ".py",
+              "size_bytes": 1830,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "stats.py",
+              "path": "מידד/עומדים/scripts/stats.py",
+              "extension": ".py",
+              "size_bytes": 56050,
+              "modified": "2026-03-19T14:33:31"
+            },
+            {
+              "name": "utiles.py",
+              "path": "מידד/עומדים/scripts/utiles.py",
+              "extension": ".py",
+              "size_bytes": 5325,
+              "modified": "2026-03-19T14:33:31"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Sefer_Yaar_Data_Issues.pdf",
+              "path": "מידד/עומדים/Documents/Sefer_Yaar_Data_Issues.pdf",
+              "extension": ".pdf",
+              "size_bytes": 532807,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "Stands_archive.pdf",
+              "path": "מידד/עומדים/Documents/Stands_archive.pdf",
+              "extension": ".pdf",
+              "size_bytes": 758063,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "Stands_archive.pptx",
+              "path": "מידד/עומדים/Documents/Stands_archive.pptx",
+              "extension": ".pptx",
+              "size_bytes": 2112704,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "Forest_Stand_History_Pipeline.pptx",
+              "path": "מידד/עומדים/Documents/from scripts/Forest_Stand_History_Pipeline.pptx",
+              "extension": ".pptx",
+              "size_bytes": 455021,
+              "modified": "2026-04-16T10:38:12"
+            },
+            {
+              "name": "Stage2_Push_to_AGOL.pptx",
+              "path": "מידד/עומדים/Documents/from scripts/Stage2_Push_to_AGOL.pptx",
+              "extension": ".pptx",
+              "size_bytes": 394755,
+              "modified": "2026-04-16T10:49:16"
+            },
+            {
+              "name": "Stage3_Table_to_Point.pptx",
+              "path": "מידד/עומדים/Documents/from scripts/Stage3_Table_to_Point.pptx",
+              "extension": ".pptx",
+              "size_bytes": 424365,
+              "modified": "2026-04-16T11:02:10"
+            },
+            {
+              "name": "stands_dataProblems.pdf",
+              "path": "מידד/עומדים/Documents/stands_dataProblems.pdf",
+              "extension": ".pdf",
+              "size_bytes": 693423,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "stands_dataProblems.pptx",
+              "path": "מידד/עומדים/Documents/stands_dataProblems.pptx",
+              "extension": ".pptx",
+              "size_bytes": 5729542,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "משימה למידד.docx",
+              "path": "מידד/עומדים/Documents/משימה למידד.docx",
+              "extension": ".docx",
+              "size_bytes": 15490,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "ספר יער – תיעוד סביבות פיתוח.pdf",
+              "path": "מידד/עומדים/Documents/ספר יער – תיעוד סביבות פיתוח.pdf",
+              "extension": ".pdf",
+              "size_bytes": 249019,
+              "modified": "2026-03-14T19:38:40"
+            },
+            {
+              "name": "ForestTreatments.xlsx",
+              "path": "מידד/עומדים/scripts/ForestTreatments.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 5315469,
+              "modified": "2026-04-30T16:05:46"
+            },
+            {
+              "name": "checkpoint.json",
+              "path": "מידד/עומדים/scripts/checkpoint.json",
+              "extension": ".json",
+              "size_bytes": 182992,
+              "modified": "2026-03-14T19:38:40"
+            }
+          ],
+          "other": [
+            {
+              "name": "save_10_2_2026.zip",
+              "path": "מידד/עומדים/scripts/old/save_10_2_2026.zip",
+              "extension": ".zip",
+              "size_bytes": 48855,
+              "modified": "2026-03-14T19:38:40"
+            }
+          ]
+        },
+        "עיסקאות": {
+          "path": "מידד/עיסקאות",
+          "modified": "2026-05-02T20:50:20",
+          "total_files": 15,
+          "scripts": [
+            {
+              "name": "download_Yahud_parcel.py",
+              "path": "מידד/עיסקאות/scripts/download_Yahud_parcel.py",
+              "extension": ".py",
+              "size_bytes": 2668,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "geometry_cut.py",
+              "path": "מידד/עיסקאות/scripts/geometry_cut.py",
+              "extension": ".py",
+              "size_bytes": 8744,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/עיסקאות/scripts/index.html",
+              "extension": ".html",
+              "size_bytes": 61901,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "compare_adlan_deal.py",
+              "path": "מידד/עיסקאות/scripts/old/compare_adlan_deal.py",
+              "extension": ".py",
+              "size_bytes": 4200,
+              "modified": "2026-03-14T19:34:33"
+            },
+            {
+              "name": "download_plan.py",
+              "path": "מידד/עיסקאות/scripts/old/download_data/download_plan.py",
+              "extension": ".py",
+              "size_bytes": 825,
+              "modified": "2026-03-14T19:34:33"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/עיסקאות/scripts/old/index.html",
+              "extension": ".html",
+              "size_bytes": 5798,
+              "modified": "2026-03-14T19:34:33"
+            },
+            {
+              "name": "read_data)csv.py",
+              "path": "מידד/עיסקאות/scripts/old/read_data)csv.py",
+              "extension": ".py",
+              "size_bytes": 194,
+              "modified": "2026-03-14T19:34:33"
+            },
+            {
+              "name": "read_excel_approved.py",
+              "path": "מידד/עיסקאות/scripts/old/read_excel_approved.py",
+              "extension": ".py",
+              "size_bytes": 18160,
+              "modified": "2026-03-14T19:34:33"
+            },
+            {
+              "name": "prepareData.py",
+              "path": "מידד/עיסקאות/scripts/prepareData.py",
+              "extension": ".py",
+              "size_bytes": 8693,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "utiles.py",
+              "path": "מידד/עיסקאות/scripts/utiles.py",
+              "extension": ".py",
+              "size_bytes": 5746,
+              "modified": "2026-04-23T12:24:49"
+            }
+          ],
+          "documents": [
+            {
+              "name": "deals.pptx",
+              "path": "מידד/עיסקאות/Documents/deals.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1953421,
+              "modified": "2026-03-14T19:34:30"
+            },
+            {
+              "name": "~$deals.pptx",
+              "path": "מידד/עיסקאות/Documents/~$deals.pptx",
+              "extension": ".pptx",
+              "size_bytes": 165,
+              "modified": "2026-03-14T19:34:30"
+            },
+            {
+              "name": "add_layers.json",
+              "path": "מידד/עיסקאות/scripts/add_layers.json",
+              "extension": ".json",
+              "size_bytes": 107891,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "comparison_results.json",
+              "path": "מידד/עיסקאות/scripts/comparison_results.json",
+              "extension": ".json",
+              "size_bytes": 94975,
+              "modified": "2026-04-23T12:24:49"
+            },
+            {
+              "name": "newLayer_wkt.json",
+              "path": "מידד/עיסקאות/scripts/newLayer_wkt.json",
+              "extension": ".json",
+              "size_bytes": 114014,
+              "modified": "2026-04-23T12:24:49"
+            }
+          ],
+          "other": []
+        },
+        "קומפילציית יעודים": {
+          "path": "מידד/קומפילציית יעודים",
+          "modified": "2026-05-02T20:50:22",
+          "total_files": 7,
+          "scripts": [
+            {
+              "name": "downloads_Process_Yahud.py",
+              "path": "מידד/קומפילציית יעודים/scripts/downloads_Process_Yahud.py",
+              "extension": ".py",
+              "size_bytes": 49619,
+              "modified": "2026-05-02T20:10:00"
+            },
+            {
+              "name": "downloads_Process_cadaster.py",
+              "path": "מידד/קומפילציית יעודים/scripts/downloads_Process_cadaster.py",
+              "extension": ".py",
+              "size_bytes": 7669,
+              "modified": "2026-03-28T00:41:40"
+            },
+            {
+              "name": "Process_Yahud.py",
+              "path": "מידד/קומפילציית יעודים/scripts/old/Process_Yahud.py",
+              "extension": ".py",
+              "size_bytes": 9672,
+              "modified": "2026-04-27T18:15:40"
+            },
+            {
+              "name": "Process_cadaster.py",
+              "path": "מידד/קומפילציית יעודים/scripts/old/Process_cadaster.py",
+              "extension": ".py",
+              "size_bytes": 7840,
+              "modified": "2026-04-27T18:09:44"
+            },
+            {
+              "name": "Process_main.py",
+              "path": "מידד/קומפילציית יעודים/scripts/old/Process_main.py",
+              "extension": ".py",
+              "size_bytes": 9258,
+              "modified": "2026-04-27T17:51:27"
+            },
+            {
+              "name": "utilies.py",
+              "path": "מידד/קומפילציית יעודים/scripts/old/utilies.py",
+              "extension": ".py",
+              "size_bytes": 8171,
+              "modified": "2026-03-14T19:37:36"
+            }
+          ],
+          "documents": [
+            {
+              "name": "קומפילציה.pdf",
+              "path": "מידד/קומפילציית יעודים/Documents/קומפילציה.pdf",
+              "extension": ".pdf",
+              "size_bytes": 1222056,
+              "modified": "2026-03-26T11:28:49"
+            }
+          ],
+          "other": []
+        },
+        "קרדיטים": {
+          "path": "מידד/קרדיטים",
+          "modified": "2026-05-02T20:50:50",
+          "total_files": 37,
+          "scripts": [
+            {
+              "name": "check_credits_by_allTypes.py",
+              "path": "מידד/קרדיטים/scripts/check_credits_by_allTypes.py",
+              "extension": ".py",
+              "size_bytes": 90813,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "ai_checks.py",
+              "path": "מידד/קרדיטים/scripts/others/ai_checks.py",
+              "extension": ".py",
+              "size_bytes": 1020,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "check_credits_by_allTypes_.py",
+              "path": "מידד/קרדיטים/scripts/others/check_credits_by_allTypes_.py",
+              "extension": ".py",
+              "size_bytes": 87069,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "check_credits_general.py",
+              "path": "מידד/קרדיטים/scripts/others/check_credits_general.py",
+              "extension": ".py",
+              "size_bytes": 64434,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "dashbord_by_map.py",
+              "path": "מידד/קרדיטים/scripts/others/dashbord_by_map.py",
+              "extension": ".py",
+              "size_bytes": 2763,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "merge_All_types.py",
+              "path": "מידד/קרדיטים/scripts/others/merge_All_types.py",
+              "extension": ".py",
+              "size_bytes": 12556,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "push_database_guy.py",
+              "path": "מידד/קרדיטים/scripts/push_database_guy.py",
+              "extension": ".py",
+              "size_bytes": 13843,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "research.py",
+              "path": "מידד/קרדיטים/scripts/research.py",
+              "extension": ".py",
+              "size_bytes": 5677,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "ManagerItemsReport.html",
+              "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/ManagerItemsReport.html",
+              "extension": ".html",
+              "size_bytes": 7579,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "UserItemsReport.html",
+              "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/UserItemsReport.html",
+              "extension": ".html",
+              "size_bytes": 8715,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "guy_format.html",
+              "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/old/guy_format.html",
+              "extension": ".html",
+              "size_bytes": 9006,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "medadhozekkl.html",
+              "path": "מידד/קרדיטים/scripts/script_mail/medadhozekkl.html",
+              "extension": ".html",
+              "size_bytes": 73911,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "read_data.py",
+              "path": "מידד/קרדיטים/scripts/script_mail/read_data.py",
+              "extension": ".py",
+              "size_bytes": 19751,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "read_data2.py",
+              "path": "מידד/קרדיטים/scripts/script_mail/read_data2.py",
+              "extension": ".py",
+              "size_bytes": 18807,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "read_data_manager.py",
+              "path": "מידד/קרדיטים/scripts/script_mail/read_data_manager.py",
+              "extension": ".py",
+              "size_bytes": 23798,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "sendMails_main.py",
+              "path": "מידד/קרדיטים/scripts/script_mail/sendMails_main.py",
+              "extension": ".py",
+              "size_bytes": 1656,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "מידד חוזה.html",
+              "path": "מידד/קרדיטים/scripts/script_mail/מידד חוזה.html",
+              "extension": ".html",
+              "size_bytes": 14009,
+              "modified": "2026-03-14T19:33:05"
+            }
+          ],
+          "documents": [
+            {
+              "name": "ArcGIS_online.pdf",
+              "path": "מידד/קרדיטים/Documents/ArcGIS_online.pdf",
+              "extension": ".pdf",
+              "size_bytes": 1559726,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "ArcGIS_online.pptx",
+              "path": "מידד/קרדיטים/Documents/ArcGIS_online.pptx",
+              "extension": ".pptx",
+              "size_bytes": 2028763,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2024_12_11.csv",
+              "path": "מידד/קרדיטים/data/data_2024_12_11.csv",
+              "extension": ".csv",
+              "size_bytes": 2702191,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2025_01_02.csv",
+              "path": "מידד/קרדיטים/data/data_2025_01_02.csv",
+              "extension": ".csv",
+              "size_bytes": 2127612,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2025_01_25.csv",
+              "path": "מידד/קרדיטים/data/data_2025_01_25.csv",
+              "extension": ".csv",
+              "size_bytes": 3613258,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "UserItems.xlsx",
+              "path": "מידד/קרדיטים/scripts/UserItems.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 709541,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "mailGs.txt",
+              "path": "מידד/קרדיטים/scripts/appsScript/mailGs.txt",
+              "extension": ".txt",
+              "size_bytes": 4705,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "mailHtml.txt",
+              "path": "מידד/קרדיטים/scripts/appsScript/mailHtml.txt",
+              "extension": ".txt",
+              "size_bytes": 20748,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2025_09_11 - Copy.csv",
+              "path": "מידד/קרדיטים/scripts/data_2025_09_11 - Copy.csv",
+              "extension": ".csv",
+              "size_bytes": 4026163,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2025_09_11.csv",
+              "path": "מידד/קרדיטים/scripts/data_2025_09_11.csv",
+              "extension": ".csv",
+              "size_bytes": 4026163,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "execution_log.xlsx",
+              "path": "מידד/קרדיטים/scripts/execution_log.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 5104,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "log_excel.xlsx",
+              "path": "מידד/קרדיטים/scripts/log_excel.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 5033,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "data_2025_03_24.csv",
+              "path": "מידד/קרדיטים/scripts/old_excels/data_2025_03_24.csv",
+              "extension": ".csv",
+              "size_bytes": 3855597,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "execution_log.xlsx",
+              "path": "מידד/קרדיטים/scripts/old_excels/execution_log.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 5919,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "log_excel.xlsx",
+              "path": "מידד/קרדיטים/scripts/old_excels/log_excel.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 39396,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "export_items_2025_04_21-125406.csv",
+              "path": "מידד/קרדיטים/scripts/others/export_items_2025_04_21-125406.csv",
+              "extension": ".csv",
+              "size_bytes": 2090747,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "research.txt",
+              "path": "מידד/קרדיטים/scripts/research.txt",
+              "extension": ".txt",
+              "size_bytes": 5681,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "gs.txt",
+              "path": "מידד/קרדיטים/scripts/script_mail/gs.txt",
+              "extension": ".txt",
+              "size_bytes": 7625,
+              "modified": "2026-03-14T19:33:05"
+            },
+            {
+              "name": "html.txt",
+              "path": "מידד/קרדיטים/scripts/script_mail/html.txt",
+              "extension": ".txt",
+              "size_bytes": 27179,
+              "modified": "2026-03-14T19:33:05"
+            }
+          ],
+          "other": [
+            {
+              "name": "dashboard_updater.log",
+              "path": "מידד/קרדיטים/scripts/dashboard_updater.log",
+              "extension": ".log",
+              "size_bytes": 1400,
+              "modified": "2026-03-14T19:33:05"
+            }
+          ]
+        },
+        "רשת קדסטר": {
+          "path": "מידד/רשת קדסטר",
+          "modified": "2026-05-02T20:50:50",
+          "total_files": 53,
+          "scripts": [
+            {
+              "name": "API_cadaster_network.py",
+              "path": "מידד/רשת קדסטר/scripts/API_cadaster_network.py",
+              "extension": ".py",
+              "size_bytes": 67928,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/index.html",
+              "extension": ".html",
+              "size_bytes": 685,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "ApiFetchComponent.jsx",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ApiFetchComponent.jsx",
+              "extension": ".jsx",
+              "size_bytes": 1202,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "App.css",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.css",
+              "extension": ".css",
+              "size_bytes": 2121,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "App.js",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.js",
+              "extension": ".js",
+              "size_bytes": 629,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "ControlPanel.css",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.css",
+              "extension": ".css",
+              "size_bytes": 1451,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "ControlPanel.jsx",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.jsx",
+              "extension": ".jsx",
+              "size_bytes": 1475,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "GeoMAISection.js",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/GeoMAISection.js",
+              "extension": ".js",
+              "size_bytes": 958,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "MapContainer.jsx",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/MapContainer.jsx",
+              "extension": ".jsx",
+              "size_bytes": 8880,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "PropertiesTable.jsx",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/PropertiesTable.jsx",
+              "extension": ".jsx",
+              "size_bytes": 1385,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "index.css",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.css",
+              "extension": ".css",
+              "size_bytes": 366,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "index.js",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.js",
+              "extension": ".js",
+              "size_bytes": 235,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "reportWebVitals.js",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/reportWebVitals.js",
+              "extension": ".js",
+              "size_bytes": 362,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "API_cadaster_network_13_1_2024.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/API_cadaster_network_13_1_2024.py",
+              "extension": ".py",
+              "size_bytes": 44896,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "Delta_parcels_missing.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/Delta_parcels_missing.py",
+              "extension": ".py",
+              "size_bytes": 3844,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "Find_Lost_parcels.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/Find_Lost_parcels.py",
+              "extension": ".py",
+              "size_bytes": 5990,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "change_pdfs_path_Postgresql.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/change_pdfs_path_Postgresql.py",
+              "extension": ".py",
+              "size_bytes": 1713,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "data_to_postgresql.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/data_to_postgresql.py",
+              "extension": ".py",
+              "size_bytes": 3122,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "postgresql_to_data.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/postgresql_to_data.py",
+              "extension": ".py",
+              "size_bytes": 1039,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "push_network_connected_toSQL.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/push_network_connected_toSQL.py",
+              "extension": ".py",
+              "size_bytes": 1867,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "push_postgresql.py",
+              "path": "מידד/רשת קדסטר/scripts/assits_codes/push_postgresql.py",
+              "extension": ".py",
+              "size_bytes": 4769,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "main.py",
+              "path": "מידד/רשת קדסטר/scripts/main.py",
+              "extension": ".py",
+              "size_bytes": 6769,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "main_update.py",
+              "path": "מידד/רשת קדסטר/scripts/main_update.py",
+              "extension": ".py",
+              "size_bytes": 4011,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "API_cadaster_network.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/API_cadaster_network.py",
+              "extension": ".py",
+              "size_bytes": 43243,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "API_continuous.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/API_continuous.py",
+              "extension": ".py",
+              "size_bytes": 3775,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "New Text Document.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/New Text Document.py",
+              "extension": ".py",
+              "size_bytes": 560,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "Find_Lost_parcels.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/Find_Lost_parcels.py",
+              "extension": ".py",
+              "size_bytes": 5975,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "update_cadaster.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/update_cadaster.py",
+              "extension": ".py",
+              "size_bytes": 11816,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "update_cancel_parcel.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/update_cancel_parcel.py",
+              "extension": ".py",
+              "size_bytes": 2638,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "main.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/main.py",
+              "extension": ".py",
+              "size_bytes": 986,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "check_total.py",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/others/check_total.py",
+              "extension": ".py",
+              "size_bytes": 1158,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/templates/index.html",
+              "extension": ".html",
+              "size_bytes": 4358,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "main_old.py",
+              "path": "מידד/רשת קדסטר/scripts/others/main_old.py",
+              "extension": ".py",
+              "size_bytes": 55458,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "shift_path.py",
+              "path": "מידד/רשת קדסטר/scripts/others/shift_path.py",
+              "extension": ".py",
+              "size_bytes": 1110,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "index.html",
+              "path": "מידד/רשת קדסטר/scripts/templates/index.html",
+              "extension": ".html",
+              "size_bytes": 14251,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "update_cadaster.py",
+              "path": "מידד/רשת קדסטר/scripts/update_cadaster.py",
+              "extension": ".py",
+              "size_bytes": 17946,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "update_cancel_parcel.py",
+              "path": "מידד/רשת קדסטר/scripts/update_cancel_parcel.py",
+              "extension": ".py",
+              "size_bytes": 6242,
+              "modified": "2026-03-14T19:34:50"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Cadaster Network API.docx",
+              "path": "מידד/רשת קדסטר/Documents/Cadaster Network API.docx",
+              "extension": ".docx",
+              "size_bytes": 286198,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "Cadaster Network API.pdf",
+              "path": "מידד/רשת קדסטר/Documents/Cadaster Network API.pdf",
+              "extension": ".pdf",
+              "size_bytes": 297987,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "Geography_based_AI.pdf",
+              "path": "מידד/רשת קדסטר/Documents/templates/Geography_based_AI.pdf",
+              "extension": ".pdf",
+              "size_bytes": 74642,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "Geography_based_AI2.pdf",
+              "path": "מידד/רשת קדסטר/Documents/templates/Geography_based_AI2.pdf",
+              "extension": ".pdf",
+              "size_bytes": 92785,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "דרישות לרשת קדסטר.xlsx",
+              "path": "מידד/רשת קדסטר/Documents/דרישות לרשת קדסטר.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 9692,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "README.md",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/README.md",
+              "extension": ".md",
+              "size_bytes": 3359,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "package-lock.json",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/package-lock.json",
+              "extension": ".json",
+              "size_bytes": 707567,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "package.json",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/package.json",
+              "extension": ".json",
+              "size_bytes": 853,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "manifest.json",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/manifest.json",
+              "extension": ".json",
+              "size_bytes": 492,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "robots.txt",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/robots.txt",
+              "extension": ".txt",
+              "size_bytes": 67,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "needed_parcels.xlsx",
+              "path": "מידד/רשת קדסטר/scripts/needed_parcels.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 22063325,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": "Geography_based_AI.pdf",
+              "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/templates/Geography_based_AI.pdf",
+              "extension": ".pdf",
+              "size_bytes": 159910,
+              "modified": "2026-03-14T19:34:46"
+            }
+          ],
+          "other": [
+            {
+              "name": "download.ico",
+              "path": "מידד/רשת קדסטר/Documents/templates/download.ico",
+              "extension": ".ico",
+              "size_bytes": 214430,
+              "modified": "2026-03-14T19:34:50"
+            },
+            {
+              "name": ".gitignore",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/.gitignore",
+              "extension": "",
+              "size_bytes": 310,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "favicon.ico",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/favicon.ico",
+              "extension": ".ico",
+              "size_bytes": 3870,
+              "modified": "2026-03-14T19:34:46"
+            },
+            {
+              "name": "logo192.png",
+              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/logo192.png",
+              "extension": ".png",
+              "size_bytes": 5347,
+              "modified": "2026-03-14T19:34:46"
+            }
+          ]
+        },
+        "תהליכי אקספוננט": {
+          "path": "מידד/תהליכי אקספוננט",
+          "modified": "2026-05-02T20:50:50",
+          "total_files": 1,
+          "scripts": [
+            {
+              "name": "update_domain.py",
+              "path": "מידד/תהליכי אקספוננט/scripts/update_domain.py",
+              "extension": ".py",
+              "size_bytes": 13137,
+              "modified": "2026-04-23T11:56:21"
+            }
+          ],
+          "documents": [],
+          "other": []
+        },
+        "תהליכי ארקייד": {
+          "path": "מידד/תהליכי ארקייד",
+          "modified": "2026-05-02T20:50:50",
+          "total_files": 6,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "arcade_link_attch.txt",
+              "path": "מידד/תהליכי ארקייד/scripts/arcade_link_attch.txt",
+              "extension": ".txt",
+              "size_bytes": 8077,
+              "modified": "2026-03-14T19:37:57"
+            },
+            {
+              "name": "update_combine_status.txt",
+              "path": "מידד/תהליכי ארקייד/scripts/calc_field/update_combine_status.txt",
+              "extension": ".txt",
+              "size_bytes": 2145,
+              "modified": "2026-03-14T19:37:57"
+            },
+            {
+              "name": "AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
+              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 15336,
+              "modified": "2026-03-14T19:37:57"
+            },
+            {
+              "name": "arcade_new2.txt",
+              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_new2.txt",
+              "extension": ".txt",
+              "size_bytes": 13114,
+              "modified": "2026-03-14T19:37:57"
+            },
+            {
+              "name": "arcade_old.txt",
+              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_old.txt",
+              "extension": ".txt",
+              "size_bytes": 3714,
+              "modified": "2026-03-14T19:37:57"
+            },
+            {
+              "name": "paths.txt",
+              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/paths.txt",
+              "extension": ".txt",
+              "size_bytes": 255,
+              "modified": "2026-03-14T19:37:57"
+            }
+          ],
+          "other": []
+        },
+        "תיקון גאומטרי": {
+          "path": "מידד/תיקון גאומטרי",
+          "modified": "2026-05-02T20:50:50",
+          "total_files": 6,
+          "scripts": [
+            {
+              "name": "1_new_fix_geom.py",
+              "path": "מידד/תיקון גאומטרי/scripts/1_new_fix_geom.py",
+              "extension": ".py",
+              "size_bytes": 38113,
+              "modified": "2026-04-23T11:55:33"
+            },
+            {
+              "name": "2_push_gilad_fix.py",
+              "path": "מידד/תיקון גאומטרי/scripts/2_push_gilad_fix.py",
+              "extension": ".py",
+              "size_bytes": 5569,
+              "modified": "2026-04-23T11:55:33"
+            },
+            {
+              "name": "3_Tool_Manual_fix.py",
+              "path": "מידד/תיקון גאומטרי/scripts/3_Tool_Manual_fix.py",
+              "extension": ".py",
+              "size_bytes": 6696,
+              "modified": "2026-04-23T11:55:33"
+            },
+            {
+              "name": "check_table.py",
+              "path": "מידד/תיקון גאומטרי/scripts/check_table.py",
+              "extension": ".py",
+              "size_bytes": 4625,
+              "modified": "2026-04-23T11:55:33"
+            },
+            {
+              "name": "fix_geom.py",
+              "path": "מידד/תיקון גאומטרי/scripts/fix_geom.py",
+              "extension": ".py",
+              "size_bytes": 9063,
+              "modified": "2026-04-23T11:55:33"
+            },
+            {
+              "name": "utiles.py",
+              "path": "מידד/תיקון גאומטרי/scripts/utiles.py",
+              "extension": ".py",
+              "size_bytes": 5120,
+              "modified": "2026-04-23T11:55:33"
+            }
+          ],
+          "documents": [],
+          "other": []
+        }
+      }
+    },
+    "רועי": {
+      "path": "רועי",
+      "project_count": 11,
+      "projects": {
+        "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו": {
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 74,
+          "scripts": [
+            {
+              "name": "DownLoadFC.py",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireIndex/DownLoadFC.py",
+              "extension": ".py",
+              "size_bytes": 5860,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "FireRiskIndexKKL.py",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireIndex/FireRiskIndexKKL.py",
+              "extension": ".py",
+              "size_bytes": 33049,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "FireRiskShamat.py",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireRiskShamat/FireRiskShamat.py",
+              "extension": ".py",
+              "size_bytes": 7687,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "documents": [
+            {
+              "name": "FireIndex_DownLoadFC.md",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_DownLoadFC.md",
+              "extension": ".md",
+              "size_bytes": 3116,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "FireIndex_FireRiskIndexKKL.md",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_FireRiskIndexKKL.md",
+              "extension": ".md",
+              "size_bytes": 5540,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "FireRiskShamat_FireRiskShamat.md",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireRiskShamat_FireRiskShamat.md",
+              "extension": ".md",
+              "size_bytes": 4679,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 3664,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "arcpyenv.txt",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireIndex/arcpyenv.txt",
+              "extension": ".txt",
+              "size_bytes": 44,
+              "modified": "2026-04-16T10:57:36"
+            },
+            {
+              "name": "20230908_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230908_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16983136,
+              "modified": "2026-04-16T10:57:36"
+            },
+            {
+              "name": "20230909_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230909_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16987336,
+              "modified": "2026-04-16T10:57:36"
+            },
+            {
+              "name": "20230911_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230911_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16979889,
+              "modified": "2026-04-16T10:57:36"
+            },
+            {
+              "name": "20230914_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230914_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16987264,
+              "modified": "2026-04-16T10:57:36"
+            },
+            {
+              "name": "20230919_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230919_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16989849,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "20231103_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20231103_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16984375,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "20231111_GIS_Index.csv",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20231111_GIS_Index.csv",
+              "extension": ".csv",
+              "size_bytes": 16990229,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "other": [
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000001.freelist",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 466,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 1041,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.freelist",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.freelist",
+              "extension": ".freelist",
+              "size_bytes": 49496,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 248291,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.freelist",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 482,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.FDO_GlobalID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.FDO_GlobalID.atx",
+              "extension": ".atx",
+              "size_bytes": 2363414,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.freelist",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.freelist",
+              "extension": ".freelist",
+              "size_bytes": 4440,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 178,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 5141113,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 276512,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.horizon",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a00000009.spx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.spx",
+              "extension": ".spx",
+              "size_bytes": 2445334,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.FDO_GlobalID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.FDO_GlobalID.atx",
+              "extension": ".atx",
+              "size_bytes": 2363414,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.freelist",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.freelist",
+              "extension": ".freelist",
+              "size_bytes": 504152,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 178,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 13376238,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 276512,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.horizon",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000e.spx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.spx",
+              "extension": ".spx",
+              "size_bytes": 2445334,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.FDO_GlobalID.atx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.FDO_GlobalID.atx",
+              "extension": ".atx",
+              "size_bytes": 2363414,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.gdbindexes",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 178,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.gdbtable",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 6854576,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.gdbtablx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 276512,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.horizon",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "a0000000f.spx",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.spx",
+              "extension": ".spx",
+              "size_bytes": 2445334,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "gdb",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "timestamps",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "ToolData.zip",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/ToolData.zip",
+              "extension": ".zip",
+              "size_bytes": 7374687,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "schema.ini",
+              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/schema.ini",
+              "extension": ".ini",
+              "size_bytes": 84,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ]
+        },
+        "גדרות מרעה": {
+          "path": "רועי/גדרות מרעה",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 4,
+          "scripts": [
+            {
+              "name": "FencePricingGetForestName.py",
+              "path": "רועי/גדרות מרעה/scripts/FencePricingGetForestName/FencePricingGetForestName.py",
+              "extension": ".py",
+              "size_bytes": 11160,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "documents": [
+            {
+              "name": "FencePricingGetForestName.md",
+              "path": "רועי/גדרות מרעה/Documents/FencePricingGetForestName.md",
+              "extension": ".md",
+              "size_bytes": 6314,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/גדרות מרעה/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 1768,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/גדרות מרעה/data/FencePricingGetForestName/ToolData/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 30,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "other": []
+        },
+        "גיבויים": {
+          "path": "רועי/גיבויים",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 15,
+          "scripts": [
+            {
+              "name": "BackupOnlineJsons-old.py",
+              "path": "רועי/גיבויים/scripts/BackupOnlineJsons/BackupOnlineJsons-old.py",
+              "extension": ".py",
+              "size_bytes": 8646,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "BackupOnlineJsons.py",
+              "path": "רועי/גיבויים/scripts/BackupOnlineJsons/BackupOnlineJsons.py",
+              "extension": ".py",
+              "size_bytes": 12683,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "SpecBackup - Copy.py",
+              "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup - Copy.py",
+              "extension": ".py",
+              "size_bytes": 7077,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "SpecBackup.py",
+              "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup.py",
+              "extension": ".py",
+              "size_bytes": 7538,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "SpecBackup_att.py",
+              "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup_att.py",
+              "extension": ".py",
+              "size_bytes": 15735,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "cleanproccessbackups - Copy.py",
+              "path": "רועי/גיבויים/scripts/cleanproccessbackups/cleanproccessbackups - Copy.py",
+              "extension": ".py",
+              "size_bytes": 2302,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "cleanproccessbackups.py",
+              "path": "רועי/גיבויים/scripts/cleanproccessbackups/cleanproccessbackups.py",
+              "extension": ".py",
+              "size_bytes": 2396,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "delettempgistask1.py",
+              "path": "רועי/גיבויים/scripts/delettempgistask1/delettempgistask1.py",
+              "extension": ".py",
+              "size_bytes": 782,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "deletxmlprohistory.py",
+              "path": "רועי/גיבויים/scripts/deletxmlprohistory/deletxmlprohistory.py",
+              "extension": ".py",
+              "size_bytes": 1089,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "documents": [
+            {
+              "name": "BackupOnlineJsons.md",
+              "path": "רועי/גיבויים/Documents/BackupOnlineJsons.md",
+              "extension": ".md",
+              "size_bytes": 4200,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/גיבויים/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 4176,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "SpecBackup.md",
+              "path": "רועי/גיבויים/Documents/SpecBackup.md",
+              "extension": ".md",
+              "size_bytes": 5257,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "cleanproccessbackups.md",
+              "path": "רועי/גיבויים/Documents/cleanproccessbackups.md",
+              "extension": ".md",
+              "size_bytes": 2800,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "delettempgistask1.md",
+              "path": "רועי/גיבויים/Documents/delettempgistask1.md",
+              "extension": ".md",
+              "size_bytes": 1761,
+              "modified": "2026-04-16T10:57:37"
+            },
+            {
+              "name": "deletxmlprohistory.md",
+              "path": "רועי/גיבויים/Documents/deletxmlprohistory.md",
+              "extension": ".md",
+              "size_bytes": 1694,
+              "modified": "2026-04-16T10:57:37"
+            }
+          ],
+          "other": []
+        },
+        "יחידות עבודה": {
+          "path": "רועי/יחידות עבודה",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 28,
+          "scripts": [
+            {
+              "name": "DownLoadFC.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/DownLoadFC.py",
+              "extension": ".py",
+              "size_bytes": 5860,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "HgashatTochnit - Copy.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/HgashatTochnit - Copy.py",
+              "extension": ".py",
+              "size_bytes": 38140,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "HgashatTochnit.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/HgashatTochnit.py",
+              "extension": ".py",
+              "size_bytes": 42634,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "statusbiztoa.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/statusbiztoaNetitot/statusbiztoa.py",
+              "extension": ".py",
+              "size_bytes": 3500,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "DownLoadFC.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/DownLoadFC.py",
+              "extension": ".py",
+              "size_bytes": 5860,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "HgashatTochnit - Copy.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/HgashatTochnit - Copy.py",
+              "extension": ".py",
+              "size_bytes": 40456,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "HgashatTochnit.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/HgashatTochnit.py",
+              "extension": ".py",
+              "size_bytes": 45261,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipulstatusanddelet - Copy.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/ShitheyTipulstatusanddelet - Copy.py",
+              "extension": ".py",
+              "size_bytes": 14882,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipulstatusanddelet.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/ShitheyTipulstatusanddelet.py",
+              "extension": ".py",
+              "size_bytes": 16203,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "copyunit.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/copyunit.py",
+              "extension": ".py",
+              "size_bytes": 8550,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ezorheytzname - Copy.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/ezorheytzname/ezorheytzname - Copy.py",
+              "extension": ".py",
+              "size_bytes": 6888,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ezorheytzname.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/ezorheytzname/ezorheytzname.py",
+              "extension": ".py",
+              "size_bytes": 6819,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "statusbiztoa - Copy.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/statusbiztoa/statusbiztoa - Copy.py",
+              "extension": ".py",
+              "size_bytes": 4308,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "statusbiztoa.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/statusbiztoa/statusbiztoa.py",
+              "extension": ".py",
+              "size_bytes": 4524,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "NetiotProTool.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ToolForProAylon/NetiotProTool.py",
+              "extension": ".py",
+              "size_bytes": 32479,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipulProTool.py",
+              "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ToolForProAylon/ShitheyTipulProTool.py",
+              "extension": ".py",
+              "size_bytes": 33257,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "NetiotProTool.md",
+              "path": "רועי/יחידות עבודה/Documents/NetiotProTool.md",
+              "extension": ".md",
+              "size_bytes": 2195,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "Netiot_DownLoadFC.md",
+              "path": "רועי/יחידות עבודה/Documents/Netiot_DownLoadFC.md",
+              "extension": ".md",
+              "size_bytes": 2735,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "Netiot_HgashatTochnit.md",
+              "path": "רועי/יחידות עבודה/Documents/Netiot_HgashatTochnit.md",
+              "extension": ".md",
+              "size_bytes": 4306,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "Netiot_statusbiztoa.md",
+              "path": "רועי/יחידות עבודה/Documents/Netiot_statusbiztoa.md",
+              "extension": ".md",
+              "size_bytes": 1589,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/יחידות עבודה/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 6497,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipulProTool.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipulProTool.md",
+              "extension": ".md",
+              "size_bytes": 2332,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_DownLoadFC.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_DownLoadFC.md",
+              "extension": ".md",
+              "size_bytes": 676,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_HgashatTochnit.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_HgashatTochnit.md",
+              "extension": ".md",
+              "size_bytes": 3880,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_copyunit.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_copyunit.md",
+              "extension": ".md",
+              "size_bytes": 2157,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_ezorheytzname.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_ezorheytzname.md",
+              "extension": ".md",
+              "size_bytes": 2317,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_statusanddelet.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusanddelet.md",
+              "extension": ".md",
+              "size_bytes": 2534,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "ShitheyTipul_statusbiztoa.md",
+              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusbiztoa.md",
+              "extension": ".md",
+              "size_bytes": 1748,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "כלי אינטרנט": {
+          "path": "רועי/כלי אינטרנט",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 14,
+          "scripts": [
+            {
+              "name": "GPTAddassigments.py",
+              "path": "רועי/כלי אינטרנט/scripts/GPTAddassigments_25/GPTAddassigments.py",
+              "extension": ".py",
+              "size_bytes": 3280,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "GenFc2WU.py",
+              "path": "רועי/כלי אינטרנט/scripts/GenFc2WU/GenFc2WU.py",
+              "extension": ".py",
+              "size_bytes": 4531,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "GenFc2WU - Copy.py",
+              "path": "רועי/כלי אינטרנט/scripts/GenFc2WUNetiot/GenFc2WU - Copy.py",
+              "extension": ".py",
+              "size_bytes": 8220,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "GenFc2WU.py",
+              "path": "רועי/כלי אינטרנט/scripts/GenFc2WUNetiot/GenFc2WU.py",
+              "extension": ".py",
+              "size_bytes": 7230,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmirea.py",
+              "path": "רועי/כלי אינטרנט/scripts/imagemishbatzotmirea/mishbatzotmirea.py",
+              "extension": ".py",
+              "size_bytes": 2127,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmirea_until15.8.24.py",
+              "path": "רועי/כלי אינטרנט/scripts/imagemishbatzotmirea/mishbatzotmirea_until15.8.24.py",
+              "extension": ".py",
+              "size_bytes": 1741,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "rtowo - Copy.py",
+              "path": "רועי/כלי אינטרנט/scripts/rtowo/rtowo - Copy.py",
+              "extension": ".py",
+              "size_bytes": 7974,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "rtowo.py",
+              "path": "רועי/כלי אינטרנט/scripts/rtowo/rtowo.py",
+              "extension": ".py",
+              "size_bytes": 10336,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "GPTAddassigments.md",
+              "path": "רועי/כלי אינטרנט/Documents/GPTAddassigments.md",
+              "extension": ".md",
+              "size_bytes": 2670,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "GenFc2WU.md",
+              "path": "רועי/כלי אינטרנט/Documents/GenFc2WU.md",
+              "extension": ".md",
+              "size_bytes": 2681,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "GenFc2WUNetiot.md",
+              "path": "רועי/כלי אינטרנט/Documents/GenFc2WUNetiot.md",
+              "extension": ".md",
+              "size_bytes": 3924,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/כלי אינטרנט/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 3374,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmirea.md",
+              "path": "רועי/כלי אינטרנט/Documents/mishbatzotmirea.md",
+              "extension": ".md",
+              "size_bytes": 2744,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "rtowo.md",
+              "path": "רועי/כלי אינטרנט/Documents/rtowo.md",
+              "extension": ".md",
+              "size_bytes": 4167,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "משבצות מרעה": {
+          "path": "רועי/משבצות מרעה",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 5,
+          "scripts": [
+            {
+              "name": "mishbatzotmireaexponetCacheBuild.py",
+              "path": "רועי/משבצות מרעה/scripts/mishbatzotmireaexponetCacheBuild.py",
+              "extension": ".py",
+              "size_bytes": 11396,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.py",
+              "path": "רועי/משבצות מרעה/scripts/mishbatzotmireaexponetCacheBuildLiveDataHourRun.py",
+              "extension": ".py",
+              "size_bytes": 7331,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "README.md",
+              "path": "רועי/משבצות מרעה/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 2491,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmireaexponetCacheBuild.md",
+              "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuild.md",
+              "extension": ".md",
+              "size_bytes": 4710,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
+              "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
+              "extension": ".md",
+              "size_bytes": 4397,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "ניהול ותחזוקות של שכבת שריפות": {
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 15,
+          "scripts": [
+            {
+              "name": "FireContinues.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireContinues/FireContinues.py",
+              "extension": ".py",
+              "size_bytes": 8875,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireIDs - Copy.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireIDs/FireIDs - Copy.py",
+              "extension": ".py",
+              "size_bytes": 9331,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireIDs.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireIDs/FireIDs.py",
+              "extension": ".py",
+              "size_bytes": 10744,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireTrackingMor.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireTrackingMor/FireTrackingMor.py",
+              "extension": ".py",
+              "size_bytes": 5253,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "DownLoadFC.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/QA/DownLoadFC.py",
+              "extension": ".py",
+              "size_bytes": 6973,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "qa.py",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/QA/qa.py",
+              "extension": ".py",
+              "size_bytes": 14888,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "DownLoadFC.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/DownLoadFC.md",
+              "extension": ".md",
+              "size_bytes": 2940,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireContinues.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireContinues.md",
+              "extension": ".md",
+              "size_bytes": 2649,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireIDs.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireIDs.md",
+              "extension": ".md",
+              "size_bytes": 3524,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "FireTrackingMor.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireTrackingMor.md",
+              "extension": ".md",
+              "size_bytes": 2167,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "QA.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/QA.md",
+              "extension": ".md",
+              "size_bytes": 3508,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 3335,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireContinues/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 25,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireIDs/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 18,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireTrackingMor/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 25,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "סנכרון שכבות": {
+          "path": "רועי/סנכרון שכבות",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 8,
+          "scripts": [
+            {
+              "name": "WorkUnitReplicaFromAGOL_ToSde - Copy.py",
+              "path": "רועי/סנכרון שכבות/scripts/ROI_WorkUnitReplicaFromAGOL_ToSde/WorkUnitReplicaFromAGOL_ToSde - Copy.py",
+              "extension": ".py",
+              "size_bytes": 6385,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "WorkUnitReplicaFromAGOL_ToSde.py",
+              "path": "רועי/סנכרון שכבות/scripts/ROI_WorkUnitReplicaFromAGOL_ToSde/WorkUnitReplicaFromAGOL_ToSde.py",
+              "extension": ".py",
+              "size_bytes": 6842,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "SyncFromServerToOnlineOneWay - Copy.py",
+              "path": "רועי/סנכרון שכבות/scripts/SyncFromServerToOnlineOneWay/SyncFromServerToOnlineOneWay - Copy.py",
+              "extension": ".py",
+              "size_bytes": 45054,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "SyncFromServerToOnlineOneWay.py",
+              "path": "רועי/סנכרון שכבות/scripts/SyncFromServerToOnlineOneWay/SyncFromServerToOnlineOneWay.py",
+              "extension": ".py",
+              "size_bytes": 44970,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "README.md",
+              "path": "רועי/סנכרון שכבות/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 2881,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "SyncFromServerToOnlineOneWay.md",
+              "path": "רועי/סנכרון שכבות/Documents/SyncFromServerToOnlineOneWay.md",
+              "extension": ".md",
+              "size_bytes": 7144,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "WorkUnitReplicaFromAGOL_ToSde.md",
+              "path": "רועי/סנכרון שכבות/Documents/WorkUnitReplicaFromAGOL_ToSde.md",
+              "extension": ".md",
+              "size_bytes": 3335,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/סנכרון שכבות/data/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 25,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "פריטים חדשים באונליין": {
+          "path": "רועי/פריטים חדשים באונליין",
+          "modified": "2026-04-19T11:32:15",
+          "total_files": 52,
+          "scripts": [
+            {
+              "name": "NewOnlineitems.py",
+              "path": "רועי/פריטים חדשים באונליין/scripts/NewOnlineitems.py",
+              "extension": ".py",
+              "size_bytes": 5713,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "documents": [
+            {
+              "name": "NewOnlineitems.md",
+              "path": "רועי/פריטים חדשים באונליין/Documents/NewOnlineitems.md",
+              "extension": ".md",
+              "size_bytes": 4478,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/פריטים חדשים באונליין/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 1334,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": [
+            {
+              "name": "NewItems.KKL-GISSERVICE.9272.12052.sr.lock",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/NewItems.KKL-GISSERVICE.9272.12052.sr.lock",
+              "extension": ".lock",
+              "size_bytes": 0,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "NewItems.MOB-ROIALG.7440.21452.sr.lock",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/NewItems.MOB-ROIALG.7440.21452.sr.lock",
+              "extension": ".lock",
+              "size_bytes": 0,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "_gdb.KKL-GISSERVICE.9272.12052.sr.lock",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/_gdb.KKL-GISSERVICE.9272.12052.sr.lock",
+              "extension": ".lock",
+              "size_bytes": 0,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "_gdb.MOB-ROIALG.7440.21452.sr.lock",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/_gdb.MOB-ROIALG.7440.21452.sr.lock",
+              "extension": ".lock",
+              "size_bytes": 0,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000001.TablesByName.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.TablesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000001.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 110,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000001.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 319,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000001.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000002.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000002.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2055,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000002.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000002.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000003.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 42,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000003.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 525,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000003.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.CatItemsByPhysicalName.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.CatItemsByPhysicalName.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.CatItemsByType.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.CatItemsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.FDO_UUID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 310,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 7944,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.horizon",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.horizon",
+              "extension": ".horizon",
+              "size_bytes": 32,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000004.spx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.spx",
+              "extension": ".spx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByName.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByParentTypeID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.CatItemTypesByUUID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 296,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 2071,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000005.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.CatRelsByDestinationID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByDestinationID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.CatRelsByOriginID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByOriginID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.CatRelsByType.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByType.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.FDO_UUID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.FDO_UUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 318,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 263,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000006.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByForwardLabel.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByName.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByName.atx",
+              "extension": ".atx",
+              "size_bytes": 12310,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.CatRelTypesByUUID.atx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByUUID.atx",
+              "extension": ".atx",
+              "size_bytes": 4118,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 602,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3626,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000007.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 5152,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000009.freelist",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.freelist",
+              "extension": ".freelist",
+              "size_bytes": 78168,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000009.gdbindexes",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbindexes",
+              "extension": ".gdbindexes",
+              "size_bytes": 66,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000009.gdbtable",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbtable",
+              "extension": ".gdbtable",
+              "size_bytes": 3708413,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "a00000009.gdbtablx",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbtablx",
+              "extension": ".gdbtablx",
+              "size_bytes": 168992,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "gdb",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/gdb",
+              "extension": "",
+              "size_bytes": 4,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "timestamps",
+              "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/timestamps",
+              "extension": "",
+              "size_bytes": 400,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ]
+        },
+        "תוכניות עבודה": {
+          "path": "רועי/תוכניות עבודה",
+          "modified": "2026-04-19T11:32:16",
+          "total_files": 21,
+          "scripts": [
+            {
+              "name": "StandCombinedExecutionStatus.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/StandCombinedExecutionStatus/StandCombinedExecutionStatus.py",
+              "extension": ".py",
+              "size_bytes": 5187,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "GPTAddassigments.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/gptools/GPTAddassigments25/GPTAddassigments.py",
+              "extension": ".py",
+              "size_bytes": 3282,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriot - Copy.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot/tochniotavobaezoriot - Copy.py",
+              "extension": ".py",
+              "size_bytes": 39950,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "Tasks2WorkUnitPolygon.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot2YYehidutAvodaSystem/Tasks2WorkUnitPolygon/Tasks2WorkUnitPolygon.py",
+              "extension": ".py",
+              "size_bytes": 11385,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "writeTRTUnit2MissionTable.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot2YYehidutAvodaSystem/writeTRTUnit2MissionTable/writeTRTUnit2MissionTable.py",
+              "extension": ".py",
+              "size_bytes": 16872,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriotWeeklyMail - Copy.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotWeeklyMail/tochniotavobaezoriotWeeklyMail - Copy.py",
+              "extension": ".py",
+              "size_bytes": 8390,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriotWeeklyMail.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotWeeklyMail/tochniotavobaezoriotWeeklyMail.py",
+              "extension": ".py",
+              "size_bytes": 8895,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriotcalculatedashboradtable.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotcalculatedashboradtable/tochniotavobaezoriotcalculatedashboradtable.py",
+              "extension": ".py",
+              "size_bytes": 10426,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriotstatuandcalean.py",
+              "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotstatuandcalean/tochniotavobaezoriotstatuandcalean.py",
+              "extension": ".py",
+              "size_bytes": 14474,
+              "modified": "2026-04-16T10:57:39"
+            }
+          ],
+          "documents": [
+            {
+              "name": "GPTAddassigments.md",
+              "path": "רועי/תוכניות עבודה/Documents/GPTAddassigments.md",
+              "extension": ".md",
+              "size_bytes": 1949,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/תוכניות עבודה/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 3447,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "StandCombinedExecutionStatus.md",
+              "path": "רועי/תוכניות עבודה/Documents/StandCombinedExecutionStatus.md",
+              "extension": ".md",
+              "size_bytes": 2089,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "Tasks2WorkUnitPolygon.md",
+              "path": "רועי/תוכניות עבודה/Documents/Tasks2WorkUnitPolygon.md",
+              "extension": ".md",
+              "size_bytes": 2556,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "tochniotavobaezoriotWeeklyMail.md",
+              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotWeeklyMail.md",
+              "extension": ".md",
+              "size_bytes": 2194,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "tochniotavobaezoriotcalculatedashboradtable.md",
+              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotcalculatedashboradtable.md",
+              "extension": ".md",
+              "size_bytes": 2465,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "tochniotavobaezoriotstatuandcalean.md",
+              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotstatuandcalean.md",
+              "extension": ".md",
+              "size_bytes": 3194,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "writeTRTUnit2MissionTable.md",
+              "path": "רועי/תוכניות עבודה/Documents/writeTRTUnit2MissionTable.md",
+              "extension": ".md",
+              "size_bytes": 2895,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "updated_features.json",
+              "path": "רועי/תוכניות עבודה/data/StandCombinedExecutionStatus/updated_features.json",
+              "extension": ".json",
+              "size_bytes": 30,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriot/ToolData/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 131,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriotWeeklyMail/ToolData/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 93,
+              "modified": "2026-04-16T10:57:38"
+            },
+            {
+              "name": "MetaDataJson.json",
+              "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriotstatuandcalean/ToolData/MetaDataJson.json",
+              "extension": ".json",
+              "size_bytes": 136,
+              "modified": "2026-04-16T10:57:38"
+            }
+          ],
+          "other": []
+        },
+        "תחזוקות של מערכת": {
+          "path": "רועי/תחזוקות של מערכת",
+          "modified": "2026-04-19T11:32:16",
+          "total_files": 11,
+          "scripts": [
+            {
+              "name": "DB_maintenance.py",
+              "path": "רועי/תחזוקות של מערכת/scripts/DB_maintenance/DB_maintenance.py",
+              "extension": ".py",
+              "size_bytes": 1916,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "cleanproccessbackups.py",
+              "path": "רועי/תחזוקות של מערכת/scripts/cleanproccessbackups/cleanproccessbackups.py",
+              "extension": ".py",
+              "size_bytes": 3606,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "cleanup.py",
+              "path": "רועי/תחזוקות של מערכת/scripts/cleanproccessbackups/cleanup.py",
+              "extension": ".py",
+              "size_bytes": 3450,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "delettempgistask1.py",
+              "path": "רועי/תחזוקות של מערכת/scripts/delettempgistask1/delettempgistask1.py",
+              "extension": ".py",
+              "size_bytes": 786,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "deletxmlprohistory.py",
+              "path": "רועי/תחזוקות של מערכת/scripts/deletxmlprohistory/deletxmlprohistory.py",
+              "extension": ".py",
+              "size_bytes": 1089,
+              "modified": "2026-04-16T10:57:39"
+            }
+          ],
+          "documents": [
+            {
+              "name": "DB_maintenance.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/DB_maintenance.md",
+              "extension": ".md",
+              "size_bytes": 1809,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "README.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/README.md",
+              "extension": ".md",
+              "size_bytes": 1929,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "cleanproccessbackups.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/cleanproccessbackups.md",
+              "extension": ".md",
+              "size_bytes": 1896,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "cleanup.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/cleanup.md",
+              "extension": ".md",
+              "size_bytes": 2251,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "delettempgistask1.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/delettempgistask1.md",
+              "extension": ".md",
+              "size_bytes": 1477,
+              "modified": "2026-04-16T10:57:39"
+            },
+            {
+              "name": "deletxmlprohistory.md",
+              "path": "רועי/תחזוקות של מערכת/Documents/deletxmlprohistory.md",
+              "extension": ".md",
+              "size_bytes": 1381,
+              "modified": "2026-04-16T10:57:39"
+            }
+          ],
+          "other": []
+        }
+      }
+    }
+  },
+  "by_project": {
+    "documents": {
+      "user": "Example",
+      "original_name": "Documents",
+      "path": "Example/Documents",
+      "modified": "2026-05-02T20:55:23",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "data": {
+      "user": "Example",
+      "original_name": "data",
+      "path": "Example/data",
+      "modified": "2026-05-02T20:55:22",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "results": {
+      "user": "Example",
+      "original_name": "results",
+      "path": "Example/results",
+      "modified": "2026-05-02T20:55:23",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "scripts": {
+      "user": "Example",
+      "original_name": "scripts",
+      "path": "Example/scripts",
+      "modified": "2026-05-02T20:55:23",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "בעלויותקקלמרמי": {
+      "user": "ורד",
+      "original_name": "בעלויות קקל מרמי",
+      "path": "ורד/בעלויות קקל מרמי",
+      "modified": "2026-05-02T20:55:14",
+      "total_files": 138,
+      "scripts": [
+        {
+          "name": "baaluyot_load.py",
+          "path": "ורד/בעלויות קקל מרמי/scripts/baaluyot_load.py",
+          "extension": ".py",
+          "size_bytes": 9366,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "sp_update_baaluyot.sql",
+          "path": "ורד/בעלויות קקל מרמי/scripts/sql/sp_update_baaluyot.sql",
+          "extension": ".sql",
+          "size_bytes": 101,
+          "modified": "2026-04-19T12:40:53"
+        }
+      ],
+      "documents": [
+        {
+          "name": "RAMITECH_05-04-2026.xlsx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/RAMITECH_05-04-2026.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 24292821,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "Log_Baaluyot_12042026_1013.txt",
+          "path": "ורד/בעלויות קקל מרמי/scripts/logs/Log_Baaluyot_12042026_1013.txt",
+          "extension": ".txt",
+          "size_bytes": 434,
+          "modified": "2026-04-19T12:40:53"
+        }
+      ],
+      "other": [
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000001.freelist",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.freelist",
+          "extension": ".freelist",
+          "size_bytes": 16728,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1965,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2837,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.freelist",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.freelist",
+          "extension": ".freelist",
+          "size_bytes": 61784,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1566732,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2021,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.freelist",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2380,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000024.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000024.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 44795212,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000024.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000024.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1428512,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000025.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:38"
+        },
+        {
+          "name": "a00000025.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 44895055,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000025.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000025.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1428512,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000026.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000026.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 44922726,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000026.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000026.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1433632,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000027.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:39"
+        },
+        {
+          "name": "a00000027.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 44935962,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000027.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000027.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1433632,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000028.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000028.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 44962466,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000028.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000028.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1433632,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000029.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:40"
+        },
+        {
+          "name": "a00000029.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45045270,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a00000029.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000029.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1433632,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a0000002a.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a0000002a.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45078886,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a0000002a.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002a.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1438752,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a0000002c.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:41"
+        },
+        {
+          "name": "a0000002c.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45122429,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002c.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002c.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1438752,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002d.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002d.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45513589,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002d.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002d.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1448992,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002e.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002e.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45570017,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002e.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002e.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1454112,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002f.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:42"
+        },
+        {
+          "name": "a0000002f.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45595081,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a0000002f.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000002f.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1454112,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a00000030.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a00000030.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45650740,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a00000030.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000030.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1454112,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a00000031.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:43"
+        },
+        {
+          "name": "a00000031.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45676563,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000031.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000031.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1454112,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000032.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000032.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45798599,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000032.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000032.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000034.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:44"
+        },
+        {
+          "name": "a00000034.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45811346,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000034.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000034.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000035.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000035.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45858809,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000035.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000035.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000036.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:45"
+        },
+        {
+          "name": "a00000036.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 45858629,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000036.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000036.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000037.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000037.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60430590,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000037.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000037.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000038.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:46"
+        },
+        {
+          "name": "a00000038.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60434114,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a00000038.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000038.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a00000039.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a00000039.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60452790,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a00000039.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000039.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1459232,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a0000003a.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:47"
+        },
+        {
+          "name": "a0000003a.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60549341,
+          "modified": "2026-04-19T12:40:48"
+        },
+        {
+          "name": "a0000003a.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003a.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1464352,
+          "modified": "2026-04-19T12:40:48"
+        },
+        {
+          "name": "a0000003b.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:48"
+        },
+        {
+          "name": "a0000003b.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60532576,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003b.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003b.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1464352,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003c.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003c.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60695267,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003c.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003c.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1469472,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003d.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:49"
+        },
+        {
+          "name": "a0000003d.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60752935,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a0000003d.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a0000003d.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1469472,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a00000040.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a00000040.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 60802345,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a00000040.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000040.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1469472,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a00000043.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:50"
+        },
+        {
+          "name": "a00000043.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 61306919,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000043.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000043.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1484832,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000044.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000044.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 61346465,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000044.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000044.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1484832,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000047.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:51"
+        },
+        {
+          "name": "a00000047.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 62159339,
+          "modified": "2026-04-19T12:40:52"
+        },
+        {
+          "name": "a00000047.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000047.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1489952,
+          "modified": "2026-04-19T12:40:52"
+        },
+        {
+          "name": "a00000048.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:52"
+        },
+        {
+          "name": "a00000048.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 61690704,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "a00000048.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000048.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1489952,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "a00000049.gdbindexes",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "a00000049.gdbtable",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 61704522,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "a00000049.gdbtablx",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/a00000049.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 1489952,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "gdb",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "timestamps",
+          "path": "ורד/בעלויות קקל מרמי/data/XLS/outgdb.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-19T12:40:53"
+        }
+      ]
+    },
+    "דוחמבאתהימנותא": {
+      "user": "ורד",
+      "original_name": "דוח מבאת-הימנותא",
+      "path": "ורד/דוח מבאת-הימנותא",
+      "modified": "2026-05-02T20:54:28",
+      "total_files": 16,
+      "scripts": [
+        {
+          "name": "HimanutaXplan.py",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/HimanutaXplan.py",
+          "extension": ".py",
+          "size_bytes": 88720,
+          "modified": "2026-04-19T12:40:54"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_xplanPdf_25022026_1021.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1021.txt",
+          "extension": ".txt",
+          "size_bytes": 246,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1022.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1022.txt",
+          "extension": ".txt",
+          "size_bytes": 249,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1023.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1023.txt",
+          "extension": ".txt",
+          "size_bytes": 249,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1024.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1024.txt",
+          "extension": ".txt",
+          "size_bytes": 252,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1025.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1025.txt",
+          "extension": ".txt",
+          "size_bytes": 246,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1026.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1026.txt",
+          "extension": ".txt",
+          "size_bytes": 249,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1028.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1028.txt",
+          "extension": ".txt",
+          "size_bytes": 249,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "Log_xplanPdf_25022026_1625.txt",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1625.txt",
+          "extension": ".txt",
+          "size_bytes": 799,
+          "modified": "2026-04-19T12:40:53"
+        },
+        {
+          "name": "mavat_217-0660522.pdf",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/mavat_217-0660522.pdf",
+          "extension": ".pdf",
+          "size_bytes": 52462072,
+          "modified": "2026-04-19T12:40:54"
+        }
+      ],
+      "other": [
+        {
+          "name": "TemplateXplan.tbx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan.tbx",
+          "extension": ".tbx",
+          "size_bytes": 3584,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "TemplateXplan_Plans_Layout1.aprx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Plans_Layout1.aprx",
+          "extension": ".aprx",
+          "size_bytes": 96959,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "TemplateXplan_Plans_Layout2.aprx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Plans_Layout2.aprx",
+          "extension": ".aprx",
+          "size_bytes": 118224,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "TemplateXplan_Yiudim_Layout3.aprx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Yiudim_Layout3.aprx",
+          "extension": ".aprx",
+          "size_bytes": 986442,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "TemplateXplan_Yiudim_Layout4.aprx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/TemplateXplan_Yiudim_Layout4.aprx",
+          "extension": ".aprx",
+          "size_bytes": 213326,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "himanutaXplan_toolbox.atbx",
+          "path": "ורד/דוח מבאת-הימנותא/scripts/himanutaXplan_toolbox.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1612,
+          "modified": "2026-04-19T12:40:54"
+        }
+      ]
+    },
+    "דוחמבאתקקל": {
+      "user": "ורד",
+      "original_name": "דוח מבאת-קקל",
+      "path": "ורד/דוח מבאת-קקל",
+      "modified": "2026-05-02T20:55:21",
+      "total_files": 8,
+      "scripts": [
+        {
+          "name": "xplanToPdf_KKL.py",
+          "path": "ורד/דוח מבאת-קקל/scripts/xplanToPdf_KKL.py",
+          "extension": ".py",
+          "size_bytes": 37809,
+          "modified": "2026-04-19T12:40:55"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_xplanPdf_11032026_1631.txt",
+          "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/Log_xplanPdf_11032026_1631.txt",
+          "extension": ".txt",
+          "size_bytes": 1918,
+          "modified": "2026-04-19T12:40:54"
+        },
+        {
+          "name": "mavat_352-0951087.pdf",
+          "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/mavat_352-0951087.pdf",
+          "extension": ".pdf",
+          "size_bytes": 30671352,
+          "modified": "2026-04-19T12:40:55"
+        }
+      ],
+      "other": [
+        {
+          "name": "TemplateXplan.tbx",
+          "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan.tbx",
+          "extension": ".tbx",
+          "size_bytes": 3584,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "TemplateXplan_KKL_Plans_Layout1.aprx",
+          "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Plans_Layout1.aprx",
+          "extension": ".aprx",
+          "size_bytes": 69445,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "TemplateXplan_KKL_Plans_Layout2.aprx",
+          "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Plans_Layout2.aprx",
+          "extension": ".aprx",
+          "size_bytes": 91614,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "TemplateXplan_KKL_Yiudim_Layout3.aprx",
+          "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Yiudim_Layout3.aprx",
+          "extension": ".aprx",
+          "size_bytes": 941633,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "TemplateXplan_KKL_Yiudim_Layout4.aprx",
+          "path": "ורד/דוח מבאת-קקל/scripts/TemplateXplan_KKL_Yiudim_Layout4.aprx",
+          "extension": ".aprx",
+          "size_bytes": 147811,
+          "modified": "2026-04-19T12:40:55"
+        }
+      ]
+    },
+    "דוחשמירהתכנוניתהימנותא": {
+      "user": "ורד",
+      "original_name": "דוח שמירה תכנונית הימנותא",
+      "path": "ורד/דוח שמירה תכנונית הימנותא",
+      "modified": "2026-05-02T20:54:40",
+      "total_files": 56,
+      "scripts": [
+        {
+          "name": "xplanToPdf.py",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/xplanToPdf.py",
+          "extension": ".py",
+          "size_bytes": 91549,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_xplanPdf_16042026_0400.txt",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/Log_xplanPdf_16042026_0400.txt",
+          "extension": ".txt",
+          "size_bytes": 3348,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "mavat_407-1459544.pdf",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/mavat_407-1459544.pdf",
+          "extension": ".pdf",
+          "size_bytes": 25623018,
+          "modified": "2026-04-19T12:41:01"
+        }
+      ],
+      "other": [
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000001.freelist",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 337,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1041,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.freelist",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.freelist",
+          "extension": ".freelist",
+          "size_bytes": 8536,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 224896,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.freelist",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 263,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a0000000a.gdbindexes",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:40:55"
+        },
+        {
+          "name": "a0000000a.gdbtable",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 598158136,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "a0000000a.gdbtablx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5150752,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "a0000000a.horizon",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "a0000000a.spx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/a0000000a.spx",
+          "extension": ".spx",
+          "size_bytes": 13668374,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "gdb",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "timestamps",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-19T12:41:01"
+        },
+        {
+          "name": "TemplateXplan_Plans_Layout1.aprx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Plans_Layout1.aprx",
+          "extension": ".aprx",
+          "size_bytes": 103708,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "TemplateXplan_Plans_Layout2.aprx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Plans_Layout2.aprx",
+          "extension": ".aprx",
+          "size_bytes": 126512,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "TemplateXplan_Yiudim_Layout3.aprx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Yiudim_Layout3.aprx",
+          "extension": ".aprx",
+          "size_bytes": 974778,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "TemplateXplan_Yiudim_Layout4.aprx",
+          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/TemplateXplan_Yiudim_Layout4.aprx",
+          "extension": ".aprx",
+          "size_bytes": 217722,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ]
+    },
+    "מערכתפירסומיםמגאודע": {
+      "user": "ורד",
+      "original_name": "מערכת פירסומים מגאודע",
+      "path": "ורד/מערכת פירסומים מגאודע",
+      "modified": "2026-05-02T20:54:46",
+      "total_files": 14,
+      "scripts": [
+        {
+          "name": "pirsum_compare_missing.py",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_compare_missing.py",
+          "extension": ".py",
+          "size_bytes": 8374,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "pirsum_load.py",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_load.py",
+          "extension": ".py",
+          "size_bytes": 24827,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "pirsum_xplan_compare.py",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum_xplan_compare.py",
+          "extension": ".py",
+          "size_bytes": 8507,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_geoda_compare_missing.sql",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_missing.sql",
+          "extension": ".sql",
+          "size_bytes": 6784,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_geoda_compare_missing_between_dates.sql",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_missing_between_dates.sql",
+          "extension": ".sql",
+          "size_bytes": 9042,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_geoda_compare_xplan.sql",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_xplan.sql",
+          "extension": ".sql",
+          "size_bytes": 7098,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_geoda_compare_xplan_between_dates.sql",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_compare_xplan_between_dates.sql",
+          "extension": ".sql",
+          "size_bytes": 6906,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_geoda_pirsumim.sql",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/sql/create_geoda_pirsumim.sql",
+          "extension": ".sql",
+          "size_bytes": 26012,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "documents": [
+        {
+          "name": "ExcelReport_58_15-04-2026_19-33-25.xlsx",
+          "path": "ורד/מערכת פירסומים מגאודע/data/FILES/ExcelReport_58_15-04-2026_19-33-25.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 15324,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "מכרז שמירה תכנונית הימנותא מעודכן 31-01-2023.pdf",
+          "path": "ורד/מערכת פירסומים מגאודע/documents/מכרז שמירה תכנונית הימנותא מעודכן 31-01-2023.pdf",
+          "extension": ".pdf",
+          "size_bytes": 747322,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "פרסומים מספק חיצוני - סקריפט השוואה.docx",
+          "path": "ורד/מערכת פירסומים מגאודע/documents/פרסומים מספק חיצוני - סקריפט השוואה.docx",
+          "extension": ".docx",
+          "size_bytes": 13856,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "פרסומים מספק חיצוני - עבור המכרז.docx",
+          "path": "ורד/מערכת פירסומים מגאודע/documents/פרסומים מספק חיצוני - עבור המכרז.docx",
+          "extension": ".docx",
+          "size_bytes": 16371,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "Log_Pirsumim_15042026_2000.txt",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/logs/15042026/Log_Pirsumim_15042026_2000.txt",
+          "extension": ".txt",
+          "size_bytes": 802,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "pirsum.txt",
+          "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum.txt",
+          "extension": ".txt",
+          "size_bytes": 88,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "other": []
+    },
+    "עדכוןחודשילמערכתמקרקעין": {
+      "user": "ורד",
+      "original_name": "עדכון חודשי למערכת מקרקעין",
+      "path": "ורד/עדכון חודשי למערכת מקרקעין",
+      "modified": "2026-05-02T20:54:52",
+      "total_files": 6,
+      "scripts": [
+        {
+          "name": "mk_MONTHLY_update.py",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/mk_MONTHLY_update.py",
+          "extension": ".py",
+          "size_bytes": 8972,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_shuma_parcels.sql",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/create_mk_shuma_parcels.sql",
+          "extension": ".sql",
+          "size_bytes": 20676,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_shuma_parcels_missing.sql",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/create_mk_shuma_parcels_missing.sql",
+          "extension": ".sql",
+          "size_bytes": 5786,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "sp_UPDATE_yishuv_data_from_sde.sql",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/sql/sp_UPDATE_yishuv_data_from_sde.sql",
+          "extension": ".sql",
+          "size_bytes": 9194,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_Mk_Update_01042026_0300.txt",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/Log_Mk_Update_01042026_0300.txt",
+          "extension": ".txt",
+          "size_bytes": 696,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "shuma_parcels_missing.xls",
+          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/shuma_parcels_missing.xls",
+          "extension": ".xls",
+          "size_bytes": 5632,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "other": []
+    },
+    "עדכוןיומיממערכתמקרקעין": {
+      "user": "ורד",
+      "original_name": "עדכון יומי ממערכת מקרקעין",
+      "path": "ורד/עדכון יומי ממערכת מקרקעין",
+      "modified": "2026-05-02T20:54:55",
+      "total_files": 12,
+      "scripts": [
+        {
+          "name": "mk_DAILY_update.py",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/mk_DAILY_update.py",
+          "extension": ".py",
+          "size_bytes": 21325,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_himanuta.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta.sql",
+          "extension": ".sql",
+          "size_bytes": 34114,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_himanuta_jerusalem.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta_jerusalem.sql",
+          "extension": ".sql",
+          "size_bytes": 29848,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_himanuta_missing.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_himanuta_missing.sql",
+          "extension": ".sql",
+          "size_bytes": 8166,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_iskaot.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_iskaot.sql",
+          "extension": ".sql",
+          "size_bytes": 21720,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_iskaot_missing.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_iskaot_missing.sql",
+          "extension": ".sql",
+          "size_bytes": 4338,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_kkl.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_kkl.sql",
+          "extension": ".sql",
+          "size_bytes": 33926,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_migrashey_tmura.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_migrashey_tmura.sql",
+          "extension": ".sql",
+          "size_bytes": 6360,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_peruk_shituf_parcels.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_peruk_shituf_parcels.sql",
+          "extension": ".sql",
+          "size_bytes": 23688,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_shimushim_iskaot.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_shimushim_iskaot.sql",
+          "extension": ".sql",
+          "size_bytes": 20982,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "create_mk_tik_mishpati_parcels.sql",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/sql/create_mk_tik_mishpati_parcels.sql",
+          "extension": ".sql",
+          "size_bytes": 23688,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_MkDaily_16042026_0700.txt",
+          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/logs/16042026/Log_MkDaily_16042026_0700.txt",
+          "extension": ".txt",
+          "size_bytes": 3422,
+          "modified": "2026-04-19T12:41:02"
+        }
+      ],
+      "other": []
+    },
+    "עדכוןיומישלשכבותמבאת": {
+      "user": "ורד",
+      "original_name": "עדכון יומי של שכבות מבאת",
+      "path": "ורד/עדכון יומי של שכבות מבאת",
+      "modified": "2026-05-02T20:55:06",
+      "total_files": 58,
+      "scripts": [
+        {
+          "name": "mavat_daily_load.py",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_daily_load.py",
+          "extension": ".py",
+          "size_bytes": 17422,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_mk_xplan_himanuta_changes_by_date.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_himanuta_changes_by_date.sql",
+          "extension": ".sql",
+          "size_bytes": 44932,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_mk_xplan_himanuta_intersections.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_himanuta_intersections.sql",
+          "extension": ".sql",
+          "size_bytes": 66374,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_mk_xplan_kkl_changes_by_date.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_changes_by_date.sql",
+          "extension": ".sql",
+          "size_bytes": 22122,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_mk_xplan_kkl_intersections.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_intersections.sql",
+          "extension": ".sql",
+          "size_bytes": 8872,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_mk_xplan_kkl_yiudim_intersections.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_mk_xplan_kkl_yiudim_intersections.sql",
+          "extension": ".sql",
+          "size_bytes": 30226,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "create_xplan_archive.sql",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/sql/create_xplan_archive.sql",
+          "extension": ".sql",
+          "size_bytes": 50070,
+          "modified": "2026-04-19T12:41:09"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_MkMavat_16042026_0005.txt",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/logs/16042026/Log_MkMavat_16042026_0005.txt",
+          "extension": ".txt",
+          "size_bytes": 2704,
+          "modified": "2026-04-19T12:41:09"
+        }
+      ],
+      "other": [
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000001.freelist",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.freelist",
+          "extension": ".freelist",
+          "size_bytes": 8536,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 425,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1557,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.freelist",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.freelist",
+          "extension": ".freelist",
+          "size_bytes": 16728,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 269284,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.freelist",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 336,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:02"
+        },
+        {
+          "name": "a0000000d.gdbindexes",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:03"
+        },
+        {
+          "name": "a0000000d.gdbtable",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 598157805,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "a0000000d.gdbtablx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5150752,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "a0000000d.spx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/a0000000d.spx",
+          "extension": ".spx",
+          "size_bytes": 13668374,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "gdb",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "timestamps",
+          "path": "ורד/עדכון יומי של שכבות מבאת/data/mavatData.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "mavat_project.aprx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_project.aprx",
+          "extension": ".aprx",
+          "size_bytes": 79712,
+          "modified": "2026-04-19T12:41:09"
+        },
+        {
+          "name": "mavat_project.tbx",
+          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/mavat_project.tbx",
+          "extension": ".tbx",
+          "size_bytes": 3584,
+          "modified": "2026-04-19T12:41:09"
+        }
+      ]
+    },
+    "עדכוןשכבותקדסטרממפי": {
+      "user": "ורד",
+      "original_name": "עדכון שכבות קדסטר ממפי",
+      "path": "ורד/עדכון שכבות קדסטר ממפי",
+      "modified": "2026-05-02T20:55:10",
+      "total_files": 131,
+      "scripts": [
+        {
+          "name": "Monthly_1_Cadaster.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_1_Cadaster.py",
+          "extension": ".py",
+          "size_bytes": 9546,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_2_geom_fixing.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_2_geom_fixing.py",
+          "extension": ".py",
+          "size_bytes": 3829,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_3_SQL.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_3_SQL.py",
+          "extension": ".py",
+          "size_bytes": 1797,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_4_archive.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_4_archive.py",
+          "extension": ".py",
+          "size_bytes": 8511,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_4_archive_check.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_4_archive_check.py",
+          "extension": ".py",
+          "size_bytes": 8922,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_5_archive_SQL.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_5_archive_SQL.py",
+          "extension": ".py",
+          "size_bytes": 1427,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "Monthly_Cadaster_Main.py",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/Monthly_Cadaster_Main.py",
+          "extension": ".py",
+          "size_bytes": 7710,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "create_mk_parcel.sql",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/sql/create_mk_parcel.sql",
+          "extension": ".sql",
+          "size_bytes": 12518,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "create_mk_parcel_archive.sql",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/sql/create_mk_parcel_archive.sql",
+          "extension": ".sql",
+          "size_bytes": 16460,
+          "modified": "2026-04-19T12:41:37"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Log_Cadaster_15042026_1715.txt",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/logs/Log_Cadaster_15042026_1715.txt",
+          "extension": ".txt",
+          "size_bytes": 8887,
+          "modified": "2026-04-19T12:41:37"
+        }
+      ],
+      "other": [
+        {
+          "name": "PARCEL_ALL_REPLICA_TMP.zip",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/PARCEL_ALL_REPLICA_TMP.zip",
+          "extension": ".zip",
+          "size_bytes": 667535922,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "SHEET_K.zip",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/SHEET_K.zip",
+          "extension": ".zip",
+          "size_bytes": 2275166,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "SHUMA_PARCELS.zip",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/SHUMA_PARCELS.zip",
+          "extension": ".zip",
+          "size_bytes": 11505349,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "SUB_GUSH_ALL.zip",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/SUB_GUSH_ALL.zip",
+          "extension": ".zip",
+          "size_bytes": 64691008,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "SUB_GUSH_SHUMA.zip",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/SUB_GUSH_SHUMA.zip",
+          "extension": ".zip",
+          "size_bytes": 1146553,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 321,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:16"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 9058,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 263,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000009.freelist",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.freelist",
+          "extension": ".freelist",
+          "size_bytes": 184664,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000009.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:17"
+        },
+        {
+          "name": "a00000009.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 116544416,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000009.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 2160672,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000009.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000009.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/a00000009.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "gdb",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "timestamps",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/curves.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000001.freelist",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.freelist",
+          "extension": ".freelist",
+          "size_bytes": 12632,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 696,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1634,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.freelist",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.freelist",
+          "extension": ".freelist",
+          "size_bytes": 110936,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 18466862,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:18"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.freelist",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 920,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a000000d7.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:19"
+        },
+        {
+          "name": "a000000d7.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 564218126,
+          "modified": "2026-04-19T12:41:24"
+        },
+        {
+          "name": "a000000d7.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5253152,
+          "modified": "2026-04-19T12:41:24"
+        },
+        {
+          "name": "a000000d7.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:24"
+        },
+        {
+          "name": "a000000d7.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000d7.spx",
+          "extension": ".spx",
+          "size_bytes": 16810006,
+          "modified": "2026-04-19T12:41:24"
+        },
+        {
+          "name": "a000000e0.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:24"
+        },
+        {
+          "name": "a000000e0.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 688844293,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e0.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5452832,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e0.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e0.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e0.spx",
+          "extension": ".spx",
+          "size_bytes": 17276950,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e4.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e4.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 34969060,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e4.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 92192,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e4.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e4.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e4.spx",
+          "extension": ".spx",
+          "size_bytes": 368662,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e5.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:31"
+        },
+        {
+          "name": "a000000e5.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 39839630,
+          "modified": "2026-04-19T12:41:32"
+        },
+        {
+          "name": "a000000e5.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 102432,
+          "modified": "2026-04-19T12:41:32"
+        },
+        {
+          "name": "a000000e5.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:32"
+        },
+        {
+          "name": "a000000e5.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e5.spx",
+          "extension": ".spx",
+          "size_bytes": 393238,
+          "modified": "2026-04-19T12:41:32"
+        },
+        {
+          "name": "a000000e6.gdbindexes",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 116,
+          "modified": "2026-04-19T12:41:32"
+        },
+        {
+          "name": "a000000e6.gdbtable",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 501888280,
+          "modified": "2026-04-19T12:41:36"
+        },
+        {
+          "name": "a000000e6.gdbtablx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5253152,
+          "modified": "2026-04-19T12:41:36"
+        },
+        {
+          "name": "a000000e6.horizon",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-19T12:41:36"
+        },
+        {
+          "name": "a000000e6.spx",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/a000000e6.spx",
+          "extension": ".spx",
+          "size_bytes": 16810006,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "gdb",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-19T12:41:37"
+        },
+        {
+          "name": "timestamps",
+          "path": "ורד/עדכון שכבות קדסטר ממפי/data/layers.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-19T12:41:37"
+        }
+      ]
+    },
+    "בקרתרמי": {
+      "user": "מידד",
+      "original_name": "בקרת רמי",
+      "path": "מידד/בקרת רמי",
+      "modified": "2026-05-02T20:45:20",
+      "total_files": 28,
+      "scripts": [
+        {
+          "name": "index.html",
+          "path": "מידד/בקרת רמי/scripts/index.html",
+          "extension": ".html",
+          "size_bytes": 83162,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "cadaster_network.py",
+          "path": "מידד/בקרת רמי/scripts/old/cadaster_network.py",
+          "extension": ".py",
+          "size_bytes": 23697,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "download_Yahud_parcel.py",
+          "path": "מידד/בקרת רמי/scripts/old/download_Yahud_parcel.py",
+          "extension": ".py",
+          "size_bytes": 2668,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "geometry_cut.py",
+          "path": "מידד/בקרת רמי/scripts/old/geometry_cut.py",
+          "extension": ".py",
+          "size_bytes": 8750,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/בקרת רמי/scripts/old/index.html",
+          "extension": ".html",
+          "size_bytes": 61901,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "new_compilation.py",
+          "path": "מידד/בקרת רמי/scripts/old/new_compilation.py",
+          "extension": ".py",
+          "size_bytes": 15832,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "prepareData.py",
+          "path": "מידד/בקרת רמי/scripts/old/prepareData.py",
+          "extension": ".py",
+          "size_bytes": 16507,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "report.py",
+          "path": "מידד/בקרת רמי/scripts/old/report.py",
+          "extension": ".py",
+          "size_bytes": 2779,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "prepareData.py",
+          "path": "מידד/בקרת רמי/scripts/prepareData.py",
+          "extension": ".py",
+          "size_bytes": 16507,
+          "modified": "2026-04-23T12:18:54"
+        },
+        {
+          "name": "test.py",
+          "path": "מידד/בקרת רמי/scripts/test.py",
+          "extension": ".py",
+          "size_bytes": 5981,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "utiles.py",
+          "path": "מידד/בקרת רמי/scripts/utiles.py",
+          "extension": ".py",
+          "size_bytes": 5746,
+          "modified": "2026-03-14T19:34:55"
+        }
+      ],
+      "documents": [
+        {
+          "name": "layers.txt",
+          "path": "מידד/בקרת רמי/docs/layers.txt",
+          "extension": ".txt",
+          "size_bytes": 601,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "בקרת רמי מנהלים.pptx",
+          "path": "מידד/בקרת רמי/docs/בקרת רמי מנהלים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 2008811,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "בקרת רמי.pdf",
+          "path": "מידד/בקרת רמי/docs/בקרת רמי.pdf",
+          "extension": ".pdf",
+          "size_bytes": 529678,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "מעקב אחרי שינויים בשטח חלקות קקל.pdf",
+          "path": "מידד/בקרת רמי/docs/מעקב אחרי שינויים בשטח חלקות קקל.pdf",
+          "extension": ".pdf",
+          "size_bytes": 500177,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "מעקב אחרי שינויים בשטח חלקות קקל.pptx",
+          "path": "מידד/בקרת רמי/docs/מעקב אחרי שינויים בשטח חלקות קקל.pptx",
+          "extension": ".pptx",
+          "size_bytes": 770237,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "סיכום תהליך.docx",
+          "path": "מידד/בקרת רמי/docs/סיכום תהליך.docx",
+          "extension": ".docx",
+          "size_bytes": 17141,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "תיקונים.txt",
+          "path": "מידד/בקרת רמי/docs/תיקונים.txt",
+          "extension": ".txt",
+          "size_bytes": 305,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "added_reports.xlsx",
+          "path": "מידד/בקרת רמי/scripts/added_reports.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 26748,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "changedFull_reports.xlsx",
+          "path": "מידד/בקרת רמי/scripts/changedFull_reports.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 42843,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "deleted_reports.xlsx",
+          "path": "מידד/בקרת רמי/scripts/deleted_reports.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 6663,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "add_layers.json",
+          "path": "מידד/בקרת רמי/scripts/old/add_layers.json",
+          "extension": ".json",
+          "size_bytes": 107891,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "added_reports.xlsx",
+          "path": "מידד/בקרת רמי/scripts/old/added_reports.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 57882,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "comparison_results.json",
+          "path": "מידד/בקרת רמי/scripts/old/comparison_results.json",
+          "extension": ".json",
+          "size_bytes": 94975,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "deleted_reports.xlsx",
+          "path": "מידד/בקרת רמי/scripts/old/deleted_reports.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 50157,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "network_report_summary.xlsx",
+          "path": "מידד/בקרת רמי/scripts/old/network_report_summary.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 11219,
+          "modified": "2026-03-14T19:34:55"
+        },
+        {
+          "name": "newLayer_wkt.json",
+          "path": "מידד/בקרת רמי/scripts/old/newLayer_wkt.json",
+          "extension": ".json",
+          "size_bytes": 114014,
+          "modified": "2026-03-14T19:34:55"
+        }
+      ],
+      "other": [
+        {
+          "name": "data.geojson",
+          "path": "מידד/בקרת רמי/scripts/data.geojson",
+          "extension": ".geojson",
+          "size_bytes": 185118,
+          "modified": "2026-03-14T19:34:55"
+        }
+      ]
+    },
+    "דוחפיקוחמכלאות": {
+      "user": "מידד",
+      "original_name": "דוח פיקוח מכלאות",
+      "path": "מידד/דוח פיקוח מכלאות",
+      "modified": "2026-05-02T20:45:20",
+      "total_files": 15,
+      "scripts": [
+        {
+          "name": "דו_ח_חוסרים_כולל_רשומות_שהושלמו_אוטומטית.html",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/from guy/דו_ח_חוסרים_כולל_רשומות_שהושלמו_אוטומטית.html",
+          "extension": ".html",
+          "size_bytes": 11549,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "gis_report.html",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/gis_report.html",
+          "extension": ".html",
+          "size_bytes": 981826,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "grazing_Shepard_Loc_and_Insp.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/grazing_Shepard_Loc_and_Insp.py",
+          "extension": ".py",
+          "size_bytes": 54049,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "create_report.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/old/create_report.py",
+          "extension": ".py",
+          "size_bytes": 6151,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "dataTransfer_between_layers.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/old/dataTransfer_between_layers.py",
+          "extension": ".py",
+          "size_bytes": 9007,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "remove_from_table.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/remove_from_table.py",
+          "extension": ".py",
+          "size_bytes": 570,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "sending_DailyMail.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/sending_DailyMail.py",
+          "extension": ".py",
+          "size_bytes": 22342,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "sending_mails_report.py",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/sending_mails_report.py",
+          "extension": ".py",
+          "size_bytes": 17890,
+          "modified": "2026-03-14T19:38:17"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Mail_Fix_Alet.pdf",
+          "path": "מידד/דוח פיקוח מכלאות/Documents/Mail_Fix_Alet.pdf",
+          "extension": ".pdf",
+          "size_bytes": 338173,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "Mail_Fix_Alet.pptx",
+          "path": "מידד/דוח פיקוח מכלאות/Documents/Mail_Fix_Alet.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1398345,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "~$בדיקות ותיקונים אוטומטיים.pptx",
+          "path": "מידד/דוח פיקוח מכלאות/Documents/~$בדיקות ותיקונים אוטומטיים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 165,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "בדיקות ותיקונים אוטומטיים.pdf",
+          "path": "מידד/דוח פיקוח מכלאות/Documents/בדיקות ותיקונים אוטומטיים.pdf",
+          "extension": ".pdf",
+          "size_bytes": 1316657,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "בדיקות ותיקונים אוטומטיים.pptx",
+          "path": "מידד/דוח פיקוח מכלאות/Documents/בדיקות ותיקונים אוטומטיים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1830113,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "data_to_mail.xlsx",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/data_to_mail.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 17462,
+          "modified": "2026-03-14T19:38:17"
+        },
+        {
+          "name": "סיכום מייל.xlsx",
+          "path": "מידד/דוח פיקוח מכלאות/scripts/from guy/סיכום מייל.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 9216,
+          "modified": "2026-03-14T19:38:17"
+        }
+      ],
+      "other": []
+    },
+    "דוחפיקוחתשתיות": {
+      "user": "מידד",
+      "original_name": "דוח פיקוח תשתיות",
+      "path": "מידד/דוח פיקוח תשתיות",
+      "modified": "2026-05-02T20:45:20",
+      "total_files": 9,
+      "scripts": [
+        {
+          "name": "7_report.html",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.html",
+          "extension": ".html",
+          "size_bytes": 3529,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "inspection_report.html",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/inspection_report.html",
+          "extension": ".html",
+          "size_bytes": 4386,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "sendMail_infra copy.py",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/old/sendMail_infra copy.py",
+          "extension": ".py",
+          "size_bytes": 12051,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "sendMail_infra.py",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/sendMail_infra.py",
+          "extension": ".py",
+          "size_bytes": 28573,
+          "modified": "2026-03-14T19:38:23"
+        }
+      ],
+      "documents": [
+        {
+          "name": "read_me.txt",
+          "path": "מידד/דוח פיקוח תשתיות/data/read_me.txt",
+          "extension": ".txt",
+          "size_bytes": 659,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "7_report.pdf",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.pdf",
+          "extension": ".pdf",
+          "size_bytes": 467347,
+          "modified": "2026-03-14T19:38:23"
+        }
+      ],
+      "other": [
+        {
+          "name": "examplePDF.jpg",
+          "path": "מידד/דוח פיקוח תשתיות/data/examplePDF.jpg",
+          "extension": ".jpg",
+          "size_bytes": 142020,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "kkl_logo.jpg",
+          "path": "מידד/דוח פיקוח תשתיות/data/kkl_logo.jpg",
+          "extension": ".jpg",
+          "size_bytes": 144044,
+          "modified": "2026-03-14T19:38:23"
+        },
+        {
+          "name": "KKL.png",
+          "path": "מידד/דוח פיקוח תשתיות/scripts/KKL.png",
+          "extension": ".png",
+          "size_bytes": 171179,
+          "modified": "2026-03-14T19:38:23"
+        }
+      ]
+    },
+    "הורדתוורטקסים": {
+      "user": "מידד",
+      "original_name": "הורדת וורטקסים",
+      "path": "מידד/הורדת וורטקסים",
+      "modified": "2026-05-02T20:45:43",
+      "total_files": 3,
+      "scripts": [
+        {
+          "name": "push_to_elev_conours.py",
+          "path": "מידד/הורדת וורטקסים/scripts/push_to_elev_conours.py",
+          "extension": ".py",
+          "size_bytes": 3248,
+          "modified": "2026-04-23T12:01:51"
+        },
+        {
+          "name": "removing_PseudoNodes.py",
+          "path": "מידד/הורדת וורטקסים/scripts/removing_PseudoNodes.py",
+          "extension": ".py",
+          "size_bytes": 19348,
+          "modified": "2026-04-23T12:01:51"
+        }
+      ],
+      "documents": [
+        {
+          "name": "read_me.txt",
+          "path": "מידד/הורדת וורטקסים/scripts/read_me.txt",
+          "extension": ".txt",
+          "size_bytes": 3,
+          "modified": "2026-04-23T12:01:51"
+        }
+      ],
+      "other": []
+    },
+    "הקצאתמשימות": {
+      "user": "מידד",
+      "original_name": "הקצאת משימות",
+      "path": "מידד/הקצאת משימות",
+      "modified": "2026-05-02T20:45:43",
+      "total_files": 4,
+      "scripts": [
+        {
+          "name": "main.html",
+          "path": "מידד/הקצאת משימות/scripts/main.html",
+          "extension": ".html",
+          "size_bytes": 120233,
+          "modified": "2026-04-23T12:20:36"
+        },
+        {
+          "name": "mainPhone.html",
+          "path": "מידד/הקצאת משימות/scripts/mainPhone.html",
+          "extension": ".html",
+          "size_bytes": 116895,
+          "modified": "2026-03-14T19:38:48"
+        },
+        {
+          "name": "main_9_12_2025.html",
+          "path": "מידד/הקצאת משימות/scripts/old/main_9_12_2025.html",
+          "extension": ".html",
+          "size_bytes": 103201,
+          "modified": "2026-03-14T19:38:48"
+        }
+      ],
+      "documents": [
+        {
+          "name": "משימה.docx",
+          "path": "מידד/הקצאת משימות/docs/משימה.docx",
+          "extension": ".docx",
+          "size_bytes": 15966,
+          "modified": "2026-03-14T19:38:48"
+        }
+      ],
+      "other": []
+    },
+    "מציאתעשן": {
+      "user": "מידד",
+      "original_name": "מציאת עשן",
+      "path": "מידד/מציאת עשן",
+      "modified": "2026-05-02T20:45:43",
+      "total_files": 18,
+      "scripts": [
+        {
+          "name": "main.py",
+          "path": "מידד/מציאת עשן/scripts/main.py",
+          "extension": ".py",
+          "size_bytes": 2782,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "main_computerCamara.py",
+          "path": "מידד/מציאת עשן/scripts/main_computerCamara.py",
+          "extension": ".py",
+          "size_bytes": 4140,
+          "modified": "2026-03-14T19:35:01"
+        }
+      ],
+      "documents": [
+        {
+          "name": "GIS- Fire and Smoke.pdf",
+          "path": "מידד/מציאת עשן/docs/GIS- Fire and Smoke.pdf",
+          "extension": ".pdf",
+          "size_bytes": 870205,
+          "modified": "2026-03-14T19:35:02"
+        },
+        {
+          "name": "GIS- Fire and Smoke.pptx",
+          "path": "מידד/מציאת עשן/docs/GIS- Fire and Smoke.pptx",
+          "extension": ".pptx",
+          "size_bytes": 6155591,
+          "modified": "2026-03-14T19:35:02"
+        }
+      ],
+      "other": [
+        {
+          "name": "smoke.jpg",
+          "path": "מידד/מציאת עשן/data/detect/predict/smoke.jpg",
+          "extension": ".jpg",
+          "size_bytes": 258650,
+          "modified": "2026-03-14T19:35:02"
+        },
+        {
+          "name": "smoke.jpg",
+          "path": "מידד/מציאת עשן/data/detect/predict2/smoke.jpg",
+          "extension": ".jpg",
+          "size_bytes": 258650,
+          "modified": "2026-03-14T19:35:02"
+        },
+        {
+          "name": "result.jpg",
+          "path": "מידד/מציאת עשן/docs/result.jpg",
+          "extension": ".jpg",
+          "size_bytes": 169197,
+          "modified": "2026-03-14T19:35:02"
+        },
+        {
+          "name": "Dust_smoke_detection.mp4",
+          "path": "מידד/מציאת עשן/scripts/Dust_smoke_detection.mp4",
+          "extension": ".mp4",
+          "size_bytes": 18219785,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "Volo.mp4",
+          "path": "מידד/מציאת עשן/scripts/Volo.mp4",
+          "extension": ".mp4",
+          "size_bytes": 55187496,
+          "modified": "2026-03-14T19:35:02"
+        },
+        {
+          "name": "all_smoke_if_any_smoke.jpg",
+          "path": "מידד/מציאת עשן/scripts/all_smoke_if_any_smoke.jpg",
+          "extension": ".jpg",
+          "size_bytes": 258650,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "best.pt",
+          "path": "מידד/מציאת עשן/scripts/best.pt",
+          "extension": ".pt",
+          "size_bytes": 6262051,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "dust.jpg",
+          "path": "מידד/מציאת עשן/scripts/dust.jpg",
+          "extension": ".jpg",
+          "size_bytes": 53201,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "sig.mp4",
+          "path": "מידד/מציאת עשן/scripts/sig.mp4",
+          "extension": ".mp4",
+          "size_bytes": 13627368,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "smoke.jpg",
+          "path": "מידד/מציאת עשן/scripts/smoke.jpg",
+          "extension": ".jpg",
+          "size_bytes": 778051,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "smoke_detection.jpg",
+          "path": "מידד/מציאת עשן/scripts/smoke_detection.jpg",
+          "extension": ".jpg",
+          "size_bytes": 260149,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "smoke_sig_detection.mp4",
+          "path": "מידד/מציאת עשן/scripts/smoke_sig_detection.mp4",
+          "extension": ".mp4",
+          "size_bytes": 18752019,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "thresholded_detection.jpg",
+          "path": "מידד/מציאת עשן/scripts/thresholded_detection.jpg",
+          "extension": ".jpg",
+          "size_bytes": 75980,
+          "modified": "2026-03-14T19:35:01"
+        },
+        {
+          "name": "video_smoke.mp4",
+          "path": "מידד/מציאת עשן/scripts/video_smoke.mp4",
+          "extension": ".mp4",
+          "size_bytes": 8608277,
+          "modified": "2026-03-14T19:35:01"
+        }
+      ]
+    },
+    "ניהולפרוייקטים": {
+      "user": "מידד",
+      "original_name": "ניהול פרוייקטים",
+      "path": "מידד/ניהול פרוייקטים",
+      "modified": "2026-05-02T20:45:43",
+      "total_files": 4,
+      "scripts": [
+        {
+          "name": "Index.html",
+          "path": "מידד/ניהול פרוייקטים/scripts/Index.html",
+          "extension": ".html",
+          "size_bytes": 81335,
+          "modified": "2026-04-30T10:47:21"
+        },
+        {
+          "name": "read_from_sheet.py",
+          "path": "מידד/ניהול פרוייקטים/scripts/read_from_sheet.py",
+          "extension": ".py",
+          "size_bytes": 44873,
+          "modified": "2026-04-13T13:33:40"
+        }
+      ],
+      "documents": [
+        {
+          "name": "project_report.pdf",
+          "path": "מידד/ניהול פרוייקטים/scripts/project_report.pdf",
+          "extension": ".pdf",
+          "size_bytes": 966727,
+          "modified": "2026-05-02T20:41:41"
+        },
+        {
+          "name": "projects_full.json",
+          "path": "מידד/ניהול פרוייקטים/scripts/projects_full.json",
+          "extension": ".json",
+          "size_bytes": 345334,
+          "modified": "2026-05-02T20:41:38"
+        }
+      ],
+      "other": []
+    },
+    "ספריערישן": {
+      "user": "מידד",
+      "original_name": "ספר יער - ישן",
+      "path": "מידד/ספר יער - ישן",
+      "modified": "2026-05-02T20:45:55",
+      "total_files": 6,
+      "scripts": [
+        {
+          "name": "index.html",
+          "path": "מידד/ספר יער - ישן/scripts/index.html",
+          "extension": ".html",
+          "size_bytes": 161051,
+          "modified": "2026-04-23T12:21:13"
+        }
+      ],
+      "documents": [
+        {
+          "name": "networkx_edges.json",
+          "path": "מידד/ספר יער - ישן/scripts/networkx_edges.json",
+          "extension": ".json",
+          "size_bytes": 2035828,
+          "modified": "2026-04-23T12:21:13"
+        },
+        {
+          "name": "networkx_edges2.json",
+          "path": "מידד/ספר יער - ישן/scripts/networkx_edges2.json",
+          "extension": ".json",
+          "size_bytes": 1392366,
+          "modified": "2026-04-23T12:21:13"
+        }
+      ],
+      "other": [
+        {
+          "name": "LOGO.jpg",
+          "path": "מידד/ספר יער - ישן/scripts/LOGO.jpg",
+          "extension": ".jpg",
+          "size_bytes": 201127,
+          "modified": "2026-04-23T12:21:13"
+        },
+        {
+          "name": "LOGO_KKL.jpg",
+          "path": "מידד/ספר יער - ישן/scripts/LOGO_KKL.jpg",
+          "extension": ".jpg",
+          "size_bytes": 30213,
+          "modified": "2026-04-23T12:21:13"
+        },
+        {
+          "name": "camera.png",
+          "path": "מידד/ספר יער - ישן/scripts/camera.png",
+          "extension": ".png",
+          "size_bytes": 929335,
+          "modified": "2026-04-23T12:21:13"
+        }
+      ]
+    },
+    "עדכוןקדסטר": {
+      "user": "מידד",
+      "original_name": "עדכון קדסטר",
+      "path": "מידד/עדכון קדסטר",
+      "modified": "2026-05-02T20:45:55",
+      "total_files": 6,
+      "scripts": [
+        {
+          "name": "Monthly_1_Cadaster.py",
+          "path": "מידד/עדכון קדסטר/scripts/Monthly_1_Cadaster.py",
+          "extension": ".py",
+          "size_bytes": 4190,
+          "modified": "2026-03-14T19:37:17"
+        },
+        {
+          "name": "Monthly_2_geom_fixing.py",
+          "path": "מידד/עדכון קדסטר/scripts/Monthly_2_geom_fixing.py",
+          "extension": ".py",
+          "size_bytes": 3488,
+          "modified": "2026-03-14T19:37:17"
+        },
+        {
+          "name": "Monthly_3_archive.py",
+          "path": "מידד/עדכון קדסטר/scripts/Monthly_3_archive.py",
+          "extension": ".py",
+          "size_bytes": 7139,
+          "modified": "2026-03-14T19:37:17"
+        },
+        {
+          "name": "Monthly_4_SQL.py",
+          "path": "מידד/עדכון קדסטר/scripts/Monthly_4_SQL.py",
+          "extension": ".py",
+          "size_bytes": 884,
+          "modified": "2026-03-14T19:37:17"
+        },
+        {
+          "name": "Monthly_5_main.py",
+          "path": "מידד/עדכון קדסטר/scripts/Monthly_5_main.py",
+          "extension": ".py",
+          "size_bytes": 1692,
+          "modified": "2026-03-14T19:37:17"
+        }
+      ],
+      "documents": [
+        {
+          "name": "check_update.txt",
+          "path": "מידד/עדכון קדסטר/scripts/check_update.txt",
+          "extension": ".txt",
+          "size_bytes": 2133,
+          "modified": "2026-04-19T13:26:43"
+        }
+      ],
+      "other": []
+    },
+    "עומדים": {
+      "user": "מידד",
+      "original_name": "עומדים",
+      "path": "מידד/עומדים",
+      "modified": "2026-05-02T20:46:45",
+      "total_files": 29,
+      "scripts": [
+        {
+          "name": "1_main_update.py",
+          "path": "מידד/עומדים/scripts/1_main_update.py",
+          "extension": ".py",
+          "size_bytes": 16426,
+          "modified": "2026-04-15T17:30:18"
+        },
+        {
+          "name": "2_push_to_AGOL.py",
+          "path": "מידד/עומדים/scripts/2_push_to_AGOL.py",
+          "extension": ".py",
+          "size_bytes": 4826,
+          "modified": "2026-04-15T17:29:48"
+        },
+        {
+          "name": "3_table_to_point.py",
+          "path": "מידד/עומדים/scripts/3_table_to_point.py",
+          "extension": ".py",
+          "size_bytes": 4738,
+          "modified": "2026-04-15T16:50:24"
+        },
+        {
+          "name": "4_push_Point_to_AGOL.py",
+          "path": "מידד/עומדים/scripts/4_push_Point_to_AGOL.py",
+          "extension": ".py",
+          "size_bytes": 6060,
+          "modified": "2026-03-19T14:33:31"
+        },
+        {
+          "name": "5_updateBatch.py",
+          "path": "מידד/עומדים/scripts/5_updateBatch.py",
+          "extension": ".py",
+          "size_bytes": 11167,
+          "modified": "2026-04-15T16:51:14"
+        },
+        {
+          "name": "6_Semy.py",
+          "path": "מידד/עומדים/scripts/6_Semy.py",
+          "extension": ".py",
+          "size_bytes": 14552,
+          "modified": "2026-04-15T17:28:37"
+        },
+        {
+          "name": "7_updateLastYearBatch.py",
+          "path": "מידד/עומדים/scripts/7_updateLastYearBatch.py",
+          "extension": ".py",
+          "size_bytes": 8702,
+          "modified": "2026-04-15T15:18:33"
+        },
+        {
+          "name": "8_update_treatmentForest.py",
+          "path": "מידד/עומדים/scripts/8_update_treatmentForest.py",
+          "extension": ".py",
+          "size_bytes": 10467,
+          "modified": "2026-05-01T11:31:37"
+        },
+        {
+          "name": "a_Network_Prepare.py",
+          "path": "מידד/עומדים/scripts/a_Network_Prepare.py",
+          "extension": ".py",
+          "size_bytes": 4031,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "b_Network_Stands.py",
+          "path": "מידד/עומדים/scripts/b_Network_Stands.py",
+          "extension": ".py",
+          "size_bytes": 12124,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "checkByGeomKey.py",
+          "path": "מידד/עומדים/scripts/checkByGeomKey.py",
+          "extension": ".py",
+          "size_bytes": 8165,
+          "modified": "2026-03-19T14:33:31"
+        },
+        {
+          "name": "checkDuplicates.py",
+          "path": "מידד/עומדים/scripts/checkDuplicates.py",
+          "extension": ".py",
+          "size_bytes": 28951,
+          "modified": "2026-03-19T14:33:31"
+        },
+        {
+          "name": "insert_pic.py",
+          "path": "מידד/עומדים/scripts/insert_pic.py",
+          "extension": ".py",
+          "size_bytes": 7310,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "insert_pic.py",
+          "path": "מידד/עומדים/scripts/old/insert_pic.py",
+          "extension": ".py",
+          "size_bytes": 1830,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "stats.py",
+          "path": "מידד/עומדים/scripts/stats.py",
+          "extension": ".py",
+          "size_bytes": 56050,
+          "modified": "2026-03-19T14:33:31"
+        },
+        {
+          "name": "utiles.py",
+          "path": "מידד/עומדים/scripts/utiles.py",
+          "extension": ".py",
+          "size_bytes": 5325,
+          "modified": "2026-03-19T14:33:31"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Sefer_Yaar_Data_Issues.pdf",
+          "path": "מידד/עומדים/Documents/Sefer_Yaar_Data_Issues.pdf",
+          "extension": ".pdf",
+          "size_bytes": 532807,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "Stands_archive.pdf",
+          "path": "מידד/עומדים/Documents/Stands_archive.pdf",
+          "extension": ".pdf",
+          "size_bytes": 758063,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "Stands_archive.pptx",
+          "path": "מידד/עומדים/Documents/Stands_archive.pptx",
+          "extension": ".pptx",
+          "size_bytes": 2112704,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "Forest_Stand_History_Pipeline.pptx",
+          "path": "מידד/עומדים/Documents/from scripts/Forest_Stand_History_Pipeline.pptx",
+          "extension": ".pptx",
+          "size_bytes": 455021,
+          "modified": "2026-04-16T10:38:12"
+        },
+        {
+          "name": "Stage2_Push_to_AGOL.pptx",
+          "path": "מידד/עומדים/Documents/from scripts/Stage2_Push_to_AGOL.pptx",
+          "extension": ".pptx",
+          "size_bytes": 394755,
+          "modified": "2026-04-16T10:49:16"
+        },
+        {
+          "name": "Stage3_Table_to_Point.pptx",
+          "path": "מידד/עומדים/Documents/from scripts/Stage3_Table_to_Point.pptx",
+          "extension": ".pptx",
+          "size_bytes": 424365,
+          "modified": "2026-04-16T11:02:10"
+        },
+        {
+          "name": "stands_dataProblems.pdf",
+          "path": "מידד/עומדים/Documents/stands_dataProblems.pdf",
+          "extension": ".pdf",
+          "size_bytes": 693423,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "stands_dataProblems.pptx",
+          "path": "מידד/עומדים/Documents/stands_dataProblems.pptx",
+          "extension": ".pptx",
+          "size_bytes": 5729542,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "משימה למידד.docx",
+          "path": "מידד/עומדים/Documents/משימה למידד.docx",
+          "extension": ".docx",
+          "size_bytes": 15490,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "ספר יער – תיעוד סביבות פיתוח.pdf",
+          "path": "מידד/עומדים/Documents/ספר יער – תיעוד סביבות פיתוח.pdf",
+          "extension": ".pdf",
+          "size_bytes": 249019,
+          "modified": "2026-03-14T19:38:40"
+        },
+        {
+          "name": "ForestTreatments.xlsx",
+          "path": "מידד/עומדים/scripts/ForestTreatments.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 5315469,
+          "modified": "2026-04-30T16:05:46"
+        },
+        {
+          "name": "checkpoint.json",
+          "path": "מידד/עומדים/scripts/checkpoint.json",
+          "extension": ".json",
+          "size_bytes": 182992,
+          "modified": "2026-03-14T19:38:40"
+        }
+      ],
+      "other": [
+        {
+          "name": "save_10_2_2026.zip",
+          "path": "מידד/עומדים/scripts/old/save_10_2_2026.zip",
+          "extension": ".zip",
+          "size_bytes": 48855,
+          "modified": "2026-03-14T19:38:40"
+        }
+      ]
+    },
+    "עיסקאות": {
+      "user": "מידד",
+      "original_name": "עיסקאות",
+      "path": "מידד/עיסקאות",
+      "modified": "2026-05-02T20:50:20",
+      "total_files": 15,
+      "scripts": [
+        {
+          "name": "download_Yahud_parcel.py",
+          "path": "מידד/עיסקאות/scripts/download_Yahud_parcel.py",
+          "extension": ".py",
+          "size_bytes": 2668,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "geometry_cut.py",
+          "path": "מידד/עיסקאות/scripts/geometry_cut.py",
+          "extension": ".py",
+          "size_bytes": 8744,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/עיסקאות/scripts/index.html",
+          "extension": ".html",
+          "size_bytes": 61901,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "compare_adlan_deal.py",
+          "path": "מידד/עיסקאות/scripts/old/compare_adlan_deal.py",
+          "extension": ".py",
+          "size_bytes": 4200,
+          "modified": "2026-03-14T19:34:33"
+        },
+        {
+          "name": "download_plan.py",
+          "path": "מידד/עיסקאות/scripts/old/download_data/download_plan.py",
+          "extension": ".py",
+          "size_bytes": 825,
+          "modified": "2026-03-14T19:34:33"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/עיסקאות/scripts/old/index.html",
+          "extension": ".html",
+          "size_bytes": 5798,
+          "modified": "2026-03-14T19:34:33"
+        },
+        {
+          "name": "read_data)csv.py",
+          "path": "מידד/עיסקאות/scripts/old/read_data)csv.py",
+          "extension": ".py",
+          "size_bytes": 194,
+          "modified": "2026-03-14T19:34:33"
+        },
+        {
+          "name": "read_excel_approved.py",
+          "path": "מידד/עיסקאות/scripts/old/read_excel_approved.py",
+          "extension": ".py",
+          "size_bytes": 18160,
+          "modified": "2026-03-14T19:34:33"
+        },
+        {
+          "name": "prepareData.py",
+          "path": "מידד/עיסקאות/scripts/prepareData.py",
+          "extension": ".py",
+          "size_bytes": 8693,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "utiles.py",
+          "path": "מידד/עיסקאות/scripts/utiles.py",
+          "extension": ".py",
+          "size_bytes": 5746,
+          "modified": "2026-04-23T12:24:49"
+        }
+      ],
+      "documents": [
+        {
+          "name": "deals.pptx",
+          "path": "מידד/עיסקאות/Documents/deals.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1953421,
+          "modified": "2026-03-14T19:34:30"
+        },
+        {
+          "name": "~$deals.pptx",
+          "path": "מידד/עיסקאות/Documents/~$deals.pptx",
+          "extension": ".pptx",
+          "size_bytes": 165,
+          "modified": "2026-03-14T19:34:30"
+        },
+        {
+          "name": "add_layers.json",
+          "path": "מידד/עיסקאות/scripts/add_layers.json",
+          "extension": ".json",
+          "size_bytes": 107891,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "comparison_results.json",
+          "path": "מידד/עיסקאות/scripts/comparison_results.json",
+          "extension": ".json",
+          "size_bytes": 94975,
+          "modified": "2026-04-23T12:24:49"
+        },
+        {
+          "name": "newLayer_wkt.json",
+          "path": "מידד/עיסקאות/scripts/newLayer_wkt.json",
+          "extension": ".json",
+          "size_bytes": 114014,
+          "modified": "2026-04-23T12:24:49"
+        }
+      ],
+      "other": []
+    },
+    "קומפילצייתיעודים": {
+      "user": "מידד",
+      "original_name": "קומפילציית יעודים",
+      "path": "מידד/קומפילציית יעודים",
+      "modified": "2026-05-02T20:50:22",
+      "total_files": 7,
+      "scripts": [
+        {
+          "name": "downloads_Process_Yahud.py",
+          "path": "מידד/קומפילציית יעודים/scripts/downloads_Process_Yahud.py",
+          "extension": ".py",
+          "size_bytes": 49619,
+          "modified": "2026-05-02T20:10:00"
+        },
+        {
+          "name": "downloads_Process_cadaster.py",
+          "path": "מידד/קומפילציית יעודים/scripts/downloads_Process_cadaster.py",
+          "extension": ".py",
+          "size_bytes": 7669,
+          "modified": "2026-03-28T00:41:40"
+        },
+        {
+          "name": "Process_Yahud.py",
+          "path": "מידד/קומפילציית יעודים/scripts/old/Process_Yahud.py",
+          "extension": ".py",
+          "size_bytes": 9672,
+          "modified": "2026-04-27T18:15:40"
+        },
+        {
+          "name": "Process_cadaster.py",
+          "path": "מידד/קומפילציית יעודים/scripts/old/Process_cadaster.py",
+          "extension": ".py",
+          "size_bytes": 7840,
+          "modified": "2026-04-27T18:09:44"
+        },
+        {
+          "name": "Process_main.py",
+          "path": "מידד/קומפילציית יעודים/scripts/old/Process_main.py",
+          "extension": ".py",
+          "size_bytes": 9258,
+          "modified": "2026-04-27T17:51:27"
+        },
+        {
+          "name": "utilies.py",
+          "path": "מידד/קומפילציית יעודים/scripts/old/utilies.py",
+          "extension": ".py",
+          "size_bytes": 8171,
+          "modified": "2026-03-14T19:37:36"
+        }
+      ],
+      "documents": [
+        {
+          "name": "קומפילציה.pdf",
+          "path": "מידד/קומפילציית יעודים/Documents/קומפילציה.pdf",
+          "extension": ".pdf",
+          "size_bytes": 1222056,
+          "modified": "2026-03-26T11:28:49"
+        }
+      ],
+      "other": []
+    },
+    "קרדיטים": {
+      "user": "מידד",
+      "original_name": "קרדיטים",
+      "path": "מידד/קרדיטים",
+      "modified": "2026-05-02T20:50:50",
+      "total_files": 37,
+      "scripts": [
+        {
+          "name": "check_credits_by_allTypes.py",
+          "path": "מידד/קרדיטים/scripts/check_credits_by_allTypes.py",
+          "extension": ".py",
+          "size_bytes": 90813,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "ai_checks.py",
+          "path": "מידד/קרדיטים/scripts/others/ai_checks.py",
+          "extension": ".py",
+          "size_bytes": 1020,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "check_credits_by_allTypes_.py",
+          "path": "מידד/קרדיטים/scripts/others/check_credits_by_allTypes_.py",
+          "extension": ".py",
+          "size_bytes": 87069,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "check_credits_general.py",
+          "path": "מידד/קרדיטים/scripts/others/check_credits_general.py",
+          "extension": ".py",
+          "size_bytes": 64434,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "dashbord_by_map.py",
+          "path": "מידד/קרדיטים/scripts/others/dashbord_by_map.py",
+          "extension": ".py",
+          "size_bytes": 2763,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "merge_All_types.py",
+          "path": "מידד/קרדיטים/scripts/others/merge_All_types.py",
+          "extension": ".py",
+          "size_bytes": 12556,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "push_database_guy.py",
+          "path": "מידד/קרדיטים/scripts/push_database_guy.py",
+          "extension": ".py",
+          "size_bytes": 13843,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "research.py",
+          "path": "מידד/קרדיטים/scripts/research.py",
+          "extension": ".py",
+          "size_bytes": 5677,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "ManagerItemsReport.html",
+          "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/ManagerItemsReport.html",
+          "extension": ".html",
+          "size_bytes": 7579,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "UserItemsReport.html",
+          "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/UserItemsReport.html",
+          "extension": ".html",
+          "size_bytes": 8715,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "guy_format.html",
+          "path": "מידד/קרדיטים/scripts/script_mail/changes_guy/old/guy_format.html",
+          "extension": ".html",
+          "size_bytes": 9006,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "medadhozekkl.html",
+          "path": "מידד/קרדיטים/scripts/script_mail/medadhozekkl.html",
+          "extension": ".html",
+          "size_bytes": 73911,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "read_data.py",
+          "path": "מידד/קרדיטים/scripts/script_mail/read_data.py",
+          "extension": ".py",
+          "size_bytes": 19751,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "read_data2.py",
+          "path": "מידד/קרדיטים/scripts/script_mail/read_data2.py",
+          "extension": ".py",
+          "size_bytes": 18807,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "read_data_manager.py",
+          "path": "מידד/קרדיטים/scripts/script_mail/read_data_manager.py",
+          "extension": ".py",
+          "size_bytes": 23798,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "sendMails_main.py",
+          "path": "מידד/קרדיטים/scripts/script_mail/sendMails_main.py",
+          "extension": ".py",
+          "size_bytes": 1656,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "מידד חוזה.html",
+          "path": "מידד/קרדיטים/scripts/script_mail/מידד חוזה.html",
+          "extension": ".html",
+          "size_bytes": 14009,
+          "modified": "2026-03-14T19:33:05"
+        }
+      ],
+      "documents": [
+        {
+          "name": "ArcGIS_online.pdf",
+          "path": "מידד/קרדיטים/Documents/ArcGIS_online.pdf",
+          "extension": ".pdf",
+          "size_bytes": 1559726,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "ArcGIS_online.pptx",
+          "path": "מידד/קרדיטים/Documents/ArcGIS_online.pptx",
+          "extension": ".pptx",
+          "size_bytes": 2028763,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2024_12_11.csv",
+          "path": "מידד/קרדיטים/data/data_2024_12_11.csv",
+          "extension": ".csv",
+          "size_bytes": 2702191,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2025_01_02.csv",
+          "path": "מידד/קרדיטים/data/data_2025_01_02.csv",
+          "extension": ".csv",
+          "size_bytes": 2127612,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2025_01_25.csv",
+          "path": "מידד/קרדיטים/data/data_2025_01_25.csv",
+          "extension": ".csv",
+          "size_bytes": 3613258,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "UserItems.xlsx",
+          "path": "מידד/קרדיטים/scripts/UserItems.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 709541,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "mailGs.txt",
+          "path": "מידד/קרדיטים/scripts/appsScript/mailGs.txt",
+          "extension": ".txt",
+          "size_bytes": 4705,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "mailHtml.txt",
+          "path": "מידד/קרדיטים/scripts/appsScript/mailHtml.txt",
+          "extension": ".txt",
+          "size_bytes": 20748,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2025_09_11 - Copy.csv",
+          "path": "מידד/קרדיטים/scripts/data_2025_09_11 - Copy.csv",
+          "extension": ".csv",
+          "size_bytes": 4026163,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2025_09_11.csv",
+          "path": "מידד/קרדיטים/scripts/data_2025_09_11.csv",
+          "extension": ".csv",
+          "size_bytes": 4026163,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "execution_log.xlsx",
+          "path": "מידד/קרדיטים/scripts/execution_log.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 5104,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "log_excel.xlsx",
+          "path": "מידד/קרדיטים/scripts/log_excel.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 5033,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "data_2025_03_24.csv",
+          "path": "מידד/קרדיטים/scripts/old_excels/data_2025_03_24.csv",
+          "extension": ".csv",
+          "size_bytes": 3855597,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "execution_log.xlsx",
+          "path": "מידד/קרדיטים/scripts/old_excels/execution_log.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 5919,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "log_excel.xlsx",
+          "path": "מידד/קרדיטים/scripts/old_excels/log_excel.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 39396,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "export_items_2025_04_21-125406.csv",
+          "path": "מידד/קרדיטים/scripts/others/export_items_2025_04_21-125406.csv",
+          "extension": ".csv",
+          "size_bytes": 2090747,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "research.txt",
+          "path": "מידד/קרדיטים/scripts/research.txt",
+          "extension": ".txt",
+          "size_bytes": 5681,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "gs.txt",
+          "path": "מידד/קרדיטים/scripts/script_mail/gs.txt",
+          "extension": ".txt",
+          "size_bytes": 7625,
+          "modified": "2026-03-14T19:33:05"
+        },
+        {
+          "name": "html.txt",
+          "path": "מידד/קרדיטים/scripts/script_mail/html.txt",
+          "extension": ".txt",
+          "size_bytes": 27179,
+          "modified": "2026-03-14T19:33:05"
+        }
+      ],
+      "other": [
+        {
+          "name": "dashboard_updater.log",
+          "path": "מידד/קרדיטים/scripts/dashboard_updater.log",
+          "extension": ".log",
+          "size_bytes": 1400,
+          "modified": "2026-03-14T19:33:05"
+        }
+      ]
+    },
+    "רשתקדסטר": {
+      "user": "מידד",
+      "original_name": "רשת קדסטר",
+      "path": "מידד/רשת קדסטר",
+      "modified": "2026-05-02T20:50:50",
+      "total_files": 53,
+      "scripts": [
+        {
+          "name": "API_cadaster_network.py",
+          "path": "מידד/רשת קדסטר/scripts/API_cadaster_network.py",
+          "extension": ".py",
+          "size_bytes": 67928,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/index.html",
+          "extension": ".html",
+          "size_bytes": 685,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "ApiFetchComponent.jsx",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ApiFetchComponent.jsx",
+          "extension": ".jsx",
+          "size_bytes": 1202,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "App.css",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.css",
+          "extension": ".css",
+          "size_bytes": 2121,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "App.js",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.js",
+          "extension": ".js",
+          "size_bytes": 629,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "ControlPanel.css",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.css",
+          "extension": ".css",
+          "size_bytes": 1451,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "ControlPanel.jsx",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.jsx",
+          "extension": ".jsx",
+          "size_bytes": 1475,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "GeoMAISection.js",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/GeoMAISection.js",
+          "extension": ".js",
+          "size_bytes": 958,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "MapContainer.jsx",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/MapContainer.jsx",
+          "extension": ".jsx",
+          "size_bytes": 8880,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "PropertiesTable.jsx",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/PropertiesTable.jsx",
+          "extension": ".jsx",
+          "size_bytes": 1385,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "index.css",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.css",
+          "extension": ".css",
+          "size_bytes": 366,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "index.js",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.js",
+          "extension": ".js",
+          "size_bytes": 235,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "reportWebVitals.js",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/reportWebVitals.js",
+          "extension": ".js",
+          "size_bytes": 362,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "API_cadaster_network_13_1_2024.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/API_cadaster_network_13_1_2024.py",
+          "extension": ".py",
+          "size_bytes": 44896,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "Delta_parcels_missing.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/Delta_parcels_missing.py",
+          "extension": ".py",
+          "size_bytes": 3844,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "Find_Lost_parcels.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/Find_Lost_parcels.py",
+          "extension": ".py",
+          "size_bytes": 5990,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "change_pdfs_path_Postgresql.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/change_pdfs_path_Postgresql.py",
+          "extension": ".py",
+          "size_bytes": 1713,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "data_to_postgresql.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/data_to_postgresql.py",
+          "extension": ".py",
+          "size_bytes": 3122,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "postgresql_to_data.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/postgresql_to_data.py",
+          "extension": ".py",
+          "size_bytes": 1039,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "push_network_connected_toSQL.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/push_network_connected_toSQL.py",
+          "extension": ".py",
+          "size_bytes": 1867,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "push_postgresql.py",
+          "path": "מידד/רשת קדסטר/scripts/assits_codes/push_postgresql.py",
+          "extension": ".py",
+          "size_bytes": 4769,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "main.py",
+          "path": "מידד/רשת קדסטר/scripts/main.py",
+          "extension": ".py",
+          "size_bytes": 6769,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "main_update.py",
+          "path": "מידד/רשת קדסטר/scripts/main_update.py",
+          "extension": ".py",
+          "size_bytes": 4011,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "API_cadaster_network.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/API_cadaster_network.py",
+          "extension": ".py",
+          "size_bytes": 43243,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "API_continuous.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/API_continuous.py",
+          "extension": ".py",
+          "size_bytes": 3775,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "New Text Document.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/New Text Document.py",
+          "extension": ".py",
+          "size_bytes": 560,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "Find_Lost_parcels.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/Find_Lost_parcels.py",
+          "extension": ".py",
+          "size_bytes": 5975,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "update_cadaster.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/update_cadaster.py",
+          "extension": ".py",
+          "size_bytes": 11816,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "update_cancel_parcel.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/assits_codes/update_cancel_parcel.py",
+          "extension": ".py",
+          "size_bytes": 2638,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "main.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/main.py",
+          "extension": ".py",
+          "size_bytes": 986,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "check_total.py",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/others/check_total.py",
+          "extension": ".py",
+          "size_bytes": 1158,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/scripts/templates/index.html",
+          "extension": ".html",
+          "size_bytes": 4358,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "main_old.py",
+          "path": "מידד/רשת קדסטר/scripts/others/main_old.py",
+          "extension": ".py",
+          "size_bytes": 55458,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "shift_path.py",
+          "path": "מידד/רשת קדסטר/scripts/others/shift_path.py",
+          "extension": ".py",
+          "size_bytes": 1110,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "index.html",
+          "path": "מידד/רשת קדסטר/scripts/templates/index.html",
+          "extension": ".html",
+          "size_bytes": 14251,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "update_cadaster.py",
+          "path": "מידד/רשת קדסטר/scripts/update_cadaster.py",
+          "extension": ".py",
+          "size_bytes": 17946,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "update_cancel_parcel.py",
+          "path": "מידד/רשת קדסטר/scripts/update_cancel_parcel.py",
+          "extension": ".py",
+          "size_bytes": 6242,
+          "modified": "2026-03-14T19:34:50"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Cadaster Network API.docx",
+          "path": "מידד/רשת קדסטר/Documents/Cadaster Network API.docx",
+          "extension": ".docx",
+          "size_bytes": 286198,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "Cadaster Network API.pdf",
+          "path": "מידד/רשת קדסטר/Documents/Cadaster Network API.pdf",
+          "extension": ".pdf",
+          "size_bytes": 297987,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "Geography_based_AI.pdf",
+          "path": "מידד/רשת קדסטר/Documents/templates/Geography_based_AI.pdf",
+          "extension": ".pdf",
+          "size_bytes": 74642,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "Geography_based_AI2.pdf",
+          "path": "מידד/רשת קדסטר/Documents/templates/Geography_based_AI2.pdf",
+          "extension": ".pdf",
+          "size_bytes": 92785,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "דרישות לרשת קדסטר.xlsx",
+          "path": "מידד/רשת קדסטר/Documents/דרישות לרשת קדסטר.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 9692,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "README.md",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/README.md",
+          "extension": ".md",
+          "size_bytes": 3359,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "package-lock.json",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/package-lock.json",
+          "extension": ".json",
+          "size_bytes": 707567,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "package.json",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/package.json",
+          "extension": ".json",
+          "size_bytes": 853,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "manifest.json",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/manifest.json",
+          "extension": ".json",
+          "size_bytes": 492,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "robots.txt",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/robots.txt",
+          "extension": ".txt",
+          "size_bytes": 67,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "needed_parcels.xlsx",
+          "path": "מידד/רשת קדסטר/scripts/needed_parcels.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 22063325,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": "Geography_based_AI.pdf",
+          "path": "מידד/רשת קדסטר/scripts/old/Cadaster_network/templates/Geography_based_AI.pdf",
+          "extension": ".pdf",
+          "size_bytes": 159910,
+          "modified": "2026-03-14T19:34:46"
+        }
+      ],
+      "other": [
+        {
+          "name": "download.ico",
+          "path": "מידד/רשת קדסטר/Documents/templates/download.ico",
+          "extension": ".ico",
+          "size_bytes": 214430,
+          "modified": "2026-03-14T19:34:50"
+        },
+        {
+          "name": ".gitignore",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/.gitignore",
+          "extension": "",
+          "size_bytes": 310,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "favicon.ico",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/favicon.ico",
+          "extension": ".ico",
+          "size_bytes": 3870,
+          "modified": "2026-03-14T19:34:46"
+        },
+        {
+          "name": "logo192.png",
+          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/logo192.png",
+          "extension": ".png",
+          "size_bytes": 5347,
+          "modified": "2026-03-14T19:34:46"
+        }
+      ]
+    },
+    "תהליכיאקספוננט": {
+      "user": "מידד",
+      "original_name": "תהליכי אקספוננט",
+      "path": "מידד/תהליכי אקספוננט",
+      "modified": "2026-05-02T20:50:50",
+      "total_files": 1,
+      "scripts": [
+        {
+          "name": "update_domain.py",
+          "path": "מידד/תהליכי אקספוננט/scripts/update_domain.py",
+          "extension": ".py",
+          "size_bytes": 13137,
+          "modified": "2026-04-23T11:56:21"
+        }
+      ],
+      "documents": [],
+      "other": []
+    },
+    "תהליכיארקייד": {
+      "user": "מידד",
+      "original_name": "תהליכי ארקייד",
+      "path": "מידד/תהליכי ארקייד",
+      "modified": "2026-05-02T20:50:50",
+      "total_files": 6,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "arcade_link_attch.txt",
+          "path": "מידד/תהליכי ארקייד/scripts/arcade_link_attch.txt",
+          "extension": ".txt",
+          "size_bytes": 8077,
+          "modified": "2026-03-14T19:37:57"
+        },
+        {
+          "name": "update_combine_status.txt",
+          "path": "מידד/תהליכי ארקייד/scripts/calc_field/update_combine_status.txt",
+          "extension": ".txt",
+          "size_bytes": 2145,
+          "modified": "2026-03-14T19:37:57"
+        },
+        {
+          "name": "AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
+          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 15336,
+          "modified": "2026-03-14T19:37:57"
+        },
+        {
+          "name": "arcade_new2.txt",
+          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_new2.txt",
+          "extension": ".txt",
+          "size_bytes": 13114,
+          "modified": "2026-03-14T19:37:57"
+        },
+        {
+          "name": "arcade_old.txt",
+          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_old.txt",
+          "extension": ".txt",
+          "size_bytes": 3714,
+          "modified": "2026-03-14T19:37:57"
+        },
+        {
+          "name": "paths.txt",
+          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/paths.txt",
+          "extension": ".txt",
+          "size_bytes": 255,
+          "modified": "2026-03-14T19:37:57"
+        }
+      ],
+      "other": []
+    },
+    "תיקוןגאומטרי": {
+      "user": "מידד",
+      "original_name": "תיקון גאומטרי",
+      "path": "מידד/תיקון גאומטרי",
+      "modified": "2026-05-02T20:50:50",
+      "total_files": 6,
+      "scripts": [
+        {
+          "name": "1_new_fix_geom.py",
+          "path": "מידד/תיקון גאומטרי/scripts/1_new_fix_geom.py",
+          "extension": ".py",
+          "size_bytes": 38113,
+          "modified": "2026-04-23T11:55:33"
+        },
+        {
+          "name": "2_push_gilad_fix.py",
+          "path": "מידד/תיקון גאומטרי/scripts/2_push_gilad_fix.py",
+          "extension": ".py",
+          "size_bytes": 5569,
+          "modified": "2026-04-23T11:55:33"
+        },
+        {
+          "name": "3_Tool_Manual_fix.py",
+          "path": "מידד/תיקון גאומטרי/scripts/3_Tool_Manual_fix.py",
+          "extension": ".py",
+          "size_bytes": 6696,
+          "modified": "2026-04-23T11:55:33"
+        },
+        {
+          "name": "check_table.py",
+          "path": "מידד/תיקון גאומטרי/scripts/check_table.py",
+          "extension": ".py",
+          "size_bytes": 4625,
+          "modified": "2026-04-23T11:55:33"
+        },
+        {
+          "name": "fix_geom.py",
+          "path": "מידד/תיקון גאומטרי/scripts/fix_geom.py",
+          "extension": ".py",
+          "size_bytes": 9063,
+          "modified": "2026-04-23T11:55:33"
+        },
+        {
+          "name": "utiles.py",
+          "path": "מידד/תיקון גאומטרי/scripts/utiles.py",
+          "extension": ".py",
+          "size_bytes": 5120,
+          "modified": "2026-04-23T11:55:33"
+        }
+      ],
+      "documents": [],
+      "other": []
+    },
+    "אינדקסיםשלשריפותישאינדקסמבוססשמטואינדקסניהולסיכוניםמבוססחישהמרחקו": {
+      "user": "רועי",
+      "original_name": "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+      "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 74,
+      "scripts": [
+        {
+          "name": "DownLoadFC.py",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireIndex/DownLoadFC.py",
+          "extension": ".py",
+          "size_bytes": 5860,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "FireRiskIndexKKL.py",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireIndex/FireRiskIndexKKL.py",
+          "extension": ".py",
+          "size_bytes": 33049,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "FireRiskShamat.py",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/scripts/FireRiskShamat/FireRiskShamat.py",
+          "extension": ".py",
+          "size_bytes": 7687,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "documents": [
+        {
+          "name": "FireIndex_DownLoadFC.md",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_DownLoadFC.md",
+          "extension": ".md",
+          "size_bytes": 3116,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "FireIndex_FireRiskIndexKKL.md",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_FireRiskIndexKKL.md",
+          "extension": ".md",
+          "size_bytes": 5540,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "FireRiskShamat_FireRiskShamat.md",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireRiskShamat_FireRiskShamat.md",
+          "extension": ".md",
+          "size_bytes": 4679,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 3664,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "arcpyenv.txt",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireIndex/arcpyenv.txt",
+          "extension": ".txt",
+          "size_bytes": 44,
+          "modified": "2026-04-16T10:57:36"
+        },
+        {
+          "name": "20230908_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230908_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16983136,
+          "modified": "2026-04-16T10:57:36"
+        },
+        {
+          "name": "20230909_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230909_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16987336,
+          "modified": "2026-04-16T10:57:36"
+        },
+        {
+          "name": "20230911_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230911_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16979889,
+          "modified": "2026-04-16T10:57:36"
+        },
+        {
+          "name": "20230914_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230914_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16987264,
+          "modified": "2026-04-16T10:57:36"
+        },
+        {
+          "name": "20230919_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230919_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16989849,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "20231103_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20231103_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16984375,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "20231111_GIS_Index.csv",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20231111_GIS_Index.csv",
+          "extension": ".csv",
+          "size_bytes": 16990229,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "other": [
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000001.freelist",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 466,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 1041,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.freelist",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.freelist",
+          "extension": ".freelist",
+          "size_bytes": 49496,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 248291,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.freelist",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 482,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.FDO_GlobalID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.FDO_GlobalID.atx",
+          "extension": ".atx",
+          "size_bytes": 2363414,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.freelist",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.freelist",
+          "extension": ".freelist",
+          "size_bytes": 4440,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 178,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 5141113,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 276512,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.horizon",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a00000009.spx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a00000009.spx",
+          "extension": ".spx",
+          "size_bytes": 2445334,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.FDO_GlobalID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.FDO_GlobalID.atx",
+          "extension": ".atx",
+          "size_bytes": 2363414,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.freelist",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.freelist",
+          "extension": ".freelist",
+          "size_bytes": 504152,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 178,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 13376238,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 276512,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.horizon",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000e.spx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000e.spx",
+          "extension": ".spx",
+          "size_bytes": 2445334,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.FDO_GlobalID.atx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.FDO_GlobalID.atx",
+          "extension": ".atx",
+          "size_bytes": 2363414,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.gdbindexes",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 178,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.gdbtable",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 6854576,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.gdbtablx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 276512,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.horizon",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "a0000000f.spx",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/a0000000f.spx",
+          "extension": ".spx",
+          "size_bytes": 2445334,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "gdb",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "timestamps",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/TD.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "ToolData.zip",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/ToolData.zip",
+          "extension": ".zip",
+          "size_bytes": 7374687,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "schema.ini",
+          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/schema.ini",
+          "extension": ".ini",
+          "size_bytes": 84,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ]
+    },
+    "גדרותמרעה": {
+      "user": "רועי",
+      "original_name": "גדרות מרעה",
+      "path": "רועי/גדרות מרעה",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 4,
+      "scripts": [
+        {
+          "name": "FencePricingGetForestName.py",
+          "path": "רועי/גדרות מרעה/scripts/FencePricingGetForestName/FencePricingGetForestName.py",
+          "extension": ".py",
+          "size_bytes": 11160,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "documents": [
+        {
+          "name": "FencePricingGetForestName.md",
+          "path": "רועי/גדרות מרעה/Documents/FencePricingGetForestName.md",
+          "extension": ".md",
+          "size_bytes": 6314,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/גדרות מרעה/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 1768,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/גדרות מרעה/data/FencePricingGetForestName/ToolData/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 30,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "other": []
+    },
+    "גיבויים": {
+      "user": "רועי",
+      "original_name": "גיבויים",
+      "path": "רועי/גיבויים",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 15,
+      "scripts": [
+        {
+          "name": "BackupOnlineJsons-old.py",
+          "path": "רועי/גיבויים/scripts/BackupOnlineJsons/BackupOnlineJsons-old.py",
+          "extension": ".py",
+          "size_bytes": 8646,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "BackupOnlineJsons.py",
+          "path": "רועי/גיבויים/scripts/BackupOnlineJsons/BackupOnlineJsons.py",
+          "extension": ".py",
+          "size_bytes": 12683,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "SpecBackup - Copy.py",
+          "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup - Copy.py",
+          "extension": ".py",
+          "size_bytes": 7077,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "SpecBackup.py",
+          "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup.py",
+          "extension": ".py",
+          "size_bytes": 7538,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "SpecBackup_att.py",
+          "path": "רועי/גיבויים/scripts/SpecBackup/SpecBackup_att.py",
+          "extension": ".py",
+          "size_bytes": 15735,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "cleanproccessbackups - Copy.py",
+          "path": "רועי/גיבויים/scripts/cleanproccessbackups/cleanproccessbackups - Copy.py",
+          "extension": ".py",
+          "size_bytes": 2302,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "cleanproccessbackups.py",
+          "path": "רועי/גיבויים/scripts/cleanproccessbackups/cleanproccessbackups.py",
+          "extension": ".py",
+          "size_bytes": 2396,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "delettempgistask1.py",
+          "path": "רועי/גיבויים/scripts/delettempgistask1/delettempgistask1.py",
+          "extension": ".py",
+          "size_bytes": 782,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "deletxmlprohistory.py",
+          "path": "רועי/גיבויים/scripts/deletxmlprohistory/deletxmlprohistory.py",
+          "extension": ".py",
+          "size_bytes": 1089,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "documents": [
+        {
+          "name": "BackupOnlineJsons.md",
+          "path": "רועי/גיבויים/Documents/BackupOnlineJsons.md",
+          "extension": ".md",
+          "size_bytes": 4200,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/גיבויים/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 4176,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "SpecBackup.md",
+          "path": "רועי/גיבויים/Documents/SpecBackup.md",
+          "extension": ".md",
+          "size_bytes": 5257,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "cleanproccessbackups.md",
+          "path": "רועי/גיבויים/Documents/cleanproccessbackups.md",
+          "extension": ".md",
+          "size_bytes": 2800,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "delettempgistask1.md",
+          "path": "רועי/גיבויים/Documents/delettempgistask1.md",
+          "extension": ".md",
+          "size_bytes": 1761,
+          "modified": "2026-04-16T10:57:37"
+        },
+        {
+          "name": "deletxmlprohistory.md",
+          "path": "רועי/גיבויים/Documents/deletxmlprohistory.md",
+          "extension": ".md",
+          "size_bytes": 1694,
+          "modified": "2026-04-16T10:57:37"
+        }
+      ],
+      "other": []
+    },
+    "יחידותעבודה": {
+      "user": "רועי",
+      "original_name": "יחידות עבודה",
+      "path": "רועי/יחידות עבודה",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 28,
+      "scripts": [
+        {
+          "name": "DownLoadFC.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/DownLoadFC.py",
+          "extension": ".py",
+          "size_bytes": 5860,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "HgashatTochnit - Copy.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/HgashatTochnit - Copy.py",
+          "extension": ".py",
+          "size_bytes": 38140,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "HgashatTochnit.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/PointToPolygon/HgashatTochnit.py",
+          "extension": ".py",
+          "size_bytes": 42634,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "statusbiztoa.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/Netiot/statusbiztoaNetitot/statusbiztoa.py",
+          "extension": ".py",
+          "size_bytes": 3500,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "DownLoadFC.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/DownLoadFC.py",
+          "extension": ".py",
+          "size_bytes": 5860,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "HgashatTochnit - Copy.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/HgashatTochnit - Copy.py",
+          "extension": ".py",
+          "size_bytes": 40456,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "HgashatTochnit.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/HgashatTochnit.py",
+          "extension": ".py",
+          "size_bytes": 45261,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipulstatusanddelet - Copy.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/ShitheyTipulstatusanddelet - Copy.py",
+          "extension": ".py",
+          "size_bytes": 14882,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipulstatusanddelet.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/ShitheyTipulstatusanddelet.py",
+          "extension": ".py",
+          "size_bytes": 16203,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "copyunit.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/PointToPolygon/copyunit.py",
+          "extension": ".py",
+          "size_bytes": 8550,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ezorheytzname - Copy.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/ezorheytzname/ezorheytzname - Copy.py",
+          "extension": ".py",
+          "size_bytes": 6888,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ezorheytzname.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/ezorheytzname/ezorheytzname.py",
+          "extension": ".py",
+          "size_bytes": 6819,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "statusbiztoa - Copy.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/statusbiztoa/statusbiztoa - Copy.py",
+          "extension": ".py",
+          "size_bytes": 4308,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "statusbiztoa.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ShitheyTipul/statusbiztoa/statusbiztoa.py",
+          "extension": ".py",
+          "size_bytes": 4524,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "NetiotProTool.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ToolForProAylon/NetiotProTool.py",
+          "extension": ".py",
+          "size_bytes": 32479,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipulProTool.py",
+          "path": "רועי/יחידות עבודה/scripts/YehidutAvoda/ToolForProAylon/ShitheyTipulProTool.py",
+          "extension": ".py",
+          "size_bytes": 33257,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "NetiotProTool.md",
+          "path": "רועי/יחידות עבודה/Documents/NetiotProTool.md",
+          "extension": ".md",
+          "size_bytes": 2195,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "Netiot_DownLoadFC.md",
+          "path": "רועי/יחידות עבודה/Documents/Netiot_DownLoadFC.md",
+          "extension": ".md",
+          "size_bytes": 2735,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "Netiot_HgashatTochnit.md",
+          "path": "רועי/יחידות עבודה/Documents/Netiot_HgashatTochnit.md",
+          "extension": ".md",
+          "size_bytes": 4306,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "Netiot_statusbiztoa.md",
+          "path": "רועי/יחידות עבודה/Documents/Netiot_statusbiztoa.md",
+          "extension": ".md",
+          "size_bytes": 1589,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/יחידות עבודה/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 6497,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipulProTool.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipulProTool.md",
+          "extension": ".md",
+          "size_bytes": 2332,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_DownLoadFC.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_DownLoadFC.md",
+          "extension": ".md",
+          "size_bytes": 676,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_HgashatTochnit.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_HgashatTochnit.md",
+          "extension": ".md",
+          "size_bytes": 3880,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_copyunit.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_copyunit.md",
+          "extension": ".md",
+          "size_bytes": 2157,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_ezorheytzname.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_ezorheytzname.md",
+          "extension": ".md",
+          "size_bytes": 2317,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_statusanddelet.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusanddelet.md",
+          "extension": ".md",
+          "size_bytes": 2534,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "ShitheyTipul_statusbiztoa.md",
+          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusbiztoa.md",
+          "extension": ".md",
+          "size_bytes": 1748,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "כליאינטרנט": {
+      "user": "רועי",
+      "original_name": "כלי אינטרנט",
+      "path": "רועי/כלי אינטרנט",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 14,
+      "scripts": [
+        {
+          "name": "GPTAddassigments.py",
+          "path": "רועי/כלי אינטרנט/scripts/GPTAddassigments_25/GPTAddassigments.py",
+          "extension": ".py",
+          "size_bytes": 3280,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "GenFc2WU.py",
+          "path": "רועי/כלי אינטרנט/scripts/GenFc2WU/GenFc2WU.py",
+          "extension": ".py",
+          "size_bytes": 4531,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "GenFc2WU - Copy.py",
+          "path": "רועי/כלי אינטרנט/scripts/GenFc2WUNetiot/GenFc2WU - Copy.py",
+          "extension": ".py",
+          "size_bytes": 8220,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "GenFc2WU.py",
+          "path": "רועי/כלי אינטרנט/scripts/GenFc2WUNetiot/GenFc2WU.py",
+          "extension": ".py",
+          "size_bytes": 7230,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmirea.py",
+          "path": "רועי/כלי אינטרנט/scripts/imagemishbatzotmirea/mishbatzotmirea.py",
+          "extension": ".py",
+          "size_bytes": 2127,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmirea_until15.8.24.py",
+          "path": "רועי/כלי אינטרנט/scripts/imagemishbatzotmirea/mishbatzotmirea_until15.8.24.py",
+          "extension": ".py",
+          "size_bytes": 1741,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "rtowo - Copy.py",
+          "path": "רועי/כלי אינטרנט/scripts/rtowo/rtowo - Copy.py",
+          "extension": ".py",
+          "size_bytes": 7974,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "rtowo.py",
+          "path": "רועי/כלי אינטרנט/scripts/rtowo/rtowo.py",
+          "extension": ".py",
+          "size_bytes": 10336,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "GPTAddassigments.md",
+          "path": "רועי/כלי אינטרנט/Documents/GPTAddassigments.md",
+          "extension": ".md",
+          "size_bytes": 2670,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "GenFc2WU.md",
+          "path": "רועי/כלי אינטרנט/Documents/GenFc2WU.md",
+          "extension": ".md",
+          "size_bytes": 2681,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "GenFc2WUNetiot.md",
+          "path": "רועי/כלי אינטרנט/Documents/GenFc2WUNetiot.md",
+          "extension": ".md",
+          "size_bytes": 3924,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/כלי אינטרנט/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 3374,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmirea.md",
+          "path": "רועי/כלי אינטרנט/Documents/mishbatzotmirea.md",
+          "extension": ".md",
+          "size_bytes": 2744,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "rtowo.md",
+          "path": "רועי/כלי אינטרנט/Documents/rtowo.md",
+          "extension": ".md",
+          "size_bytes": 4167,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "משבצותמרעה": {
+      "user": "רועי",
+      "original_name": "משבצות מרעה",
+      "path": "רועי/משבצות מרעה",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 5,
+      "scripts": [
+        {
+          "name": "mishbatzotmireaexponetCacheBuild.py",
+          "path": "רועי/משבצות מרעה/scripts/mishbatzotmireaexponetCacheBuild.py",
+          "extension": ".py",
+          "size_bytes": 11396,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.py",
+          "path": "רועי/משבצות מרעה/scripts/mishbatzotmireaexponetCacheBuildLiveDataHourRun.py",
+          "extension": ".py",
+          "size_bytes": 7331,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "README.md",
+          "path": "רועי/משבצות מרעה/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 2491,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmireaexponetCacheBuild.md",
+          "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuild.md",
+          "extension": ".md",
+          "size_bytes": 4710,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
+          "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
+          "extension": ".md",
+          "size_bytes": 4397,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "ניהולותחזוקותשלשכבתשריפות": {
+      "user": "רועי",
+      "original_name": "ניהול ותחזוקות של שכבת שריפות",
+      "path": "רועי/ניהול ותחזוקות של שכבת שריפות",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 15,
+      "scripts": [
+        {
+          "name": "FireContinues.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireContinues/FireContinues.py",
+          "extension": ".py",
+          "size_bytes": 8875,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireIDs - Copy.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireIDs/FireIDs - Copy.py",
+          "extension": ".py",
+          "size_bytes": 9331,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireIDs.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireIDs/FireIDs.py",
+          "extension": ".py",
+          "size_bytes": 10744,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireTrackingMor.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/FireTrackingMor/FireTrackingMor.py",
+          "extension": ".py",
+          "size_bytes": 5253,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "DownLoadFC.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/QA/DownLoadFC.py",
+          "extension": ".py",
+          "size_bytes": 6973,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "qa.py",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/scripts/QA/qa.py",
+          "extension": ".py",
+          "size_bytes": 14888,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "DownLoadFC.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/DownLoadFC.md",
+          "extension": ".md",
+          "size_bytes": 2940,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireContinues.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireContinues.md",
+          "extension": ".md",
+          "size_bytes": 2649,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireIDs.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireIDs.md",
+          "extension": ".md",
+          "size_bytes": 3524,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "FireTrackingMor.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireTrackingMor.md",
+          "extension": ".md",
+          "size_bytes": 2167,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "QA.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/QA.md",
+          "extension": ".md",
+          "size_bytes": 3508,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 3335,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireContinues/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 25,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireIDs/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 18,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireTrackingMor/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 25,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "סנכרוןשכבות": {
+      "user": "רועי",
+      "original_name": "סנכרון שכבות",
+      "path": "רועי/סנכרון שכבות",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 8,
+      "scripts": [
+        {
+          "name": "WorkUnitReplicaFromAGOL_ToSde - Copy.py",
+          "path": "רועי/סנכרון שכבות/scripts/ROI_WorkUnitReplicaFromAGOL_ToSde/WorkUnitReplicaFromAGOL_ToSde - Copy.py",
+          "extension": ".py",
+          "size_bytes": 6385,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "WorkUnitReplicaFromAGOL_ToSde.py",
+          "path": "רועי/סנכרון שכבות/scripts/ROI_WorkUnitReplicaFromAGOL_ToSde/WorkUnitReplicaFromAGOL_ToSde.py",
+          "extension": ".py",
+          "size_bytes": 6842,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "SyncFromServerToOnlineOneWay - Copy.py",
+          "path": "רועי/סנכרון שכבות/scripts/SyncFromServerToOnlineOneWay/SyncFromServerToOnlineOneWay - Copy.py",
+          "extension": ".py",
+          "size_bytes": 45054,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "SyncFromServerToOnlineOneWay.py",
+          "path": "רועי/סנכרון שכבות/scripts/SyncFromServerToOnlineOneWay/SyncFromServerToOnlineOneWay.py",
+          "extension": ".py",
+          "size_bytes": 44970,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "README.md",
+          "path": "רועי/סנכרון שכבות/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 2881,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "SyncFromServerToOnlineOneWay.md",
+          "path": "רועי/סנכרון שכבות/Documents/SyncFromServerToOnlineOneWay.md",
+          "extension": ".md",
+          "size_bytes": 7144,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "WorkUnitReplicaFromAGOL_ToSde.md",
+          "path": "רועי/סנכרון שכבות/Documents/WorkUnitReplicaFromAGOL_ToSde.md",
+          "extension": ".md",
+          "size_bytes": 3335,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/סנכרון שכבות/data/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 25,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "פריטיםחדשיםבאונליין": {
+      "user": "רועי",
+      "original_name": "פריטים חדשים באונליין",
+      "path": "רועי/פריטים חדשים באונליין",
+      "modified": "2026-04-19T11:32:15",
+      "total_files": 52,
+      "scripts": [
+        {
+          "name": "NewOnlineitems.py",
+          "path": "רועי/פריטים חדשים באונליין/scripts/NewOnlineitems.py",
+          "extension": ".py",
+          "size_bytes": 5713,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "documents": [
+        {
+          "name": "NewOnlineitems.md",
+          "path": "רועי/פריטים חדשים באונליין/Documents/NewOnlineitems.md",
+          "extension": ".md",
+          "size_bytes": 4478,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/פריטים חדשים באונליין/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 1334,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": [
+        {
+          "name": "NewItems.KKL-GISSERVICE.9272.12052.sr.lock",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/NewItems.KKL-GISSERVICE.9272.12052.sr.lock",
+          "extension": ".lock",
+          "size_bytes": 0,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "NewItems.MOB-ROIALG.7440.21452.sr.lock",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/NewItems.MOB-ROIALG.7440.21452.sr.lock",
+          "extension": ".lock",
+          "size_bytes": 0,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "_gdb.KKL-GISSERVICE.9272.12052.sr.lock",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/_gdb.KKL-GISSERVICE.9272.12052.sr.lock",
+          "extension": ".lock",
+          "size_bytes": 0,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "_gdb.MOB-ROIALG.7440.21452.sr.lock",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/_gdb.MOB-ROIALG.7440.21452.sr.lock",
+          "extension": ".lock",
+          "size_bytes": 0,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000001.TablesByName.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.TablesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000001.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 110,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000001.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 319,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000001.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000001.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000002.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000002.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2055,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000002.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000002.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000003.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 42,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000003.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 525,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000003.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000003.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.CatItemsByPhysicalName.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.CatItemsByPhysicalName.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.CatItemsByType.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.CatItemsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.FDO_UUID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 310,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 7944,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.horizon",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.horizon",
+          "extension": ".horizon",
+          "size_bytes": 32,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000004.spx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000004.spx",
+          "extension": ".spx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByName.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByParentTypeID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByParentTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.CatItemTypesByUUID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.CatItemTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 296,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 2071,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000005.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000005.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.CatRelsByDestinationID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByDestinationID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.CatRelsByOriginID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByOriginID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.CatRelsByType.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.CatRelsByType.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.FDO_UUID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.FDO_UUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 318,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 263,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000006.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000006.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByBackwardLabel.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByBackwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByDestItemTypeID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByDestItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByForwardLabel.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByForwardLabel.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByName.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByName.atx",
+          "extension": ".atx",
+          "size_bytes": 12310,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.CatRelTypesByUUID.atx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.CatRelTypesByUUID.atx",
+          "extension": ".atx",
+          "size_bytes": 4118,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 602,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3626,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000007.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000007.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 5152,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000009.freelist",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.freelist",
+          "extension": ".freelist",
+          "size_bytes": 78168,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000009.gdbindexes",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbindexes",
+          "extension": ".gdbindexes",
+          "size_bytes": 66,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000009.gdbtable",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbtable",
+          "extension": ".gdbtable",
+          "size_bytes": 3708413,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "a00000009.gdbtablx",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/a00000009.gdbtablx",
+          "extension": ".gdbtablx",
+          "size_bytes": 168992,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "gdb",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/gdb",
+          "extension": "",
+          "size_bytes": 4,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "timestamps",
+          "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb/timestamps",
+          "extension": "",
+          "size_bytes": 400,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ]
+    },
+    "תוכניותעבודה": {
+      "user": "רועי",
+      "original_name": "תוכניות עבודה",
+      "path": "רועי/תוכניות עבודה",
+      "modified": "2026-04-19T11:32:16",
+      "total_files": 21,
+      "scripts": [
+        {
+          "name": "StandCombinedExecutionStatus.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/StandCombinedExecutionStatus/StandCombinedExecutionStatus.py",
+          "extension": ".py",
+          "size_bytes": 5187,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "GPTAddassigments.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/gptools/GPTAddassigments25/GPTAddassigments.py",
+          "extension": ".py",
+          "size_bytes": 3282,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriot - Copy.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot/tochniotavobaezoriot - Copy.py",
+          "extension": ".py",
+          "size_bytes": 39950,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "Tasks2WorkUnitPolygon.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot2YYehidutAvodaSystem/Tasks2WorkUnitPolygon/Tasks2WorkUnitPolygon.py",
+          "extension": ".py",
+          "size_bytes": 11385,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "writeTRTUnit2MissionTable.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriot2YYehidutAvodaSystem/writeTRTUnit2MissionTable/writeTRTUnit2MissionTable.py",
+          "extension": ".py",
+          "size_bytes": 16872,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriotWeeklyMail - Copy.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotWeeklyMail/tochniotavobaezoriotWeeklyMail - Copy.py",
+          "extension": ".py",
+          "size_bytes": 8390,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriotWeeklyMail.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotWeeklyMail/tochniotavobaezoriotWeeklyMail.py",
+          "extension": ".py",
+          "size_bytes": 8895,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriotcalculatedashboradtable.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotcalculatedashboradtable/tochniotavobaezoriotcalculatedashboradtable.py",
+          "extension": ".py",
+          "size_bytes": 10426,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriotstatuandcalean.py",
+          "path": "רועי/תוכניות עבודה/scripts/tochnyotAvoda/tochniotavobaezoriotstatuandcalean/tochniotavobaezoriotstatuandcalean.py",
+          "extension": ".py",
+          "size_bytes": 14474,
+          "modified": "2026-04-16T10:57:39"
+        }
+      ],
+      "documents": [
+        {
+          "name": "GPTAddassigments.md",
+          "path": "רועי/תוכניות עבודה/Documents/GPTAddassigments.md",
+          "extension": ".md",
+          "size_bytes": 1949,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/תוכניות עבודה/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 3447,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "StandCombinedExecutionStatus.md",
+          "path": "רועי/תוכניות עבודה/Documents/StandCombinedExecutionStatus.md",
+          "extension": ".md",
+          "size_bytes": 2089,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "Tasks2WorkUnitPolygon.md",
+          "path": "רועי/תוכניות עבודה/Documents/Tasks2WorkUnitPolygon.md",
+          "extension": ".md",
+          "size_bytes": 2556,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "tochniotavobaezoriotWeeklyMail.md",
+          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotWeeklyMail.md",
+          "extension": ".md",
+          "size_bytes": 2194,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "tochniotavobaezoriotcalculatedashboradtable.md",
+          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotcalculatedashboradtable.md",
+          "extension": ".md",
+          "size_bytes": 2465,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "tochniotavobaezoriotstatuandcalean.md",
+          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotstatuandcalean.md",
+          "extension": ".md",
+          "size_bytes": 3194,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "writeTRTUnit2MissionTable.md",
+          "path": "רועי/תוכניות עבודה/Documents/writeTRTUnit2MissionTable.md",
+          "extension": ".md",
+          "size_bytes": 2895,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "updated_features.json",
+          "path": "רועי/תוכניות עבודה/data/StandCombinedExecutionStatus/updated_features.json",
+          "extension": ".json",
+          "size_bytes": 30,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriot/ToolData/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 131,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriotWeeklyMail/ToolData/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 93,
+          "modified": "2026-04-16T10:57:38"
+        },
+        {
+          "name": "MetaDataJson.json",
+          "path": "רועי/תוכניות עבודה/data/tochniotavobaezoriotstatuandcalean/ToolData/MetaDataJson.json",
+          "extension": ".json",
+          "size_bytes": 136,
+          "modified": "2026-04-16T10:57:38"
+        }
+      ],
+      "other": []
+    },
+    "תחזוקותשלמערכת": {
+      "user": "רועי",
+      "original_name": "תחזוקות של מערכת",
+      "path": "רועי/תחזוקות של מערכת",
+      "modified": "2026-04-19T11:32:16",
+      "total_files": 11,
+      "scripts": [
+        {
+          "name": "DB_maintenance.py",
+          "path": "רועי/תחזוקות של מערכת/scripts/DB_maintenance/DB_maintenance.py",
+          "extension": ".py",
+          "size_bytes": 1916,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "cleanproccessbackups.py",
+          "path": "רועי/תחזוקות של מערכת/scripts/cleanproccessbackups/cleanproccessbackups.py",
+          "extension": ".py",
+          "size_bytes": 3606,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "cleanup.py",
+          "path": "רועי/תחזוקות של מערכת/scripts/cleanproccessbackups/cleanup.py",
+          "extension": ".py",
+          "size_bytes": 3450,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "delettempgistask1.py",
+          "path": "רועי/תחזוקות של מערכת/scripts/delettempgistask1/delettempgistask1.py",
+          "extension": ".py",
+          "size_bytes": 786,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "deletxmlprohistory.py",
+          "path": "רועי/תחזוקות של מערכת/scripts/deletxmlprohistory/deletxmlprohistory.py",
+          "extension": ".py",
+          "size_bytes": 1089,
+          "modified": "2026-04-16T10:57:39"
+        }
+      ],
+      "documents": [
+        {
+          "name": "DB_maintenance.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/DB_maintenance.md",
+          "extension": ".md",
+          "size_bytes": 1809,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "README.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/README.md",
+          "extension": ".md",
+          "size_bytes": 1929,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "cleanproccessbackups.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/cleanproccessbackups.md",
+          "extension": ".md",
+          "size_bytes": 1896,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "cleanup.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/cleanup.md",
+          "extension": ".md",
+          "size_bytes": 2251,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "delettempgistask1.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/delettempgistask1.md",
+          "extension": ".md",
+          "size_bytes": 1477,
+          "modified": "2026-04-16T10:57:39"
+        },
+        {
+          "name": "deletxmlprohistory.md",
+          "path": "רועי/תחזוקות של מערכת/Documents/deletxmlprohistory.md",
+          "extension": ".md",
+          "size_bytes": 1381,
+          "modified": "2026-04-16T10:57:39"
+        }
+      ],
+      "other": []
+    }
+  },
+  "_duplicates": []
+};
