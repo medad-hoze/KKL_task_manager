@@ -712,7 +712,7 @@
     <div class="stats" id="filesStatsRow"></div>
     <div class="card">
       <div class="card-head">
-        <h3><span class="ch-icon indigo">🏆</span>משתמשים מובילים — לפי מספר פרוייקטים עם קבצים</h3>
+        <h3><span class="ch-icon indigo">🏆</span>אחוז הפרוייקטים שיש להם קבצים</h3>
         <span class="noi-count" id="filesUserCount"></span>
       </div>
       <div class="card-body" id="topUsersFiles"></div>
@@ -1065,12 +1065,12 @@ function getUserFileStats() {
       });
     });
     
-    out.push({ user, fileCount, projectCount, projectsWithFiles, totalSize });
+    const pctWithFiles = projectCount > 0 ? (projectsWithFiles / projectCount) * 100 : 0;
+    out.push({ user, fileCount, projectCount, projectsWithFiles, totalSize, pctWithFiles });
   });
-  // Rank by number of projects that have any files (each project = 1).
-  // Tie-break by total file count so a user with more files wins among equals.
+  // Rank by % of projects that have files. Tie-break by total file count.
   return out.sort((a, b) =>
-    (b.projectsWithFiles - a.projectsWithFiles) || (b.fileCount - a.fileCount)
+    (b.pctWithFiles - a.pctWithFiles) || (b.fileCount - a.fileCount)
   );
 }
 
@@ -1153,16 +1153,16 @@ function buildFilesTab() {
     </div>`).join('');
 
   // Top users by files
+// Top users by files
   document.getElementById('filesUserCount').textContent = `${userStats.length} משתמשים`;
-  // Bar scale uses the new ranking metric (projects-with-files), not file count
-  const userMax = userStats[0] ? userStats[0].projectsWithFiles : 1;
+  // Bar shows % of projects that have files (0-100). 100% = full width.
   
   if (!userStats.length) {
     document.getElementById('topUsersFiles').innerHTML = '<div class="files-empty">אין נתוני משתמשים</div>';
   } else {
     document.getElementById('topUsersFiles').innerHTML = userStats.map((u, i) => {
       const rank = i + 1;
-      const barW = userMax > 0 ? (u.projectsWithFiles / userMax * 100) : 0;
+      const barW = u.pctWithFiles;
       return `
         <div class="uf-row" onclick="filterTableByUser('${u.user.replace(/'/g, "\\'")}')">
           <div class="uf-rank">${rank}</div>
@@ -1173,7 +1173,8 @@ function buildFilesTab() {
             </div>
           </div>
           <div class="uf-meta">
-            ${u.projectsWithFiles} / ${u.projectCount} פרוייקטים
+            <span style="color:var(--blue);font-weight:700">${u.pctWithFiles.toFixed(0)}%</span>
+            <span style="color:var(--text3);margin-right:0.3rem">(${u.projectsWithFiles} / ${u.projectCount})</span>
             <div class="uf-meta-sub">${u.fileCount.toLocaleString('en-US')} קבצים סה״כ • ${fmtBigSize(u.totalSize)}</div>
           </div>
         </div>`;

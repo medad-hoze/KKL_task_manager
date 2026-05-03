@@ -19,6 +19,9 @@ from datetime import datetime
 from pathlib import Path
 
 # --- file classification ----------------------------------------------------
+DIR_AS_FILE_EXTENSIONS = {'.gdb'}
+
+
 
 SCRIPT_EXTENSIONS = {
     '.py', '.js', '.ts', '.tsx', '.jsx', '.ipynb',
@@ -31,6 +34,7 @@ DOCUMENT_EXTENSIONS = {
     '.pdf', '.docx', '.doc', '.xlsx', '.xls', '.pptx', '.ppt',
     '.txt', '.md', '.rtf', '.odt', '.ods',
     '.csv', '.json', '.xml', '.yaml', '.yml',
+    '.gdb',
 }
 
 SKIP_DIRS = {'.git', '.vscode', '.idea', '__pycache__', 'node_modules', '.venv', 'venv'}
@@ -58,13 +62,32 @@ def classify(path: Path) -> str:
 
 
 def file_info(path: Path, root: Path) -> dict:
-    stat = path.stat()
+    is_dir_as_file = path.is_dir() and path.suffix.lower() in DIR_AS_FILE_EXTENSIONS
+
+    if is_dir_as_file:
+        size = 0
+        latest = path.stat().st_mtime
+        for p in path.rglob('*'):
+            try:
+                if p.is_file():
+                    s = p.stat()
+                    size += s.st_size
+                    if s.st_mtime > latest:
+                        latest = s.st_mtime
+            except OSError:
+                pass
+        mtime = latest
+    else:
+        s = path.stat()
+        size = s.st_size
+        mtime = s.st_mtime
+
     return {
         'name': path.name,
         'path': str(path.relative_to(root)).replace('\\', '/'),
         'extension': path.suffix.lower(),
-        'size_bytes': stat.st_size,
-        'modified': datetime.fromtimestamp(stat.st_mtime).isoformat(timespec='seconds'),
+        'size_bytes': size,
+        'modified': datetime.fromtimestamp(mtime).isoformat(timespec='seconds'),
     }
 
 
@@ -91,6 +114,9 @@ def iter_files(folder: Path):
     for entry in folder.iterdir():
         if entry.is_dir():
             if entry.name in SKIP_DIRS or entry.name.startswith('.'):
+                continue
+            if entry.suffix.lower() in DIR_AS_FILE_EXTENSIONS:
+                yield entry          # treat the .gdb as a single file
                 continue
             yield from iter_files(entry)
         elif entry.is_file():
