@@ -1,6 +1,6 @@
 window.PROJECT_FILES = {
   "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
-  "scanned_at": "2026-05-05T16:12:36",
+  "scanned_at": "2026-05-05T16:42:35",
   "user_count": 5,
   "users": {
     "אבינועם": {
@@ -4104,7 +4104,7 @@ window.PROJECT_FILES = {
     },
     "רחל משולם": {
       "path": "רחל משולם",
-      "project_count": 8,
+      "project_count": 9,
       "projects": {
         "איסוף זרעים": {
           "path": "רחל משולם/איסוף זרעים",
@@ -4744,6 +4744,44 @@ window.PROJECT_FILES = {
             }
           ],
           "other": []
+        },
+        "תשתית אזור": {
+          "path": "רחל משולם/תשתית אזור",
+          "modified": "2026-05-05T16:41:48",
+          "total_files": 4,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "תשתית אזור.pptx",
+              "path": "רחל משולם/תשתית אזור/Documents/תשתית אזור.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1379481,
+              "modified": "2026-05-05T16:41:40"
+            }
+          ],
+          "other": [
+            {
+              "name": "דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
+              "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
+              "extension": ".msg",
+              "size_bytes": 215040,
+              "modified": "2026-05-05T16:41:40"
+            },
+            {
+              "name": "דוח פיקוח סביבתי - בריכת נטף.msg",
+              "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - בריכת נטף.msg",
+              "extension": ".msg",
+              "size_bytes": 156672,
+              "modified": "2026-05-05T16:41:40"
+            },
+            {
+              "name": "דוח פיקוח סביבתי - קו מים לנטף.msg",
+              "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - קו מים לנטף.msg",
+              "extension": ".msg",
+              "size_bytes": 188416,
+              "modified": "2026-05-05T16:41:40"
+            }
+          ]
         }
       }
     }
@@ -9556,6 +9594,46 @@ window.PROJECT_FILES = {
         }
       ],
       "other": []
+    },
+    "תשתיתאזור": {
+      "user": "רחל משולם",
+      "original_name": "תשתית אזור",
+      "path": "רחל משולם/תשתית אזור",
+      "modified": "2026-05-05T16:41:48",
+      "total_files": 4,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "תשתית אזור.pptx",
+          "path": "רחל משולם/תשתית אזור/Documents/תשתית אזור.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1379481,
+          "modified": "2026-05-05T16:41:40"
+        }
+      ],
+      "other": [
+        {
+          "name": "דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
+          "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
+          "extension": ".msg",
+          "size_bytes": 215040,
+          "modified": "2026-05-05T16:41:40"
+        },
+        {
+          "name": "דוח פיקוח סביבתי - בריכת נטף.msg",
+          "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - בריכת נטף.msg",
+          "extension": ".msg",
+          "size_bytes": 156672,
+          "modified": "2026-05-05T16:41:40"
+        },
+        {
+          "name": "דוח פיקוח סביבתי - קו מים לנטף.msg",
+          "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - קו מים לנטף.msg",
+          "extension": ".msg",
+          "size_bytes": 188416,
+          "modified": "2026-05-05T16:41:40"
+        }
+      ]
     }
   },
   "_duplicates": []
