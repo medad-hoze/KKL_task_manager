@@ -1,7 +1,7 @@
 window.PROJECT_FILES = {
   "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
-  "scanned_at": "2026-05-03T20:40:55",
-  "user_count": 4,
+  "scanned_at": "2026-05-05T16:12:36",
+  "user_count": 5,
   "users": {
     "אבינועם": {
       "path": "אבינועם",
@@ -4096,6 +4096,651 @@ window.PROJECT_FILES = {
               "extension": ".md",
               "size_bytes": 1381,
               "modified": "2026-04-16T10:57:39"
+            }
+          ],
+          "other": []
+        }
+      }
+    },
+    "רחל משולם": {
+      "path": "רחל משולם",
+      "project_count": 8,
+      "projects": {
+        "איסוף זרעים": {
+          "path": "רחל משולם/איסוף זרעים",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 14,
+          "scripts": [
+            {
+              "name": "Update_Seeds_GP.py",
+              "path": "רחל משולם/איסוף זרעים/scripts/Update_Seeds_GP.py",
+              "extension": ".py",
+              "size_bytes": 17006,
+              "modified": "2026-05-05T16:10:34"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Schema.pptx",
+              "path": "רחל משולם/איסוף זרעים/Documents/Schema.pptx",
+              "extension": ".pptx",
+              "size_bytes": 206771,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "אפיון איסוף זרעים.docx",
+              "path": "רחל משולם/איסוף זרעים/Documents/אפיון איסוף זרעים.docx",
+              "extension": ".docx",
+              "size_bytes": 3107394,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "אפיון השלמת נתונים קיימים מדור זרעים.docx",
+              "path": "רחל משולם/איסוף זרעים/Documents/אפיון השלמת נתונים קיימים מדור זרעים.docx",
+              "extension": ".docx",
+              "size_bytes": 19821,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
+              "path": "רחל משולם/איסוף זרעים/Documents/אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
+              "extension": ".docx",
+              "size_bytes": 30356,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "PlantProperties.xlsx",
+              "path": "רחל משולם/איסוף זרעים/data/PlantProperties.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 261940,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "Ref_Habitat.csv",
+              "path": "רחל משולם/איסוף זרעים/data/Ref_Habitat.csv",
+              "extension": ".csv",
+              "size_bytes": 112537,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "Ref_Seed_Shelf.csv",
+              "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Shelf.csv",
+              "extension": ".csv",
+              "size_bytes": 1082,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "Ref_Seed_Source.csv",
+              "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Source.csv",
+              "extension": ".csv",
+              "size_bytes": 1103723,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "Ref_Tree_Type.csv",
+              "path": "רחל משולם/איסוף זרעים/data/Ref_Tree_Type.csv",
+              "extension": ".csv",
+              "size_bytes": 428460,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "Shelf Tree Code Lookup.xlsx",
+              "path": "רחל משולם/איסוף זרעים/data/Shelf Tree Code Lookup.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 134632,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "domains csv plant hebnam.csv",
+              "path": "רחל משולם/איסוף זרעים/data/domains csv plant hebnam.csv",
+              "extension": ".csv",
+              "size_bytes": 13863,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "inventory_2014_Oleg.xlsx",
+              "path": "רחל משולם/איסוף זרעים/data/inventory_2014_Oleg.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 370163,
+              "modified": "2026-05-05T16:10:34"
+            },
+            {
+              "name": "rcade code field maps.txt",
+              "path": "רחל משולם/איסוף זרעים/scripts/rcade code field maps.txt",
+              "extension": ".txt",
+              "size_bytes": 1434,
+              "modified": "2026-05-05T16:10:34"
+            }
+          ],
+          "other": []
+        },
+        "דוחות שימוש": {
+          "path": "רחל משולם/דוחות שימוש",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 1,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "דוחות שימוש.pptx",
+              "path": "רחל משולם/דוחות שימוש/Documents/דוחות שימוש.pptx",
+              "extension": ".pptx",
+              "size_bytes": 821163,
+              "modified": "2026-05-05T16:10:34"
+            }
+          ],
+          "other": []
+        },
+        "דיווח ביצוע": {
+          "path": "רחל משולם/דיווח ביצוע",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 10,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "DivuachBizua_TeudatMishloach.xlsx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_TeudatMishloach.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 73247,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "DivuachBizua_YomanAvoda.xlsx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_YomanAvoda.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 72605,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "ShippingCertificate1.docx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/ShippingCertificate1.docx",
+              "extension": ".docx",
+              "size_bytes": 1597621,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "WorkLog6.docx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/WorkLog6.docx",
+              "extension": ".docx",
+              "size_bytes": 1597276,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
+              "extension": ".docx",
+              "size_bytes": 24540,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
+              "extension": ".docx",
+              "size_bytes": 2283523,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "סטטוס מנה.pptx",
+              "path": "רחל משולם/דיווח ביצוע/Documents/סטטוס מנה.pptx",
+              "extension": ".pptx",
+              "size_bytes": 3191385,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "TeudatMishloach_hasava.xlsx",
+              "path": "רחל משולם/דיווח ביצוע/data/TeudatMishloach_hasava.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 4210724,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "web map popup for daily work log.txt",
+              "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for daily work log.txt",
+              "extension": ".txt",
+              "size_bytes": 10497,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "web map popup for shipping certficatetxt.txt",
+              "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for shipping certficatetxt.txt",
+              "extension": ".txt",
+              "size_bytes": 10256,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "other": []
+        },
+        "סקר מפגעים": {
+          "path": "רחל משולם/סקר מפגעים",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 2,
+          "scripts": [
+            {
+              "name": "HazardsInspection.py",
+              "path": "רחל משולם/סקר מפגעים/scripts/HazardsInspection.py",
+              "extension": ".py",
+              "size_bytes": 10410,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "documents": [
+            {
+              "name": "תהליכים מפגעים.pptx",
+              "path": "רחל משולם/סקר מפגעים/Documents/תהליכים מפגעים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1677668,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "other": []
+        },
+        "סקר מצב יער": {
+          "path": "רחל משולם/סקר מצב יער",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 7,
+          "scripts": [
+            {
+              "name": "Update Domain Codes in Fields- SeMY_Samples2.py",
+              "path": "רחל משולם/סקר מצב יער/scripts/Update Domain Codes in Fields- SeMY_Samples2.py",
+              "extension": ".py",
+              "size_bytes": 4974,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "Update SeMY Forests Item PY.py",
+              "path": "רחל משולם/סקר מצב יער/scripts/Update SeMY Forests Item PY.py",
+              "extension": ".py",
+              "size_bytes": 19873,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "Update_Domain_Codes_Fields_Delete.py",
+              "path": "רחל משולם/סקר מצב יער/scripts/Update_Domain_Codes_Fields_Delete.py",
+              "extension": ".py",
+              "size_bytes": 4533,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "documents": [
+            {
+              "name": "worklow schematic.pptx",
+              "path": "רחל משולם/סקר מצב יער/Documents/worklow schematic.pptx",
+              "extension": ".pptx",
+              "size_bytes": 120134,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
+              "path": "רחל משולם/סקר מצב יער/Documents/חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
+              "extension": ".docx",
+              "size_bytes": 699976,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "סמי מבנה נתונים.xlsx",
+              "path": "רחל משולם/סקר מצב יער/Documents/סמי מבנה נתונים.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 196534,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "דוח יער עריון סטטי.pdf",
+              "path": "רחל משולם/סקר מצב יער/results/דוח יער עריון סטטי.pdf",
+              "extension": ".pdf",
+              "size_bytes": 6461663,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "other": []
+        },
+        "ערכי טבע": {
+          "path": "רחל משולם/ערכי טבע",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 12,
+          "scripts": [
+            {
+              "name": "EcoSurveysUpdateBuffer_Old.py",
+              "path": "רחל משולם/ערכי טבע/scripts/EcoSurveysUpdateBuffer_Old.py",
+              "extension": ".py",
+              "size_bytes": 18455,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "EcoSurveys_updatebyNumDays.py",
+              "path": "רחל משולם/ערכי טבע/scripts/EcoSurveys_updatebyNumDays.py",
+              "extension": ".py",
+              "size_bytes": 14977,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "documents": [
+            {
+              "name": "מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
+              "path": "רחל משולם/ערכי טבע/Documents/מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
+              "extension": ".docx",
+              "size_bytes": 639682,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
+              "path": "רחל משולם/ערכי טבע/Documents/סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
+              "extension": ".docx",
+              "size_bytes": 313989,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.shp.xml",
+              "path": "רחל משולם/ערכי טבע/results/buffer.shp.xml",
+              "extension": ".xml",
+              "size_bytes": 31881,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "other": [
+            {
+              "name": "buffer.cpg",
+              "path": "רחל משולם/ערכי טבע/results/buffer.cpg",
+              "extension": ".cpg",
+              "size_bytes": 5,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.dbf",
+              "path": "רחל משולם/ערכי טבע/results/buffer.dbf",
+              "extension": ".dbf",
+              "size_bytes": 1017123,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.prj",
+              "path": "רחל משולם/ערכי טבע/results/buffer.prj",
+              "extension": ".prj",
+              "size_bytes": 428,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.sbn",
+              "path": "רחל משולם/ערכי טבע/results/buffer.sbn",
+              "extension": ".sbn",
+              "size_bytes": 1132,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.sbx",
+              "path": "רחל משולם/ערכי טבע/results/buffer.sbx",
+              "extension": ".sbx",
+              "size_bytes": 140,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.shp",
+              "path": "רחל משולם/ערכי טבע/results/buffer.shp",
+              "extension": ".shp",
+              "size_bytes": 89148,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "buffer.shx",
+              "path": "רחל משולם/ערכי טבע/results/buffer.shx",
+              "extension": ".shx",
+              "size_bytes": 972,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ]
+        },
+        "תכנון מפורט שלב ב": {
+          "path": "רחל משולם/תכנון מפורט שלב ב",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 19,
+          "scripts": [
+            {
+              "name": "CreateMana.py",
+              "path": "רחל משולם/תכנון מפורט שלב ב/scripts/CreateMana.py",
+              "extension": ".py",
+              "size_bytes": 36274,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "DeleteSubTender.py",
+              "path": "רחל משולם/תכנון מפורט שלב ב/scripts/DeleteSubTender.py",
+              "extension": ".py",
+              "size_bytes": 3176,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "GenerateReports.py",
+              "path": "רחל משולם/תכנון מפורט שלב ב/scripts/GenerateReports.py",
+              "extension": ".py",
+              "size_bytes": 20953,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "ManaAggregation.py",
+              "path": "רחל משולם/תכנון מפורט שלב ב/scripts/ManaAggregation.py",
+              "extension": ".py",
+              "size_bytes": 25902,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "processSubTender.py",
+              "path": "רחל משולם/תכנון מפורט שלב ב/scripts/processSubTender.py",
+              "extension": ".py",
+              "size_bytes": 21197,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "documents": [
+            {
+              "name": "ContractorGuidelines4.docx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/ContractorGuidelines4.docx",
+              "extension": ".docx",
+              "size_bytes": 2234788,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "SubWorkUnit_WebForm.xlsx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/SubWorkUnit_WebForm.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 79645,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "WorkCapacityContractor.docx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacityContractor.docx",
+              "extension": ".docx",
+              "size_bytes": 222246,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "WorkCapacitySupervisor.docx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacitySupervisor.docx",
+              "extension": ".docx",
+              "size_bytes": 228726,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "אפיון טופס הנחיות עבודה.xlsx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/אפיון טופס הנחיות עבודה.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 14384,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "מרכיבים פרויקט התקשרות.xlsx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/מרכיבים פרויקט התקשרות.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 18798,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
+              "path": "רחל משולם/תכנון מפורט שלב ב/Documents/סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
+              "extension": ".pptx",
+              "size_bytes": 8787285,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "Suppliers_Updated.csv",
+              "path": "רחל משולם/תכנון מפורט שלב ב/data/Suppliers_Updated.csv",
+              "extension": ".csv",
+              "size_bytes": 31878,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "היקף_עבודה_קבלן_ניר_עציון.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_ניר_עציון.pdf",
+              "extension": ".pdf",
+              "size_bytes": 55769,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
+              "extension": ".pdf",
+              "size_bytes": 67034,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "הנחיות_לקבלן_ניר_עציון.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_ניר_עציון.pdf",
+              "extension": ".pdf",
+              "size_bytes": 40064,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
+              "extension": ".pdf",
+              "size_bytes": 42393,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "מפה ניר עציון.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה ניר עציון.pdf",
+              "extension": ".pdf",
+              "size_bytes": 4162558,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "מפה סניטציה בהרי נפתלי.pdf",
+              "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה סניטציה בהרי נפתלי.pdf",
+              "extension": ".pdf",
+              "size_bytes": 4666508,
+              "modified": "2026-05-05T16:10:35"
+            }
+          ],
+          "other": []
+        },
+        "תכנון מפורת שלב א": {
+          "path": "רחל משולם/תכנון מפורת שלב א",
+          "modified": "2026-05-05T16:10:56",
+          "total_files": 15,
+          "scripts": [
+            {
+              "name": "AddStandToMana.py",
+              "path": "רחל משולם/תכנון מפורת שלב א/scripts/AddStandToMana.py",
+              "extension": ".py",
+              "size_bytes": 11859,
+              "modified": "2026-05-05T16:10:36"
+            },
+            {
+              "name": "CreateMaps_Tichurim.py",
+              "path": "רחל משולם/תכנון מפורת שלב א/scripts/CreateMaps_Tichurim.py",
+              "extension": ".py",
+              "size_bytes": 8685,
+              "modified": "2026-05-05T16:10:36"
+            },
+            {
+              "name": "DeleteStand_ReshapeMana.py",
+              "path": "רחל משולם/תכנון מפורת שלב א/scripts/DeleteStand_ReshapeMana.py",
+              "extension": ".py",
+              "size_bytes": 2906,
+              "modified": "2026-05-05T16:10:36"
+            },
+            {
+              "name": "GenerateReportTichurim.py",
+              "path": "רחל משולם/תכנון מפורת שלב א/scripts/GenerateReportTichurim.py",
+              "extension": ".py",
+              "size_bytes": 11614,
+              "modified": "2026-05-05T16:10:36"
+            },
+            {
+              "name": "ManaAggregation.py",
+              "path": "רחל משולם/תכנון מפורת שלב א/scripts/ManaAggregation.py",
+              "extension": ".py",
+              "size_bytes": 28273,
+              "modified": "2026-05-05T16:10:36"
+            }
+          ],
+          "documents": [
+            {
+              "name": "הדרכה מערכת תיחורים 202301.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים 202301.docx",
+              "extension": ".docx",
+              "size_bytes": 21518,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "הדרכה מערכת תיחורים.pdf",
+              "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים.pdf",
+              "extension": ".pdf",
+              "size_bytes": 2640294,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "ContractorGuidelines_גליל-תחתון_19_20220102.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_גליל-תחתון_19_20220102.docx",
+              "extension": ".docx",
+              "size_bytes": 4940016,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "ContractorGuidelines_החוף-שפלה_11_20220103.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_החוף-שפלה_11_20220103.docx",
+              "extension": ".docx",
+              "size_bytes": 4939967,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "Example1.pdf",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/Example1.pdf",
+              "extension": ".pdf",
+              "size_bytes": 250273,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "Quotation_גליל-תחתון_19_20220102.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/Quotation_גליל-תחתון_19_20220102.docx",
+              "extension": ".docx",
+              "size_bytes": 177716,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "WorkCapacity_גליל-תחתון_19_20220102.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_גליל-תחתון_19_20220102.docx",
+              "extension": ".docx",
+              "size_bytes": 813328,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "WorkCapacity_החוף-שפלה_11_20220103.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_החוף-שפלה_11_20220103.docx",
+              "extension": ".docx",
+              "size_bytes": 526547,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
+              "extension": ".pdf",
+              "size_bytes": 2835580,
+              "modified": "2026-05-05T16:10:35"
+            },
+            {
+              "name": "החוף-שפלה_תיחור11_2023_20220103.pdf",
+              "path": "רחל משולם/תכנון מפורת שלב א/results/החוף-שפלה_תיחור11_2023_20220103.pdf",
+              "extension": ".pdf",
+              "size_bytes": 3164016,
+              "modified": "2026-05-05T16:10:35"
             }
           ],
           "other": []
@@ -8253,6 +8898,661 @@ window.PROJECT_FILES = {
           "extension": ".md",
           "size_bytes": 1381,
           "modified": "2026-04-16T10:57:39"
+        }
+      ],
+      "other": []
+    },
+    "איסוףזרעים": {
+      "user": "רחל משולם",
+      "original_name": "איסוף זרעים",
+      "path": "רחל משולם/איסוף זרעים",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 14,
+      "scripts": [
+        {
+          "name": "Update_Seeds_GP.py",
+          "path": "רחל משולם/איסוף זרעים/scripts/Update_Seeds_GP.py",
+          "extension": ".py",
+          "size_bytes": 17006,
+          "modified": "2026-05-05T16:10:34"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Schema.pptx",
+          "path": "רחל משולם/איסוף זרעים/Documents/Schema.pptx",
+          "extension": ".pptx",
+          "size_bytes": 206771,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "אפיון איסוף זרעים.docx",
+          "path": "רחל משולם/איסוף זרעים/Documents/אפיון איסוף זרעים.docx",
+          "extension": ".docx",
+          "size_bytes": 3107394,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "אפיון השלמת נתונים קיימים מדור זרעים.docx",
+          "path": "רחל משולם/איסוף זרעים/Documents/אפיון השלמת נתונים קיימים מדור זרעים.docx",
+          "extension": ".docx",
+          "size_bytes": 19821,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
+          "path": "רחל משולם/איסוף זרעים/Documents/אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
+          "extension": ".docx",
+          "size_bytes": 30356,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "PlantProperties.xlsx",
+          "path": "רחל משולם/איסוף זרעים/data/PlantProperties.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 261940,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "Ref_Habitat.csv",
+          "path": "רחל משולם/איסוף זרעים/data/Ref_Habitat.csv",
+          "extension": ".csv",
+          "size_bytes": 112537,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "Ref_Seed_Shelf.csv",
+          "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Shelf.csv",
+          "extension": ".csv",
+          "size_bytes": 1082,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "Ref_Seed_Source.csv",
+          "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Source.csv",
+          "extension": ".csv",
+          "size_bytes": 1103723,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "Ref_Tree_Type.csv",
+          "path": "רחל משולם/איסוף זרעים/data/Ref_Tree_Type.csv",
+          "extension": ".csv",
+          "size_bytes": 428460,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "Shelf Tree Code Lookup.xlsx",
+          "path": "רחל משולם/איסוף זרעים/data/Shelf Tree Code Lookup.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 134632,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "domains csv plant hebnam.csv",
+          "path": "רחל משולם/איסוף זרעים/data/domains csv plant hebnam.csv",
+          "extension": ".csv",
+          "size_bytes": 13863,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "inventory_2014_Oleg.xlsx",
+          "path": "רחל משולם/איסוף זרעים/data/inventory_2014_Oleg.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 370163,
+          "modified": "2026-05-05T16:10:34"
+        },
+        {
+          "name": "rcade code field maps.txt",
+          "path": "רחל משולם/איסוף זרעים/scripts/rcade code field maps.txt",
+          "extension": ".txt",
+          "size_bytes": 1434,
+          "modified": "2026-05-05T16:10:34"
+        }
+      ],
+      "other": []
+    },
+    "דוחותשימוש": {
+      "user": "רחל משולם",
+      "original_name": "דוחות שימוש",
+      "path": "רחל משולם/דוחות שימוש",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 1,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "דוחות שימוש.pptx",
+          "path": "רחל משולם/דוחות שימוש/Documents/דוחות שימוש.pptx",
+          "extension": ".pptx",
+          "size_bytes": 821163,
+          "modified": "2026-05-05T16:10:34"
+        }
+      ],
+      "other": []
+    },
+    "דיווחביצוע": {
+      "user": "רחל משולם",
+      "original_name": "דיווח ביצוע",
+      "path": "רחל משולם/דיווח ביצוע",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 10,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "DivuachBizua_TeudatMishloach.xlsx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_TeudatMishloach.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 73247,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "DivuachBizua_YomanAvoda.xlsx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_YomanAvoda.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 72605,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "ShippingCertificate1.docx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/ShippingCertificate1.docx",
+          "extension": ".docx",
+          "size_bytes": 1597621,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "WorkLog6.docx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/WorkLog6.docx",
+          "extension": ".docx",
+          "size_bytes": 1597276,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
+          "extension": ".docx",
+          "size_bytes": 24540,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
+          "extension": ".docx",
+          "size_bytes": 2283523,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "סטטוס מנה.pptx",
+          "path": "רחל משולם/דיווח ביצוע/Documents/סטטוס מנה.pptx",
+          "extension": ".pptx",
+          "size_bytes": 3191385,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "TeudatMishloach_hasava.xlsx",
+          "path": "רחל משולם/דיווח ביצוע/data/TeudatMishloach_hasava.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 4210724,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "web map popup for daily work log.txt",
+          "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for daily work log.txt",
+          "extension": ".txt",
+          "size_bytes": 10497,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "web map popup for shipping certficatetxt.txt",
+          "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for shipping certficatetxt.txt",
+          "extension": ".txt",
+          "size_bytes": 10256,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "other": []
+    },
+    "סקרמפגעים": {
+      "user": "רחל משולם",
+      "original_name": "סקר מפגעים",
+      "path": "רחל משולם/סקר מפגעים",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 2,
+      "scripts": [
+        {
+          "name": "HazardsInspection.py",
+          "path": "רחל משולם/סקר מפגעים/scripts/HazardsInspection.py",
+          "extension": ".py",
+          "size_bytes": 10410,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "documents": [
+        {
+          "name": "תהליכים מפגעים.pptx",
+          "path": "רחל משולם/סקר מפגעים/Documents/תהליכים מפגעים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1677668,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "other": []
+    },
+    "סקרמצביער": {
+      "user": "רחל משולם",
+      "original_name": "סקר מצב יער",
+      "path": "רחל משולם/סקר מצב יער",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 7,
+      "scripts": [
+        {
+          "name": "Update Domain Codes in Fields- SeMY_Samples2.py",
+          "path": "רחל משולם/סקר מצב יער/scripts/Update Domain Codes in Fields- SeMY_Samples2.py",
+          "extension": ".py",
+          "size_bytes": 4974,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "Update SeMY Forests Item PY.py",
+          "path": "רחל משולם/סקר מצב יער/scripts/Update SeMY Forests Item PY.py",
+          "extension": ".py",
+          "size_bytes": 19873,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "Update_Domain_Codes_Fields_Delete.py",
+          "path": "רחל משולם/סקר מצב יער/scripts/Update_Domain_Codes_Fields_Delete.py",
+          "extension": ".py",
+          "size_bytes": 4533,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "documents": [
+        {
+          "name": "worklow schematic.pptx",
+          "path": "רחל משולם/סקר מצב יער/Documents/worklow schematic.pptx",
+          "extension": ".pptx",
+          "size_bytes": 120134,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
+          "path": "רחל משולם/סקר מצב יער/Documents/חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
+          "extension": ".docx",
+          "size_bytes": 699976,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "סמי מבנה נתונים.xlsx",
+          "path": "רחל משולם/סקר מצב יער/Documents/סמי מבנה נתונים.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 196534,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "דוח יער עריון סטטי.pdf",
+          "path": "רחל משולם/סקר מצב יער/results/דוח יער עריון סטטי.pdf",
+          "extension": ".pdf",
+          "size_bytes": 6461663,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "other": []
+    },
+    "ערכיטבע": {
+      "user": "רחל משולם",
+      "original_name": "ערכי טבע",
+      "path": "רחל משולם/ערכי טבע",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 12,
+      "scripts": [
+        {
+          "name": "EcoSurveysUpdateBuffer_Old.py",
+          "path": "רחל משולם/ערכי טבע/scripts/EcoSurveysUpdateBuffer_Old.py",
+          "extension": ".py",
+          "size_bytes": 18455,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "EcoSurveys_updatebyNumDays.py",
+          "path": "רחל משולם/ערכי טבע/scripts/EcoSurveys_updatebyNumDays.py",
+          "extension": ".py",
+          "size_bytes": 14977,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "documents": [
+        {
+          "name": "מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
+          "path": "רחל משולם/ערכי טבע/Documents/מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
+          "extension": ".docx",
+          "size_bytes": 639682,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
+          "path": "רחל משולם/ערכי טבע/Documents/סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
+          "extension": ".docx",
+          "size_bytes": 313989,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.shp.xml",
+          "path": "רחל משולם/ערכי טבע/results/buffer.shp.xml",
+          "extension": ".xml",
+          "size_bytes": 31881,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "other": [
+        {
+          "name": "buffer.cpg",
+          "path": "רחל משולם/ערכי טבע/results/buffer.cpg",
+          "extension": ".cpg",
+          "size_bytes": 5,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.dbf",
+          "path": "רחל משולם/ערכי טבע/results/buffer.dbf",
+          "extension": ".dbf",
+          "size_bytes": 1017123,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.prj",
+          "path": "רחל משולם/ערכי טבע/results/buffer.prj",
+          "extension": ".prj",
+          "size_bytes": 428,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.sbn",
+          "path": "רחל משולם/ערכי טבע/results/buffer.sbn",
+          "extension": ".sbn",
+          "size_bytes": 1132,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.sbx",
+          "path": "רחל משולם/ערכי טבע/results/buffer.sbx",
+          "extension": ".sbx",
+          "size_bytes": 140,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.shp",
+          "path": "רחל משולם/ערכי טבע/results/buffer.shp",
+          "extension": ".shp",
+          "size_bytes": 89148,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "buffer.shx",
+          "path": "רחל משולם/ערכי טבע/results/buffer.shx",
+          "extension": ".shx",
+          "size_bytes": 972,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ]
+    },
+    "תכנוןמפורטשלבב": {
+      "user": "רחל משולם",
+      "original_name": "תכנון מפורט שלב ב",
+      "path": "רחל משולם/תכנון מפורט שלב ב",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 19,
+      "scripts": [
+        {
+          "name": "CreateMana.py",
+          "path": "רחל משולם/תכנון מפורט שלב ב/scripts/CreateMana.py",
+          "extension": ".py",
+          "size_bytes": 36274,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "DeleteSubTender.py",
+          "path": "רחל משולם/תכנון מפורט שלב ב/scripts/DeleteSubTender.py",
+          "extension": ".py",
+          "size_bytes": 3176,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "GenerateReports.py",
+          "path": "רחל משולם/תכנון מפורט שלב ב/scripts/GenerateReports.py",
+          "extension": ".py",
+          "size_bytes": 20953,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "ManaAggregation.py",
+          "path": "רחל משולם/תכנון מפורט שלב ב/scripts/ManaAggregation.py",
+          "extension": ".py",
+          "size_bytes": 25902,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "processSubTender.py",
+          "path": "רחל משולם/תכנון מפורט שלב ב/scripts/processSubTender.py",
+          "extension": ".py",
+          "size_bytes": 21197,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "documents": [
+        {
+          "name": "ContractorGuidelines4.docx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/ContractorGuidelines4.docx",
+          "extension": ".docx",
+          "size_bytes": 2234788,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "SubWorkUnit_WebForm.xlsx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/SubWorkUnit_WebForm.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 79645,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "WorkCapacityContractor.docx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacityContractor.docx",
+          "extension": ".docx",
+          "size_bytes": 222246,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "WorkCapacitySupervisor.docx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacitySupervisor.docx",
+          "extension": ".docx",
+          "size_bytes": 228726,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "אפיון טופס הנחיות עבודה.xlsx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/אפיון טופס הנחיות עבודה.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 14384,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "מרכיבים פרויקט התקשרות.xlsx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/מרכיבים פרויקט התקשרות.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 18798,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
+          "path": "רחל משולם/תכנון מפורט שלב ב/Documents/סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
+          "extension": ".pptx",
+          "size_bytes": 8787285,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "Suppliers_Updated.csv",
+          "path": "רחל משולם/תכנון מפורט שלב ב/data/Suppliers_Updated.csv",
+          "extension": ".csv",
+          "size_bytes": 31878,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "היקף_עבודה_קבלן_ניר_עציון.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_ניר_עציון.pdf",
+          "extension": ".pdf",
+          "size_bytes": 55769,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
+          "extension": ".pdf",
+          "size_bytes": 67034,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "הנחיות_לקבלן_ניר_עציון.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_ניר_עציון.pdf",
+          "extension": ".pdf",
+          "size_bytes": 40064,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
+          "extension": ".pdf",
+          "size_bytes": 42393,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "מפה ניר עציון.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה ניר עציון.pdf",
+          "extension": ".pdf",
+          "size_bytes": 4162558,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "מפה סניטציה בהרי נפתלי.pdf",
+          "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה סניטציה בהרי נפתלי.pdf",
+          "extension": ".pdf",
+          "size_bytes": 4666508,
+          "modified": "2026-05-05T16:10:35"
+        }
+      ],
+      "other": []
+    },
+    "תכנוןמפורתשלבא": {
+      "user": "רחל משולם",
+      "original_name": "תכנון מפורת שלב א",
+      "path": "רחל משולם/תכנון מפורת שלב א",
+      "modified": "2026-05-05T16:10:56",
+      "total_files": 15,
+      "scripts": [
+        {
+          "name": "AddStandToMana.py",
+          "path": "רחל משולם/תכנון מפורת שלב א/scripts/AddStandToMana.py",
+          "extension": ".py",
+          "size_bytes": 11859,
+          "modified": "2026-05-05T16:10:36"
+        },
+        {
+          "name": "CreateMaps_Tichurim.py",
+          "path": "רחל משולם/תכנון מפורת שלב א/scripts/CreateMaps_Tichurim.py",
+          "extension": ".py",
+          "size_bytes": 8685,
+          "modified": "2026-05-05T16:10:36"
+        },
+        {
+          "name": "DeleteStand_ReshapeMana.py",
+          "path": "רחל משולם/תכנון מפורת שלב א/scripts/DeleteStand_ReshapeMana.py",
+          "extension": ".py",
+          "size_bytes": 2906,
+          "modified": "2026-05-05T16:10:36"
+        },
+        {
+          "name": "GenerateReportTichurim.py",
+          "path": "רחל משולם/תכנון מפורת שלב א/scripts/GenerateReportTichurim.py",
+          "extension": ".py",
+          "size_bytes": 11614,
+          "modified": "2026-05-05T16:10:36"
+        },
+        {
+          "name": "ManaAggregation.py",
+          "path": "רחל משולם/תכנון מפורת שלב א/scripts/ManaAggregation.py",
+          "extension": ".py",
+          "size_bytes": 28273,
+          "modified": "2026-05-05T16:10:36"
+        }
+      ],
+      "documents": [
+        {
+          "name": "הדרכה מערכת תיחורים 202301.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים 202301.docx",
+          "extension": ".docx",
+          "size_bytes": 21518,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "הדרכה מערכת תיחורים.pdf",
+          "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים.pdf",
+          "extension": ".pdf",
+          "size_bytes": 2640294,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "ContractorGuidelines_גליל-תחתון_19_20220102.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_גליל-תחתון_19_20220102.docx",
+          "extension": ".docx",
+          "size_bytes": 4940016,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "ContractorGuidelines_החוף-שפלה_11_20220103.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_החוף-שפלה_11_20220103.docx",
+          "extension": ".docx",
+          "size_bytes": 4939967,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "Example1.pdf",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/Example1.pdf",
+          "extension": ".pdf",
+          "size_bytes": 250273,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "Quotation_גליל-תחתון_19_20220102.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/Quotation_גליל-תחתון_19_20220102.docx",
+          "extension": ".docx",
+          "size_bytes": 177716,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "WorkCapacity_גליל-תחתון_19_20220102.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_גליל-תחתון_19_20220102.docx",
+          "extension": ".docx",
+          "size_bytes": 813328,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "WorkCapacity_החוף-שפלה_11_20220103.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_החוף-שפלה_11_20220103.docx",
+          "extension": ".docx",
+          "size_bytes": 526547,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
+          "extension": ".pdf",
+          "size_bytes": 2835580,
+          "modified": "2026-05-05T16:10:35"
+        },
+        {
+          "name": "החוף-שפלה_תיחור11_2023_20220103.pdf",
+          "path": "רחל משולם/תכנון מפורת שלב א/results/החוף-שפלה_תיחור11_2023_20220103.pdf",
+          "extension": ".pdf",
+          "size_bytes": 3164016,
+          "modified": "2026-05-05T16:10:35"
         }
       ],
       "other": []
