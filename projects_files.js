@@ -1,7 +1,7 @@
 window.PROJECT_FILES = {
   "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
-  "scanned_at": "2026-05-05T16:42:35",
-  "user_count": 5,
+  "scanned_at": "2026-05-06T11:41:04",
+  "user_count": 6,
   "users": {
     "אבינועם": {
       "path": "אבינועם",
@@ -10,7 +10,7 @@ window.PROJECT_FILES = {
         "ספר יער": {
           "path": "אבינועם/ספר יער",
           "modified": "2026-05-03T20:25:15",
-          "total_files": 22,
+          "total_files": 18,
           "scripts": [
             {
               "name": "collect_project_inventory.py",
@@ -127,13 +127,6 @@ window.PROJECT_FILES = {
               "modified": "2026-05-03T20:25:05"
             },
             {
-              "name": "benchmark_raw_output.txt",
-              "path": "אבינועם/ספר יער/results/benchmark_raw_output.txt",
-              "extension": ".txt",
-              "size_bytes": 5211,
-              "modified": "2026-05-03T20:25:05"
-            },
-            {
               "name": "measured_benchmarks.csv",
               "path": "אבינועם/ספר יער/results/measured_benchmarks.csv",
               "extension": ".csv",
@@ -146,27 +139,6 @@ window.PROJECT_FILES = {
               "extension": ".json",
               "size_bytes": 402,
               "modified": "2026-05-03T20:25:05"
-            },
-            {
-              "name": "readme_snapshot.txt",
-              "path": "אבינועם/ספר יער/results/readme_snapshot.txt",
-              "extension": ".txt",
-              "size_bytes": 7468,
-              "modified": "2026-05-03T20:25:05"
-            },
-            {
-              "name": "test_run_notes.txt",
-              "path": "אבינועם/ספר יער/results/test_run_notes.txt",
-              "extension": ".txt",
-              "size_bytes": 245,
-              "modified": "2026-05-03T20:25:05"
-            },
-            {
-              "name": "vitest_raw_output.txt",
-              "path": "אבינועם/ספר יער/results/vitest_raw_output.txt",
-              "extension": ".txt",
-              "size_bytes": 5839,
-              "modified": "2026-05-03T20:25:05"
             }
           ],
           "other": []
@@ -174,7 +146,7 @@ window.PROJECT_FILES = {
         "תהליכי אבינועם": {
           "path": "אבינועם/תהליכי אבינועם",
           "modified": "2026-05-03T20:25:07",
-          "total_files": 16,
+          "total_files": 15,
           "scripts": [
             {
               "name": "דוח_ביצועים_מקור_תהליכי_אבינועם.html",
@@ -249,13 +221,6 @@ window.PROJECT_FILES = {
               "modified": "2026-05-03T20:24:58"
             },
             {
-              "name": "project_inventory_summary.txt",
-              "path": "אבינועם/תהליכי אבינועם/results/project_inventory_summary.txt",
-              "extension": ".txt",
-              "size_bytes": 908,
-              "modified": "2026-05-03T20:24:59"
-            },
-            {
               "name": "scenario_results_summary.csv",
               "path": "אבינועם/תהליכי אבינועם/results/scenario_results_summary.csv",
               "extension": ".csv",
@@ -295,6 +260,1375 @@ window.PROJECT_FILES = {
         }
       }
     },
+    "אורי אורן": {
+      "path": "אורי אורן",
+      "project_count": 10,
+      "projects": {
+        "gis base": {
+          "path": "אורי אורן/gis base",
+          "modified": "2026-05-06T11:26:52",
+          "total_files": 21,
+          "scripts": [
+            {
+              "name": "GisApiProjectBase",
+              "path": "אורי אורן/gis base/scripts/GisApiProjectBase",
+              "extension": "",
+              "size_bytes": 5721777,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "GisBaseApi",
+              "path": "אורי אורן/gis base/scripts/GisBaseApi",
+              "extension": "",
+              "size_bytes": 47987890,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "esriAppSetDataSource",
+              "path": "אורי אורן/gis base/scripts/esriAppSetDataSource",
+              "extension": "",
+              "size_bytes": 38111921,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "esriAppChangeDataSource.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/esriAppChangeDataSource.py",
+              "extension": ".py",
+              "size_bytes": 3264,
+              "modified": "2026-05-06T11:14:23"
+            },
+            {
+              "name": "gp_esriAppCreateItemAndRelated.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppCreateItemAndRelated.py",
+              "extension": ".py",
+              "size_bytes": 19922,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "gp_esriAppGetItemDataSource.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetItemDataSource.py",
+              "extension": ".py",
+              "size_bytes": 14149,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "gp_esriAppGetItemList.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetItemList.py",
+              "extension": ".py",
+              "size_bytes": 1595,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "gp_esriAppGetUserDetail.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetUserDetail.py",
+              "extension": ".py",
+              "size_bytes": 1419,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "gp_esriAppSetItemDataSource.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppSetItemDataSource.py",
+              "extension": ".py",
+              "size_bytes": 12278,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "kklUtils.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/kklUtils.py",
+              "extension": ".py",
+              "size_bytes": 18175,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "publishTool.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/publishTool.py",
+              "extension": ".py",
+              "size_bytes": 951,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "test1.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/test1.py",
+              "extension": ".py",
+              "size_bytes": 310,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "test2.py",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/test2.py",
+              "extension": ".py",
+              "size_bytes": 15170,
+              "modified": "2026-05-06T11:14:24"
+            }
+          ],
+          "documents": [
+            {
+              "name": "config.json",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/config.json",
+              "extension": ".json",
+              "size_bytes": 155,
+              "modified": "2026-05-06T11:14:23"
+            },
+            {
+              "name": "form.xlsx",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/extracted_survey/esriinfo/form.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 46752,
+              "modified": "2026-05-06T11:14:26"
+            }
+          ],
+          "other": [
+            {
+              "name": ".gitattributes",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/.gitattributes",
+              "extension": "",
+              "size_bytes": 2581,
+              "modified": "2026-05-06T11:14:23"
+            },
+            {
+              "name": ".gitignore",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/.gitignore",
+              "extension": "",
+              "size_bytes": 6585,
+              "modified": "2026-05-06T11:14:23"
+            },
+            {
+              "name": "developEnviromentTool.atbx",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/developEnviromentTool.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1361,
+              "modified": "2026-05-06T11:14:23"
+            },
+            {
+              "name": "gisBasePython.pyproj.user",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gisBasePython.pyproj.user",
+              "extension": ".user",
+              "size_bytes": 227,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "gp_EsriAppChangeDataSource.atbx",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/gp_EsriAppChangeDataSource.atbx",
+              "extension": ".atbx",
+              "size_bytes": 4588,
+              "modified": "2026-05-06T11:14:24"
+            },
+            {
+              "name": "‏‏developEnviromentTool - עותק.zip",
+              "path": "אורי אורן/gis base/scripts/gisBasePython/‏‏developEnviromentTool - עותק.zip",
+              "extension": ".zip",
+              "size_bytes": 22629,
+              "modified": "2026-05-06T11:14:24"
+            }
+          ]
+        },
+        "חיתום מסמכים ליערנות": {
+          "path": "אורי אורן/חיתום מסמכים ליערנות",
+          "modified": "2026-05-06T11:26:53",
+          "total_files": 2,
+          "scripts": [
+            {
+              "name": "TendersDivuachBizua",
+              "path": "אורי אורן/חיתום מסמכים ליערנות/scripts/TendersDivuachBizua/TendersDivuachBizuaApi/TendersDivuachBizua",
+              "extension": "",
+              "size_bytes": 5804961,
+              "modified": "2026-05-06T11:26:54"
+            }
+          ],
+          "documents": [],
+          "other": [
+            {
+              "name": "TendersDivuachBizuaApi.slnx",
+              "path": "אורי אורן/חיתום מסמכים ליערנות/scripts/TendersDivuachBizua/TendersDivuachBizuaApi/TendersDivuachBizuaApi.slnx",
+              "extension": ".slnx",
+              "size_bytes": 179,
+              "modified": "2026-05-06T11:14:26"
+            }
+          ]
+        },
+        "מידע תיכנוני": {
+          "path": "אורי אורן/מידע תיכנוני",
+          "modified": "2026-05-06T11:26:52",
+          "total_files": 32,
+          "scripts": [
+            {
+              "name": "GP_DashBord.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_DashBord.py",
+              "extension": ".py",
+              "size_bytes": 92018,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_DetailedPlans_Load.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_DetailedPlans_Load.py",
+              "extension": ".py",
+              "size_bytes": 12359,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_KklForestSoils.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_KklForestSoils.py",
+              "extension": ".py",
+              "size_bytes": 5974,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_LoadTaba.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_LoadTaba.py",
+              "extension": ".py",
+              "size_bytes": 10050,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_MasterPlan_Load___.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_MasterPlan_Load___.py",
+              "extension": ".py",
+              "size_bytes": 24874,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_PrintTaba.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba.py",
+              "extension": ".py",
+              "size_bytes": 47124,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_PrintTaba_backup_2021-09-02.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba_backup_2021-09-02.py",
+              "extension": ".py",
+              "size_bytes": 30800,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_test1.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_test1.py",
+              "extension": ".py",
+              "size_bytes": 774,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "Gp_plans continuios.py",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Gp_plans continuios.py",
+              "extension": ".py",
+              "size_bytes": 11860,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "MedaTichnonyWeb",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyWeb",
+              "extension": "",
+              "size_bytes": 108100656,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "MedaTichnonyWebDocumentom",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyWebDocumentom",
+              "extension": "",
+              "size_bytes": 3276839,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "MeydaTichnunyGisAPI",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MeydaTichnunyGisAPI",
+              "extension": "",
+              "size_bytes": 33888216,
+              "modified": "2026-05-06T11:26:52"
+            }
+          ],
+          "documents": [
+            {
+              "name": "Default.gdb",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/WorkSpace/TemplateAPRX/TemplatePlanAnalyse/Default.gdb",
+              "extension": ".gdb",
+              "size_bytes": 150399,
+              "modified": "2026-05-06T11:27:07"
+            },
+            {
+              "name": "config.json",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/config.json",
+              "extension": ".json",
+              "size_bytes": 3689,
+              "modified": "2026-05-06T11:14:29"
+            }
+          ],
+          "other": [
+            {
+              "name": "GP_KklForestSoils.atbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_KklForestSoils.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1285,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_LoadTaba.tbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_LoadTaba.tbx",
+              "extension": ".tbx",
+              "size_bytes": 10240,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_PlanDetailedLoad.atbx_delete",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PlanDetailedLoad.atbx_delete",
+              "extension": ".atbx_delete",
+              "size_bytes": 1775,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_PrintTaba.tbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba.tbx",
+              "extension": ".tbx",
+              "size_bytes": 9216,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "GP_test1.atbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_test1.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1297,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "Gp_plans continuios.atbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Gp_plans continuios.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1728,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "indx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Index/‏‏TemplatePlanTest_index/Thumbnail/indx",
+              "extension": "",
+              "size_bytes": 0,
+              "modified": "2026-05-06T11:14:30"
+            },
+            {
+              "name": "MedaTichnonyPython.pyproj.user",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/MedaTichnonyPython.pyproj.user",
+              "extension": ".user",
+              "size_bytes": 227,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "TemplatePlan_Test3_9.aprx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/TemplatePlan_Test3_9.aprx",
+              "extension": ".aprx",
+              "size_bytes": 6728513,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "Default.tbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/WorkSpace/TemplateAPRX/TemplatePlanAnalyse/Default.tbx",
+              "extension": ".tbx",
+              "size_bytes": 3584,
+              "modified": "2026-05-06T11:14:31"
+            },
+            {
+              "name": "‏‏GP_DashBord.tbx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏GP_DashBord.tbx",
+              "extension": ".tbx",
+              "size_bytes": 16384,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "‏‏TemplatePlanTest.aprx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlanTest.aprx",
+              "extension": ".aprx",
+              "size_bytes": 5910485,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "‏‏TemplatePlan_Test - עותק.aprx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlan_Test - עותק.aprx",
+              "extension": ".aprx",
+              "size_bytes": 6437284,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "‏‏TemplatePlan_Test_ver2_9_20250109.aprx",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlan_Test_ver2_9_20250109.aprx",
+              "extension": ".aprx",
+              "size_bytes": 6728513,
+              "modified": "2026-05-06T11:14:29"
+            },
+            {
+              "name": "DataSource1.rds",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/DataSource1.rds",
+              "extension": ".rds",
+              "size_bytes": 493,
+              "modified": "2026-05-06T11:14:31"
+            },
+            {
+              "name": "MedaTichnonyReports.rptproj.rsuser",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/MedaTichnonyReports.rptproj.rsuser",
+              "extension": ".rsuser",
+              "size_bytes": 3207,
+              "modified": "2026-05-06T11:14:31"
+            },
+            {
+              "name": "DataSource1.rds",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/bin/Debug/DataSource1.rds",
+              "extension": ".rds",
+              "size_bytes": 493,
+              "modified": "2026-05-06T11:14:32"
+            },
+            {
+              "name": "build.obj",
+              "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/bin/Debug/build.obj",
+              "extension": ".obj",
+              "size_bytes": 14878,
+              "modified": "2026-05-06T11:14:32"
+            }
+          ]
+        },
+        "מרכזי שדה": {
+          "path": "אורי אורן/מרכזי שדה",
+          "modified": "2026-05-06T11:27:10",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "מרעה": {
+          "path": "אורי אורן/מרעה",
+          "modified": "2026-05-06T11:26:52",
+          "total_files": 2,
+          "scripts": [
+            {
+              "name": "pasturageGisApi",
+              "path": "אורי אורן/מרעה/scripts/pasturageGisApi",
+              "extension": "",
+              "size_bytes": 22927727,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "pasturageGisClient",
+              "path": "אורי אורן/מרעה/scripts/pasturageGisClient",
+              "extension": "",
+              "size_bytes": 44045323,
+              "modified": "2026-05-06T11:26:52"
+            }
+          ],
+          "documents": [],
+          "other": []
+        },
+        "סביבות עבודה באגול": {
+          "path": "אורי אורן/סביבות עבודה באגול",
+          "modified": "2026-05-06T11:27:10",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "קומפוננת מפה לאנגולר": {
+          "path": "אורי אורן/קומפוננת מפה לאנגולר",
+          "modified": "2026-05-06T11:26:52",
+          "total_files": 1,
+          "scripts": [
+            {
+              "name": "gisBaseLib",
+              "path": "אורי אורן/קומפוננת מפה לאנגולר/scripts/gisBaseLib",
+              "extension": "",
+              "size_bytes": 380544088,
+              "modified": "2026-05-06T11:26:52"
+            }
+          ],
+          "documents": [],
+          "other": []
+        },
+        "שינויים בפריט relationship": {
+          "path": "אורי אורן/שינויים בפריט relationship",
+          "modified": "2026-05-06T11:27:10",
+          "total_files": 0,
+          "scripts": [],
+          "documents": [],
+          "other": []
+        },
+        "תוכניות תיכנון": {
+          "path": "אורי אורן/תוכניות תיכנון",
+          "modified": "2026-05-06T11:26:52",
+          "total_files": 9,
+          "scripts": [
+            {
+              "name": "plansGisApi",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansGisApi",
+              "extension": "",
+              "size_bytes": 120606147,
+              "modified": "2026-05-06T11:26:52"
+            },
+            {
+              "name": "GP_DetailedPlans_Load.py",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_DetailedPlans_Load.py",
+              "extension": ".py",
+              "size_bytes": 29944,
+              "modified": "2026-05-06T11:15:18"
+            },
+            {
+              "name": "GP_MasterPlan_Load.py",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_MasterPlan_Load.py",
+              "extension": ".py",
+              "size_bytes": 32363,
+              "modified": "2026-05-06T11:15:18"
+            },
+            {
+              "name": "kklUtils.py",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/kklUtils.py",
+              "extension": ".py",
+              "size_bytes": 6086,
+              "modified": "2026-05-06T11:15:18"
+            }
+          ],
+          "documents": [
+            {
+              "name": "config.json",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/config.json",
+              "extension": ".json",
+              "size_bytes": 365,
+              "modified": "2026-05-06T11:15:18"
+            }
+          ],
+          "other": [
+            {
+              "name": ".gitattributes",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/.gitattributes",
+              "extension": "",
+              "size_bytes": 2581,
+              "modified": "2026-05-06T11:15:18"
+            },
+            {
+              "name": ".gitignore",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/.gitignore",
+              "extension": "",
+              "size_bytes": 6585,
+              "modified": "2026-05-06T11:15:18"
+            },
+            {
+              "name": "GP_DetailedPlans_Load.atbx",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_DetailedPlans_Load.atbx",
+              "extension": ".atbx",
+              "size_bytes": 2041,
+              "modified": "2026-05-06T11:15:18"
+            },
+            {
+              "name": "GP_MasterPlan_Load.atbx",
+              "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_MasterPlan_Load.atbx",
+              "extension": ".atbx",
+              "size_bytes": 1516,
+              "modified": "2026-05-06T11:15:18"
+            }
+          ]
+        },
+        "תעסוקת ילדי עובדים": {
+          "path": "אורי אורן/תעסוקת ילדי עובדים",
+          "modified": "2026-05-06T11:26:54",
+          "total_files": 114,
+          "scripts": [
+            {
+              "name": "LoginProject.html",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/LoginProject.html",
+              "extension": ".html",
+              "size_bytes": 3614,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "aaa.html",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aaa.html",
+              "extension": ".html",
+              "size_bytes": 5588,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "LoginMichrazim.html",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/LoginMichrazim.html",
+              "extension": ".html",
+              "size_bytes": 3619,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "aaa.html",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/aaa.html",
+              "extension": ".html",
+              "size_bytes": 1947,
+              "modified": "2026-05-06T11:15:25"
+            }
+          ],
+          "documents": [
+            {
+              "name": "aaa.pdf",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/aaa.pdf",
+              "extension": ".pdf",
+              "size_bytes": 27943,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "פוטנציאל העסקת נוער קיץ 2016 -מקור - 1.xls",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Temp/פוטנציאל העסקת נוער קיץ 2016 -מקור - 1.xls",
+              "extension": ".xls",
+              "size_bytes": 478208,
+              "modified": "2026-05-06T11:15:28"
+            }
+          ],
+          "other": [
+            {
+              "name": "Global.asax",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Global.asax",
+              "extension": ".asax",
+              "size_bytes": 2996,
+              "modified": "2026-05-06T11:15:19"
+            },
+            {
+              "name": "Global_old.asax",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Global_old.asax",
+              "extension": ".asax",
+              "size_bytes": 3500,
+              "modified": "2026-05-06T11:15:19"
+            },
+            {
+              "name": "OkEshurAll.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/OkEshurAll.gif",
+              "extension": ".gif",
+              "size_bytes": 2882,
+              "modified": "2026-05-06T11:15:20"
+            },
+            {
+              "name": "loaderImage.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/loaderImage.gif",
+              "extension": ".gif",
+              "size_bytes": 10819,
+              "modified": "2026-05-06T11:15:20"
+            },
+            {
+              "name": "page-loader.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/page-loader.gif",
+              "extension": ".gif",
+              "size_bytes": 46809,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "MobileMasterPage.master.cs.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.cs.exclude",
+              "extension": ".exclude",
+              "size_bytes": 483,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "MobileMasterPage.master.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.exclude",
+              "extension": ".exclude",
+              "size_bytes": 3307,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "aa.aspx.cs.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.cs.exclude",
+              "extension": ".exclude",
+              "size_bytes": 282,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "aa.aspx.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.exclude",
+              "extension": ".exclude",
+              "size_bytes": 352,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "data.html.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/data.html.exclude",
+              "extension": ".exclude",
+              "size_bytes": 9684,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "login.aspx.cs.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.cs.exclude",
+              "extension": ".exclude",
+              "size_bytes": 285,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "login.aspx.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.exclude",
+              "extension": ".exclude",
+              "size_bytes": 3102,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "index.js.map",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/index.js.map",
+              "extension": ".map",
+              "size_bytes": 931,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "platformOverrides.js.map",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/platformOverrides.js.map",
+              "extension": ".map",
+              "size_bytes": 130,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "מצגת בטיחות - ילדי עובדים 2  - סרטון 2022.mp4",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/YaldayOvdim/מצגת בטיחות - ילדי עובדים 2  - סרטון 2022.mp4",
+              "extension": ".mp4",
+              "size_bytes": 80943771,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "Microsoft.Web.Infrastructure.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll",
+              "extension": ".dll",
+              "size_bytes": 45416,
+              "modified": "2026-05-06T11:15:20"
+            },
+            {
+              "name": "Microsoft.Web.Infrastructure.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 91,
+              "modified": "2026-05-06T11:15:20"
+            },
+            {
+              "name": "favicon.ico",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/favicon.ico",
+              "extension": ".ico",
+              "size_bytes": 1150,
+              "modified": "2026-05-06T11:15:19"
+            },
+            {
+              "name": "confirm.html.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/confirm.html.exclude",
+              "extension": ".exclude",
+              "size_bytes": 48963,
+              "modified": "2026-05-06T11:15:21"
+            },
+            {
+              "name": "vwd.webinfo",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/vwd.webinfo",
+              "extension": ".webinfo",
+              "size_bytes": 268,
+              "modified": "2026-05-06T11:15:19"
+            },
+            {
+              "name": "DataSource1.rds",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/DataSource1.rds",
+              "extension": ".rds",
+              "size_bytes": 484,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "S----mallApplicationsReports.rptproj.user",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/S----mallApplicationsReports.rptproj.user",
+              "extension": ".user",
+              "size_bytes": 1989,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "SmallApplicationsReports.rptproj.bak",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/SmallApplicationsReports.rptproj.bak",
+              "extension": ".bak",
+              "size_bytes": 5290,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "SmallApplicationsReports.rptproj.rsuser",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/SmallApplicationsReports.rptproj.rsuser",
+              "extension": ".rsuser",
+              "size_bytes": 2349,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "TransportionChild.rdl.da___ta",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/TransportionChild.rdl.da___ta",
+              "extension": ".da___ta",
+              "size_bytes": 31232,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "DataSource1.rds",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/Debug/DataSource1.rds",
+              "extension": ".rds",
+              "size_bytes": 484,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "build.obj",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/Debug/build.obj",
+              "extension": ".obj",
+              "size_bytes": 4366,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "DataSource1.rds",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/DebugLocal/DataSource1.rds",
+              "extension": ".rds",
+              "size_bytes": 484,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "build.obj",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/DebugLocal/build.obj",
+              "extension": ".obj",
+              "size_bytes": 3944,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "YaldayOvdimDataSet.xsd.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xsd.exclude",
+              "extension": ".exclude",
+              "size_bytes": 128411,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "YaldayOvdimDataSet.xss.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xss.exclude",
+              "extension": ".exclude",
+              "size_bytes": 2596,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "DFSHeader.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll",
+              "extension": ".dll",
+              "size_bytes": 6144,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "DFSHeader.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 28,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Emc.Documentum.FS.DataModel.Shared.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll",
+              "extension": ".dll",
+              "size_bytes": 186504,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Emc.Documentum.FS.DataModel.Shared.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 78,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.DataSet.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll",
+              "extension": ".dll",
+              "size_bytes": 9728,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.DataSet.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 180,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.DataSet.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.pdb",
+              "extension": ".pdb",
+              "size_bytes": 2640,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll",
+              "extension": ".dll",
+              "size_bytes": 161792,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 148,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "ExcelDataReader.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.pdb",
+              "extension": ".pdb",
+              "size_bytes": 64976,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "KklClass.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll",
+              "extension": ".dll",
+              "size_bytes": 548864,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "KklClass.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 26,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "KklClass.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.pdb",
+              "extension": ".pdb",
+              "size_bytes": 890368,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Newtonsoft.Json.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll",
+              "extension": ".dll",
+              "size_bytes": 554408,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Newtonsoft.Json.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 40,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "DFSHeader.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/DFSHeader.dll",
+              "extension": ".dll",
+              "size_bytes": 6144,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "Emc.Documentum.FS.DataModel.Shared.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Emc.Documentum.FS.DataModel.Shared.dll",
+              "extension": ".dll",
+              "size_bytes": 186504,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "Global.asax",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Global.asax",
+              "extension": ".asax",
+              "size_bytes": 69,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "Global.asax.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Global.asax.resx",
+              "extension": ".resx",
+              "size_bytes": 1733,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "OkEshurAll.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/OkEshurAll.gif",
+              "extension": ".gif",
+              "size_bytes": 2882,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "loaderImage.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/loaderImage.gif",
+              "extension": ".gif",
+              "size_bytes": 10819,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "page-loader.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/page-loader.gif",
+              "extension": ".gif",
+              "size_bytes": 46809,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "JobTiming.asmx.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/JobTiming.asmx.resx",
+              "extension": ".resx",
+              "size_bytes": 1733,
+              "modified": "2026-05-06T11:15:23"
+            },
+            {
+              "name": "KklClass.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.dll",
+              "extension": ".dll",
+              "size_bytes": 548864,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "KklClass.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.pdb",
+              "extension": ".pdb",
+              "size_bytes": 890368,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Newtonsoft.Json.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Newtonsoft.Json.dll",
+              "extension": ".dll",
+              "size_bytes": 554408,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "Reference.map",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Web References/localhost/Reference.map",
+              "extension": ".map",
+              "size_bytes": 606,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "Reference.map",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Web References/localhost/__ti_cnf/Reference.map",
+              "extension": ".map",
+              "size_bytes": 178,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "Web.config.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/WindowsAuthentication/Web.config.exclude",
+              "extension": ".exclude",
+              "size_bytes": 96,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "vwd.webinfo",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/vwd.webinfo",
+              "extension": ".webinfo",
+              "size_bytes": 267,
+              "modified": "2026-05-06T11:15:24"
+            },
+            {
+              "name": "GaugeService.cs.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/GaugeService.cs.exclude",
+              "extension": ".exclude",
+              "size_bytes": 14135,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "YaldayOvdimDataSet.xsd.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/YaldayOvdimDataSet.xsd.exclude",
+              "extension": ".exclude",
+              "size_bytes": 128404,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "KklClass.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll",
+              "extension": ".dll",
+              "size_bytes": 476672,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "KklClass.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 26,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "KklClass.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.pdb",
+              "extension": ".pdb",
+              "size_bytes": 712192,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "Microsoft.ReportViewer.WebForms.DLL",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL",
+              "extension": ".dll",
+              "size_bytes": 1879712,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "Microsoft.ReportViewer.WebForms.DLL.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL.refresh",
+              "extension": ".refresh",
+              "size_bytes": 78,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "NetBase.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll",
+              "extension": ".dll",
+              "size_bytes": 286720,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "NetBase.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 24,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "NetBase.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.pdb",
+              "extension": ".pdb",
+              "size_bytes": 278016,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "Newtonsoft.Json.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll",
+              "extension": ".dll",
+              "size_bytes": 574376,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "Newtonsoft.Json.dll.refresh",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll.refresh",
+              "extension": ".refresh",
+              "size_bytes": 150,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "eo_web.licx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/eo_web.licx",
+              "extension": ".licx",
+              "size_bytes": 2059,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": ".DS_Store",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/.DS_Store",
+              "extension": "",
+              "size_bytes": 12292,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "boxBg.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/boxBg.gif",
+              "extension": ".gif",
+              "size_bytes": 56,
+              "modified": "2026-05-06T11:15:26"
+            },
+            {
+              "name": "iconSend.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/iconSend.gif",
+              "extension": ".gif",
+              "size_bytes": 194,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "inputShadow.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/inputShadow.gif",
+              "extension": ".gif",
+              "size_bytes": 54,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "menuBg.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg.gif",
+              "extension": ".gif",
+              "size_bytes": 316,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "menuBg_over.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg_over.gif",
+              "extension": ".gif",
+              "size_bytes": 308,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "menuLine - עותק (2).gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק (2).gif",
+              "extension": ".gif",
+              "size_bytes": 516,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "menuLine - עותק.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק.gif",
+              "extension": ".gif",
+              "size_bytes": 848,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "menuLine.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine.gif",
+              "extension": ".gif",
+              "size_bytes": 135,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "searchFieldBg.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/searchFieldBg.gif",
+              "extension": ".gif",
+              "size_bytes": 51,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "titles_line.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/titles_line.gif",
+              "extension": ".gif",
+              "size_bytes": 53,
+              "modified": "2026-05-06T11:15:27"
+            },
+            {
+              "name": "verticalPoints.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/verticalPoints.gif",
+              "extension": ".gif",
+              "size_bytes": 43,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "GaugeMaster.master",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeMaster.master",
+              "extension": ".master",
+              "size_bytes": 6576,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "GaugeService.asmx.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeService.asmx.exclude",
+              "extension": ".exclude",
+              "size_bytes": 97,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "Web.config.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/Web.config.exclude",
+              "extension": ".exclude",
+              "size_bytes": 205,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "Global.asax",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Global.asax",
+              "extension": ".asax",
+              "size_bytes": 65,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "Global.asax.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Global.asax.resx",
+              "extension": ".resx",
+              "size_bytes": 1733,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "OkEshurAll.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/OkEshurAll.gif",
+              "extension": ".gif",
+              "size_bytes": 2882,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "loaderImage.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/loaderImage.gif",
+              "extension": ".gif",
+              "size_bytes": 10819,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "page-loader.gif",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/page-loader.gif",
+              "extension": ".gif",
+              "size_bytes": 46809,
+              "modified": "2026-05-06T11:15:28"
+            },
+            {
+              "name": "JobList.aspx.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobList.aspx.resx",
+              "extension": ".resx",
+              "size_bytes": 6122,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "JobListServer.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListServer.resx",
+              "extension": ".resx",
+              "size_bytes": 5213,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "JobListSql.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListSql.resx",
+              "extension": ".resx",
+              "size_bytes": 5210,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "JobListView.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListView.resx",
+              "extension": ".resx",
+              "size_bytes": 5211,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "KklClass.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.dll",
+              "extension": ".dll",
+              "size_bytes": 476672,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "KklClass.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.pdb",
+              "extension": ".pdb",
+              "size_bytes": 712192,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "NetBase.dll",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.dll",
+              "extension": ".dll",
+              "size_bytes": 286720,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "NetBase.pdb",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.pdb",
+              "extension": ".pdb",
+              "size_bytes": 278016,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "WebFormBase.aspx.resx",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/WebFormBase.aspx.resx",
+              "extension": ".resx",
+              "size_bytes": 5317,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "YaldayOvdim.asmx.exclude",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/YaldayOvdim.asmx.exclude",
+              "extension": ".exclude",
+              "size_bytes": 95,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "favicon.ico",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/favicon.ico",
+              "extension": ".ico",
+              "size_bytes": 1150,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "favicon1.ico",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/favicon1.ico",
+              "extension": ".ico",
+              "size_bytes": 32038,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "vwd.webinfo",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/vwd.webinfo",
+              "extension": ".webinfo",
+              "size_bytes": 251,
+              "modified": "2026-05-06T11:15:25"
+            },
+            {
+              "name": "website.publishproj",
+              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/website.publishproj",
+              "extension": ".publishproj",
+              "size_bytes": 2555,
+              "modified": "2026-05-06T11:15:25"
+            }
+          ]
+        }
+      }
+    },
     "ורד": {
       "path": "ורד",
       "project_count": 9,
@@ -302,7 +1636,7 @@ window.PROJECT_FILES = {
         "בעלויות קקל מרמי": {
           "path": "ורד/בעלויות קקל מרמי",
           "modified": "2026-05-02T20:55:14",
-          "total_files": 5,
+          "total_files": 4,
           "scripts": [
             {
               "name": "baaluyot_load.py",
@@ -333,13 +1667,6 @@ window.PROJECT_FILES = {
               "extension": ".gdb",
               "size_bytes": 1609503048,
               "modified": "2026-04-19T12:42:19"
-            },
-            {
-              "name": "Log_Baaluyot_12042026_1013.txt",
-              "path": "ורד/בעלויות קקל מרמי/scripts/logs/Log_Baaluyot_12042026_1013.txt",
-              "extension": ".txt",
-              "size_bytes": 434,
-              "modified": "2026-04-19T12:40:53"
             }
           ],
           "other": []
@@ -347,7 +1674,7 @@ window.PROJECT_FILES = {
         "דוח מבאת-הימנותא": {
           "path": "ורד/דוח מבאת-הימנותא",
           "modified": "2026-05-02T20:54:28",
-          "total_files": 16,
+          "total_files": 8,
           "scripts": [
             {
               "name": "HimanutaXplan.py",
@@ -358,62 +1685,6 @@ window.PROJECT_FILES = {
             }
           ],
           "documents": [
-            {
-              "name": "Log_xplanPdf_25022026_1021.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1021.txt",
-              "extension": ".txt",
-              "size_bytes": 246,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1022.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1022.txt",
-              "extension": ".txt",
-              "size_bytes": 249,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1023.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1023.txt",
-              "extension": ".txt",
-              "size_bytes": 249,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1024.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1024.txt",
-              "extension": ".txt",
-              "size_bytes": 252,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1025.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1025.txt",
-              "extension": ".txt",
-              "size_bytes": 246,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1026.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1026.txt",
-              "extension": ".txt",
-              "size_bytes": 249,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1028.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1028.txt",
-              "extension": ".txt",
-              "size_bytes": 249,
-              "modified": "2026-04-19T12:40:53"
-            },
-            {
-              "name": "Log_xplanPdf_25022026_1625.txt",
-              "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1625.txt",
-              "extension": ".txt",
-              "size_bytes": 799,
-              "modified": "2026-04-19T12:40:53"
-            },
             {
               "name": "mavat_217-0660522.pdf",
               "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/mavat_217-0660522.pdf",
@@ -470,7 +1741,7 @@ window.PROJECT_FILES = {
         "דוח מבאת-קקל": {
           "path": "ורד/דוח מבאת-קקל",
           "modified": "2026-05-02T20:55:21",
-          "total_files": 8,
+          "total_files": 7,
           "scripts": [
             {
               "name": "xplanToPdf_KKL.py",
@@ -481,13 +1752,6 @@ window.PROJECT_FILES = {
             }
           ],
           "documents": [
-            {
-              "name": "Log_xplanPdf_11032026_1631.txt",
-              "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/Log_xplanPdf_11032026_1631.txt",
-              "extension": ".txt",
-              "size_bytes": 1918,
-              "modified": "2026-04-19T12:40:54"
-            },
             {
               "name": "mavat_352-0951087.pdf",
               "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/mavat_352-0951087.pdf",
@@ -537,7 +1801,7 @@ window.PROJECT_FILES = {
         "דוח שמירה תכנונית הימנותא": {
           "path": "ורד/דוח שמירה תכנונית הימנותא",
           "modified": "2026-05-02T20:54:40",
-          "total_files": 8,
+          "total_files": 7,
           "scripts": [
             {
               "name": "xplanToPdf.py",
@@ -553,13 +1817,6 @@ window.PROJECT_FILES = {
               "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb",
               "extension": ".gdb",
               "size_bytes": 617374185,
-              "modified": "2026-04-19T12:41:01"
-            },
-            {
-              "name": "Log_xplanPdf_16042026_0400.txt",
-              "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/Log_xplanPdf_16042026_0400.txt",
-              "extension": ".txt",
-              "size_bytes": 3348,
               "modified": "2026-04-19T12:41:01"
             },
             {
@@ -604,7 +1861,7 @@ window.PROJECT_FILES = {
         "מערכת פירסומים מגאודע": {
           "path": "ורד/מערכת פירסומים מגאודע",
           "modified": "2026-05-02T20:54:46",
-          "total_files": 14,
+          "total_files": 12,
           "scripts": [
             {
               "name": "pirsum_compare_missing.py",
@@ -691,20 +1948,6 @@ window.PROJECT_FILES = {
               "extension": ".docx",
               "size_bytes": 16371,
               "modified": "2026-04-19T12:41:02"
-            },
-            {
-              "name": "Log_Pirsumim_15042026_2000.txt",
-              "path": "ורד/מערכת פירסומים מגאודע/scripts/logs/15042026/Log_Pirsumim_15042026_2000.txt",
-              "extension": ".txt",
-              "size_bytes": 802,
-              "modified": "2026-04-19T12:41:02"
-            },
-            {
-              "name": "pirsum.txt",
-              "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum.txt",
-              "extension": ".txt",
-              "size_bytes": 88,
-              "modified": "2026-04-19T12:41:02"
             }
           ],
           "other": []
@@ -712,7 +1955,7 @@ window.PROJECT_FILES = {
         "עדכון חודשי למערכת מקרקעין": {
           "path": "ורד/עדכון חודשי למערכת מקרקעין",
           "modified": "2026-05-02T20:54:52",
-          "total_files": 6,
+          "total_files": 5,
           "scripts": [
             {
               "name": "mk_MONTHLY_update.py",
@@ -745,13 +1988,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "Log_Mk_Update_01042026_0300.txt",
-              "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/Log_Mk_Update_01042026_0300.txt",
-              "extension": ".txt",
-              "size_bytes": 696,
-              "modified": "2026-04-19T12:41:02"
-            },
-            {
               "name": "shuma_parcels_missing.xls",
               "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/shuma_parcels_missing.xls",
               "extension": ".xls",
@@ -764,7 +2000,7 @@ window.PROJECT_FILES = {
         "עדכון יומי ממערכת מקרקעין": {
           "path": "ורד/עדכון יומי ממערכת מקרקעין",
           "modified": "2026-05-02T20:54:55",
-          "total_files": 12,
+          "total_files": 11,
           "scripts": [
             {
               "name": "mk_DAILY_update.py",
@@ -844,21 +2080,13 @@ window.PROJECT_FILES = {
               "modified": "2026-04-19T12:41:02"
             }
           ],
-          "documents": [
-            {
-              "name": "Log_MkDaily_16042026_0700.txt",
-              "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/logs/16042026/Log_MkDaily_16042026_0700.txt",
-              "extension": ".txt",
-              "size_bytes": 3422,
-              "modified": "2026-04-19T12:41:02"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "עדכון יומי של שכבות מבאת": {
           "path": "ורד/עדכון יומי של שכבות מבאת",
           "modified": "2026-05-02T20:55:06",
-          "total_files": 11,
+          "total_files": 10,
           "scripts": [
             {
               "name": "mavat_daily_load.py",
@@ -917,13 +2145,6 @@ window.PROJECT_FILES = {
               "extension": ".gdb",
               "size_bytes": 617431175,
               "modified": "2026-04-19T12:41:09"
-            },
-            {
-              "name": "Log_MkMavat_16042026_0005.txt",
-              "path": "ורד/עדכון יומי של שכבות מבאת/scripts/logs/16042026/Log_MkMavat_16042026_0005.txt",
-              "extension": ".txt",
-              "size_bytes": 2704,
-              "modified": "2026-04-19T12:41:09"
             }
           ],
           "other": [
@@ -946,7 +2167,7 @@ window.PROJECT_FILES = {
         "עדכון שכבות קדסטר ממפי": {
           "path": "ורד/עדכון שכבות קדסטר ממפי",
           "modified": "2026-05-02T20:55:10",
-          "total_files": 17,
+          "total_files": 16,
           "scripts": [
             {
               "name": "Monthly_1_Cadaster.py",
@@ -1026,13 +2247,6 @@ window.PROJECT_FILES = {
               "extension": ".gdb",
               "size_bytes": 1916323693,
               "modified": "2026-04-19T12:41:37"
-            },
-            {
-              "name": "Log_Cadaster_15042026_1715.txt",
-              "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/logs/Log_Cadaster_15042026_1715.txt",
-              "extension": ".txt",
-              "size_bytes": 8887,
-              "modified": "2026-04-19T12:41:37"
             }
           ],
           "other": [
@@ -1082,7 +2296,7 @@ window.PROJECT_FILES = {
         "בקרת רמי": {
           "path": "מידד/בקרת רמי",
           "modified": "2026-05-02T20:45:20",
-          "total_files": 28,
+          "total_files": 26,
           "scripts": [
             {
               "name": "index.html",
@@ -1164,13 +2378,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "layers.txt",
-              "path": "מידד/בקרת רמי/docs/layers.txt",
-              "extension": ".txt",
-              "size_bytes": 601,
-              "modified": "2026-03-14T19:34:55"
-            },
-            {
               "name": "בקרת רמי מנהלים.pptx",
               "path": "מידד/בקרת רמי/docs/בקרת רמי מנהלים.pptx",
               "extension": ".pptx",
@@ -1203,13 +2410,6 @@ window.PROJECT_FILES = {
               "path": "מידד/בקרת רמי/docs/סיכום תהליך.docx",
               "extension": ".docx",
               "size_bytes": 17141,
-              "modified": "2026-03-14T19:34:55"
-            },
-            {
-              "name": "תיקונים.txt",
-              "path": "מידד/בקרת רמי/docs/תיקונים.txt",
-              "extension": ".txt",
-              "size_bytes": 305,
               "modified": "2026-03-14T19:34:55"
             },
             {
@@ -1404,7 +2604,7 @@ window.PROJECT_FILES = {
         "דוח פיקוח תשתיות": {
           "path": "מידד/דוח פיקוח תשתיות",
           "modified": "2026-05-02T20:45:20",
-          "total_files": 9,
+          "total_files": 5,
           "scripts": [
             {
               "name": "7_report.html",
@@ -1437,13 +2637,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "read_me.txt",
-              "path": "מידד/דוח פיקוח תשתיות/data/read_me.txt",
-              "extension": ".txt",
-              "size_bytes": 659,
-              "modified": "2026-03-14T19:38:23"
-            },
-            {
               "name": "7_report.pdf",
               "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.pdf",
               "extension": ".pdf",
@@ -1451,34 +2644,12 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:38:23"
             }
           ],
-          "other": [
-            {
-              "name": "examplePDF.jpg",
-              "path": "מידד/דוח פיקוח תשתיות/data/examplePDF.jpg",
-              "extension": ".jpg",
-              "size_bytes": 142020,
-              "modified": "2026-03-14T19:38:23"
-            },
-            {
-              "name": "kkl_logo.jpg",
-              "path": "מידד/דוח פיקוח תשתיות/data/kkl_logo.jpg",
-              "extension": ".jpg",
-              "size_bytes": 144044,
-              "modified": "2026-03-14T19:38:23"
-            },
-            {
-              "name": "KKL.png",
-              "path": "מידד/דוח פיקוח תשתיות/scripts/KKL.png",
-              "extension": ".png",
-              "size_bytes": 171179,
-              "modified": "2026-03-14T19:38:23"
-            }
-          ]
+          "other": []
         },
         "הורדת וורטקסים": {
           "path": "מידד/הורדת וורטקסים",
           "modified": "2026-05-02T20:45:43",
-          "total_files": 3,
+          "total_files": 2,
           "scripts": [
             {
               "name": "push_to_elev_conours.py",
@@ -1495,15 +2666,7 @@ window.PROJECT_FILES = {
               "modified": "2026-04-23T12:01:51"
             }
           ],
-          "documents": [
-            {
-              "name": "read_me.txt",
-              "path": "מידד/הורדת וורטקסים/scripts/read_me.txt",
-              "extension": ".txt",
-              "size_bytes": 3,
-              "modified": "2026-04-23T12:01:51"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "הקצאת משימות": {
@@ -1547,7 +2710,7 @@ window.PROJECT_FILES = {
         "מציאת עשן": {
           "path": "מידד/מציאת עשן",
           "modified": "2026-05-02T20:45:43",
-          "total_files": 18,
+          "total_files": 10,
           "scripts": [
             {
               "name": "main.py",
@@ -1582,27 +2745,6 @@ window.PROJECT_FILES = {
           ],
           "other": [
             {
-              "name": "smoke.jpg",
-              "path": "מידד/מציאת עשן/data/detect/predict/smoke.jpg",
-              "extension": ".jpg",
-              "size_bytes": 258650,
-              "modified": "2026-03-14T19:35:02"
-            },
-            {
-              "name": "smoke.jpg",
-              "path": "מידד/מציאת עשן/data/detect/predict2/smoke.jpg",
-              "extension": ".jpg",
-              "size_bytes": 258650,
-              "modified": "2026-03-14T19:35:02"
-            },
-            {
-              "name": "result.jpg",
-              "path": "מידד/מציאת עשן/docs/result.jpg",
-              "extension": ".jpg",
-              "size_bytes": 169197,
-              "modified": "2026-03-14T19:35:02"
-            },
-            {
               "name": "Dust_smoke_detection.mp4",
               "path": "מידד/מציאת עשן/scripts/Dust_smoke_detection.mp4",
               "extension": ".mp4",
@@ -1617,24 +2759,10 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:35:02"
             },
             {
-              "name": "all_smoke_if_any_smoke.jpg",
-              "path": "מידד/מציאת עשן/scripts/all_smoke_if_any_smoke.jpg",
-              "extension": ".jpg",
-              "size_bytes": 258650,
-              "modified": "2026-03-14T19:35:01"
-            },
-            {
               "name": "best.pt",
               "path": "מידד/מציאת עשן/scripts/best.pt",
               "extension": ".pt",
               "size_bytes": 6262051,
-              "modified": "2026-03-14T19:35:01"
-            },
-            {
-              "name": "dust.jpg",
-              "path": "מידד/מציאת עשן/scripts/dust.jpg",
-              "extension": ".jpg",
-              "size_bytes": 53201,
               "modified": "2026-03-14T19:35:01"
             },
             {
@@ -1645,31 +2773,10 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:35:01"
             },
             {
-              "name": "smoke.jpg",
-              "path": "מידד/מציאת עשן/scripts/smoke.jpg",
-              "extension": ".jpg",
-              "size_bytes": 778051,
-              "modified": "2026-03-14T19:35:01"
-            },
-            {
-              "name": "smoke_detection.jpg",
-              "path": "מידד/מציאת עשן/scripts/smoke_detection.jpg",
-              "extension": ".jpg",
-              "size_bytes": 260149,
-              "modified": "2026-03-14T19:35:01"
-            },
-            {
               "name": "smoke_sig_detection.mp4",
               "path": "מידד/מציאת עשן/scripts/smoke_sig_detection.mp4",
               "extension": ".mp4",
               "size_bytes": 18752019,
-              "modified": "2026-03-14T19:35:01"
-            },
-            {
-              "name": "thresholded_detection.jpg",
-              "path": "מידד/מציאת עשן/scripts/thresholded_detection.jpg",
-              "extension": ".jpg",
-              "size_bytes": 75980,
               "modified": "2026-03-14T19:35:01"
             },
             {
@@ -1722,7 +2829,7 @@ window.PROJECT_FILES = {
         "ספר יער - ישן": {
           "path": "מידד/ספר יער - ישן",
           "modified": "2026-05-02T20:45:55",
-          "total_files": 6,
+          "total_files": 3,
           "scripts": [
             {
               "name": "index.html",
@@ -1748,34 +2855,12 @@ window.PROJECT_FILES = {
               "modified": "2026-04-23T12:21:13"
             }
           ],
-          "other": [
-            {
-              "name": "LOGO.jpg",
-              "path": "מידד/ספר יער - ישן/scripts/LOGO.jpg",
-              "extension": ".jpg",
-              "size_bytes": 201127,
-              "modified": "2026-04-23T12:21:13"
-            },
-            {
-              "name": "LOGO_KKL.jpg",
-              "path": "מידד/ספר יער - ישן/scripts/LOGO_KKL.jpg",
-              "extension": ".jpg",
-              "size_bytes": 30213,
-              "modified": "2026-04-23T12:21:13"
-            },
-            {
-              "name": "camera.png",
-              "path": "מידד/ספר יער - ישן/scripts/camera.png",
-              "extension": ".png",
-              "size_bytes": 929335,
-              "modified": "2026-04-23T12:21:13"
-            }
-          ]
+          "other": []
         },
         "עדכון קדסטר": {
           "path": "מידד/עדכון קדסטר",
           "modified": "2026-05-02T20:45:55",
-          "total_files": 6,
+          "total_files": 5,
           "scripts": [
             {
               "name": "Monthly_1_Cadaster.py",
@@ -1813,15 +2898,7 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:37:17"
             }
           ],
-          "documents": [
-            {
-              "name": "check_update.txt",
-              "path": "מידד/עדכון קדסטר/scripts/check_update.txt",
-              "extension": ".txt",
-              "size_bytes": 2133,
-              "modified": "2026-04-19T13:26:43"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "עומדים": {
@@ -2215,7 +3292,7 @@ window.PROJECT_FILES = {
         "קרדיטים": {
           "path": "מידד/קרדיטים",
           "modified": "2026-05-02T20:50:50",
-          "total_files": 37,
+          "total_files": 31,
           "scripts": [
             {
               "name": "check_credits_by_allTypes.py",
@@ -2381,20 +3458,6 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:33:05"
             },
             {
-              "name": "mailGs.txt",
-              "path": "מידד/קרדיטים/scripts/appsScript/mailGs.txt",
-              "extension": ".txt",
-              "size_bytes": 4705,
-              "modified": "2026-03-14T19:33:05"
-            },
-            {
-              "name": "mailHtml.txt",
-              "path": "מידד/קרדיטים/scripts/appsScript/mailHtml.txt",
-              "extension": ".txt",
-              "size_bytes": 20748,
-              "modified": "2026-03-14T19:33:05"
-            },
-            {
               "name": "data_2025_09_11 - Copy.csv",
               "path": "מידד/קרדיטים/scripts/data_2025_09_11 - Copy.csv",
               "extension": ".csv",
@@ -2449,43 +3512,14 @@ window.PROJECT_FILES = {
               "extension": ".csv",
               "size_bytes": 2090747,
               "modified": "2026-03-14T19:33:05"
-            },
-            {
-              "name": "research.txt",
-              "path": "מידד/קרדיטים/scripts/research.txt",
-              "extension": ".txt",
-              "size_bytes": 5681,
-              "modified": "2026-03-14T19:33:05"
-            },
-            {
-              "name": "gs.txt",
-              "path": "מידד/קרדיטים/scripts/script_mail/gs.txt",
-              "extension": ".txt",
-              "size_bytes": 7625,
-              "modified": "2026-03-14T19:33:05"
-            },
-            {
-              "name": "html.txt",
-              "path": "מידד/קרדיטים/scripts/script_mail/html.txt",
-              "extension": ".txt",
-              "size_bytes": 27179,
-              "modified": "2026-03-14T19:33:05"
             }
           ],
-          "other": [
-            {
-              "name": "dashboard_updater.log",
-              "path": "מידד/קרדיטים/scripts/dashboard_updater.log",
-              "extension": ".log",
-              "size_bytes": 1400,
-              "modified": "2026-03-14T19:33:05"
-            }
-          ]
+          "other": []
         },
         "רשת קדסטר": {
           "path": "מידד/רשת קדסטר",
           "modified": "2026-05-02T20:50:50",
-          "total_files": 53,
+          "total_files": 44,
           "scripts": [
             {
               "name": "API_cadaster_network.py",
@@ -2509,38 +3543,10 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:34:46"
             },
             {
-              "name": "App.css",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.css",
-              "extension": ".css",
-              "size_bytes": 2121,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "App.js",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.js",
-              "extension": ".js",
-              "size_bytes": 629,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "ControlPanel.css",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.css",
-              "extension": ".css",
-              "size_bytes": 1451,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
               "name": "ControlPanel.jsx",
               "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.jsx",
               "extension": ".jsx",
               "size_bytes": 1475,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "GeoMAISection.js",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/GeoMAISection.js",
-              "extension": ".js",
-              "size_bytes": 958,
               "modified": "2026-03-14T19:34:46"
             },
             {
@@ -2555,27 +3561,6 @@ window.PROJECT_FILES = {
               "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/PropertiesTable.jsx",
               "extension": ".jsx",
               "size_bytes": 1385,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "index.css",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.css",
-              "extension": ".css",
-              "size_bytes": 366,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "index.js",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.js",
-              "extension": ".js",
-              "size_bytes": 235,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "reportWebVitals.js",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/reportWebVitals.js",
-              "extension": ".js",
-              "size_bytes": 362,
               "modified": "2026-03-14T19:34:46"
             },
             {
@@ -2812,13 +3797,6 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:34:46"
             },
             {
-              "name": "robots.txt",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/robots.txt",
-              "extension": ".txt",
-              "size_bytes": 67,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
               "name": "needed_parcels.xlsx",
               "path": "מידד/רשת קדסטר/scripts/needed_parcels.xlsx",
               "extension": ".xlsx",
@@ -2854,13 +3832,6 @@ window.PROJECT_FILES = {
               "extension": ".ico",
               "size_bytes": 3870,
               "modified": "2026-03-14T19:34:46"
-            },
-            {
-              "name": "logo192.png",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/logo192.png",
-              "extension": ".png",
-              "size_bytes": 5347,
-              "modified": "2026-03-14T19:34:46"
             }
           ]
         },
@@ -2883,49 +3854,14 @@ window.PROJECT_FILES = {
         "תהליכי ארקייד": {
           "path": "מידד/תהליכי ארקייד",
           "modified": "2026-05-02T20:50:50",
-          "total_files": 6,
+          "total_files": 1,
           "scripts": [],
           "documents": [
-            {
-              "name": "arcade_link_attch.txt",
-              "path": "מידד/תהליכי ארקייד/scripts/arcade_link_attch.txt",
-              "extension": ".txt",
-              "size_bytes": 8077,
-              "modified": "2026-03-14T19:37:57"
-            },
-            {
-              "name": "update_combine_status.txt",
-              "path": "מידד/תהליכי ארקייד/scripts/calc_field/update_combine_status.txt",
-              "extension": ".txt",
-              "size_bytes": 2145,
-              "modified": "2026-03-14T19:37:57"
-            },
             {
               "name": "AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
               "path": "מידד/תהליכי ארקייד/scripts/sites_validation/AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
               "extension": ".xlsx",
               "size_bytes": 15336,
-              "modified": "2026-03-14T19:37:57"
-            },
-            {
-              "name": "arcade_new2.txt",
-              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_new2.txt",
-              "extension": ".txt",
-              "size_bytes": 13114,
-              "modified": "2026-03-14T19:37:57"
-            },
-            {
-              "name": "arcade_old.txt",
-              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_old.txt",
-              "extension": ".txt",
-              "size_bytes": 3714,
-              "modified": "2026-03-14T19:37:57"
-            },
-            {
-              "name": "paths.txt",
-              "path": "מידד/תהליכי ארקייד/scripts/sites_validation/paths.txt",
-              "extension": ".txt",
-              "size_bytes": 255,
               "modified": "2026-03-14T19:37:57"
             }
           ],
@@ -2991,7 +3927,7 @@ window.PROJECT_FILES = {
         "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו": {
           "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 18,
+          "total_files": 16,
           "scripts": [
             {
               "name": "DownLoadFC.py",
@@ -3043,13 +3979,6 @@ window.PROJECT_FILES = {
               "extension": ".md",
               "size_bytes": 3664,
               "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "arcpyenv.txt",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireIndex/arcpyenv.txt",
-              "extension": ".txt",
-              "size_bytes": 44,
-              "modified": "2026-04-16T10:57:36"
             },
             {
               "name": "20230908_GIS_Index.csv",
@@ -3114,13 +4043,6 @@ window.PROJECT_FILES = {
               "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/ToolData.zip",
               "extension": ".zip",
               "size_bytes": 7374687,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "schema.ini",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/schema.ini",
-              "extension": ".ini",
-              "size_bytes": 84,
               "modified": "2026-04-16T10:57:37"
             }
           ]
@@ -4104,11 +5026,11 @@ window.PROJECT_FILES = {
     },
     "רחל משולם": {
       "path": "רחל משולם",
-      "project_count": 9,
+      "project_count": 11,
       "projects": {
         "איסוף זרעים": {
           "path": "רחל משולם/איסוף זרעים",
-          "modified": "2026-05-05T16:10:56",
+          "modified": "2026-05-06T10:40:59",
           "total_files": 14,
           "scripts": [
             {
@@ -4116,7 +5038,7 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/איסוף זרעים/scripts/Update_Seeds_GP.py",
               "extension": ".py",
               "size_bytes": 17006,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             }
           ],
           "documents": [
@@ -4125,115 +5047,151 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/איסוף זרעים/Documents/Schema.pptx",
               "extension": ".pptx",
               "size_bytes": 206771,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "אפיון איסוף זרעים.docx",
               "path": "רחל משולם/איסוף זרעים/Documents/אפיון איסוף זרעים.docx",
               "extension": ".docx",
               "size_bytes": 3107394,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "אפיון השלמת נתונים קיימים מדור זרעים.docx",
               "path": "רחל משולם/איסוף זרעים/Documents/אפיון השלמת נתונים קיימים מדור זרעים.docx",
               "extension": ".docx",
               "size_bytes": 19821,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
               "path": "רחל משולם/איסוף זרעים/Documents/אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
               "extension": ".docx",
               "size_bytes": 30356,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "תהליכים מערכת איסוף זרעים.pptx",
+              "path": "רחל משולם/איסוף זרעים/Documents/תהליכים מערכת איסוף זרעים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1536264,
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "PlantProperties.xlsx",
               "path": "רחל משולם/איסוף זרעים/data/PlantProperties.xlsx",
               "extension": ".xlsx",
               "size_bytes": 261940,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "Ref_Habitat.csv",
               "path": "רחל משולם/איסוף זרעים/data/Ref_Habitat.csv",
               "extension": ".csv",
               "size_bytes": 112537,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "Ref_Seed_Shelf.csv",
               "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Shelf.csv",
               "extension": ".csv",
               "size_bytes": 1082,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "Ref_Seed_Source.csv",
               "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Source.csv",
               "extension": ".csv",
               "size_bytes": 1103723,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "Ref_Tree_Type.csv",
               "path": "רחל משולם/איסוף זרעים/data/Ref_Tree_Type.csv",
               "extension": ".csv",
               "size_bytes": 428460,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "Shelf Tree Code Lookup.xlsx",
               "path": "רחל משולם/איסוף זרעים/data/Shelf Tree Code Lookup.xlsx",
               "extension": ".xlsx",
               "size_bytes": 134632,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "domains csv plant hebnam.csv",
               "path": "רחל משולם/איסוף זרעים/data/domains csv plant hebnam.csv",
               "extension": ".csv",
               "size_bytes": 13863,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "inventory_2014_Oleg.xlsx",
               "path": "רחל משולם/איסוף זרעים/data/inventory_2014_Oleg.xlsx",
               "extension": ".xlsx",
               "size_bytes": 370163,
-              "modified": "2026-05-05T16:10:34"
-            },
-            {
-              "name": "rcade code field maps.txt",
-              "path": "רחל משולם/איסוף זרעים/scripts/rcade code field maps.txt",
-              "extension": ".txt",
-              "size_bytes": 1434,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
             }
           ],
           "other": []
         },
         "דוחות שימוש": {
           "path": "רחל משולם/דוחות שימוש",
-          "modified": "2026-05-05T16:10:56",
-          "total_files": 1,
-          "scripts": [],
+          "modified": "2026-05-06T10:40:59",
+          "total_files": 6,
+          "scripts": [
+            {
+              "name": "ActivityReportsHIstory.py",
+              "path": "רחל משולם/דוחות שימוש/scripts/ActivityReportsHIstory.py",
+              "extension": ".py",
+              "size_bytes": 10801,
+              "modified": "2026-05-06T10:40:27"
+            }
+          ],
           "documents": [
             {
               "name": "דוחות שימוש.pptx",
               "path": "רחל משולם/דוחות שימוש/Documents/דוחות שימוש.pptx",
               "extension": ".pptx",
               "size_bytes": 821163,
-              "modified": "2026-05-05T16:10:34"
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "ReportActivityLog_Histry.xlsx",
+              "path": "רחל משולם/דוחות שימוש/results/ReportActivityLog_Histry.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 2987613,
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "all_history.csv",
+              "path": "רחל משולם/דוחות שימוש/results/all_history.csv",
+              "extension": ".csv",
+              "size_bytes": 7072308,
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "eco surveys.csv",
+              "path": "רחל משולם/דוחות שימוש/results/eco surveys.csv",
+              "extension": ".csv",
+              "size_bytes": 2816379,
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "fires_history1.csv",
+              "path": "רחל משולם/דוחות שימוש/results/fires_history1.csv",
+              "extension": ".csv",
+              "size_bytes": 465375,
+              "modified": "2026-05-06T10:40:27"
             }
           ],
           "other": []
         },
         "דיווח ביצוע": {
           "path": "רחל משולם/דיווח ביצוע",
-          "modified": "2026-05-05T16:10:56",
-          "total_files": 10,
+          "modified": "2026-05-06T10:41:00",
+          "total_files": 8,
           "scripts": [],
           "documents": [
             {
@@ -4241,77 +5199,227 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_TeudatMishloach.xlsx",
               "extension": ".xlsx",
               "size_bytes": 73247,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "DivuachBizua_YomanAvoda.xlsx",
               "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_YomanAvoda.xlsx",
               "extension": ".xlsx",
               "size_bytes": 72605,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "ShippingCertificate1.docx",
               "path": "רחל משולם/דיווח ביצוע/Documents/ShippingCertificate1.docx",
               "extension": ".docx",
               "size_bytes": 1597621,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "WorkLog6.docx",
               "path": "רחל משולם/דיווח ביצוע/Documents/WorkLog6.docx",
               "extension": ".docx",
               "size_bytes": 1597276,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
               "path": "רחל משולם/דיווח ביצוע/Documents/אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
               "extension": ".docx",
               "size_bytes": 24540,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
               "path": "רחל משולם/דיווח ביצוע/Documents/מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
               "extension": ".docx",
               "size_bytes": 2283523,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "סטטוס מנה.pptx",
               "path": "רחל משולם/דיווח ביצוע/Documents/סטטוס מנה.pptx",
               "extension": ".pptx",
               "size_bytes": 3191385,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             },
             {
               "name": "TeudatMishloach_hasava.xlsx",
               "path": "רחל משולם/דיווח ביצוע/data/TeudatMishloach_hasava.xlsx",
               "extension": ".xlsx",
               "size_bytes": 4210724,
-              "modified": "2026-05-05T16:10:35"
-            },
-            {
-              "name": "web map popup for daily work log.txt",
-              "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for daily work log.txt",
-              "extension": ".txt",
-              "size_bytes": 10497,
-              "modified": "2026-05-05T16:10:35"
-            },
-            {
-              "name": "web map popup for shipping certficatetxt.txt",
-              "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for shipping certficatetxt.txt",
-              "extension": ".txt",
-              "size_bytes": 10256,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:27"
             }
           ],
           "other": []
         },
+        "ניטור בריאות יער פיילוט": {
+          "path": "רחל משולם/ניטור בריאות יער פיילוט",
+          "modified": "2026-05-06T10:40:59",
+          "total_files": 22,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "Number of Images in each Scene Month.pptx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Number of Images in each Scene Month.pptx",
+              "extension": ".pptx",
+              "size_bytes": 588426,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "Remote Sensing Inventory - Proposed Study Area.pptx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Remote Sensing Inventory - Proposed Study Area.pptx",
+              "extension": ".pptx",
+              "size_bytes": 2318643,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "Satellite Inventory.xlsx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Satellite Inventory.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 89436,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "היקף עבודה לפיילוט של ניתור בריאות יער .docx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/היקף עבודה לפיילוט של ניתור בריאות יער .docx",
+              "extension": ".docx",
+              "size_bytes": 23585,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "כיול לנדסט.pptx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/כיול לנדסט.pptx",
+              "extension": ".pptx",
+              "size_bytes": 122057,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "סיכום ניטור בריאות יער.pptx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/סיכום ניטור בריאות יער.pptx",
+              "extension": ".pptx",
+              "size_bytes": 1462839,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "forest_monitoring_pilot_excel.xlsx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/results/forest_monitoring_pilot_excel.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 6116854,
+              "modified": "2026-05-06T10:40:28"
+            }
+          ],
+          "other": [
+            {
+              "name": "WRS2_descending.cpg",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.cpg",
+              "extension": ".cpg",
+              "size_bytes": 5,
+              "modified": "2026-05-06T10:40:27"
+            },
+            {
+              "name": "WRS2_descending.dbf",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.dbf",
+              "extension": ".dbf",
+              "size_bytes": 9477058,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending.prj",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.prj",
+              "extension": ".prj",
+              "size_bytes": 145,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending.sbn",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.sbn",
+              "extension": ".sbn",
+              "size_bytes": 288940,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending.sbx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.sbx",
+              "extension": ".sbx",
+              "size_bytes": 25300,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending.shp",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.shp",
+              "extension": ".shp",
+              "size_bytes": 8530328,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending.shx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.shx",
+              "extension": ".shx",
+              "size_bytes": 231236,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.cpg",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.cpg",
+              "extension": ".cpg",
+              "size_bytes": 5,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.dbf",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.dbf",
+              "extension": ".dbf",
+              "size_bytes": 2329,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.prj",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.prj",
+              "extension": ".prj",
+              "size_bytes": 145,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.sbn",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.sbn",
+              "extension": ".sbn",
+              "size_bytes": 204,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.sbx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.sbx",
+              "extension": ".sbx",
+              "size_bytes": 124,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.shp",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.shp",
+              "extension": ".shp",
+              "size_bytes": 1948,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "WRS2_descending_isr.shx",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.shx",
+              "extension": ".shx",
+              "size_bytes": 156,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "scripts.zip",
+              "path": "רחל משולם/ניטור בריאות יער פיילוט/scripts.zip",
+              "extension": ".zip",
+              "size_bytes": 14224,
+              "modified": "2026-05-06T10:40:27"
+            }
+          ]
+        },
         "סקר מפגעים": {
           "path": "רחל משולם/סקר מפגעים",
-          "modified": "2026-05-05T16:10:56",
+          "modified": "2026-05-06T10:41:00",
           "total_files": 2,
           "scripts": [
             {
@@ -4319,7 +5427,7 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/סקר מפגעים/scripts/HazardsInspection.py",
               "extension": ".py",
               "size_bytes": 10410,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "documents": [
@@ -4328,14 +5436,14 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/סקר מפגעים/Documents/תהליכים מפגעים.pptx",
               "extension": ".pptx",
               "size_bytes": 1677668,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "other": []
         },
         "סקר מצב יער": {
           "path": "רחל משולם/סקר מצב יער",
-          "modified": "2026-05-05T16:10:56",
+          "modified": "2026-05-06T10:41:00",
           "total_files": 7,
           "scripts": [
             {
@@ -4343,21 +5451,21 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/סקר מצב יער/scripts/Update Domain Codes in Fields- SeMY_Samples2.py",
               "extension": ".py",
               "size_bytes": 4974,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "Update SeMY Forests Item PY.py",
               "path": "רחל משולם/סקר מצב יער/scripts/Update SeMY Forests Item PY.py",
               "extension": ".py",
               "size_bytes": 19873,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "Update_Domain_Codes_Fields_Delete.py",
               "path": "רחל משולם/סקר מצב יער/scripts/Update_Domain_Codes_Fields_Delete.py",
               "extension": ".py",
               "size_bytes": 4533,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "documents": [
@@ -4366,35 +5474,35 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/סקר מצב יער/Documents/worklow schematic.pptx",
               "extension": ".pptx",
               "size_bytes": 120134,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
               "path": "רחל משולם/סקר מצב יער/Documents/חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
               "extension": ".docx",
               "size_bytes": 699976,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "סמי מבנה נתונים.xlsx",
               "path": "רחל משולם/סקר מצב יער/Documents/סמי מבנה נתונים.xlsx",
               "extension": ".xlsx",
               "size_bytes": 196534,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "דוח יער עריון סטטי.pdf",
               "path": "רחל משולם/סקר מצב יער/results/דוח יער עריון סטטי.pdf",
               "extension": ".pdf",
               "size_bytes": 6461663,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "other": []
         },
         "ערכי טבע": {
           "path": "רחל משולם/ערכי טבע",
-          "modified": "2026-05-05T16:10:56",
+          "modified": "2026-05-06T10:41:00",
           "total_files": 12,
           "scripts": [
             {
@@ -4402,14 +5510,14 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/ערכי טבע/scripts/EcoSurveysUpdateBuffer_Old.py",
               "extension": ".py",
               "size_bytes": 18455,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "EcoSurveys_updatebyNumDays.py",
               "path": "רחל משולם/ערכי טבע/scripts/EcoSurveys_updatebyNumDays.py",
               "extension": ".py",
               "size_bytes": 14977,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "documents": [
@@ -4418,21 +5526,21 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/ערכי טבע/Documents/מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
               "extension": ".docx",
               "size_bytes": 639682,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
               "path": "רחל משולם/ערכי טבע/Documents/סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
               "extension": ".docx",
               "size_bytes": 313989,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
-              "name": "buffer.shp.xml",
-              "path": "רחל משולם/ערכי טבע/results/buffer.shp.xml",
-              "extension": ".xml",
-              "size_bytes": 31881,
-              "modified": "2026-05-05T16:10:35"
+              "name": "ערכי טבע Webhooks.pptx",
+              "path": "רחל משולם/ערכי טבע/Documents/ערכי טבע Webhooks.pptx",
+              "extension": ".pptx",
+              "size_bytes": 556568,
+              "modified": "2026-05-06T10:40:28"
             }
           ],
           "other": [
@@ -4441,55 +5549,107 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/ערכי טבע/results/buffer.cpg",
               "extension": ".cpg",
               "size_bytes": 5,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.dbf",
               "path": "רחל משולם/ערכי טבע/results/buffer.dbf",
               "extension": ".dbf",
               "size_bytes": 1017123,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.prj",
               "path": "רחל משולם/ערכי טבע/results/buffer.prj",
               "extension": ".prj",
               "size_bytes": 428,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.sbn",
               "path": "רחל משולם/ערכי טבע/results/buffer.sbn",
               "extension": ".sbn",
               "size_bytes": 1132,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.sbx",
               "path": "רחל משולם/ערכי טבע/results/buffer.sbx",
               "extension": ".sbx",
               "size_bytes": 140,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.shp",
               "path": "רחל משולם/ערכי טבע/results/buffer.shp",
               "extension": ".shp",
               "size_bytes": 89148,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
             },
             {
               "name": "buffer.shx",
               "path": "רחל משולם/ערכי טבע/results/buffer.shx",
               "extension": ".shx",
               "size_bytes": 972,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:28"
+            }
+          ]
+        },
+        "שטחים בנויים": {
+          "path": "רחל משולם/שטחים בנויים",
+          "modified": "2026-05-06T10:41:00",
+          "total_files": 6,
+          "scripts": [],
+          "documents": [
+            {
+              "name": "Check Simplex change.docx",
+              "path": "רחל משולם/שטחים בנויים/Documents/Check Simplex change.docx",
+              "extension": ".docx",
+              "size_bytes": 2336634,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "GEE cmpare cloud masking results.xlsx",
+              "path": "רחל משולם/שטחים בנויים/Documents/GEE cmpare cloud masking results.xlsx",
+              "extension": ".xlsx",
+              "size_bytes": 9871,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "Methods.docx",
+              "path": "רחל משולם/שטחים בנויים/Documents/Methods.docx",
+              "extension": ".docx",
+              "size_bytes": 3243207,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "מסמך שירות מטורולוגי על תופעות בכמות גשם סיכום ראשוני 2023.pdf",
+              "path": "רחל משולם/שטחים בנויים/Documents/מסמך שירות מטורולוגי על תופעות בכמות גשם סיכום ראשוני 2023.pdf",
+              "extension": ".pdf",
+              "size_bytes": 243620,
+              "modified": "2026-05-06T10:40:28"
+            },
+            {
+              "name": "סיכום ראשון.pptx",
+              "path": "רחל משולם/שטחים בנויים/Documents/סיכום ראשון.pptx",
+              "extension": ".pptx",
+              "size_bytes": 18179970,
+              "modified": "2026-05-06T10:40:28"
+            }
+          ],
+          "other": [
+            {
+              "name": "RE שטחים בנויים ניתוח עיבוד תמונה.msg",
+              "path": "רחל משולם/שטחים בנויים/Documents/RE שטחים בנויים ניתוח עיבוד תמונה.msg",
+              "extension": ".msg",
+              "size_bytes": 180736,
+              "modified": "2026-05-06T10:40:28"
             }
           ]
         },
         "תכנון מפורט שלב ב": {
           "path": "רחל משולם/תכנון מפורט שלב ב",
-          "modified": "2026-05-05T16:10:56",
+          "modified": "2026-05-06T10:41:00",
           "total_files": 19,
           "scripts": [
             {
@@ -4497,35 +5657,35 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/תכנון מפורט שלב ב/scripts/CreateMana.py",
               "extension": ".py",
               "size_bytes": 36274,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "DeleteSubTender.py",
               "path": "רחל משולם/תכנון מפורט שלב ב/scripts/DeleteSubTender.py",
               "extension": ".py",
               "size_bytes": 3176,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "GenerateReports.py",
               "path": "רחל משולם/תכנון מפורט שלב ב/scripts/GenerateReports.py",
               "extension": ".py",
               "size_bytes": 20953,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "ManaAggregation.py",
               "path": "רחל משולם/תכנון מפורט שלב ב/scripts/ManaAggregation.py",
               "extension": ".py",
               "size_bytes": 25902,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "processSubTender.py",
               "path": "רחל משולם/תכנון מפורט שלב ב/scripts/processSubTender.py",
               "extension": ".py",
               "size_bytes": 21197,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             }
           ],
           "documents": [
@@ -4534,220 +5694,234 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/ContractorGuidelines4.docx",
               "extension": ".docx",
               "size_bytes": 2234788,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "SubWorkUnit_WebForm.xlsx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/SubWorkUnit_WebForm.xlsx",
               "extension": ".xlsx",
               "size_bytes": 79645,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "WorkCapacityContractor.docx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacityContractor.docx",
               "extension": ".docx",
               "size_bytes": 222246,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "WorkCapacitySupervisor.docx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacitySupervisor.docx",
               "extension": ".docx",
               "size_bytes": 228726,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "אפיון טופס הנחיות עבודה.xlsx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/אפיון טופס הנחיות עבודה.xlsx",
               "extension": ".xlsx",
               "size_bytes": 14384,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "מרכיבים פרויקט התקשרות.xlsx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/מרכיבים פרויקט התקשרות.xlsx",
               "extension": ".xlsx",
               "size_bytes": 18798,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
               "path": "רחל משולם/תכנון מפורט שלב ב/Documents/סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
               "extension": ".pptx",
               "size_bytes": 8787285,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "Suppliers_Updated.csv",
               "path": "רחל משולם/תכנון מפורט שלב ב/data/Suppliers_Updated.csv",
               "extension": ".csv",
               "size_bytes": 31878,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "היקף_עבודה_קבלן_ניר_עציון.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_ניר_עציון.pdf",
               "extension": ".pdf",
               "size_bytes": 55769,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
               "extension": ".pdf",
               "size_bytes": 67034,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "הנחיות_לקבלן_ניר_עציון.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_ניר_עציון.pdf",
               "extension": ".pdf",
               "size_bytes": 40064,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
               "extension": ".pdf",
               "size_bytes": 42393,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "מפה ניר עציון.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה ניר עציון.pdf",
               "extension": ".pdf",
               "size_bytes": 4162558,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "מפה סניטציה בהרי נפתלי.pdf",
               "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה סניטציה בהרי נפתלי.pdf",
               "extension": ".pdf",
               "size_bytes": 4666508,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             }
           ],
           "other": []
         },
         "תכנון מפורת שלב א": {
           "path": "רחל משולם/תכנון מפורת שלב א",
-          "modified": "2026-05-05T16:10:56",
-          "total_files": 15,
+          "modified": "2026-05-06T10:41:00",
+          "total_files": 17,
           "scripts": [
             {
               "name": "AddStandToMana.py",
               "path": "רחל משולם/תכנון מפורת שלב א/scripts/AddStandToMana.py",
               "extension": ".py",
               "size_bytes": 11859,
-              "modified": "2026-05-05T16:10:36"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "CreateMaps_Tichurim.py",
               "path": "רחל משולם/תכנון מפורת שלב א/scripts/CreateMaps_Tichurim.py",
               "extension": ".py",
               "size_bytes": 8685,
-              "modified": "2026-05-05T16:10:36"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "DeleteStand_ReshapeMana.py",
               "path": "רחל משולם/תכנון מפורת שלב א/scripts/DeleteStand_ReshapeMana.py",
               "extension": ".py",
               "size_bytes": 2906,
-              "modified": "2026-05-05T16:10:36"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "GenerateReportTichurim.py",
               "path": "רחל משולם/תכנון מפורת שלב א/scripts/GenerateReportTichurim.py",
               "extension": ".py",
               "size_bytes": 11614,
-              "modified": "2026-05-05T16:10:36"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "ManaAggregation.py",
               "path": "רחל משולם/תכנון מפורת שלב א/scripts/ManaAggregation.py",
               "extension": ".py",
               "size_bytes": 28273,
-              "modified": "2026-05-05T16:10:36"
+              "modified": "2026-05-06T10:40:29"
             }
           ],
           "documents": [
+            {
+              "name": "דף פרויקט - מערכת תיחורים לשנת עבודה 2022.docx",
+              "path": "רחל משולם/תכנון מפורת שלב א/Documents/דף פרויקט - מערכת תיחורים לשנת עבודה 2022.docx",
+              "extension": ".docx",
+              "size_bytes": 21392,
+              "modified": "2026-05-06T10:40:29"
+            },
             {
               "name": "הדרכה מערכת תיחורים 202301.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים 202301.docx",
               "extension": ".docx",
               "size_bytes": 21518,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "הדרכה מערכת תיחורים.pdf",
               "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים.pdf",
               "extension": ".pdf",
               "size_bytes": 2640294,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
+            },
+            {
+              "name": "תהליכים מערכת תיחורים.pptx",
+              "path": "רחל משולם/תכנון מפורת שלב א/Documents/תהליכים מערכת תיחורים.pptx",
+              "extension": ".pptx",
+              "size_bytes": 2197784,
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "ContractorGuidelines_גליל-תחתון_19_20220102.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_גליל-תחתון_19_20220102.docx",
               "extension": ".docx",
               "size_bytes": 4940016,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "ContractorGuidelines_החוף-שפלה_11_20220103.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_החוף-שפלה_11_20220103.docx",
               "extension": ".docx",
               "size_bytes": 4939967,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "Example1.pdf",
               "path": "רחל משולם/תכנון מפורת שלב א/results/Example1.pdf",
               "extension": ".pdf",
               "size_bytes": 250273,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "Quotation_גליל-תחתון_19_20220102.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/results/Quotation_גליל-תחתון_19_20220102.docx",
               "extension": ".docx",
               "size_bytes": 177716,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "WorkCapacity_גליל-תחתון_19_20220102.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_גליל-תחתון_19_20220102.docx",
               "extension": ".docx",
               "size_bytes": 813328,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "WorkCapacity_החוף-שפלה_11_20220103.docx",
               "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_החוף-שפלה_11_20220103.docx",
               "extension": ".docx",
               "size_bytes": 526547,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
               "path": "רחל משולם/תכנון מפורת שלב א/results/גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
               "extension": ".pdf",
               "size_bytes": 2835580,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "החוף-שפלה_תיחור11_2023_20220103.pdf",
               "path": "רחל משולם/תכנון מפורת שלב א/results/החוף-שפלה_תיחור11_2023_20220103.pdf",
               "extension": ".pdf",
               "size_bytes": 3164016,
-              "modified": "2026-05-05T16:10:35"
+              "modified": "2026-05-06T10:40:29"
             }
           ],
           "other": []
         },
         "תשתית אזור": {
           "path": "רחל משולם/תשתית אזור",
-          "modified": "2026-05-05T16:41:48",
+          "modified": "2026-05-06T10:41:00",
           "total_files": 4,
           "scripts": [],
           "documents": [
@@ -4756,7 +5930,7 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/תשתית אזור/Documents/תשתית אזור.pptx",
               "extension": ".pptx",
               "size_bytes": 1379481,
-              "modified": "2026-05-05T16:41:40"
+              "modified": "2026-05-06T10:40:29"
             }
           ],
           "other": [
@@ -4765,21 +5939,21 @@ window.PROJECT_FILES = {
               "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
               "extension": ".msg",
               "size_bytes": 215040,
-              "modified": "2026-05-05T16:41:40"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "דוח פיקוח סביבתי - בריכת נטף.msg",
               "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - בריכת נטף.msg",
               "extension": ".msg",
               "size_bytes": 156672,
-              "modified": "2026-05-05T16:41:40"
+              "modified": "2026-05-06T10:40:29"
             },
             {
               "name": "דוח פיקוח סביבתי - קו מים לנטף.msg",
               "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - קו מים לנטף.msg",
               "extension": ".msg",
               "size_bytes": 188416,
-              "modified": "2026-05-05T16:41:40"
+              "modified": "2026-05-06T10:40:29"
             }
           ]
         }
@@ -4792,7 +5966,7 @@ window.PROJECT_FILES = {
       "original_name": "ספר יער",
       "path": "אבינועם/ספר יער",
       "modified": "2026-05-03T20:25:15",
-      "total_files": 22,
+      "total_files": 18,
       "scripts": [
         {
           "name": "collect_project_inventory.py",
@@ -4909,13 +6083,6 @@ window.PROJECT_FILES = {
           "modified": "2026-05-03T20:25:05"
         },
         {
-          "name": "benchmark_raw_output.txt",
-          "path": "אבינועם/ספר יער/results/benchmark_raw_output.txt",
-          "extension": ".txt",
-          "size_bytes": 5211,
-          "modified": "2026-05-03T20:25:05"
-        },
-        {
           "name": "measured_benchmarks.csv",
           "path": "אבינועם/ספר יער/results/measured_benchmarks.csv",
           "extension": ".csv",
@@ -4928,27 +6095,6 @@ window.PROJECT_FILES = {
           "extension": ".json",
           "size_bytes": 402,
           "modified": "2026-05-03T20:25:05"
-        },
-        {
-          "name": "readme_snapshot.txt",
-          "path": "אבינועם/ספר יער/results/readme_snapshot.txt",
-          "extension": ".txt",
-          "size_bytes": 7468,
-          "modified": "2026-05-03T20:25:05"
-        },
-        {
-          "name": "test_run_notes.txt",
-          "path": "אבינועם/ספר יער/results/test_run_notes.txt",
-          "extension": ".txt",
-          "size_bytes": 245,
-          "modified": "2026-05-03T20:25:05"
-        },
-        {
-          "name": "vitest_raw_output.txt",
-          "path": "אבינועם/ספר יער/results/vitest_raw_output.txt",
-          "extension": ".txt",
-          "size_bytes": 5839,
-          "modified": "2026-05-03T20:25:05"
         }
       ],
       "other": []
@@ -4958,7 +6104,7 @@ window.PROJECT_FILES = {
       "original_name": "תהליכי אבינועם",
       "path": "אבינועם/תהליכי אבינועם",
       "modified": "2026-05-03T20:25:07",
-      "total_files": 16,
+      "total_files": 15,
       "scripts": [
         {
           "name": "דוח_ביצועים_מקור_תהליכי_אבינועם.html",
@@ -5033,13 +6179,6 @@ window.PROJECT_FILES = {
           "modified": "2026-05-03T20:24:58"
         },
         {
-          "name": "project_inventory_summary.txt",
-          "path": "אבינועם/תהליכי אבינועם/results/project_inventory_summary.txt",
-          "extension": ".txt",
-          "size_bytes": 908,
-          "modified": "2026-05-03T20:24:59"
-        },
-        {
           "name": "scenario_results_summary.csv",
           "path": "אבינועם/תהליכי אבינועם/results/scenario_results_summary.csv",
           "extension": ".csv",
@@ -5077,12 +6216,1395 @@ window.PROJECT_FILES = {
       ],
       "other": []
     },
+    "gisbase": {
+      "user": "אורי אורן",
+      "original_name": "gis base",
+      "path": "אורי אורן/gis base",
+      "modified": "2026-05-06T11:26:52",
+      "total_files": 21,
+      "scripts": [
+        {
+          "name": "GisApiProjectBase",
+          "path": "אורי אורן/gis base/scripts/GisApiProjectBase",
+          "extension": "",
+          "size_bytes": 5721777,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "GisBaseApi",
+          "path": "אורי אורן/gis base/scripts/GisBaseApi",
+          "extension": "",
+          "size_bytes": 47987890,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "esriAppSetDataSource",
+          "path": "אורי אורן/gis base/scripts/esriAppSetDataSource",
+          "extension": "",
+          "size_bytes": 38111921,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "esriAppChangeDataSource.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/esriAppChangeDataSource.py",
+          "extension": ".py",
+          "size_bytes": 3264,
+          "modified": "2026-05-06T11:14:23"
+        },
+        {
+          "name": "gp_esriAppCreateItemAndRelated.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppCreateItemAndRelated.py",
+          "extension": ".py",
+          "size_bytes": 19922,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "gp_esriAppGetItemDataSource.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetItemDataSource.py",
+          "extension": ".py",
+          "size_bytes": 14149,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "gp_esriAppGetItemList.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetItemList.py",
+          "extension": ".py",
+          "size_bytes": 1595,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "gp_esriAppGetUserDetail.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppGetUserDetail.py",
+          "extension": ".py",
+          "size_bytes": 1419,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "gp_esriAppSetItemDataSource.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_esriAppSetItemDataSource.py",
+          "extension": ".py",
+          "size_bytes": 12278,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "kklUtils.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/kklUtils.py",
+          "extension": ".py",
+          "size_bytes": 18175,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "publishTool.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/publishTool.py",
+          "extension": ".py",
+          "size_bytes": 951,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "test1.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/test1.py",
+          "extension": ".py",
+          "size_bytes": 310,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "test2.py",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/test2.py",
+          "extension": ".py",
+          "size_bytes": 15170,
+          "modified": "2026-05-06T11:14:24"
+        }
+      ],
+      "documents": [
+        {
+          "name": "config.json",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/config.json",
+          "extension": ".json",
+          "size_bytes": 155,
+          "modified": "2026-05-06T11:14:23"
+        },
+        {
+          "name": "form.xlsx",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/extracted_survey/esriinfo/form.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 46752,
+          "modified": "2026-05-06T11:14:26"
+        }
+      ],
+      "other": [
+        {
+          "name": ".gitattributes",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/.gitattributes",
+          "extension": "",
+          "size_bytes": 2581,
+          "modified": "2026-05-06T11:14:23"
+        },
+        {
+          "name": ".gitignore",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/.gitignore",
+          "extension": "",
+          "size_bytes": 6585,
+          "modified": "2026-05-06T11:14:23"
+        },
+        {
+          "name": "developEnviromentTool.atbx",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/developEnviromentTool.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1361,
+          "modified": "2026-05-06T11:14:23"
+        },
+        {
+          "name": "gisBasePython.pyproj.user",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gisBasePython.pyproj.user",
+          "extension": ".user",
+          "size_bytes": 227,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "gp_EsriAppChangeDataSource.atbx",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/gp_EsriAppChangeDataSource.atbx",
+          "extension": ".atbx",
+          "size_bytes": 4588,
+          "modified": "2026-05-06T11:14:24"
+        },
+        {
+          "name": "‏‏developEnviromentTool - עותק.zip",
+          "path": "אורי אורן/gis base/scripts/gisBasePython/‏‏developEnviromentTool - עותק.zip",
+          "extension": ".zip",
+          "size_bytes": 22629,
+          "modified": "2026-05-06T11:14:24"
+        }
+      ]
+    },
+    "חיתוםמסמכיםליערנות": {
+      "user": "אורי אורן",
+      "original_name": "חיתום מסמכים ליערנות",
+      "path": "אורי אורן/חיתום מסמכים ליערנות",
+      "modified": "2026-05-06T11:26:53",
+      "total_files": 2,
+      "scripts": [
+        {
+          "name": "TendersDivuachBizua",
+          "path": "אורי אורן/חיתום מסמכים ליערנות/scripts/TendersDivuachBizua/TendersDivuachBizuaApi/TendersDivuachBizua",
+          "extension": "",
+          "size_bytes": 5804961,
+          "modified": "2026-05-06T11:26:54"
+        }
+      ],
+      "documents": [],
+      "other": [
+        {
+          "name": "TendersDivuachBizuaApi.slnx",
+          "path": "אורי אורן/חיתום מסמכים ליערנות/scripts/TendersDivuachBizua/TendersDivuachBizuaApi/TendersDivuachBizuaApi.slnx",
+          "extension": ".slnx",
+          "size_bytes": 179,
+          "modified": "2026-05-06T11:14:26"
+        }
+      ]
+    },
+    "מידעתיכנוני": {
+      "user": "אורי אורן",
+      "original_name": "מידע תיכנוני",
+      "path": "אורי אורן/מידע תיכנוני",
+      "modified": "2026-05-06T11:26:52",
+      "total_files": 32,
+      "scripts": [
+        {
+          "name": "GP_DashBord.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_DashBord.py",
+          "extension": ".py",
+          "size_bytes": 92018,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_DetailedPlans_Load.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_DetailedPlans_Load.py",
+          "extension": ".py",
+          "size_bytes": 12359,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_KklForestSoils.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_KklForestSoils.py",
+          "extension": ".py",
+          "size_bytes": 5974,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_LoadTaba.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_LoadTaba.py",
+          "extension": ".py",
+          "size_bytes": 10050,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_MasterPlan_Load___.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_MasterPlan_Load___.py",
+          "extension": ".py",
+          "size_bytes": 24874,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_PrintTaba.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba.py",
+          "extension": ".py",
+          "size_bytes": 47124,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_PrintTaba_backup_2021-09-02.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba_backup_2021-09-02.py",
+          "extension": ".py",
+          "size_bytes": 30800,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_test1.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_test1.py",
+          "extension": ".py",
+          "size_bytes": 774,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "Gp_plans continuios.py",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Gp_plans continuios.py",
+          "extension": ".py",
+          "size_bytes": 11860,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "MedaTichnonyWeb",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyWeb",
+          "extension": "",
+          "size_bytes": 108100656,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "MedaTichnonyWebDocumentom",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyWebDocumentom",
+          "extension": "",
+          "size_bytes": 3276839,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "MeydaTichnunyGisAPI",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MeydaTichnunyGisAPI",
+          "extension": "",
+          "size_bytes": 33888216,
+          "modified": "2026-05-06T11:26:52"
+        }
+      ],
+      "documents": [
+        {
+          "name": "Default.gdb",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/WorkSpace/TemplateAPRX/TemplatePlanAnalyse/Default.gdb",
+          "extension": ".gdb",
+          "size_bytes": 150399,
+          "modified": "2026-05-06T11:27:07"
+        },
+        {
+          "name": "config.json",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/config.json",
+          "extension": ".json",
+          "size_bytes": 3689,
+          "modified": "2026-05-06T11:14:29"
+        }
+      ],
+      "other": [
+        {
+          "name": "GP_KklForestSoils.atbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_KklForestSoils.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1285,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_LoadTaba.tbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_LoadTaba.tbx",
+          "extension": ".tbx",
+          "size_bytes": 10240,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_PlanDetailedLoad.atbx_delete",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PlanDetailedLoad.atbx_delete",
+          "extension": ".atbx_delete",
+          "size_bytes": 1775,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_PrintTaba.tbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_PrintTaba.tbx",
+          "extension": ".tbx",
+          "size_bytes": 9216,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "GP_test1.atbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/GP_test1.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1297,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "Gp_plans continuios.atbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Gp_plans continuios.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1728,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "indx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/Index/‏‏TemplatePlanTest_index/Thumbnail/indx",
+          "extension": "",
+          "size_bytes": 0,
+          "modified": "2026-05-06T11:14:30"
+        },
+        {
+          "name": "MedaTichnonyPython.pyproj.user",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/MedaTichnonyPython.pyproj.user",
+          "extension": ".user",
+          "size_bytes": 227,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "TemplatePlan_Test3_9.aprx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/TemplatePlan_Test3_9.aprx",
+          "extension": ".aprx",
+          "size_bytes": 6728513,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "Default.tbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/WorkSpace/TemplateAPRX/TemplatePlanAnalyse/Default.tbx",
+          "extension": ".tbx",
+          "size_bytes": 3584,
+          "modified": "2026-05-06T11:14:31"
+        },
+        {
+          "name": "‏‏GP_DashBord.tbx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏GP_DashBord.tbx",
+          "extension": ".tbx",
+          "size_bytes": 16384,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "‏‏TemplatePlanTest.aprx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlanTest.aprx",
+          "extension": ".aprx",
+          "size_bytes": 5910485,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "‏‏TemplatePlan_Test - עותק.aprx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlan_Test - עותק.aprx",
+          "extension": ".aprx",
+          "size_bytes": 6437284,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "‏‏TemplatePlan_Test_ver2_9_20250109.aprx",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyPython/‏‏TemplatePlan_Test_ver2_9_20250109.aprx",
+          "extension": ".aprx",
+          "size_bytes": 6728513,
+          "modified": "2026-05-06T11:14:29"
+        },
+        {
+          "name": "DataSource1.rds",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/DataSource1.rds",
+          "extension": ".rds",
+          "size_bytes": 493,
+          "modified": "2026-05-06T11:14:31"
+        },
+        {
+          "name": "MedaTichnonyReports.rptproj.rsuser",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/MedaTichnonyReports.rptproj.rsuser",
+          "extension": ".rsuser",
+          "size_bytes": 3207,
+          "modified": "2026-05-06T11:14:31"
+        },
+        {
+          "name": "DataSource1.rds",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/bin/Debug/DataSource1.rds",
+          "extension": ".rds",
+          "size_bytes": 493,
+          "modified": "2026-05-06T11:14:32"
+        },
+        {
+          "name": "build.obj",
+          "path": "אורי אורן/מידע תיכנוני/scripts/MedaTichnonyReports/bin/Debug/build.obj",
+          "extension": ".obj",
+          "size_bytes": 14878,
+          "modified": "2026-05-06T11:14:32"
+        }
+      ]
+    },
+    "מרכזישדה": {
+      "user": "אורי אורן",
+      "original_name": "מרכזי שדה",
+      "path": "אורי אורן/מרכזי שדה",
+      "modified": "2026-05-06T11:27:10",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "מרעה": {
+      "user": "אורי אורן",
+      "original_name": "מרעה",
+      "path": "אורי אורן/מרעה",
+      "modified": "2026-05-06T11:26:52",
+      "total_files": 2,
+      "scripts": [
+        {
+          "name": "pasturageGisApi",
+          "path": "אורי אורן/מרעה/scripts/pasturageGisApi",
+          "extension": "",
+          "size_bytes": 22927727,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "pasturageGisClient",
+          "path": "אורי אורן/מרעה/scripts/pasturageGisClient",
+          "extension": "",
+          "size_bytes": 44045323,
+          "modified": "2026-05-06T11:26:52"
+        }
+      ],
+      "documents": [],
+      "other": []
+    },
+    "סביבותעבודהבאגול": {
+      "user": "אורי אורן",
+      "original_name": "סביבות עבודה באגול",
+      "path": "אורי אורן/סביבות עבודה באגול",
+      "modified": "2026-05-06T11:27:10",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "קומפוננתמפהלאנגולר": {
+      "user": "אורי אורן",
+      "original_name": "קומפוננת מפה לאנגולר",
+      "path": "אורי אורן/קומפוננת מפה לאנגולר",
+      "modified": "2026-05-06T11:26:52",
+      "total_files": 1,
+      "scripts": [
+        {
+          "name": "gisBaseLib",
+          "path": "אורי אורן/קומפוננת מפה לאנגולר/scripts/gisBaseLib",
+          "extension": "",
+          "size_bytes": 380544088,
+          "modified": "2026-05-06T11:26:52"
+        }
+      ],
+      "documents": [],
+      "other": []
+    },
+    "שינוייםבפריטrelationship": {
+      "user": "אורי אורן",
+      "original_name": "שינויים בפריט relationship",
+      "path": "אורי אורן/שינויים בפריט relationship",
+      "modified": "2026-05-06T11:27:10",
+      "total_files": 0,
+      "scripts": [],
+      "documents": [],
+      "other": []
+    },
+    "תוכניותתיכנון": {
+      "user": "אורי אורן",
+      "original_name": "תוכניות תיכנון",
+      "path": "אורי אורן/תוכניות תיכנון",
+      "modified": "2026-05-06T11:26:52",
+      "total_files": 9,
+      "scripts": [
+        {
+          "name": "plansGisApi",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansGisApi",
+          "extension": "",
+          "size_bytes": 120606147,
+          "modified": "2026-05-06T11:26:52"
+        },
+        {
+          "name": "GP_DetailedPlans_Load.py",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_DetailedPlans_Load.py",
+          "extension": ".py",
+          "size_bytes": 29944,
+          "modified": "2026-05-06T11:15:18"
+        },
+        {
+          "name": "GP_MasterPlan_Load.py",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_MasterPlan_Load.py",
+          "extension": ".py",
+          "size_bytes": 32363,
+          "modified": "2026-05-06T11:15:18"
+        },
+        {
+          "name": "kklUtils.py",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/kklUtils.py",
+          "extension": ".py",
+          "size_bytes": 6086,
+          "modified": "2026-05-06T11:15:18"
+        }
+      ],
+      "documents": [
+        {
+          "name": "config.json",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/config.json",
+          "extension": ".json",
+          "size_bytes": 365,
+          "modified": "2026-05-06T11:15:18"
+        }
+      ],
+      "other": [
+        {
+          "name": ".gitattributes",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/.gitattributes",
+          "extension": "",
+          "size_bytes": 2581,
+          "modified": "2026-05-06T11:15:18"
+        },
+        {
+          "name": ".gitignore",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/.gitignore",
+          "extension": "",
+          "size_bytes": 6585,
+          "modified": "2026-05-06T11:15:18"
+        },
+        {
+          "name": "GP_DetailedPlans_Load.atbx",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_DetailedPlans_Load.atbx",
+          "extension": ".atbx",
+          "size_bytes": 2041,
+          "modified": "2026-05-06T11:15:18"
+        },
+        {
+          "name": "GP_MasterPlan_Load.atbx",
+          "path": "אורי אורן/תוכניות תיכנון/scripts/plansPython/GP_MasterPlan_Load.atbx",
+          "extension": ".atbx",
+          "size_bytes": 1516,
+          "modified": "2026-05-06T11:15:18"
+        }
+      ]
+    },
+    "תעסוקתילדיעובדים": {
+      "user": "אורי אורן",
+      "original_name": "תעסוקת ילדי עובדים",
+      "path": "אורי אורן/תעסוקת ילדי עובדים",
+      "modified": "2026-05-06T11:26:54",
+      "total_files": 114,
+      "scripts": [
+        {
+          "name": "LoginProject.html",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/LoginProject.html",
+          "extension": ".html",
+          "size_bytes": 3614,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "aaa.html",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aaa.html",
+          "extension": ".html",
+          "size_bytes": 5588,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "LoginMichrazim.html",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/LoginMichrazim.html",
+          "extension": ".html",
+          "size_bytes": 3619,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "aaa.html",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/aaa.html",
+          "extension": ".html",
+          "size_bytes": 1947,
+          "modified": "2026-05-06T11:15:25"
+        }
+      ],
+      "documents": [
+        {
+          "name": "aaa.pdf",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/aaa.pdf",
+          "extension": ".pdf",
+          "size_bytes": 27943,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "פוטנציאל העסקת נוער קיץ 2016 -מקור - 1.xls",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Temp/פוטנציאל העסקת נוער קיץ 2016 -מקור - 1.xls",
+          "extension": ".xls",
+          "size_bytes": 478208,
+          "modified": "2026-05-06T11:15:28"
+        }
+      ],
+      "other": [
+        {
+          "name": "Global.asax",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Global.asax",
+          "extension": ".asax",
+          "size_bytes": 2996,
+          "modified": "2026-05-06T11:15:19"
+        },
+        {
+          "name": "Global_old.asax",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Global_old.asax",
+          "extension": ".asax",
+          "size_bytes": 3500,
+          "modified": "2026-05-06T11:15:19"
+        },
+        {
+          "name": "OkEshurAll.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/OkEshurAll.gif",
+          "extension": ".gif",
+          "size_bytes": 2882,
+          "modified": "2026-05-06T11:15:20"
+        },
+        {
+          "name": "loaderImage.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/loaderImage.gif",
+          "extension": ".gif",
+          "size_bytes": 10819,
+          "modified": "2026-05-06T11:15:20"
+        },
+        {
+          "name": "page-loader.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/page-loader.gif",
+          "extension": ".gif",
+          "size_bytes": 46809,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "MobileMasterPage.master.cs.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.cs.exclude",
+          "extension": ".exclude",
+          "size_bytes": 483,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "MobileMasterPage.master.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.exclude",
+          "extension": ".exclude",
+          "size_bytes": 3307,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "aa.aspx.cs.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.cs.exclude",
+          "extension": ".exclude",
+          "size_bytes": 282,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "aa.aspx.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.exclude",
+          "extension": ".exclude",
+          "size_bytes": 352,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "data.html.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/data.html.exclude",
+          "extension": ".exclude",
+          "size_bytes": 9684,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "login.aspx.cs.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.cs.exclude",
+          "extension": ".exclude",
+          "size_bytes": 285,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "login.aspx.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.exclude",
+          "extension": ".exclude",
+          "size_bytes": 3102,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "index.js.map",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/index.js.map",
+          "extension": ".map",
+          "size_bytes": 931,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "platformOverrides.js.map",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/platformOverrides.js.map",
+          "extension": ".map",
+          "size_bytes": 130,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "מצגת בטיחות - ילדי עובדים 2  - סרטון 2022.mp4",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/YaldayOvdim/מצגת בטיחות - ילדי עובדים 2  - סרטון 2022.mp4",
+          "extension": ".mp4",
+          "size_bytes": 80943771,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "Microsoft.Web.Infrastructure.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll",
+          "extension": ".dll",
+          "size_bytes": 45416,
+          "modified": "2026-05-06T11:15:20"
+        },
+        {
+          "name": "Microsoft.Web.Infrastructure.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 91,
+          "modified": "2026-05-06T11:15:20"
+        },
+        {
+          "name": "favicon.ico",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/favicon.ico",
+          "extension": ".ico",
+          "size_bytes": 1150,
+          "modified": "2026-05-06T11:15:19"
+        },
+        {
+          "name": "confirm.html.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/confirm.html.exclude",
+          "extension": ".exclude",
+          "size_bytes": 48963,
+          "modified": "2026-05-06T11:15:21"
+        },
+        {
+          "name": "vwd.webinfo",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/vwd.webinfo",
+          "extension": ".webinfo",
+          "size_bytes": 268,
+          "modified": "2026-05-06T11:15:19"
+        },
+        {
+          "name": "DataSource1.rds",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/DataSource1.rds",
+          "extension": ".rds",
+          "size_bytes": 484,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "S----mallApplicationsReports.rptproj.user",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/S----mallApplicationsReports.rptproj.user",
+          "extension": ".user",
+          "size_bytes": 1989,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "SmallApplicationsReports.rptproj.bak",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/SmallApplicationsReports.rptproj.bak",
+          "extension": ".bak",
+          "size_bytes": 5290,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "SmallApplicationsReports.rptproj.rsuser",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/SmallApplicationsReports.rptproj.rsuser",
+          "extension": ".rsuser",
+          "size_bytes": 2349,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "TransportionChild.rdl.da___ta",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/TransportionChild.rdl.da___ta",
+          "extension": ".da___ta",
+          "size_bytes": 31232,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "DataSource1.rds",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/Debug/DataSource1.rds",
+          "extension": ".rds",
+          "size_bytes": 484,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "build.obj",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/Debug/build.obj",
+          "extension": ".obj",
+          "size_bytes": 4366,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "DataSource1.rds",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/DebugLocal/DataSource1.rds",
+          "extension": ".rds",
+          "size_bytes": 484,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "build.obj",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsReports/bin/DebugLocal/build.obj",
+          "extension": ".obj",
+          "size_bytes": 3944,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "YaldayOvdimDataSet.xsd.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xsd.exclude",
+          "extension": ".exclude",
+          "size_bytes": 128411,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "YaldayOvdimDataSet.xss.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xss.exclude",
+          "extension": ".exclude",
+          "size_bytes": 2596,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "DFSHeader.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll",
+          "extension": ".dll",
+          "size_bytes": 6144,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "DFSHeader.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 28,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Emc.Documentum.FS.DataModel.Shared.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll",
+          "extension": ".dll",
+          "size_bytes": 186504,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Emc.Documentum.FS.DataModel.Shared.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 78,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.DataSet.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll",
+          "extension": ".dll",
+          "size_bytes": 9728,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.DataSet.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 180,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.DataSet.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.pdb",
+          "extension": ".pdb",
+          "size_bytes": 2640,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll",
+          "extension": ".dll",
+          "size_bytes": 161792,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 148,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "ExcelDataReader.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.pdb",
+          "extension": ".pdb",
+          "size_bytes": 64976,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "KklClass.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll",
+          "extension": ".dll",
+          "size_bytes": 548864,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "KklClass.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 26,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "KklClass.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.pdb",
+          "extension": ".pdb",
+          "size_bytes": 890368,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Newtonsoft.Json.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll",
+          "extension": ".dll",
+          "size_bytes": 554408,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Newtonsoft.Json.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 40,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "DFSHeader.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/DFSHeader.dll",
+          "extension": ".dll",
+          "size_bytes": 6144,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "Emc.Documentum.FS.DataModel.Shared.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Emc.Documentum.FS.DataModel.Shared.dll",
+          "extension": ".dll",
+          "size_bytes": 186504,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "Global.asax",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Global.asax",
+          "extension": ".asax",
+          "size_bytes": 69,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "Global.asax.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Global.asax.resx",
+          "extension": ".resx",
+          "size_bytes": 1733,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "OkEshurAll.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/OkEshurAll.gif",
+          "extension": ".gif",
+          "size_bytes": 2882,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "loaderImage.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/loaderImage.gif",
+          "extension": ".gif",
+          "size_bytes": 10819,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "page-loader.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/page-loader.gif",
+          "extension": ".gif",
+          "size_bytes": 46809,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "JobTiming.asmx.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/JobTiming.asmx.resx",
+          "extension": ".resx",
+          "size_bytes": 1733,
+          "modified": "2026-05-06T11:15:23"
+        },
+        {
+          "name": "KklClass.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.dll",
+          "extension": ".dll",
+          "size_bytes": 548864,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "KklClass.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.pdb",
+          "extension": ".pdb",
+          "size_bytes": 890368,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Newtonsoft.Json.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Newtonsoft.Json.dll",
+          "extension": ".dll",
+          "size_bytes": 554408,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "Reference.map",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Web References/localhost/Reference.map",
+          "extension": ".map",
+          "size_bytes": 606,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "Reference.map",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Web References/localhost/__ti_cnf/Reference.map",
+          "extension": ".map",
+          "size_bytes": 178,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "Web.config.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/WindowsAuthentication/Web.config.exclude",
+          "extension": ".exclude",
+          "size_bytes": 96,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "vwd.webinfo",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/vwd.webinfo",
+          "extension": ".webinfo",
+          "size_bytes": 267,
+          "modified": "2026-05-06T11:15:24"
+        },
+        {
+          "name": "GaugeService.cs.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/GaugeService.cs.exclude",
+          "extension": ".exclude",
+          "size_bytes": 14135,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "YaldayOvdimDataSet.xsd.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/YaldayOvdimDataSet.xsd.exclude",
+          "extension": ".exclude",
+          "size_bytes": 128404,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "KklClass.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll",
+          "extension": ".dll",
+          "size_bytes": 476672,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "KklClass.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 26,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "KklClass.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.pdb",
+          "extension": ".pdb",
+          "size_bytes": 712192,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "Microsoft.ReportViewer.WebForms.DLL",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL",
+          "extension": ".dll",
+          "size_bytes": 1879712,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "Microsoft.ReportViewer.WebForms.DLL.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL.refresh",
+          "extension": ".refresh",
+          "size_bytes": 78,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "NetBase.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll",
+          "extension": ".dll",
+          "size_bytes": 286720,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "NetBase.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 24,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "NetBase.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.pdb",
+          "extension": ".pdb",
+          "size_bytes": 278016,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "Newtonsoft.Json.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll",
+          "extension": ".dll",
+          "size_bytes": 574376,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "Newtonsoft.Json.dll.refresh",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll.refresh",
+          "extension": ".refresh",
+          "size_bytes": 150,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "eo_web.licx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/eo_web.licx",
+          "extension": ".licx",
+          "size_bytes": 2059,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": ".DS_Store",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/.DS_Store",
+          "extension": "",
+          "size_bytes": 12292,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "boxBg.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/boxBg.gif",
+          "extension": ".gif",
+          "size_bytes": 56,
+          "modified": "2026-05-06T11:15:26"
+        },
+        {
+          "name": "iconSend.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/iconSend.gif",
+          "extension": ".gif",
+          "size_bytes": 194,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "inputShadow.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/inputShadow.gif",
+          "extension": ".gif",
+          "size_bytes": 54,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "menuBg.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg.gif",
+          "extension": ".gif",
+          "size_bytes": 316,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "menuBg_over.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg_over.gif",
+          "extension": ".gif",
+          "size_bytes": 308,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "menuLine - עותק (2).gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק (2).gif",
+          "extension": ".gif",
+          "size_bytes": 516,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "menuLine - עותק.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק.gif",
+          "extension": ".gif",
+          "size_bytes": 848,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "menuLine.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine.gif",
+          "extension": ".gif",
+          "size_bytes": 135,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "searchFieldBg.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/searchFieldBg.gif",
+          "extension": ".gif",
+          "size_bytes": 51,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "titles_line.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/titles_line.gif",
+          "extension": ".gif",
+          "size_bytes": 53,
+          "modified": "2026-05-06T11:15:27"
+        },
+        {
+          "name": "verticalPoints.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/verticalPoints.gif",
+          "extension": ".gif",
+          "size_bytes": 43,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "GaugeMaster.master",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeMaster.master",
+          "extension": ".master",
+          "size_bytes": 6576,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "GaugeService.asmx.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeService.asmx.exclude",
+          "extension": ".exclude",
+          "size_bytes": 97,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "Web.config.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/Web.config.exclude",
+          "extension": ".exclude",
+          "size_bytes": 205,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "Global.asax",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Global.asax",
+          "extension": ".asax",
+          "size_bytes": 65,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "Global.asax.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Global.asax.resx",
+          "extension": ".resx",
+          "size_bytes": 1733,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "OkEshurAll.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/OkEshurAll.gif",
+          "extension": ".gif",
+          "size_bytes": 2882,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "loaderImage.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/loaderImage.gif",
+          "extension": ".gif",
+          "size_bytes": 10819,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "page-loader.gif",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/page-loader.gif",
+          "extension": ".gif",
+          "size_bytes": 46809,
+          "modified": "2026-05-06T11:15:28"
+        },
+        {
+          "name": "JobList.aspx.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobList.aspx.resx",
+          "extension": ".resx",
+          "size_bytes": 6122,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "JobListServer.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListServer.resx",
+          "extension": ".resx",
+          "size_bytes": 5213,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "JobListSql.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListSql.resx",
+          "extension": ".resx",
+          "size_bytes": 5210,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "JobListView.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/JobListView.resx",
+          "extension": ".resx",
+          "size_bytes": 5211,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "KklClass.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.dll",
+          "extension": ".dll",
+          "size_bytes": 476672,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "KklClass.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.pdb",
+          "extension": ".pdb",
+          "size_bytes": 712192,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "NetBase.dll",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.dll",
+          "extension": ".dll",
+          "size_bytes": 286720,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "NetBase.pdb",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.pdb",
+          "extension": ".pdb",
+          "size_bytes": 278016,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "WebFormBase.aspx.resx",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/WebFormBase.aspx.resx",
+          "extension": ".resx",
+          "size_bytes": 5317,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "YaldayOvdim.asmx.exclude",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/YaldayOvdim.asmx.exclude",
+          "extension": ".exclude",
+          "size_bytes": 95,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "favicon.ico",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/favicon.ico",
+          "extension": ".ico",
+          "size_bytes": 1150,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "favicon1.ico",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/favicon1.ico",
+          "extension": ".ico",
+          "size_bytes": 32038,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "vwd.webinfo",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/vwd.webinfo",
+          "extension": ".webinfo",
+          "size_bytes": 251,
+          "modified": "2026-05-06T11:15:25"
+        },
+        {
+          "name": "website.publishproj",
+          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/website.publishproj",
+          "extension": ".publishproj",
+          "size_bytes": 2555,
+          "modified": "2026-05-06T11:15:25"
+        }
+      ]
+    },
     "בעלויותקקלמרמי": {
       "user": "ורד",
       "original_name": "בעלויות קקל מרמי",
       "path": "ורד/בעלויות קקל מרמי",
       "modified": "2026-05-02T20:55:14",
-      "total_files": 5,
+      "total_files": 4,
       "scripts": [
         {
           "name": "baaluyot_load.py",
@@ -5113,13 +7635,6 @@ window.PROJECT_FILES = {
           "extension": ".gdb",
           "size_bytes": 1609503048,
           "modified": "2026-04-19T12:42:19"
-        },
-        {
-          "name": "Log_Baaluyot_12042026_1013.txt",
-          "path": "ורד/בעלויות קקל מרמי/scripts/logs/Log_Baaluyot_12042026_1013.txt",
-          "extension": ".txt",
-          "size_bytes": 434,
-          "modified": "2026-04-19T12:40:53"
         }
       ],
       "other": []
@@ -5129,7 +7644,7 @@ window.PROJECT_FILES = {
       "original_name": "דוח מבאת-הימנותא",
       "path": "ורד/דוח מבאת-הימנותא",
       "modified": "2026-05-02T20:54:28",
-      "total_files": 16,
+      "total_files": 8,
       "scripts": [
         {
           "name": "HimanutaXplan.py",
@@ -5140,62 +7655,6 @@ window.PROJECT_FILES = {
         }
       ],
       "documents": [
-        {
-          "name": "Log_xplanPdf_25022026_1021.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1021.txt",
-          "extension": ".txt",
-          "size_bytes": 246,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1022.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1022.txt",
-          "extension": ".txt",
-          "size_bytes": 249,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1023.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1023.txt",
-          "extension": ".txt",
-          "size_bytes": 249,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1024.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1024.txt",
-          "extension": ".txt",
-          "size_bytes": 252,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1025.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1025.txt",
-          "extension": ".txt",
-          "size_bytes": 246,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1026.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1026.txt",
-          "extension": ".txt",
-          "size_bytes": 249,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1028.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1028.txt",
-          "extension": ".txt",
-          "size_bytes": 249,
-          "modified": "2026-04-19T12:40:53"
-        },
-        {
-          "name": "Log_xplanPdf_25022026_1625.txt",
-          "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/Log_xplanPdf_25022026_1625.txt",
-          "extension": ".txt",
-          "size_bytes": 799,
-          "modified": "2026-04-19T12:40:53"
-        },
         {
           "name": "mavat_217-0660522.pdf",
           "path": "ורד/דוח מבאת-הימנותא/scripts/logs/25022026/mavat_217-0660522.pdf",
@@ -5254,7 +7713,7 @@ window.PROJECT_FILES = {
       "original_name": "דוח מבאת-קקל",
       "path": "ורד/דוח מבאת-קקל",
       "modified": "2026-05-02T20:55:21",
-      "total_files": 8,
+      "total_files": 7,
       "scripts": [
         {
           "name": "xplanToPdf_KKL.py",
@@ -5265,13 +7724,6 @@ window.PROJECT_FILES = {
         }
       ],
       "documents": [
-        {
-          "name": "Log_xplanPdf_11032026_1631.txt",
-          "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/Log_xplanPdf_11032026_1631.txt",
-          "extension": ".txt",
-          "size_bytes": 1918,
-          "modified": "2026-04-19T12:40:54"
-        },
         {
           "name": "mavat_352-0951087.pdf",
           "path": "ורד/דוח מבאת-קקל/scripts/logs/11032026/mavat_352-0951087.pdf",
@@ -5323,7 +7775,7 @@ window.PROJECT_FILES = {
       "original_name": "דוח שמירה תכנונית הימנותא",
       "path": "ורד/דוח שמירה תכנונית הימנותא",
       "modified": "2026-05-02T20:54:40",
-      "total_files": 8,
+      "total_files": 7,
       "scripts": [
         {
           "name": "xplanToPdf.py",
@@ -5339,13 +7791,6 @@ window.PROJECT_FILES = {
           "path": "ורד/דוח שמירה תכנונית הימנותא/data/TemplateXplan.gdb",
           "extension": ".gdb",
           "size_bytes": 617374185,
-          "modified": "2026-04-19T12:41:01"
-        },
-        {
-          "name": "Log_xplanPdf_16042026_0400.txt",
-          "path": "ורד/דוח שמירה תכנונית הימנותא/scripts/logs/16042026/Log_xplanPdf_16042026_0400.txt",
-          "extension": ".txt",
-          "size_bytes": 3348,
           "modified": "2026-04-19T12:41:01"
         },
         {
@@ -5392,7 +7837,7 @@ window.PROJECT_FILES = {
       "original_name": "מערכת פירסומים מגאודע",
       "path": "ורד/מערכת פירסומים מגאודע",
       "modified": "2026-05-02T20:54:46",
-      "total_files": 14,
+      "total_files": 12,
       "scripts": [
         {
           "name": "pirsum_compare_missing.py",
@@ -5479,20 +7924,6 @@ window.PROJECT_FILES = {
           "extension": ".docx",
           "size_bytes": 16371,
           "modified": "2026-04-19T12:41:02"
-        },
-        {
-          "name": "Log_Pirsumim_15042026_2000.txt",
-          "path": "ורד/מערכת פירסומים מגאודע/scripts/logs/15042026/Log_Pirsumim_15042026_2000.txt",
-          "extension": ".txt",
-          "size_bytes": 802,
-          "modified": "2026-04-19T12:41:02"
-        },
-        {
-          "name": "pirsum.txt",
-          "path": "ורד/מערכת פירסומים מגאודע/scripts/pirsum.txt",
-          "extension": ".txt",
-          "size_bytes": 88,
-          "modified": "2026-04-19T12:41:02"
         }
       ],
       "other": []
@@ -5502,7 +7933,7 @@ window.PROJECT_FILES = {
       "original_name": "עדכון חודשי למערכת מקרקעין",
       "path": "ורד/עדכון חודשי למערכת מקרקעין",
       "modified": "2026-05-02T20:54:52",
-      "total_files": 6,
+      "total_files": 5,
       "scripts": [
         {
           "name": "mk_MONTHLY_update.py",
@@ -5535,13 +7966,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "Log_Mk_Update_01042026_0300.txt",
-          "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/Log_Mk_Update_01042026_0300.txt",
-          "extension": ".txt",
-          "size_bytes": 696,
-          "modified": "2026-04-19T12:41:02"
-        },
-        {
           "name": "shuma_parcels_missing.xls",
           "path": "ורד/עדכון חודשי למערכת מקרקעין/scripts/logs/01042026/shuma_parcels_missing.xls",
           "extension": ".xls",
@@ -5556,7 +7980,7 @@ window.PROJECT_FILES = {
       "original_name": "עדכון יומי ממערכת מקרקעין",
       "path": "ורד/עדכון יומי ממערכת מקרקעין",
       "modified": "2026-05-02T20:54:55",
-      "total_files": 12,
+      "total_files": 11,
       "scripts": [
         {
           "name": "mk_DAILY_update.py",
@@ -5636,15 +8060,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-19T12:41:02"
         }
       ],
-      "documents": [
-        {
-          "name": "Log_MkDaily_16042026_0700.txt",
-          "path": "ורד/עדכון יומי ממערכת מקרקעין/scripts/logs/16042026/Log_MkDaily_16042026_0700.txt",
-          "extension": ".txt",
-          "size_bytes": 3422,
-          "modified": "2026-04-19T12:41:02"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "עדכוןיומישלשכבותמבאת": {
@@ -5652,7 +8068,7 @@ window.PROJECT_FILES = {
       "original_name": "עדכון יומי של שכבות מבאת",
       "path": "ורד/עדכון יומי של שכבות מבאת",
       "modified": "2026-05-02T20:55:06",
-      "total_files": 11,
+      "total_files": 10,
       "scripts": [
         {
           "name": "mavat_daily_load.py",
@@ -5711,13 +8127,6 @@ window.PROJECT_FILES = {
           "extension": ".gdb",
           "size_bytes": 617431175,
           "modified": "2026-04-19T12:41:09"
-        },
-        {
-          "name": "Log_MkMavat_16042026_0005.txt",
-          "path": "ורד/עדכון יומי של שכבות מבאת/scripts/logs/16042026/Log_MkMavat_16042026_0005.txt",
-          "extension": ".txt",
-          "size_bytes": 2704,
-          "modified": "2026-04-19T12:41:09"
         }
       ],
       "other": [
@@ -5742,7 +8151,7 @@ window.PROJECT_FILES = {
       "original_name": "עדכון שכבות קדסטר ממפי",
       "path": "ורד/עדכון שכבות קדסטר ממפי",
       "modified": "2026-05-02T20:55:10",
-      "total_files": 17,
+      "total_files": 16,
       "scripts": [
         {
           "name": "Monthly_1_Cadaster.py",
@@ -5822,13 +8231,6 @@ window.PROJECT_FILES = {
           "extension": ".gdb",
           "size_bytes": 1916323693,
           "modified": "2026-04-19T12:41:37"
-        },
-        {
-          "name": "Log_Cadaster_15042026_1715.txt",
-          "path": "ורד/עדכון שכבות קדסטר ממפי/scripts/logs/Log_Cadaster_15042026_1715.txt",
-          "extension": ".txt",
-          "size_bytes": 8887,
-          "modified": "2026-04-19T12:41:37"
         }
       ],
       "other": [
@@ -5874,7 +8276,7 @@ window.PROJECT_FILES = {
       "original_name": "בקרת רמי",
       "path": "מידד/בקרת רמי",
       "modified": "2026-05-02T20:45:20",
-      "total_files": 28,
+      "total_files": 26,
       "scripts": [
         {
           "name": "index.html",
@@ -5956,13 +8358,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "layers.txt",
-          "path": "מידד/בקרת רמי/docs/layers.txt",
-          "extension": ".txt",
-          "size_bytes": 601,
-          "modified": "2026-03-14T19:34:55"
-        },
-        {
           "name": "בקרת רמי מנהלים.pptx",
           "path": "מידד/בקרת רמי/docs/בקרת רמי מנהלים.pptx",
           "extension": ".pptx",
@@ -5995,13 +8390,6 @@ window.PROJECT_FILES = {
           "path": "מידד/בקרת רמי/docs/סיכום תהליך.docx",
           "extension": ".docx",
           "size_bytes": 17141,
-          "modified": "2026-03-14T19:34:55"
-        },
-        {
-          "name": "תיקונים.txt",
-          "path": "מידד/בקרת רמי/docs/תיקונים.txt",
-          "extension": ".txt",
-          "size_bytes": 305,
           "modified": "2026-03-14T19:34:55"
         },
         {
@@ -6200,7 +8588,7 @@ window.PROJECT_FILES = {
       "original_name": "דוח פיקוח תשתיות",
       "path": "מידד/דוח פיקוח תשתיות",
       "modified": "2026-05-02T20:45:20",
-      "total_files": 9,
+      "total_files": 5,
       "scripts": [
         {
           "name": "7_report.html",
@@ -6233,13 +8621,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "read_me.txt",
-          "path": "מידד/דוח פיקוח תשתיות/data/read_me.txt",
-          "extension": ".txt",
-          "size_bytes": 659,
-          "modified": "2026-03-14T19:38:23"
-        },
-        {
           "name": "7_report.pdf",
           "path": "מידד/דוח פיקוח תשתיות/scripts/7_report.pdf",
           "extension": ".pdf",
@@ -6247,36 +8628,14 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:38:23"
         }
       ],
-      "other": [
-        {
-          "name": "examplePDF.jpg",
-          "path": "מידד/דוח פיקוח תשתיות/data/examplePDF.jpg",
-          "extension": ".jpg",
-          "size_bytes": 142020,
-          "modified": "2026-03-14T19:38:23"
-        },
-        {
-          "name": "kkl_logo.jpg",
-          "path": "מידד/דוח פיקוח תשתיות/data/kkl_logo.jpg",
-          "extension": ".jpg",
-          "size_bytes": 144044,
-          "modified": "2026-03-14T19:38:23"
-        },
-        {
-          "name": "KKL.png",
-          "path": "מידד/דוח פיקוח תשתיות/scripts/KKL.png",
-          "extension": ".png",
-          "size_bytes": 171179,
-          "modified": "2026-03-14T19:38:23"
-        }
-      ]
+      "other": []
     },
     "הורדתוורטקסים": {
       "user": "מידד",
       "original_name": "הורדת וורטקסים",
       "path": "מידד/הורדת וורטקסים",
       "modified": "2026-05-02T20:45:43",
-      "total_files": 3,
+      "total_files": 2,
       "scripts": [
         {
           "name": "push_to_elev_conours.py",
@@ -6293,15 +8652,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-23T12:01:51"
         }
       ],
-      "documents": [
-        {
-          "name": "read_me.txt",
-          "path": "מידד/הורדת וורטקסים/scripts/read_me.txt",
-          "extension": ".txt",
-          "size_bytes": 3,
-          "modified": "2026-04-23T12:01:51"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "הקצאתמשימות": {
@@ -6349,7 +8700,7 @@ window.PROJECT_FILES = {
       "original_name": "מציאת עשן",
       "path": "מידד/מציאת עשן",
       "modified": "2026-05-02T20:45:43",
-      "total_files": 18,
+      "total_files": 10,
       "scripts": [
         {
           "name": "main.py",
@@ -6384,27 +8735,6 @@ window.PROJECT_FILES = {
       ],
       "other": [
         {
-          "name": "smoke.jpg",
-          "path": "מידד/מציאת עשן/data/detect/predict/smoke.jpg",
-          "extension": ".jpg",
-          "size_bytes": 258650,
-          "modified": "2026-03-14T19:35:02"
-        },
-        {
-          "name": "smoke.jpg",
-          "path": "מידד/מציאת עשן/data/detect/predict2/smoke.jpg",
-          "extension": ".jpg",
-          "size_bytes": 258650,
-          "modified": "2026-03-14T19:35:02"
-        },
-        {
-          "name": "result.jpg",
-          "path": "מידד/מציאת עשן/docs/result.jpg",
-          "extension": ".jpg",
-          "size_bytes": 169197,
-          "modified": "2026-03-14T19:35:02"
-        },
-        {
           "name": "Dust_smoke_detection.mp4",
           "path": "מידד/מציאת עשן/scripts/Dust_smoke_detection.mp4",
           "extension": ".mp4",
@@ -6419,24 +8749,10 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:35:02"
         },
         {
-          "name": "all_smoke_if_any_smoke.jpg",
-          "path": "מידד/מציאת עשן/scripts/all_smoke_if_any_smoke.jpg",
-          "extension": ".jpg",
-          "size_bytes": 258650,
-          "modified": "2026-03-14T19:35:01"
-        },
-        {
           "name": "best.pt",
           "path": "מידד/מציאת עשן/scripts/best.pt",
           "extension": ".pt",
           "size_bytes": 6262051,
-          "modified": "2026-03-14T19:35:01"
-        },
-        {
-          "name": "dust.jpg",
-          "path": "מידד/מציאת עשן/scripts/dust.jpg",
-          "extension": ".jpg",
-          "size_bytes": 53201,
           "modified": "2026-03-14T19:35:01"
         },
         {
@@ -6447,31 +8763,10 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:35:01"
         },
         {
-          "name": "smoke.jpg",
-          "path": "מידד/מציאת עשן/scripts/smoke.jpg",
-          "extension": ".jpg",
-          "size_bytes": 778051,
-          "modified": "2026-03-14T19:35:01"
-        },
-        {
-          "name": "smoke_detection.jpg",
-          "path": "מידד/מציאת עשן/scripts/smoke_detection.jpg",
-          "extension": ".jpg",
-          "size_bytes": 260149,
-          "modified": "2026-03-14T19:35:01"
-        },
-        {
           "name": "smoke_sig_detection.mp4",
           "path": "מידד/מציאת עשן/scripts/smoke_sig_detection.mp4",
           "extension": ".mp4",
           "size_bytes": 18752019,
-          "modified": "2026-03-14T19:35:01"
-        },
-        {
-          "name": "thresholded_detection.jpg",
-          "path": "מידד/מציאת עשן/scripts/thresholded_detection.jpg",
-          "extension": ".jpg",
-          "size_bytes": 75980,
           "modified": "2026-03-14T19:35:01"
         },
         {
@@ -6528,7 +8823,7 @@ window.PROJECT_FILES = {
       "original_name": "ספר יער - ישן",
       "path": "מידד/ספר יער - ישן",
       "modified": "2026-05-02T20:45:55",
-      "total_files": 6,
+      "total_files": 3,
       "scripts": [
         {
           "name": "index.html",
@@ -6554,36 +8849,14 @@ window.PROJECT_FILES = {
           "modified": "2026-04-23T12:21:13"
         }
       ],
-      "other": [
-        {
-          "name": "LOGO.jpg",
-          "path": "מידד/ספר יער - ישן/scripts/LOGO.jpg",
-          "extension": ".jpg",
-          "size_bytes": 201127,
-          "modified": "2026-04-23T12:21:13"
-        },
-        {
-          "name": "LOGO_KKL.jpg",
-          "path": "מידד/ספר יער - ישן/scripts/LOGO_KKL.jpg",
-          "extension": ".jpg",
-          "size_bytes": 30213,
-          "modified": "2026-04-23T12:21:13"
-        },
-        {
-          "name": "camera.png",
-          "path": "מידד/ספר יער - ישן/scripts/camera.png",
-          "extension": ".png",
-          "size_bytes": 929335,
-          "modified": "2026-04-23T12:21:13"
-        }
-      ]
+      "other": []
     },
     "עדכוןקדסטר": {
       "user": "מידד",
       "original_name": "עדכון קדסטר",
       "path": "מידד/עדכון קדסטר",
       "modified": "2026-05-02T20:45:55",
-      "total_files": 6,
+      "total_files": 5,
       "scripts": [
         {
           "name": "Monthly_1_Cadaster.py",
@@ -6621,15 +8894,7 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:37:17"
         }
       ],
-      "documents": [
-        {
-          "name": "check_update.txt",
-          "path": "מידד/עדכון קדסטר/scripts/check_update.txt",
-          "extension": ".txt",
-          "size_bytes": 2133,
-          "modified": "2026-04-19T13:26:43"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "עומדים": {
@@ -7031,7 +9296,7 @@ window.PROJECT_FILES = {
       "original_name": "קרדיטים",
       "path": "מידד/קרדיטים",
       "modified": "2026-05-02T20:50:50",
-      "total_files": 37,
+      "total_files": 31,
       "scripts": [
         {
           "name": "check_credits_by_allTypes.py",
@@ -7197,20 +9462,6 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:33:05"
         },
         {
-          "name": "mailGs.txt",
-          "path": "מידד/קרדיטים/scripts/appsScript/mailGs.txt",
-          "extension": ".txt",
-          "size_bytes": 4705,
-          "modified": "2026-03-14T19:33:05"
-        },
-        {
-          "name": "mailHtml.txt",
-          "path": "מידד/קרדיטים/scripts/appsScript/mailHtml.txt",
-          "extension": ".txt",
-          "size_bytes": 20748,
-          "modified": "2026-03-14T19:33:05"
-        },
-        {
           "name": "data_2025_09_11 - Copy.csv",
           "path": "מידד/קרדיטים/scripts/data_2025_09_11 - Copy.csv",
           "extension": ".csv",
@@ -7265,45 +9516,16 @@ window.PROJECT_FILES = {
           "extension": ".csv",
           "size_bytes": 2090747,
           "modified": "2026-03-14T19:33:05"
-        },
-        {
-          "name": "research.txt",
-          "path": "מידד/קרדיטים/scripts/research.txt",
-          "extension": ".txt",
-          "size_bytes": 5681,
-          "modified": "2026-03-14T19:33:05"
-        },
-        {
-          "name": "gs.txt",
-          "path": "מידד/קרדיטים/scripts/script_mail/gs.txt",
-          "extension": ".txt",
-          "size_bytes": 7625,
-          "modified": "2026-03-14T19:33:05"
-        },
-        {
-          "name": "html.txt",
-          "path": "מידד/קרדיטים/scripts/script_mail/html.txt",
-          "extension": ".txt",
-          "size_bytes": 27179,
-          "modified": "2026-03-14T19:33:05"
         }
       ],
-      "other": [
-        {
-          "name": "dashboard_updater.log",
-          "path": "מידד/קרדיטים/scripts/dashboard_updater.log",
-          "extension": ".log",
-          "size_bytes": 1400,
-          "modified": "2026-03-14T19:33:05"
-        }
-      ]
+      "other": []
     },
     "רשתקדסטר": {
       "user": "מידד",
       "original_name": "רשת קדסטר",
       "path": "מידד/רשת קדסטר",
       "modified": "2026-05-02T20:50:50",
-      "total_files": 53,
+      "total_files": 44,
       "scripts": [
         {
           "name": "API_cadaster_network.py",
@@ -7327,38 +9549,10 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:34:46"
         },
         {
-          "name": "App.css",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.css",
-          "extension": ".css",
-          "size_bytes": 2121,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "App.js",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/App.js",
-          "extension": ".js",
-          "size_bytes": 629,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "ControlPanel.css",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.css",
-          "extension": ".css",
-          "size_bytes": 1451,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
           "name": "ControlPanel.jsx",
           "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/ControlPanel.jsx",
           "extension": ".jsx",
           "size_bytes": 1475,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "GeoMAISection.js",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/GeoMAISection.js",
-          "extension": ".js",
-          "size_bytes": 958,
           "modified": "2026-03-14T19:34:46"
         },
         {
@@ -7373,27 +9567,6 @@ window.PROJECT_FILES = {
           "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/PropertiesTable.jsx",
           "extension": ".jsx",
           "size_bytes": 1385,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "index.css",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.css",
-          "extension": ".css",
-          "size_bytes": 366,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "index.js",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/index.js",
-          "extension": ".js",
-          "size_bytes": 235,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "reportWebVitals.js",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/src/reportWebVitals.js",
-          "extension": ".js",
-          "size_bytes": 362,
           "modified": "2026-03-14T19:34:46"
         },
         {
@@ -7630,13 +9803,6 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:34:46"
         },
         {
-          "name": "robots.txt",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/robots.txt",
-          "extension": ".txt",
-          "size_bytes": 67,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
           "name": "needed_parcels.xlsx",
           "path": "מידד/רשת קדסטר/scripts/needed_parcels.xlsx",
           "extension": ".xlsx",
@@ -7672,13 +9838,6 @@ window.PROJECT_FILES = {
           "extension": ".ico",
           "size_bytes": 3870,
           "modified": "2026-03-14T19:34:46"
-        },
-        {
-          "name": "logo192.png",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/public/logo192.png",
-          "extension": ".png",
-          "size_bytes": 5347,
-          "modified": "2026-03-14T19:34:46"
         }
       ]
     },
@@ -7705,49 +9864,14 @@ window.PROJECT_FILES = {
       "original_name": "תהליכי ארקייד",
       "path": "מידד/תהליכי ארקייד",
       "modified": "2026-05-02T20:50:50",
-      "total_files": 6,
+      "total_files": 1,
       "scripts": [],
       "documents": [
-        {
-          "name": "arcade_link_attch.txt",
-          "path": "מידד/תהליכי ארקייד/scripts/arcade_link_attch.txt",
-          "extension": ".txt",
-          "size_bytes": 8077,
-          "modified": "2026-03-14T19:37:57"
-        },
-        {
-          "name": "update_combine_status.txt",
-          "path": "מידד/תהליכי ארקייד/scripts/calc_field/update_combine_status.txt",
-          "extension": ".txt",
-          "size_bytes": 2145,
-          "modified": "2026-03-14T19:37:57"
-        },
         {
           "name": "AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
           "path": "מידד/תהליכי ארקייד/scripts/sites_validation/AccessibilitySiteAllLayersWithRelevantValidity.xlsx",
           "extension": ".xlsx",
           "size_bytes": 15336,
-          "modified": "2026-03-14T19:37:57"
-        },
-        {
-          "name": "arcade_new2.txt",
-          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_new2.txt",
-          "extension": ".txt",
-          "size_bytes": 13114,
-          "modified": "2026-03-14T19:37:57"
-        },
-        {
-          "name": "arcade_old.txt",
-          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/arcade_old.txt",
-          "extension": ".txt",
-          "size_bytes": 3714,
-          "modified": "2026-03-14T19:37:57"
-        },
-        {
-          "name": "paths.txt",
-          "path": "מידד/תהליכי ארקייד/scripts/sites_validation/paths.txt",
-          "extension": ".txt",
-          "size_bytes": 255,
           "modified": "2026-03-14T19:37:57"
         }
       ],
@@ -7811,7 +9935,7 @@ window.PROJECT_FILES = {
       "original_name": "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
       "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 18,
+      "total_files": 16,
       "scripts": [
         {
           "name": "DownLoadFC.py",
@@ -7863,13 +9987,6 @@ window.PROJECT_FILES = {
           "extension": ".md",
           "size_bytes": 3664,
           "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "arcpyenv.txt",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireIndex/arcpyenv.txt",
-          "extension": ".txt",
-          "size_bytes": 44,
-          "modified": "2026-04-16T10:57:36"
         },
         {
           "name": "20230908_GIS_Index.csv",
@@ -7934,13 +10051,6 @@ window.PROJECT_FILES = {
           "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/ToolData.zip",
           "extension": ".zip",
           "size_bytes": 7374687,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "schema.ini",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/schema.ini",
-          "extension": ".ini",
-          "size_bytes": 84,
           "modified": "2026-04-16T10:57:37"
         }
       ]
@@ -8944,7 +11054,7 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "איסוף זרעים",
       "path": "רחל משולם/איסוף זרעים",
-      "modified": "2026-05-05T16:10:56",
+      "modified": "2026-05-06T10:40:59",
       "total_files": 14,
       "scripts": [
         {
@@ -8952,7 +11062,7 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/איסוף זרעים/scripts/Update_Seeds_GP.py",
           "extension": ".py",
           "size_bytes": 17006,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         }
       ],
       "documents": [
@@ -8961,91 +11071,91 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/איסוף זרעים/Documents/Schema.pptx",
           "extension": ".pptx",
           "size_bytes": 206771,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "אפיון איסוף זרעים.docx",
           "path": "רחל משולם/איסוף זרעים/Documents/אפיון איסוף זרעים.docx",
           "extension": ".docx",
           "size_bytes": 3107394,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "אפיון השלמת נתונים קיימים מדור זרעים.docx",
           "path": "רחל משולם/איסוף זרעים/Documents/אפיון השלמת נתונים קיימים מדור זרעים.docx",
           "extension": ".docx",
           "size_bytes": 19821,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
           "path": "רחל משולם/איסוף זרעים/Documents/אפיון ראשוני לכלי Geoprocessing עבור פרויקט מדור זרעים.docx",
           "extension": ".docx",
           "size_bytes": 30356,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "תהליכים מערכת איסוף זרעים.pptx",
+          "path": "רחל משולם/איסוף זרעים/Documents/תהליכים מערכת איסוף זרעים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1536264,
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "PlantProperties.xlsx",
           "path": "רחל משולם/איסוף זרעים/data/PlantProperties.xlsx",
           "extension": ".xlsx",
           "size_bytes": 261940,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "Ref_Habitat.csv",
           "path": "רחל משולם/איסוף זרעים/data/Ref_Habitat.csv",
           "extension": ".csv",
           "size_bytes": 112537,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "Ref_Seed_Shelf.csv",
           "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Shelf.csv",
           "extension": ".csv",
           "size_bytes": 1082,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "Ref_Seed_Source.csv",
           "path": "רחל משולם/איסוף זרעים/data/Ref_Seed_Source.csv",
           "extension": ".csv",
           "size_bytes": 1103723,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "Ref_Tree_Type.csv",
           "path": "רחל משולם/איסוף זרעים/data/Ref_Tree_Type.csv",
           "extension": ".csv",
           "size_bytes": 428460,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "Shelf Tree Code Lookup.xlsx",
           "path": "רחל משולם/איסוף זרעים/data/Shelf Tree Code Lookup.xlsx",
           "extension": ".xlsx",
           "size_bytes": 134632,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "domains csv plant hebnam.csv",
           "path": "רחל משולם/איסוף זרעים/data/domains csv plant hebnam.csv",
           "extension": ".csv",
           "size_bytes": 13863,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "inventory_2014_Oleg.xlsx",
           "path": "רחל משולם/איסוף זרעים/data/inventory_2014_Oleg.xlsx",
           "extension": ".xlsx",
           "size_bytes": 370163,
-          "modified": "2026-05-05T16:10:34"
-        },
-        {
-          "name": "rcade code field maps.txt",
-          "path": "רחל משולם/איסוף זרעים/scripts/rcade code field maps.txt",
-          "extension": ".txt",
-          "size_bytes": 1434,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
         }
       ],
       "other": []
@@ -9054,16 +11164,52 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "דוחות שימוש",
       "path": "רחל משולם/דוחות שימוש",
-      "modified": "2026-05-05T16:10:56",
-      "total_files": 1,
-      "scripts": [],
+      "modified": "2026-05-06T10:40:59",
+      "total_files": 6,
+      "scripts": [
+        {
+          "name": "ActivityReportsHIstory.py",
+          "path": "רחל משולם/דוחות שימוש/scripts/ActivityReportsHIstory.py",
+          "extension": ".py",
+          "size_bytes": 10801,
+          "modified": "2026-05-06T10:40:27"
+        }
+      ],
       "documents": [
         {
           "name": "דוחות שימוש.pptx",
           "path": "רחל משולם/דוחות שימוש/Documents/דוחות שימוש.pptx",
           "extension": ".pptx",
           "size_bytes": 821163,
-          "modified": "2026-05-05T16:10:34"
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "ReportActivityLog_Histry.xlsx",
+          "path": "רחל משולם/דוחות שימוש/results/ReportActivityLog_Histry.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 2987613,
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "all_history.csv",
+          "path": "רחל משולם/דוחות שימוש/results/all_history.csv",
+          "extension": ".csv",
+          "size_bytes": 7072308,
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "eco surveys.csv",
+          "path": "רחל משולם/דוחות שימוש/results/eco surveys.csv",
+          "extension": ".csv",
+          "size_bytes": 2816379,
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "fires_history1.csv",
+          "path": "רחל משולם/דוחות שימוש/results/fires_history1.csv",
+          "extension": ".csv",
+          "size_bytes": 465375,
+          "modified": "2026-05-06T10:40:27"
         }
       ],
       "other": []
@@ -9072,8 +11218,8 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "דיווח ביצוע",
       "path": "רחל משולם/דיווח ביצוע",
-      "modified": "2026-05-05T16:10:56",
-      "total_files": 10,
+      "modified": "2026-05-06T10:41:00",
+      "total_files": 8,
       "scripts": [],
       "documents": [
         {
@@ -9081,79 +11227,231 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_TeudatMishloach.xlsx",
           "extension": ".xlsx",
           "size_bytes": 73247,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "DivuachBizua_YomanAvoda.xlsx",
           "path": "רחל משולם/דיווח ביצוע/Documents/DivuachBizua_YomanAvoda.xlsx",
           "extension": ".xlsx",
           "size_bytes": 72605,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "ShippingCertificate1.docx",
           "path": "רחל משולם/דיווח ביצוע/Documents/ShippingCertificate1.docx",
           "extension": ".docx",
           "size_bytes": 1597621,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "WorkLog6.docx",
           "path": "רחל משולם/דיווח ביצוע/Documents/WorkLog6.docx",
           "extension": ".docx",
           "size_bytes": 1597276,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
           "path": "רחל משולם/דיווח ביצוע/Documents/אפיון מממשק שליפת רישיונות כריתה ונטילה מיערנות.docx",
           "extension": ".docx",
           "size_bytes": 24540,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
           "path": "רחל משולם/דיווח ביצוע/Documents/מסמך דרישת לקוח יומן עבודה ותעודת משלוח גרסה 1.6.docx",
           "extension": ".docx",
           "size_bytes": 2283523,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "סטטוס מנה.pptx",
           "path": "רחל משולם/דיווח ביצוע/Documents/סטטוס מנה.pptx",
           "extension": ".pptx",
           "size_bytes": 3191385,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         },
         {
           "name": "TeudatMishloach_hasava.xlsx",
           "path": "רחל משולם/דיווח ביצוע/data/TeudatMishloach_hasava.xlsx",
           "extension": ".xlsx",
           "size_bytes": 4210724,
-          "modified": "2026-05-05T16:10:35"
-        },
-        {
-          "name": "web map popup for daily work log.txt",
-          "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for daily work log.txt",
-          "extension": ".txt",
-          "size_bytes": 10497,
-          "modified": "2026-05-05T16:10:35"
-        },
-        {
-          "name": "web map popup for shipping certficatetxt.txt",
-          "path": "רחל משולם/דיווח ביצוע/scripts/web map popup for shipping certficatetxt.txt",
-          "extension": ".txt",
-          "size_bytes": 10256,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:27"
         }
       ],
       "other": []
+    },
+    "ניטורבריאותיערפיילוט": {
+      "user": "רחל משולם",
+      "original_name": "ניטור בריאות יער פיילוט",
+      "path": "רחל משולם/ניטור בריאות יער פיילוט",
+      "modified": "2026-05-06T10:40:59",
+      "total_files": 22,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "Number of Images in each Scene Month.pptx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Number of Images in each Scene Month.pptx",
+          "extension": ".pptx",
+          "size_bytes": 588426,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "Remote Sensing Inventory - Proposed Study Area.pptx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Remote Sensing Inventory - Proposed Study Area.pptx",
+          "extension": ".pptx",
+          "size_bytes": 2318643,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "Satellite Inventory.xlsx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/Satellite Inventory.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 89436,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "היקף עבודה לפיילוט של ניתור בריאות יער .docx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/היקף עבודה לפיילוט של ניתור בריאות יער .docx",
+          "extension": ".docx",
+          "size_bytes": 23585,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "כיול לנדסט.pptx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/כיול לנדסט.pptx",
+          "extension": ".pptx",
+          "size_bytes": 122057,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "סיכום ניטור בריאות יער.pptx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/Documents/סיכום ניטור בריאות יער.pptx",
+          "extension": ".pptx",
+          "size_bytes": 1462839,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "forest_monitoring_pilot_excel.xlsx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/results/forest_monitoring_pilot_excel.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 6116854,
+          "modified": "2026-05-06T10:40:28"
+        }
+      ],
+      "other": [
+        {
+          "name": "WRS2_descending.cpg",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.cpg",
+          "extension": ".cpg",
+          "size_bytes": 5,
+          "modified": "2026-05-06T10:40:27"
+        },
+        {
+          "name": "WRS2_descending.dbf",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.dbf",
+          "extension": ".dbf",
+          "size_bytes": 9477058,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending.prj",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.prj",
+          "extension": ".prj",
+          "size_bytes": 145,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending.sbn",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.sbn",
+          "extension": ".sbn",
+          "size_bytes": 288940,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending.sbx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.sbx",
+          "extension": ".sbx",
+          "size_bytes": 25300,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending.shp",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.shp",
+          "extension": ".shp",
+          "size_bytes": 8530328,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending.shx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending.shx",
+          "extension": ".shx",
+          "size_bytes": 231236,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.cpg",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.cpg",
+          "extension": ".cpg",
+          "size_bytes": 5,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.dbf",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.dbf",
+          "extension": ".dbf",
+          "size_bytes": 2329,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.prj",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.prj",
+          "extension": ".prj",
+          "size_bytes": 145,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.sbn",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.sbn",
+          "extension": ".sbn",
+          "size_bytes": 204,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.sbx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.sbx",
+          "extension": ".sbx",
+          "size_bytes": 124,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.shp",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.shp",
+          "extension": ".shp",
+          "size_bytes": 1948,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "WRS2_descending_isr.shx",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/data/WRS2_descending_isr.shx",
+          "extension": ".shx",
+          "size_bytes": 156,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "scripts.zip",
+          "path": "רחל משולם/ניטור בריאות יער פיילוט/scripts.zip",
+          "extension": ".zip",
+          "size_bytes": 14224,
+          "modified": "2026-05-06T10:40:27"
+        }
+      ]
     },
     "סקרמפגעים": {
       "user": "רחל משולם",
       "original_name": "סקר מפגעים",
       "path": "רחל משולם/סקר מפגעים",
-      "modified": "2026-05-05T16:10:56",
+      "modified": "2026-05-06T10:41:00",
       "total_files": 2,
       "scripts": [
         {
@@ -9161,7 +11459,7 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/סקר מפגעים/scripts/HazardsInspection.py",
           "extension": ".py",
           "size_bytes": 10410,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "documents": [
@@ -9170,7 +11468,7 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/סקר מפגעים/Documents/תהליכים מפגעים.pptx",
           "extension": ".pptx",
           "size_bytes": 1677668,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "other": []
@@ -9179,7 +11477,7 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "סקר מצב יער",
       "path": "רחל משולם/סקר מצב יער",
-      "modified": "2026-05-05T16:10:56",
+      "modified": "2026-05-06T10:41:00",
       "total_files": 7,
       "scripts": [
         {
@@ -9187,21 +11485,21 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/סקר מצב יער/scripts/Update Domain Codes in Fields- SeMY_Samples2.py",
           "extension": ".py",
           "size_bytes": 4974,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "Update SeMY Forests Item PY.py",
           "path": "רחל משולם/סקר מצב יער/scripts/Update SeMY Forests Item PY.py",
           "extension": ".py",
           "size_bytes": 19873,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "Update_Domain_Codes_Fields_Delete.py",
           "path": "רחל משולם/סקר מצב יער/scripts/Update_Domain_Codes_Fields_Delete.py",
           "extension": ".py",
           "size_bytes": 4533,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "documents": [
@@ -9210,28 +11508,28 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/סקר מצב יער/Documents/worklow schematic.pptx",
           "extension": ".pptx",
           "size_bytes": 120134,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
           "path": "רחל משולם/סקר מצב יער/Documents/חשיבה מחודשת על ניתוח נתוני סמ_י לדוח מסכם ליער.docx",
           "extension": ".docx",
           "size_bytes": 699976,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "סמי מבנה נתונים.xlsx",
           "path": "רחל משולם/סקר מצב יער/Documents/סמי מבנה נתונים.xlsx",
           "extension": ".xlsx",
           "size_bytes": 196534,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "דוח יער עריון סטטי.pdf",
           "path": "רחל משולם/סקר מצב יער/results/דוח יער עריון סטטי.pdf",
           "extension": ".pdf",
           "size_bytes": 6461663,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "other": []
@@ -9240,7 +11538,7 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "ערכי טבע",
       "path": "רחל משולם/ערכי טבע",
-      "modified": "2026-05-05T16:10:56",
+      "modified": "2026-05-06T10:41:00",
       "total_files": 12,
       "scripts": [
         {
@@ -9248,14 +11546,14 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/ערכי טבע/scripts/EcoSurveysUpdateBuffer_Old.py",
           "extension": ".py",
           "size_bytes": 18455,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "EcoSurveys_updatebyNumDays.py",
           "path": "רחל משולם/ערכי טבע/scripts/EcoSurveys_updatebyNumDays.py",
           "extension": ".py",
           "size_bytes": 14977,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "documents": [
@@ -9264,21 +11562,21 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/ערכי טבע/Documents/מבנה קטגוריות בשכבת ערכי טבע ורדיוסי הגנה 25032022 (003).docx",
           "extension": ".docx",
           "size_bytes": 639682,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
           "path": "רחל משולם/ערכי טבע/Documents/סיכום שיחה - ערכי טבע ביערות קקל רדיוס ההגנה.docx",
           "extension": ".docx",
           "size_bytes": 313989,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
-          "name": "buffer.shp.xml",
-          "path": "רחל משולם/ערכי טבע/results/buffer.shp.xml",
-          "extension": ".xml",
-          "size_bytes": 31881,
-          "modified": "2026-05-05T16:10:35"
+          "name": "ערכי טבע Webhooks.pptx",
+          "path": "רחל משולם/ערכי טבע/Documents/ערכי טבע Webhooks.pptx",
+          "extension": ".pptx",
+          "size_bytes": 556568,
+          "modified": "2026-05-06T10:40:28"
         }
       ],
       "other": [
@@ -9287,49 +11585,103 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/ערכי טבע/results/buffer.cpg",
           "extension": ".cpg",
           "size_bytes": 5,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.dbf",
           "path": "רחל משולם/ערכי טבע/results/buffer.dbf",
           "extension": ".dbf",
           "size_bytes": 1017123,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.prj",
           "path": "רחל משולם/ערכי טבע/results/buffer.prj",
           "extension": ".prj",
           "size_bytes": 428,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.sbn",
           "path": "רחל משולם/ערכי טבע/results/buffer.sbn",
           "extension": ".sbn",
           "size_bytes": 1132,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.sbx",
           "path": "רחל משולם/ערכי טבע/results/buffer.sbx",
           "extension": ".sbx",
           "size_bytes": 140,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.shp",
           "path": "רחל משולם/ערכי טבע/results/buffer.shp",
           "extension": ".shp",
           "size_bytes": 89148,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
         },
         {
           "name": "buffer.shx",
           "path": "רחל משולם/ערכי טבע/results/buffer.shx",
           "extension": ".shx",
           "size_bytes": 972,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:28"
+        }
+      ]
+    },
+    "שטחיםבנויים": {
+      "user": "רחל משולם",
+      "original_name": "שטחים בנויים",
+      "path": "רחל משולם/שטחים בנויים",
+      "modified": "2026-05-06T10:41:00",
+      "total_files": 6,
+      "scripts": [],
+      "documents": [
+        {
+          "name": "Check Simplex change.docx",
+          "path": "רחל משולם/שטחים בנויים/Documents/Check Simplex change.docx",
+          "extension": ".docx",
+          "size_bytes": 2336634,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "GEE cmpare cloud masking results.xlsx",
+          "path": "רחל משולם/שטחים בנויים/Documents/GEE cmpare cloud masking results.xlsx",
+          "extension": ".xlsx",
+          "size_bytes": 9871,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "Methods.docx",
+          "path": "רחל משולם/שטחים בנויים/Documents/Methods.docx",
+          "extension": ".docx",
+          "size_bytes": 3243207,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "מסמך שירות מטורולוגי על תופעות בכמות גשם סיכום ראשוני 2023.pdf",
+          "path": "רחל משולם/שטחים בנויים/Documents/מסמך שירות מטורולוגי על תופעות בכמות גשם סיכום ראשוני 2023.pdf",
+          "extension": ".pdf",
+          "size_bytes": 243620,
+          "modified": "2026-05-06T10:40:28"
+        },
+        {
+          "name": "סיכום ראשון.pptx",
+          "path": "רחל משולם/שטחים בנויים/Documents/סיכום ראשון.pptx",
+          "extension": ".pptx",
+          "size_bytes": 18179970,
+          "modified": "2026-05-06T10:40:28"
+        }
+      ],
+      "other": [
+        {
+          "name": "RE שטחים בנויים ניתוח עיבוד תמונה.msg",
+          "path": "רחל משולם/שטחים בנויים/Documents/RE שטחים בנויים ניתוח עיבוד תמונה.msg",
+          "extension": ".msg",
+          "size_bytes": 180736,
+          "modified": "2026-05-06T10:40:28"
         }
       ]
     },
@@ -9337,7 +11689,7 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "תכנון מפורט שלב ב",
       "path": "רחל משולם/תכנון מפורט שלב ב",
-      "modified": "2026-05-05T16:10:56",
+      "modified": "2026-05-06T10:41:00",
       "total_files": 19,
       "scripts": [
         {
@@ -9345,35 +11697,35 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/תכנון מפורט שלב ב/scripts/CreateMana.py",
           "extension": ".py",
           "size_bytes": 36274,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "DeleteSubTender.py",
           "path": "רחל משולם/תכנון מפורט שלב ב/scripts/DeleteSubTender.py",
           "extension": ".py",
           "size_bytes": 3176,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "GenerateReports.py",
           "path": "רחל משולם/תכנון מפורט שלב ב/scripts/GenerateReports.py",
           "extension": ".py",
           "size_bytes": 20953,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "ManaAggregation.py",
           "path": "רחל משולם/תכנון מפורט שלב ב/scripts/ManaAggregation.py",
           "extension": ".py",
           "size_bytes": 25902,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "processSubTender.py",
           "path": "רחל משולם/תכנון מפורט שלב ב/scripts/processSubTender.py",
           "extension": ".py",
           "size_bytes": 21197,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         }
       ],
       "documents": [
@@ -9382,98 +11734,98 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/ContractorGuidelines4.docx",
           "extension": ".docx",
           "size_bytes": 2234788,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "SubWorkUnit_WebForm.xlsx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/SubWorkUnit_WebForm.xlsx",
           "extension": ".xlsx",
           "size_bytes": 79645,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "WorkCapacityContractor.docx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacityContractor.docx",
           "extension": ".docx",
           "size_bytes": 222246,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "WorkCapacitySupervisor.docx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/WorkCapacitySupervisor.docx",
           "extension": ".docx",
           "size_bytes": 228726,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "אפיון טופס הנחיות עבודה.xlsx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/אפיון טופס הנחיות עבודה.xlsx",
           "extension": ".xlsx",
           "size_bytes": 14384,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "מרכיבים פרויקט התקשרות.xlsx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/מרכיבים פרויקט התקשרות.xlsx",
           "extension": ".xlsx",
           "size_bytes": 18798,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
           "path": "רחל משולם/תכנון מפורט שלב ב/Documents/סיכום מערכת טיפול יערני_תכנון מפורט.pptx",
           "extension": ".pptx",
           "size_bytes": 8787285,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "Suppliers_Updated.csv",
           "path": "רחל משולם/תכנון מפורט שלב ב/data/Suppliers_Updated.csv",
           "extension": ".csv",
           "size_bytes": 31878,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "היקף_עבודה_קבלן_ניר_עציון.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_ניר_עציון.pdf",
           "extension": ".pdf",
           "size_bytes": 55769,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/היקף_עבודה_קבלן_סניטציה_בהרי_נפתלי.pdf",
           "extension": ".pdf",
           "size_bytes": 67034,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "הנחיות_לקבלן_ניר_עציון.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_ניר_עציון.pdf",
           "extension": ".pdf",
           "size_bytes": 40064,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/הנחיות_לקבלן_סניטציה_בהרי_נפתלי.pdf",
           "extension": ".pdf",
           "size_bytes": 42393,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "מפה ניר עציון.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה ניר עציון.pdf",
           "extension": ".pdf",
           "size_bytes": 4162558,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "מפה סניטציה בהרי נפתלי.pdf",
           "path": "רחל משולם/תכנון מפורט שלב ב/results/מפה סניטציה בהרי נפתלי.pdf",
           "extension": ".pdf",
           "size_bytes": 4666508,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         }
       ],
       "other": []
@@ -9482,115 +11834,129 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "תכנון מפורת שלב א",
       "path": "רחל משולם/תכנון מפורת שלב א",
-      "modified": "2026-05-05T16:10:56",
-      "total_files": 15,
+      "modified": "2026-05-06T10:41:00",
+      "total_files": 17,
       "scripts": [
         {
           "name": "AddStandToMana.py",
           "path": "רחל משולם/תכנון מפורת שלב א/scripts/AddStandToMana.py",
           "extension": ".py",
           "size_bytes": 11859,
-          "modified": "2026-05-05T16:10:36"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "CreateMaps_Tichurim.py",
           "path": "רחל משולם/תכנון מפורת שלב א/scripts/CreateMaps_Tichurim.py",
           "extension": ".py",
           "size_bytes": 8685,
-          "modified": "2026-05-05T16:10:36"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "DeleteStand_ReshapeMana.py",
           "path": "רחל משולם/תכנון מפורת שלב א/scripts/DeleteStand_ReshapeMana.py",
           "extension": ".py",
           "size_bytes": 2906,
-          "modified": "2026-05-05T16:10:36"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "GenerateReportTichurim.py",
           "path": "רחל משולם/תכנון מפורת שלב א/scripts/GenerateReportTichurim.py",
           "extension": ".py",
           "size_bytes": 11614,
-          "modified": "2026-05-05T16:10:36"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "ManaAggregation.py",
           "path": "רחל משולם/תכנון מפורת שלב א/scripts/ManaAggregation.py",
           "extension": ".py",
           "size_bytes": 28273,
-          "modified": "2026-05-05T16:10:36"
+          "modified": "2026-05-06T10:40:29"
         }
       ],
       "documents": [
+        {
+          "name": "דף פרויקט - מערכת תיחורים לשנת עבודה 2022.docx",
+          "path": "רחל משולם/תכנון מפורת שלב א/Documents/דף פרויקט - מערכת תיחורים לשנת עבודה 2022.docx",
+          "extension": ".docx",
+          "size_bytes": 21392,
+          "modified": "2026-05-06T10:40:29"
+        },
         {
           "name": "הדרכה מערכת תיחורים 202301.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים 202301.docx",
           "extension": ".docx",
           "size_bytes": 21518,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "הדרכה מערכת תיחורים.pdf",
           "path": "רחל משולם/תכנון מפורת שלב א/Documents/הדרכה מערכת תיחורים.pdf",
           "extension": ".pdf",
           "size_bytes": 2640294,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
+        },
+        {
+          "name": "תהליכים מערכת תיחורים.pptx",
+          "path": "רחל משולם/תכנון מפורת שלב א/Documents/תהליכים מערכת תיחורים.pptx",
+          "extension": ".pptx",
+          "size_bytes": 2197784,
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "ContractorGuidelines_גליל-תחתון_19_20220102.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_גליל-תחתון_19_20220102.docx",
           "extension": ".docx",
           "size_bytes": 4940016,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "ContractorGuidelines_החוף-שפלה_11_20220103.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/results/ContractorGuidelines_החוף-שפלה_11_20220103.docx",
           "extension": ".docx",
           "size_bytes": 4939967,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "Example1.pdf",
           "path": "רחל משולם/תכנון מפורת שלב א/results/Example1.pdf",
           "extension": ".pdf",
           "size_bytes": 250273,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "Quotation_גליל-תחתון_19_20220102.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/results/Quotation_גליל-תחתון_19_20220102.docx",
           "extension": ".docx",
           "size_bytes": 177716,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "WorkCapacity_גליל-תחתון_19_20220102.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_גליל-תחתון_19_20220102.docx",
           "extension": ".docx",
           "size_bytes": 813328,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "WorkCapacity_החוף-שפלה_11_20220103.docx",
           "path": "רחל משולם/תכנון מפורת שלב א/results/WorkCapacity_החוף-שפלה_11_20220103.docx",
           "extension": ".docx",
           "size_bytes": 526547,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
           "path": "רחל משולם/תכנון מפורת שלב א/results/גליל-תחתון_תיחור19_2022_20220102 (1).pdf",
           "extension": ".pdf",
           "size_bytes": 2835580,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "החוף-שפלה_תיחור11_2023_20220103.pdf",
           "path": "רחל משולם/תכנון מפורת שלב א/results/החוף-שפלה_תיחור11_2023_20220103.pdf",
           "extension": ".pdf",
           "size_bytes": 3164016,
-          "modified": "2026-05-05T16:10:35"
+          "modified": "2026-05-06T10:40:29"
         }
       ],
       "other": []
@@ -9599,7 +11965,7 @@ window.PROJECT_FILES = {
       "user": "רחל משולם",
       "original_name": "תשתית אזור",
       "path": "רחל משולם/תשתית אזור",
-      "modified": "2026-05-05T16:41:48",
+      "modified": "2026-05-06T10:41:00",
       "total_files": 4,
       "scripts": [],
       "documents": [
@@ -9608,7 +11974,7 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/תשתית אזור/Documents/תשתית אזור.pptx",
           "extension": ".pptx",
           "size_bytes": 1379481,
-          "modified": "2026-05-05T16:41:40"
+          "modified": "2026-05-06T10:40:29"
         }
       ],
       "other": [
@@ -9617,21 +11983,21 @@ window.PROJECT_FILES = {
           "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח יומי קו חשמל מתח גבוה מחסיה.msg",
           "extension": ".msg",
           "size_bytes": 215040,
-          "modified": "2026-05-05T16:41:40"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "דוח פיקוח סביבתי - בריכת נטף.msg",
           "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - בריכת נטף.msg",
           "extension": ".msg",
           "size_bytes": 156672,
-          "modified": "2026-05-05T16:41:40"
+          "modified": "2026-05-06T10:40:29"
         },
         {
           "name": "דוח פיקוח סביבתי - קו מים לנטף.msg",
           "path": "רחל משולם/תשתית אזור/Documents/דוח פיקוח סביבתי - קו מים לנטף.msg",
           "extension": ".msg",
           "size_bytes": 188416,
-          "modified": "2026-05-05T16:41:40"
+          "modified": "2026-05-06T10:40:29"
         }
       ]
     }
