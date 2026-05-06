@@ -13,6 +13,7 @@ Usage:
 """
 
 import json
+import re
 import sys
 import unicodedata
 from datetime import datetime
@@ -20,7 +21,6 @@ from pathlib import Path
 
 # --- file classification ----------------------------------------------------
 DIR_AS_FILE_EXTENSIONS = {'.gdb'}
-
 
 
 SCRIPT_EXTENSIONS = {
@@ -33,9 +33,27 @@ SCRIPT_EXTENSIONS = {
 DOCUMENT_EXTENSIONS = {
     '.pdf', '.docx', '.doc', '.xlsx', '.xls', '.pptx', '.ppt',
     '.txt', '.md', '.rtf', '.odt', '.ods',
-    '.csv', '.json', '.xml', '.yaml', '.yml',
+    '.csv', '.json', '.yaml', '.yml',
     '.gdb',
 }
+
+# Auto-generated / low-value files we never want to surface.
+IGNORED_EXTENSIONS = {
+    # .NET service reference clutter
+    '.xsd', '.xss', '.disco', '.discomap', '.wsdl',
+    '.svcmap', '.svcinfo',
+    # Lucene / ArcGIS search-index internals
+    '.fdt', '.fdx', '.fnm', '.frq', '.nrm', '.prx', '.tii', '.tis', '.gen',
+    # GIS / config sidecars
+    '.xml', '.sde', '.rsd','.txt', '.lock','.pyproj','.config','.ini','.log','gitignore','.gitattributes',
+    '.rdl','.rptproj','.data','.pyt','.gpkx','.js','.cs','.db','.ts','.png','.jpg','.aspx','.asmx','.css'}
+
+# Filename stems (no extension) that are auto-generated index/lock files.
+IGNORED_STEM_RE = re.compile(r'^segments(_\d+)?$', re.IGNORECASE)
+
+# Filenames whose stem is just a number (e.g. "1234.jpg", "-720784746.jpg") —
+# these are almost always cache / thumbnail / hash-named files, not content.
+NUMERIC_NAME_RE = re.compile(r'^-?\d+$')
 
 SKIP_DIRS = {'.git', '.vscode', '.idea', '__pycache__', 'node_modules', '.venv', 'venv'}
 
@@ -52,7 +70,49 @@ DROP_CHARS = set(
 )
 
 
+# --- project-as-single-file detection --------------------------------------
+
+def is_angular_project(path: Path) -> bool:
+    """Directory is an Angular workspace (has angular.json at its root)."""
+    return path.is_dir() and (path / 'angular.json').is_file()
+
+
+def is_csharp_project(path: Path) -> bool:
+    """Directory is a C#/.NET project or solution (has .csproj or .sln at root)."""
+    if not path.is_dir():
+        return False
+    try:
+        for child in path.iterdir():
+            if child.is_file() and child.suffix.lower() in ('.csproj', '.sln'):
+                return True
+    except OSError:
+        return False
+    return False
+
+
+def is_collapsed_dir(path: Path) -> bool:
+    """Any directory that should be treated as a single file entry."""
+    if not path.is_dir():
+        return False
+    if path.suffix.lower() in DIR_AS_FILE_EXTENSIONS:
+        return True
+    return is_angular_project(path) or is_csharp_project(path)
+
+
+def is_ignored_file(path: Path) -> bool:
+    """File-level filters: extension blacklist + numeric-only stems + index stems."""
+    if path.suffix.lower() in IGNORED_EXTENSIONS:
+        return True
+    if NUMERIC_NAME_RE.match(path.stem):
+        return True
+    if IGNORED_STEM_RE.match(path.stem):
+        return True
+    return False
+
+
 def classify(path: Path) -> str:
+    if path.is_dir() and (is_angular_project(path) or is_csharp_project(path)):
+        return 'scripts'
     ext = path.suffix.lower()
     if ext in SCRIPT_EXTENSIONS:
         return 'scripts'
@@ -62,9 +122,7 @@ def classify(path: Path) -> str:
 
 
 def file_info(path: Path, root: Path) -> dict:
-    is_dir_as_file = path.is_dir() and path.suffix.lower() in DIR_AS_FILE_EXTENSIONS
-
-    if is_dir_as_file:
+    if is_collapsed_dir(path):
         size = 0
         latest = path.stat().st_mtime
         for p in path.rglob('*'):
@@ -115,18 +173,24 @@ def iter_files(folder: Path):
         if entry.is_dir():
             if entry.name in SKIP_DIRS or entry.name.startswith('.'):
                 continue
-            if entry.suffix.lower() in DIR_AS_FILE_EXTENSIONS:
-                yield entry          # treat the .gdb as a single file
+            if is_collapsed_dir(entry):
+                yield entry          # whole directory becomes one entry
                 continue
             yield from iter_files(entry)
         elif entry.is_file():
+            if is_ignored_file(entry):
+                continue
             yield entry
 
 
 def scan_project(project_dir: Path, root: Path) -> dict:
     grouped = {'scripts': [], 'documents': [], 'other': []}
-    for p in iter_files(project_dir):
-        grouped[classify(p)].append(file_info(p, root))
+    if is_collapsed_dir(project_dir):
+        # whole project is itself a collapsed unit (Angular / C# / .gdb)
+        grouped[classify(project_dir)].append(file_info(project_dir, root))
+    else:
+        for p in iter_files(project_dir):
+            grouped[classify(p)].append(file_info(p, root))
 
     for key in grouped:
         grouped[key].sort(key=lambda f: f['path'])
