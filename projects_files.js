@@ -1,6 +1,6 @@
 window.PROJECT_FILES = {
   "data_folder": "C:\\Users\\Medad\\OneDrive - Keren Kayemeth LeIsrael, Jewish National Fund\\Desktop\\KKL\\ניהול פרוייקטים\\data",
-  "scanned_at": "2026-05-06T11:41:04",
+  "scanned_at": "2026-05-06T11:46:08",
   "user_count": 6,
   "users": {
     "אבינועם": {
@@ -10,7 +10,7 @@ window.PROJECT_FILES = {
         "ספר יער": {
           "path": "אבינועם/ספר יער",
           "modified": "2026-05-03T20:25:15",
-          "total_files": 18,
+          "total_files": 17,
           "scripts": [
             {
               "name": "collect_project_inventory.py",
@@ -75,13 +75,6 @@ window.PROJECT_FILES = {
               "path": "אבינועם/ספר יער/Documents/תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.docx",
               "extension": ".docx",
               "size_bytes": 40043,
-              "modified": "2026-05-03T20:25:05"
-            },
-            {
-              "name": "תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.md",
-              "path": "אבינועם/ספר יער/Documents/תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.md",
-              "extension": ".md",
-              "size_bytes": 2909,
               "modified": "2026-05-03T20:25:05"
             },
             {
@@ -821,7 +814,7 @@ window.PROJECT_FILES = {
         "תעסוקת ילדי עובדים": {
           "path": "אורי אורן/תעסוקת ילדי עובדים",
           "modified": "2026-05-06T11:26:54",
-          "total_files": 114,
+          "total_files": 50,
           "scripts": [
             {
               "name": "LoginProject.html",
@@ -884,76 +877,6 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:19"
             },
             {
-              "name": "OkEshurAll.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/OkEshurAll.gif",
-              "extension": ".gif",
-              "size_bytes": 2882,
-              "modified": "2026-05-06T11:15:20"
-            },
-            {
-              "name": "loaderImage.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/loaderImage.gif",
-              "extension": ".gif",
-              "size_bytes": 10819,
-              "modified": "2026-05-06T11:15:20"
-            },
-            {
-              "name": "page-loader.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/page-loader.gif",
-              "extension": ".gif",
-              "size_bytes": 46809,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "MobileMasterPage.master.cs.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.cs.exclude",
-              "extension": ".exclude",
-              "size_bytes": 483,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "MobileMasterPage.master.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.exclude",
-              "extension": ".exclude",
-              "size_bytes": 3307,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "aa.aspx.cs.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.cs.exclude",
-              "extension": ".exclude",
-              "size_bytes": 282,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "aa.aspx.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.exclude",
-              "extension": ".exclude",
-              "size_bytes": 352,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "data.html.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/data.html.exclude",
-              "extension": ".exclude",
-              "size_bytes": 9684,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "login.aspx.cs.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.cs.exclude",
-              "extension": ".exclude",
-              "size_bytes": 285,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
-              "name": "login.aspx.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.exclude",
-              "extension": ".exclude",
-              "size_bytes": 3102,
-              "modified": "2026-05-06T11:15:21"
-            },
-            {
               "name": "index.js.map",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/index.js.map",
               "extension": ".map",
@@ -975,32 +898,11 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:23"
             },
             {
-              "name": "Microsoft.Web.Infrastructure.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll",
-              "extension": ".dll",
-              "size_bytes": 45416,
-              "modified": "2026-05-06T11:15:20"
-            },
-            {
-              "name": "Microsoft.Web.Infrastructure.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 91,
-              "modified": "2026-05-06T11:15:20"
-            },
-            {
               "name": "favicon.ico",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/favicon.ico",
               "extension": ".ico",
               "size_bytes": 1150,
               "modified": "2026-05-06T11:15:19"
-            },
-            {
-              "name": "confirm.html.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/confirm.html.exclude",
-              "extension": ".exclude",
-              "size_bytes": 48963,
-              "modified": "2026-05-06T11:15:21"
             },
             {
               "name": "vwd.webinfo",
@@ -1073,80 +975,10 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:23"
             },
             {
-              "name": "YaldayOvdimDataSet.xsd.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xsd.exclude",
-              "extension": ".exclude",
-              "size_bytes": 128411,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "YaldayOvdimDataSet.xss.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xss.exclude",
-              "extension": ".exclude",
-              "size_bytes": 2596,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "DFSHeader.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll",
-              "extension": ".dll",
-              "size_bytes": 6144,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "DFSHeader.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 28,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "Emc.Documentum.FS.DataModel.Shared.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll",
-              "extension": ".dll",
-              "size_bytes": 186504,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "Emc.Documentum.FS.DataModel.Shared.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 78,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "ExcelDataReader.DataSet.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll",
-              "extension": ".dll",
-              "size_bytes": 9728,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "ExcelDataReader.DataSet.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 180,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
               "name": "ExcelDataReader.DataSet.pdb",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.pdb",
               "extension": ".pdb",
               "size_bytes": 2640,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "ExcelDataReader.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll",
-              "extension": ".dll",
-              "size_bytes": 161792,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "ExcelDataReader.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 148,
               "modified": "2026-05-06T11:15:24"
             },
             {
@@ -1157,53 +989,11 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:24"
             },
             {
-              "name": "KklClass.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll",
-              "extension": ".dll",
-              "size_bytes": 548864,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "KklClass.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 26,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
               "name": "KklClass.pdb",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.pdb",
               "extension": ".pdb",
               "size_bytes": 890368,
               "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "Newtonsoft.Json.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll",
-              "extension": ".dll",
-              "size_bytes": 554408,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "Newtonsoft.Json.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 40,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "DFSHeader.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/DFSHeader.dll",
-              "extension": ".dll",
-              "size_bytes": 6144,
-              "modified": "2026-05-06T11:15:23"
-            },
-            {
-              "name": "Emc.Documentum.FS.DataModel.Shared.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Emc.Documentum.FS.DataModel.Shared.dll",
-              "extension": ".dll",
-              "size_bytes": 186504,
-              "modified": "2026-05-06T11:15:23"
             },
             {
               "name": "Global.asax",
@@ -1220,27 +1010,6 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:23"
             },
             {
-              "name": "OkEshurAll.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/OkEshurAll.gif",
-              "extension": ".gif",
-              "size_bytes": 2882,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "loaderImage.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/loaderImage.gif",
-              "extension": ".gif",
-              "size_bytes": 10819,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "page-loader.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/page-loader.gif",
-              "extension": ".gif",
-              "size_bytes": 46809,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
               "name": "JobTiming.asmx.resx",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/JobTiming.asmx.resx",
               "extension": ".resx",
@@ -1248,24 +1017,10 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:23"
             },
             {
-              "name": "KklClass.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.dll",
-              "extension": ".dll",
-              "size_bytes": 548864,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
               "name": "KklClass.pdb",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.pdb",
               "extension": ".pdb",
               "size_bytes": 890368,
-              "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "Newtonsoft.Json.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Newtonsoft.Json.dll",
-              "extension": ".dll",
-              "size_bytes": 554408,
               "modified": "2026-05-06T11:15:24"
             },
             {
@@ -1283,46 +1038,11 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:25"
             },
             {
-              "name": "Web.config.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/WindowsAuthentication/Web.config.exclude",
-              "extension": ".exclude",
-              "size_bytes": 96,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
               "name": "vwd.webinfo",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/vwd.webinfo",
               "extension": ".webinfo",
               "size_bytes": 267,
               "modified": "2026-05-06T11:15:24"
-            },
-            {
-              "name": "GaugeService.cs.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/GaugeService.cs.exclude",
-              "extension": ".exclude",
-              "size_bytes": 14135,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "YaldayOvdimDataSet.xsd.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/YaldayOvdimDataSet.xsd.exclude",
-              "extension": ".exclude",
-              "size_bytes": 128404,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "KklClass.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll",
-              "extension": ".dll",
-              "size_bytes": 476672,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "KklClass.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 26,
-              "modified": "2026-05-06T11:15:26"
             },
             {
               "name": "KklClass.pdb",
@@ -1332,52 +1052,10 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:26"
             },
             {
-              "name": "Microsoft.ReportViewer.WebForms.DLL",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL",
-              "extension": ".dll",
-              "size_bytes": 1879712,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "Microsoft.ReportViewer.WebForms.DLL.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL.refresh",
-              "extension": ".refresh",
-              "size_bytes": 78,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "NetBase.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll",
-              "extension": ".dll",
-              "size_bytes": 286720,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "NetBase.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 24,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
               "name": "NetBase.pdb",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.pdb",
               "extension": ".pdb",
               "size_bytes": 278016,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "Newtonsoft.Json.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll",
-              "extension": ".dll",
-              "size_bytes": 574376,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "Newtonsoft.Json.dll.refresh",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll.refresh",
-              "extension": ".refresh",
-              "size_bytes": 150,
               "modified": "2026-05-06T11:15:26"
             },
             {
@@ -1395,101 +1073,10 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:26"
             },
             {
-              "name": "boxBg.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/boxBg.gif",
-              "extension": ".gif",
-              "size_bytes": 56,
-              "modified": "2026-05-06T11:15:26"
-            },
-            {
-              "name": "iconSend.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/iconSend.gif",
-              "extension": ".gif",
-              "size_bytes": 194,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "inputShadow.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/inputShadow.gif",
-              "extension": ".gif",
-              "size_bytes": 54,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "menuBg.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg.gif",
-              "extension": ".gif",
-              "size_bytes": 316,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "menuBg_over.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg_over.gif",
-              "extension": ".gif",
-              "size_bytes": 308,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "menuLine - עותק (2).gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק (2).gif",
-              "extension": ".gif",
-              "size_bytes": 516,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "menuLine - עותק.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק.gif",
-              "extension": ".gif",
-              "size_bytes": 848,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "menuLine.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine.gif",
-              "extension": ".gif",
-              "size_bytes": 135,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "searchFieldBg.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/searchFieldBg.gif",
-              "extension": ".gif",
-              "size_bytes": 51,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "titles_line.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/titles_line.gif",
-              "extension": ".gif",
-              "size_bytes": 53,
-              "modified": "2026-05-06T11:15:27"
-            },
-            {
-              "name": "verticalPoints.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/verticalPoints.gif",
-              "extension": ".gif",
-              "size_bytes": 43,
-              "modified": "2026-05-06T11:15:28"
-            },
-            {
               "name": "GaugeMaster.master",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeMaster.master",
               "extension": ".master",
               "size_bytes": 6576,
-              "modified": "2026-05-06T11:15:28"
-            },
-            {
-              "name": "GaugeService.asmx.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeService.asmx.exclude",
-              "extension": ".exclude",
-              "size_bytes": 97,
-              "modified": "2026-05-06T11:15:28"
-            },
-            {
-              "name": "Web.config.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/Web.config.exclude",
-              "extension": ".exclude",
-              "size_bytes": 205,
               "modified": "2026-05-06T11:15:28"
             },
             {
@@ -1505,27 +1092,6 @@ window.PROJECT_FILES = {
               "extension": ".resx",
               "size_bytes": 1733,
               "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "OkEshurAll.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/OkEshurAll.gif",
-              "extension": ".gif",
-              "size_bytes": 2882,
-              "modified": "2026-05-06T11:15:28"
-            },
-            {
-              "name": "loaderImage.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/loaderImage.gif",
-              "extension": ".gif",
-              "size_bytes": 10819,
-              "modified": "2026-05-06T11:15:28"
-            },
-            {
-              "name": "page-loader.gif",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/page-loader.gif",
-              "extension": ".gif",
-              "size_bytes": 46809,
-              "modified": "2026-05-06T11:15:28"
             },
             {
               "name": "JobList.aspx.resx",
@@ -1556,24 +1122,10 @@ window.PROJECT_FILES = {
               "modified": "2026-05-06T11:15:25"
             },
             {
-              "name": "KklClass.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.dll",
-              "extension": ".dll",
-              "size_bytes": 476672,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
               "name": "KklClass.pdb",
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.pdb",
               "extension": ".pdb",
               "size_bytes": 712192,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "NetBase.dll",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.dll",
-              "extension": ".dll",
-              "size_bytes": 286720,
               "modified": "2026-05-06T11:15:25"
             },
             {
@@ -1588,13 +1140,6 @@ window.PROJECT_FILES = {
               "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/WebFormBase.aspx.resx",
               "extension": ".resx",
               "size_bytes": 5317,
-              "modified": "2026-05-06T11:15:25"
-            },
-            {
-              "name": "YaldayOvdim.asmx.exclude",
-              "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/YaldayOvdim.asmx.exclude",
-              "extension": ".exclude",
-              "size_bytes": 95,
               "modified": "2026-05-06T11:15:25"
             },
             {
@@ -3519,7 +3064,7 @@ window.PROJECT_FILES = {
         "רשת קדסטר": {
           "path": "מידד/רשת קדסטר",
           "modified": "2026-05-02T20:50:50",
-          "total_files": 44,
+          "total_files": 43,
           "scripts": [
             {
               "name": "API_cadaster_network.py",
@@ -3769,13 +3314,6 @@ window.PROJECT_FILES = {
               "modified": "2026-03-14T19:34:46"
             },
             {
-              "name": "README.md",
-              "path": "מידד/רשת קדסטר/scripts/NetWork_react/README.md",
-              "extension": ".md",
-              "size_bytes": 3359,
-              "modified": "2026-03-14T19:34:46"
-            },
-            {
               "name": "package-lock.json",
               "path": "מידד/רשת קדסטר/scripts/NetWork_react/package-lock.json",
               "extension": ".json",
@@ -3927,7 +3465,7 @@ window.PROJECT_FILES = {
         "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו": {
           "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 16,
+          "total_files": 12,
           "scripts": [
             {
               "name": "DownLoadFC.py",
@@ -3952,34 +3490,6 @@ window.PROJECT_FILES = {
             }
           ],
           "documents": [
-            {
-              "name": "FireIndex_DownLoadFC.md",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_DownLoadFC.md",
-              "extension": ".md",
-              "size_bytes": 3116,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "FireIndex_FireRiskIndexKKL.md",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_FireRiskIndexKKL.md",
-              "extension": ".md",
-              "size_bytes": 5540,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "FireRiskShamat_FireRiskShamat.md",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireRiskShamat_FireRiskShamat.md",
-              "extension": ".md",
-              "size_bytes": 4679,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 3664,
-              "modified": "2026-04-16T10:57:37"
-            },
             {
               "name": "20230908_GIS_Index.csv",
               "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230908_GIS_Index.csv",
@@ -4050,7 +3560,7 @@ window.PROJECT_FILES = {
         "גדרות מרעה": {
           "path": "רועי/גדרות מרעה",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 4,
+          "total_files": 2,
           "scripts": [
             {
               "name": "FencePricingGetForestName.py",
@@ -4061,20 +3571,6 @@ window.PROJECT_FILES = {
             }
           ],
           "documents": [
-            {
-              "name": "FencePricingGetForestName.md",
-              "path": "רועי/גדרות מרעה/Documents/FencePricingGetForestName.md",
-              "extension": ".md",
-              "size_bytes": 6314,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/גדרות מרעה/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 1768,
-              "modified": "2026-04-16T10:57:37"
-            },
             {
               "name": "MetaDataJson.json",
               "path": "רועי/גדרות מרעה/data/FencePricingGetForestName/ToolData/MetaDataJson.json",
@@ -4088,7 +3584,7 @@ window.PROJECT_FILES = {
         "גיבויים": {
           "path": "רועי/גיבויים",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 15,
+          "total_files": 9,
           "scripts": [
             {
               "name": "BackupOnlineJsons-old.py",
@@ -4154,56 +3650,13 @@ window.PROJECT_FILES = {
               "modified": "2026-04-16T10:57:37"
             }
           ],
-          "documents": [
-            {
-              "name": "BackupOnlineJsons.md",
-              "path": "רועי/גיבויים/Documents/BackupOnlineJsons.md",
-              "extension": ".md",
-              "size_bytes": 4200,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/גיבויים/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 4176,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "SpecBackup.md",
-              "path": "רועי/גיבויים/Documents/SpecBackup.md",
-              "extension": ".md",
-              "size_bytes": 5257,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "cleanproccessbackups.md",
-              "path": "רועי/גיבויים/Documents/cleanproccessbackups.md",
-              "extension": ".md",
-              "size_bytes": 2800,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "delettempgistask1.md",
-              "path": "רועי/גיבויים/Documents/delettempgistask1.md",
-              "extension": ".md",
-              "size_bytes": 1761,
-              "modified": "2026-04-16T10:57:37"
-            },
-            {
-              "name": "deletxmlprohistory.md",
-              "path": "רועי/גיבויים/Documents/deletxmlprohistory.md",
-              "extension": ".md",
-              "size_bytes": 1694,
-              "modified": "2026-04-16T10:57:37"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "יחידות עבודה": {
           "path": "רועי/יחידות עבודה",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 28,
+          "total_files": 16,
           "scripts": [
             {
               "name": "DownLoadFC.py",
@@ -4318,98 +3771,13 @@ window.PROJECT_FILES = {
               "modified": "2026-04-16T10:57:38"
             }
           ],
-          "documents": [
-            {
-              "name": "NetiotProTool.md",
-              "path": "רועי/יחידות עבודה/Documents/NetiotProTool.md",
-              "extension": ".md",
-              "size_bytes": 2195,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "Netiot_DownLoadFC.md",
-              "path": "רועי/יחידות עבודה/Documents/Netiot_DownLoadFC.md",
-              "extension": ".md",
-              "size_bytes": 2735,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "Netiot_HgashatTochnit.md",
-              "path": "רועי/יחידות עבודה/Documents/Netiot_HgashatTochnit.md",
-              "extension": ".md",
-              "size_bytes": 4306,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "Netiot_statusbiztoa.md",
-              "path": "רועי/יחידות עבודה/Documents/Netiot_statusbiztoa.md",
-              "extension": ".md",
-              "size_bytes": 1589,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/יחידות עבודה/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 6497,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipulProTool.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipulProTool.md",
-              "extension": ".md",
-              "size_bytes": 2332,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_DownLoadFC.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_DownLoadFC.md",
-              "extension": ".md",
-              "size_bytes": 676,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_HgashatTochnit.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_HgashatTochnit.md",
-              "extension": ".md",
-              "size_bytes": 3880,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_copyunit.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_copyunit.md",
-              "extension": ".md",
-              "size_bytes": 2157,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_ezorheytzname.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_ezorheytzname.md",
-              "extension": ".md",
-              "size_bytes": 2317,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_statusanddelet.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusanddelet.md",
-              "extension": ".md",
-              "size_bytes": 2534,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "ShitheyTipul_statusbiztoa.md",
-              "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusbiztoa.md",
-              "extension": ".md",
-              "size_bytes": 1748,
-              "modified": "2026-04-16T10:57:38"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "כלי אינטרנט": {
           "path": "רועי/כלי אינטרנט",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 14,
+          "total_files": 8,
           "scripts": [
             {
               "name": "GPTAddassigments.py",
@@ -4468,56 +3836,13 @@ window.PROJECT_FILES = {
               "modified": "2026-04-16T10:57:38"
             }
           ],
-          "documents": [
-            {
-              "name": "GPTAddassigments.md",
-              "path": "רועי/כלי אינטרנט/Documents/GPTAddassigments.md",
-              "extension": ".md",
-              "size_bytes": 2670,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "GenFc2WU.md",
-              "path": "רועי/כלי אינטרנט/Documents/GenFc2WU.md",
-              "extension": ".md",
-              "size_bytes": 2681,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "GenFc2WUNetiot.md",
-              "path": "רועי/כלי אינטרנט/Documents/GenFc2WUNetiot.md",
-              "extension": ".md",
-              "size_bytes": 3924,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/כלי אינטרנט/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 3374,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "mishbatzotmirea.md",
-              "path": "רועי/כלי אינטרנט/Documents/mishbatzotmirea.md",
-              "extension": ".md",
-              "size_bytes": 2744,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "rtowo.md",
-              "path": "רועי/כלי אינטרנט/Documents/rtowo.md",
-              "extension": ".md",
-              "size_bytes": 4167,
-              "modified": "2026-04-16T10:57:38"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "משבצות מרעה": {
           "path": "רועי/משבצות מרעה",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 5,
+          "total_files": 2,
           "scripts": [
             {
               "name": "mishbatzotmireaexponetCacheBuild.py",
@@ -4534,35 +3859,13 @@ window.PROJECT_FILES = {
               "modified": "2026-04-16T10:57:38"
             }
           ],
-          "documents": [
-            {
-              "name": "README.md",
-              "path": "רועי/משבצות מרעה/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 2491,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "mishbatzotmireaexponetCacheBuild.md",
-              "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuild.md",
-              "extension": ".md",
-              "size_bytes": 4710,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
-              "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
-              "extension": ".md",
-              "size_bytes": 4397,
-              "modified": "2026-04-16T10:57:38"
-            }
-          ],
+          "documents": [],
           "other": []
         },
         "ניהול ותחזוקות של שכבת שריפות": {
           "path": "רועי/ניהול ותחזוקות של שכבת שריפות",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 15,
+          "total_files": 9,
           "scripts": [
             {
               "name": "FireContinues.py",
@@ -4609,48 +3912,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "DownLoadFC.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/DownLoadFC.md",
-              "extension": ".md",
-              "size_bytes": 2940,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "FireContinues.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireContinues.md",
-              "extension": ".md",
-              "size_bytes": 2649,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "FireIDs.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireIDs.md",
-              "extension": ".md",
-              "size_bytes": 3524,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "FireTrackingMor.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireTrackingMor.md",
-              "extension": ".md",
-              "size_bytes": 2167,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "QA.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/QA.md",
-              "extension": ".md",
-              "size_bytes": 3508,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 3335,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
               "name": "MetaDataJson.json",
               "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireContinues/MetaDataJson.json",
               "extension": ".json",
@@ -4677,7 +3938,7 @@ window.PROJECT_FILES = {
         "סנכרון שכבות": {
           "path": "רועי/סנכרון שכבות",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 8,
+          "total_files": 5,
           "scripts": [
             {
               "name": "WorkUnitReplicaFromAGOL_ToSde - Copy.py",
@@ -4710,27 +3971,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "README.md",
-              "path": "רועי/סנכרון שכבות/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 2881,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "SyncFromServerToOnlineOneWay.md",
-              "path": "רועי/סנכרון שכבות/Documents/SyncFromServerToOnlineOneWay.md",
-              "extension": ".md",
-              "size_bytes": 7144,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "WorkUnitReplicaFromAGOL_ToSde.md",
-              "path": "רועי/סנכרון שכבות/Documents/WorkUnitReplicaFromAGOL_ToSde.md",
-              "extension": ".md",
-              "size_bytes": 3335,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
               "name": "MetaDataJson.json",
               "path": "רועי/סנכרון שכבות/data/MetaDataJson.json",
               "extension": ".json",
@@ -4743,7 +3983,7 @@ window.PROJECT_FILES = {
         "פריטים חדשים באונליין": {
           "path": "רועי/פריטים חדשים באונליין",
           "modified": "2026-04-19T11:32:15",
-          "total_files": 4,
+          "total_files": 2,
           "scripts": [
             {
               "name": "NewOnlineitems.py",
@@ -4754,20 +3994,6 @@ window.PROJECT_FILES = {
             }
           ],
           "documents": [
-            {
-              "name": "NewOnlineitems.md",
-              "path": "רועי/פריטים חדשים באונליין/Documents/NewOnlineitems.md",
-              "extension": ".md",
-              "size_bytes": 4478,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/פריטים חדשים באונליין/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 1334,
-              "modified": "2026-04-16T10:57:38"
-            },
             {
               "name": "ToolDataGDB.gdb",
               "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb",
@@ -4781,7 +4007,7 @@ window.PROJECT_FILES = {
         "תוכניות עבודה": {
           "path": "רועי/תוכניות עבודה",
           "modified": "2026-04-19T11:32:16",
-          "total_files": 21,
+          "total_files": 13,
           "scripts": [
             {
               "name": "StandCombinedExecutionStatus.py",
@@ -4849,62 +4075,6 @@ window.PROJECT_FILES = {
           ],
           "documents": [
             {
-              "name": "GPTAddassigments.md",
-              "path": "רועי/תוכניות עבודה/Documents/GPTAddassigments.md",
-              "extension": ".md",
-              "size_bytes": 1949,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/תוכניות עבודה/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 3447,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "StandCombinedExecutionStatus.md",
-              "path": "רועי/תוכניות עבודה/Documents/StandCombinedExecutionStatus.md",
-              "extension": ".md",
-              "size_bytes": 2089,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "Tasks2WorkUnitPolygon.md",
-              "path": "רועי/תוכניות עבודה/Documents/Tasks2WorkUnitPolygon.md",
-              "extension": ".md",
-              "size_bytes": 2556,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "tochniotavobaezoriotWeeklyMail.md",
-              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotWeeklyMail.md",
-              "extension": ".md",
-              "size_bytes": 2194,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "tochniotavobaezoriotcalculatedashboradtable.md",
-              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotcalculatedashboradtable.md",
-              "extension": ".md",
-              "size_bytes": 2465,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "tochniotavobaezoriotstatuandcalean.md",
-              "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotstatuandcalean.md",
-              "extension": ".md",
-              "size_bytes": 3194,
-              "modified": "2026-04-16T10:57:38"
-            },
-            {
-              "name": "writeTRTUnit2MissionTable.md",
-              "path": "רועי/תוכניות עבודה/Documents/writeTRTUnit2MissionTable.md",
-              "extension": ".md",
-              "size_bytes": 2895,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
               "name": "updated_features.json",
               "path": "רועי/תוכניות עבודה/data/StandCombinedExecutionStatus/updated_features.json",
               "extension": ".json",
@@ -4938,7 +4108,7 @@ window.PROJECT_FILES = {
         "תחזוקות של מערכת": {
           "path": "רועי/תחזוקות של מערכת",
           "modified": "2026-04-19T11:32:16",
-          "total_files": 11,
+          "total_files": 5,
           "scripts": [
             {
               "name": "DB_maintenance.py",
@@ -4976,50 +4146,7 @@ window.PROJECT_FILES = {
               "modified": "2026-04-16T10:57:39"
             }
           ],
-          "documents": [
-            {
-              "name": "DB_maintenance.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/DB_maintenance.md",
-              "extension": ".md",
-              "size_bytes": 1809,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "README.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/README.md",
-              "extension": ".md",
-              "size_bytes": 1929,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "cleanproccessbackups.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/cleanproccessbackups.md",
-              "extension": ".md",
-              "size_bytes": 1896,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "cleanup.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/cleanup.md",
-              "extension": ".md",
-              "size_bytes": 2251,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "delettempgistask1.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/delettempgistask1.md",
-              "extension": ".md",
-              "size_bytes": 1477,
-              "modified": "2026-04-16T10:57:39"
-            },
-            {
-              "name": "deletxmlprohistory.md",
-              "path": "רועי/תחזוקות של מערכת/Documents/deletxmlprohistory.md",
-              "extension": ".md",
-              "size_bytes": 1381,
-              "modified": "2026-04-16T10:57:39"
-            }
-          ],
+          "documents": [],
           "other": []
         }
       }
@@ -5966,7 +5093,7 @@ window.PROJECT_FILES = {
       "original_name": "ספר יער",
       "path": "אבינועם/ספר יער",
       "modified": "2026-05-03T20:25:15",
-      "total_files": 18,
+      "total_files": 17,
       "scripts": [
         {
           "name": "collect_project_inventory.py",
@@ -6031,13 +5158,6 @@ window.PROJECT_FILES = {
           "path": "אבינועם/ספר יער/Documents/תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.docx",
           "extension": ".docx",
           "size_bytes": 40043,
-          "modified": "2026-05-03T20:25:05"
-        },
-        {
-          "name": "תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.md",
-          "path": "אבינועם/ספר יער/Documents/תיק_מקורות_נתונים_סביבות_ו-Git_ספר_יער.md",
-          "extension": ".md",
-          "size_bytes": 2909,
           "modified": "2026-05-03T20:25:05"
         },
         {
@@ -6793,7 +5913,7 @@ window.PROJECT_FILES = {
       "original_name": "תעסוקת ילדי עובדים",
       "path": "אורי אורן/תעסוקת ילדי עובדים",
       "modified": "2026-05-06T11:26:54",
-      "total_files": 114,
+      "total_files": 50,
       "scripts": [
         {
           "name": "LoginProject.html",
@@ -6856,76 +5976,6 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:19"
         },
         {
-          "name": "OkEshurAll.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/OkEshurAll.gif",
-          "extension": ".gif",
-          "size_bytes": 2882,
-          "modified": "2026-05-06T11:15:20"
-        },
-        {
-          "name": "loaderImage.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/loaderImage.gif",
-          "extension": ".gif",
-          "size_bytes": 10819,
-          "modified": "2026-05-06T11:15:20"
-        },
-        {
-          "name": "page-loader.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Images/page-loader.gif",
-          "extension": ".gif",
-          "size_bytes": 46809,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "MobileMasterPage.master.cs.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.cs.exclude",
-          "extension": ".exclude",
-          "size_bytes": 483,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "MobileMasterPage.master.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/MobileMasterPage.master.exclude",
-          "extension": ".exclude",
-          "size_bytes": 3307,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "aa.aspx.cs.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.cs.exclude",
-          "extension": ".exclude",
-          "size_bytes": 282,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "aa.aspx.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/aa.aspx.exclude",
-          "extension": ".exclude",
-          "size_bytes": 352,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "data.html.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/data.html.exclude",
-          "extension": ".exclude",
-          "size_bytes": 9684,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "login.aspx.cs.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.cs.exclude",
-          "extension": ".exclude",
-          "size_bytes": 285,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
-          "name": "login.aspx.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Project/login.aspx.exclude",
-          "extension": ".exclude",
-          "size_bytes": 3102,
-          "modified": "2026-05-06T11:15:21"
-        },
-        {
           "name": "index.js.map",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/Scripts/index.js.map",
           "extension": ".map",
@@ -6947,32 +5997,11 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:23"
         },
         {
-          "name": "Microsoft.Web.Infrastructure.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll",
-          "extension": ".dll",
-          "size_bytes": 45416,
-          "modified": "2026-05-06T11:15:20"
-        },
-        {
-          "name": "Microsoft.Web.Infrastructure.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/bin/Microsoft.Web.Infrastructure.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 91,
-          "modified": "2026-05-06T11:15:20"
-        },
-        {
           "name": "favicon.ico",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/favicon.ico",
           "extension": ".ico",
           "size_bytes": 1150,
           "modified": "2026-05-06T11:15:19"
-        },
-        {
-          "name": "confirm.html.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/Mobile/web/michrazim/confirm.html.exclude",
-          "extension": ".exclude",
-          "size_bytes": 48963,
-          "modified": "2026-05-06T11:15:21"
         },
         {
           "name": "vwd.webinfo",
@@ -7045,80 +6074,10 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:23"
         },
         {
-          "name": "YaldayOvdimDataSet.xsd.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xsd.exclude",
-          "extension": ".exclude",
-          "size_bytes": 128411,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "YaldayOvdimDataSet.xss.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/App_Code/YaldayOvdimDataSet.xss.exclude",
-          "extension": ".exclude",
-          "size_bytes": 2596,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "DFSHeader.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll",
-          "extension": ".dll",
-          "size_bytes": 6144,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "DFSHeader.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/DFSHeader.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 28,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "Emc.Documentum.FS.DataModel.Shared.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll",
-          "extension": ".dll",
-          "size_bytes": 186504,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "Emc.Documentum.FS.DataModel.Shared.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Emc.Documentum.FS.DataModel.Shared.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 78,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "ExcelDataReader.DataSet.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll",
-          "extension": ".dll",
-          "size_bytes": 9728,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "ExcelDataReader.DataSet.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 180,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
           "name": "ExcelDataReader.DataSet.pdb",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.DataSet.pdb",
           "extension": ".pdb",
           "size_bytes": 2640,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "ExcelDataReader.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll",
-          "extension": ".dll",
-          "size_bytes": 161792,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "ExcelDataReader.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/ExcelDataReader.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 148,
           "modified": "2026-05-06T11:15:24"
         },
         {
@@ -7129,53 +6088,11 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:24"
         },
         {
-          "name": "KklClass.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll",
-          "extension": ".dll",
-          "size_bytes": 548864,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "KklClass.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 26,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
           "name": "KklClass.pdb",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/KklClass.pdb",
           "extension": ".pdb",
           "size_bytes": 890368,
           "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "Newtonsoft.Json.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll",
-          "extension": ".dll",
-          "size_bytes": 554408,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "Newtonsoft.Json.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Bin/Newtonsoft.Json.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 40,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "DFSHeader.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/DFSHeader.dll",
-          "extension": ".dll",
-          "size_bytes": 6144,
-          "modified": "2026-05-06T11:15:23"
-        },
-        {
-          "name": "Emc.Documentum.FS.DataModel.Shared.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Emc.Documentum.FS.DataModel.Shared.dll",
-          "extension": ".dll",
-          "size_bytes": 186504,
-          "modified": "2026-05-06T11:15:23"
         },
         {
           "name": "Global.asax",
@@ -7192,27 +6109,6 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:23"
         },
         {
-          "name": "OkEshurAll.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/OkEshurAll.gif",
-          "extension": ".gif",
-          "size_bytes": 2882,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "loaderImage.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/loaderImage.gif",
-          "extension": ".gif",
-          "size_bytes": 10819,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "page-loader.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Images/page-loader.gif",
-          "extension": ".gif",
-          "size_bytes": 46809,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
           "name": "JobTiming.asmx.resx",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/JobTiming.asmx.resx",
           "extension": ".resx",
@@ -7220,24 +6116,10 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:23"
         },
         {
-          "name": "KklClass.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.dll",
-          "extension": ".dll",
-          "size_bytes": 548864,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
           "name": "KklClass.pdb",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/KklClass.pdb",
           "extension": ".pdb",
           "size_bytes": 890368,
-          "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "Newtonsoft.Json.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/Newtonsoft.Json.dll",
-          "extension": ".dll",
-          "size_bytes": 554408,
           "modified": "2026-05-06T11:15:24"
         },
         {
@@ -7255,46 +6137,11 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:25"
         },
         {
-          "name": "Web.config.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/WindowsAuthentication/Web.config.exclude",
-          "extension": ".exclude",
-          "size_bytes": 96,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
           "name": "vwd.webinfo",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsService/vwd.webinfo",
           "extension": ".webinfo",
           "size_bytes": 267,
           "modified": "2026-05-06T11:15:24"
-        },
-        {
-          "name": "GaugeService.cs.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/GaugeService.cs.exclude",
-          "extension": ".exclude",
-          "size_bytes": 14135,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "YaldayOvdimDataSet.xsd.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/App_Code/YaldayOvdimDataSet.xsd.exclude",
-          "extension": ".exclude",
-          "size_bytes": 128404,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "KklClass.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll",
-          "extension": ".dll",
-          "size_bytes": 476672,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "KklClass.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/KklClass.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 26,
-          "modified": "2026-05-06T11:15:26"
         },
         {
           "name": "KklClass.pdb",
@@ -7304,52 +6151,10 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:26"
         },
         {
-          "name": "Microsoft.ReportViewer.WebForms.DLL",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL",
-          "extension": ".dll",
-          "size_bytes": 1879712,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "Microsoft.ReportViewer.WebForms.DLL.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Microsoft.ReportViewer.WebForms.DLL.refresh",
-          "extension": ".refresh",
-          "size_bytes": 78,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "NetBase.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll",
-          "extension": ".dll",
-          "size_bytes": 286720,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "NetBase.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 24,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
           "name": "NetBase.pdb",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/NetBase.pdb",
           "extension": ".pdb",
           "size_bytes": 278016,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "Newtonsoft.Json.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll",
-          "extension": ".dll",
-          "size_bytes": 574376,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "Newtonsoft.Json.dll.refresh",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Bin/Newtonsoft.Json.dll.refresh",
-          "extension": ".refresh",
-          "size_bytes": 150,
           "modified": "2026-05-06T11:15:26"
         },
         {
@@ -7367,101 +6172,10 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:26"
         },
         {
-          "name": "boxBg.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/boxBg.gif",
-          "extension": ".gif",
-          "size_bytes": 56,
-          "modified": "2026-05-06T11:15:26"
-        },
-        {
-          "name": "iconSend.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/iconSend.gif",
-          "extension": ".gif",
-          "size_bytes": 194,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "inputShadow.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/inputShadow.gif",
-          "extension": ".gif",
-          "size_bytes": 54,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "menuBg.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg.gif",
-          "extension": ".gif",
-          "size_bytes": 316,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "menuBg_over.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuBg_over.gif",
-          "extension": ".gif",
-          "size_bytes": 308,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "menuLine - עותק (2).gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק (2).gif",
-          "extension": ".gif",
-          "size_bytes": 516,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "menuLine - עותק.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine - עותק.gif",
-          "extension": ".gif",
-          "size_bytes": 848,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "menuLine.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/menuLine.gif",
-          "extension": ".gif",
-          "size_bytes": 135,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "searchFieldBg.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/searchFieldBg.gif",
-          "extension": ".gif",
-          "size_bytes": 51,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "titles_line.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/titles_line.gif",
-          "extension": ".gif",
-          "size_bytes": 53,
-          "modified": "2026-05-06T11:15:27"
-        },
-        {
-          "name": "verticalPoints.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Design/gfx/verticalPoints.gif",
-          "extension": ".gif",
-          "size_bytes": 43,
-          "modified": "2026-05-06T11:15:28"
-        },
-        {
           "name": "GaugeMaster.master",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeMaster.master",
           "extension": ".master",
           "size_bytes": 6576,
-          "modified": "2026-05-06T11:15:28"
-        },
-        {
-          "name": "GaugeService.asmx.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/GaugeService.asmx.exclude",
-          "extension": ".exclude",
-          "size_bytes": 97,
-          "modified": "2026-05-06T11:15:28"
-        },
-        {
-          "name": "Web.config.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/GaugeReport/Web.config.exclude",
-          "extension": ".exclude",
-          "size_bytes": 205,
           "modified": "2026-05-06T11:15:28"
         },
         {
@@ -7477,27 +6191,6 @@ window.PROJECT_FILES = {
           "extension": ".resx",
           "size_bytes": 1733,
           "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "OkEshurAll.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/OkEshurAll.gif",
-          "extension": ".gif",
-          "size_bytes": 2882,
-          "modified": "2026-05-06T11:15:28"
-        },
-        {
-          "name": "loaderImage.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/loaderImage.gif",
-          "extension": ".gif",
-          "size_bytes": 10819,
-          "modified": "2026-05-06T11:15:28"
-        },
-        {
-          "name": "page-loader.gif",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/Images/page-loader.gif",
-          "extension": ".gif",
-          "size_bytes": 46809,
-          "modified": "2026-05-06T11:15:28"
         },
         {
           "name": "JobList.aspx.resx",
@@ -7528,24 +6221,10 @@ window.PROJECT_FILES = {
           "modified": "2026-05-06T11:15:25"
         },
         {
-          "name": "KklClass.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.dll",
-          "extension": ".dll",
-          "size_bytes": 476672,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
           "name": "KklClass.pdb",
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/KklClass.pdb",
           "extension": ".pdb",
           "size_bytes": 712192,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "NetBase.dll",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/NetBase.dll",
-          "extension": ".dll",
-          "size_bytes": 286720,
           "modified": "2026-05-06T11:15:25"
         },
         {
@@ -7560,13 +6239,6 @@ window.PROJECT_FILES = {
           "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/WebFormBase.aspx.resx",
           "extension": ".resx",
           "size_bytes": 5317,
-          "modified": "2026-05-06T11:15:25"
-        },
-        {
-          "name": "YaldayOvdim.asmx.exclude",
-          "path": "אורי אורן/תעסוקת ילדי עובדים/scripts/SmallApp/SmallApplicationsWeb/YaldayOvdim.asmx.exclude",
-          "extension": ".exclude",
-          "size_bytes": 95,
           "modified": "2026-05-06T11:15:25"
         },
         {
@@ -9525,7 +8197,7 @@ window.PROJECT_FILES = {
       "original_name": "רשת קדסטר",
       "path": "מידד/רשת קדסטר",
       "modified": "2026-05-02T20:50:50",
-      "total_files": 44,
+      "total_files": 43,
       "scripts": [
         {
           "name": "API_cadaster_network.py",
@@ -9775,13 +8447,6 @@ window.PROJECT_FILES = {
           "modified": "2026-03-14T19:34:46"
         },
         {
-          "name": "README.md",
-          "path": "מידד/רשת קדסטר/scripts/NetWork_react/README.md",
-          "extension": ".md",
-          "size_bytes": 3359,
-          "modified": "2026-03-14T19:34:46"
-        },
-        {
           "name": "package-lock.json",
           "path": "מידד/רשת קדסטר/scripts/NetWork_react/package-lock.json",
           "extension": ".json",
@@ -9935,7 +8600,7 @@ window.PROJECT_FILES = {
       "original_name": "אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
       "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 16,
+      "total_files": 12,
       "scripts": [
         {
           "name": "DownLoadFC.py",
@@ -9960,34 +8625,6 @@ window.PROJECT_FILES = {
         }
       ],
       "documents": [
-        {
-          "name": "FireIndex_DownLoadFC.md",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_DownLoadFC.md",
-          "extension": ".md",
-          "size_bytes": 3116,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "FireIndex_FireRiskIndexKKL.md",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireIndex_FireRiskIndexKKL.md",
-          "extension": ".md",
-          "size_bytes": 5540,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "FireRiskShamat_FireRiskShamat.md",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/FireRiskShamat_FireRiskShamat.md",
-          "extension": ".md",
-          "size_bytes": 4679,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 3664,
-          "modified": "2026-04-16T10:57:37"
-        },
         {
           "name": "20230908_GIS_Index.csv",
           "path": "רועי/אינדקסים של שריפות יש אינדקס מבוסס שמט ואינדקס ניהול סיכונים מבוסס חישה מרחקו/data/FireRiskShamat/ToolData/20230908_GIS_Index.csv",
@@ -10060,7 +8697,7 @@ window.PROJECT_FILES = {
       "original_name": "גדרות מרעה",
       "path": "רועי/גדרות מרעה",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 4,
+      "total_files": 2,
       "scripts": [
         {
           "name": "FencePricingGetForestName.py",
@@ -10071,20 +8708,6 @@ window.PROJECT_FILES = {
         }
       ],
       "documents": [
-        {
-          "name": "FencePricingGetForestName.md",
-          "path": "רועי/גדרות מרעה/Documents/FencePricingGetForestName.md",
-          "extension": ".md",
-          "size_bytes": 6314,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/גדרות מרעה/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 1768,
-          "modified": "2026-04-16T10:57:37"
-        },
         {
           "name": "MetaDataJson.json",
           "path": "רועי/גדרות מרעה/data/FencePricingGetForestName/ToolData/MetaDataJson.json",
@@ -10100,7 +8723,7 @@ window.PROJECT_FILES = {
       "original_name": "גיבויים",
       "path": "רועי/גיבויים",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 15,
+      "total_files": 9,
       "scripts": [
         {
           "name": "BackupOnlineJsons-old.py",
@@ -10166,50 +8789,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-16T10:57:37"
         }
       ],
-      "documents": [
-        {
-          "name": "BackupOnlineJsons.md",
-          "path": "רועי/גיבויים/Documents/BackupOnlineJsons.md",
-          "extension": ".md",
-          "size_bytes": 4200,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/גיבויים/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 4176,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "SpecBackup.md",
-          "path": "רועי/גיבויים/Documents/SpecBackup.md",
-          "extension": ".md",
-          "size_bytes": 5257,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "cleanproccessbackups.md",
-          "path": "רועי/גיבויים/Documents/cleanproccessbackups.md",
-          "extension": ".md",
-          "size_bytes": 2800,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "delettempgistask1.md",
-          "path": "רועי/גיבויים/Documents/delettempgistask1.md",
-          "extension": ".md",
-          "size_bytes": 1761,
-          "modified": "2026-04-16T10:57:37"
-        },
-        {
-          "name": "deletxmlprohistory.md",
-          "path": "רועי/גיבויים/Documents/deletxmlprohistory.md",
-          "extension": ".md",
-          "size_bytes": 1694,
-          "modified": "2026-04-16T10:57:37"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "יחידותעבודה": {
@@ -10217,7 +8797,7 @@ window.PROJECT_FILES = {
       "original_name": "יחידות עבודה",
       "path": "רועי/יחידות עבודה",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 28,
+      "total_files": 16,
       "scripts": [
         {
           "name": "DownLoadFC.py",
@@ -10332,92 +8912,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-16T10:57:38"
         }
       ],
-      "documents": [
-        {
-          "name": "NetiotProTool.md",
-          "path": "רועי/יחידות עבודה/Documents/NetiotProTool.md",
-          "extension": ".md",
-          "size_bytes": 2195,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "Netiot_DownLoadFC.md",
-          "path": "רועי/יחידות עבודה/Documents/Netiot_DownLoadFC.md",
-          "extension": ".md",
-          "size_bytes": 2735,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "Netiot_HgashatTochnit.md",
-          "path": "רועי/יחידות עבודה/Documents/Netiot_HgashatTochnit.md",
-          "extension": ".md",
-          "size_bytes": 4306,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "Netiot_statusbiztoa.md",
-          "path": "רועי/יחידות עבודה/Documents/Netiot_statusbiztoa.md",
-          "extension": ".md",
-          "size_bytes": 1589,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/יחידות עבודה/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 6497,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipulProTool.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipulProTool.md",
-          "extension": ".md",
-          "size_bytes": 2332,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_DownLoadFC.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_DownLoadFC.md",
-          "extension": ".md",
-          "size_bytes": 676,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_HgashatTochnit.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_HgashatTochnit.md",
-          "extension": ".md",
-          "size_bytes": 3880,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_copyunit.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_copyunit.md",
-          "extension": ".md",
-          "size_bytes": 2157,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_ezorheytzname.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_ezorheytzname.md",
-          "extension": ".md",
-          "size_bytes": 2317,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_statusanddelet.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusanddelet.md",
-          "extension": ".md",
-          "size_bytes": 2534,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "ShitheyTipul_statusbiztoa.md",
-          "path": "רועי/יחידות עבודה/Documents/ShitheyTipul_statusbiztoa.md",
-          "extension": ".md",
-          "size_bytes": 1748,
-          "modified": "2026-04-16T10:57:38"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "כליאינטרנט": {
@@ -10425,7 +8920,7 @@ window.PROJECT_FILES = {
       "original_name": "כלי אינטרנט",
       "path": "רועי/כלי אינטרנט",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 14,
+      "total_files": 8,
       "scripts": [
         {
           "name": "GPTAddassigments.py",
@@ -10484,50 +8979,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-16T10:57:38"
         }
       ],
-      "documents": [
-        {
-          "name": "GPTAddassigments.md",
-          "path": "רועי/כלי אינטרנט/Documents/GPTAddassigments.md",
-          "extension": ".md",
-          "size_bytes": 2670,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "GenFc2WU.md",
-          "path": "רועי/כלי אינטרנט/Documents/GenFc2WU.md",
-          "extension": ".md",
-          "size_bytes": 2681,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "GenFc2WUNetiot.md",
-          "path": "רועי/כלי אינטרנט/Documents/GenFc2WUNetiot.md",
-          "extension": ".md",
-          "size_bytes": 3924,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/כלי אינטרנט/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 3374,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "mishbatzotmirea.md",
-          "path": "רועי/כלי אינטרנט/Documents/mishbatzotmirea.md",
-          "extension": ".md",
-          "size_bytes": 2744,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "rtowo.md",
-          "path": "רועי/כלי אינטרנט/Documents/rtowo.md",
-          "extension": ".md",
-          "size_bytes": 4167,
-          "modified": "2026-04-16T10:57:38"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "משבצותמרעה": {
@@ -10535,7 +8987,7 @@ window.PROJECT_FILES = {
       "original_name": "משבצות מרעה",
       "path": "רועי/משבצות מרעה",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 5,
+      "total_files": 2,
       "scripts": [
         {
           "name": "mishbatzotmireaexponetCacheBuild.py",
@@ -10552,29 +9004,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-16T10:57:38"
         }
       ],
-      "documents": [
-        {
-          "name": "README.md",
-          "path": "רועי/משבצות מרעה/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 2491,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "mishbatzotmireaexponetCacheBuild.md",
-          "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuild.md",
-          "extension": ".md",
-          "size_bytes": 4710,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
-          "path": "רועי/משבצות מרעה/Documents/mishbatzotmireaexponetCacheBuildLiveDataHourRun.md",
-          "extension": ".md",
-          "size_bytes": 4397,
-          "modified": "2026-04-16T10:57:38"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "ניהולותחזוקותשלשכבתשריפות": {
@@ -10582,7 +9012,7 @@ window.PROJECT_FILES = {
       "original_name": "ניהול ותחזוקות של שכבת שריפות",
       "path": "רועי/ניהול ותחזוקות של שכבת שריפות",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 15,
+      "total_files": 9,
       "scripts": [
         {
           "name": "FireContinues.py",
@@ -10629,48 +9059,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "DownLoadFC.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/DownLoadFC.md",
-          "extension": ".md",
-          "size_bytes": 2940,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "FireContinues.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireContinues.md",
-          "extension": ".md",
-          "size_bytes": 2649,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "FireIDs.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireIDs.md",
-          "extension": ".md",
-          "size_bytes": 3524,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "FireTrackingMor.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/FireTrackingMor.md",
-          "extension": ".md",
-          "size_bytes": 2167,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "QA.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/QA.md",
-          "extension": ".md",
-          "size_bytes": 3508,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/ניהול ותחזוקות של שכבת שריפות/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 3335,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
           "name": "MetaDataJson.json",
           "path": "רועי/ניהול ותחזוקות של שכבת שריפות/data/FireContinues/MetaDataJson.json",
           "extension": ".json",
@@ -10699,7 +9087,7 @@ window.PROJECT_FILES = {
       "original_name": "סנכרון שכבות",
       "path": "רועי/סנכרון שכבות",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 8,
+      "total_files": 5,
       "scripts": [
         {
           "name": "WorkUnitReplicaFromAGOL_ToSde - Copy.py",
@@ -10732,27 +9120,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "README.md",
-          "path": "רועי/סנכרון שכבות/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 2881,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "SyncFromServerToOnlineOneWay.md",
-          "path": "רועי/סנכרון שכבות/Documents/SyncFromServerToOnlineOneWay.md",
-          "extension": ".md",
-          "size_bytes": 7144,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "WorkUnitReplicaFromAGOL_ToSde.md",
-          "path": "רועי/סנכרון שכבות/Documents/WorkUnitReplicaFromAGOL_ToSde.md",
-          "extension": ".md",
-          "size_bytes": 3335,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
           "name": "MetaDataJson.json",
           "path": "רועי/סנכרון שכבות/data/MetaDataJson.json",
           "extension": ".json",
@@ -10767,7 +9134,7 @@ window.PROJECT_FILES = {
       "original_name": "פריטים חדשים באונליין",
       "path": "רועי/פריטים חדשים באונליין",
       "modified": "2026-04-19T11:32:15",
-      "total_files": 4,
+      "total_files": 2,
       "scripts": [
         {
           "name": "NewOnlineitems.py",
@@ -10778,20 +9145,6 @@ window.PROJECT_FILES = {
         }
       ],
       "documents": [
-        {
-          "name": "NewOnlineitems.md",
-          "path": "רועי/פריטים חדשים באונליין/Documents/NewOnlineitems.md",
-          "extension": ".md",
-          "size_bytes": 4478,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/פריטים חדשים באונליין/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 1334,
-          "modified": "2026-04-16T10:57:38"
-        },
         {
           "name": "ToolDataGDB.gdb",
           "path": "רועי/פריטים חדשים באונליין/data/ToolDataGDB.gdb",
@@ -10807,7 +9160,7 @@ window.PROJECT_FILES = {
       "original_name": "תוכניות עבודה",
       "path": "רועי/תוכניות עבודה",
       "modified": "2026-04-19T11:32:16",
-      "total_files": 21,
+      "total_files": 13,
       "scripts": [
         {
           "name": "StandCombinedExecutionStatus.py",
@@ -10875,62 +9228,6 @@ window.PROJECT_FILES = {
       ],
       "documents": [
         {
-          "name": "GPTAddassigments.md",
-          "path": "רועי/תוכניות עבודה/Documents/GPTAddassigments.md",
-          "extension": ".md",
-          "size_bytes": 1949,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/תוכניות עבודה/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 3447,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "StandCombinedExecutionStatus.md",
-          "path": "רועי/תוכניות עבודה/Documents/StandCombinedExecutionStatus.md",
-          "extension": ".md",
-          "size_bytes": 2089,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "Tasks2WorkUnitPolygon.md",
-          "path": "רועי/תוכניות עבודה/Documents/Tasks2WorkUnitPolygon.md",
-          "extension": ".md",
-          "size_bytes": 2556,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "tochniotavobaezoriotWeeklyMail.md",
-          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotWeeklyMail.md",
-          "extension": ".md",
-          "size_bytes": 2194,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "tochniotavobaezoriotcalculatedashboradtable.md",
-          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotcalculatedashboradtable.md",
-          "extension": ".md",
-          "size_bytes": 2465,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "tochniotavobaezoriotstatuandcalean.md",
-          "path": "רועי/תוכניות עבודה/Documents/tochniotavobaezoriotstatuandcalean.md",
-          "extension": ".md",
-          "size_bytes": 3194,
-          "modified": "2026-04-16T10:57:38"
-        },
-        {
-          "name": "writeTRTUnit2MissionTable.md",
-          "path": "רועי/תוכניות עבודה/Documents/writeTRTUnit2MissionTable.md",
-          "extension": ".md",
-          "size_bytes": 2895,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
           "name": "updated_features.json",
           "path": "רועי/תוכניות עבודה/data/StandCombinedExecutionStatus/updated_features.json",
           "extension": ".json",
@@ -10966,7 +9263,7 @@ window.PROJECT_FILES = {
       "original_name": "תחזוקות של מערכת",
       "path": "רועי/תחזוקות של מערכת",
       "modified": "2026-04-19T11:32:16",
-      "total_files": 11,
+      "total_files": 5,
       "scripts": [
         {
           "name": "DB_maintenance.py",
@@ -11004,50 +9301,7 @@ window.PROJECT_FILES = {
           "modified": "2026-04-16T10:57:39"
         }
       ],
-      "documents": [
-        {
-          "name": "DB_maintenance.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/DB_maintenance.md",
-          "extension": ".md",
-          "size_bytes": 1809,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "README.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/README.md",
-          "extension": ".md",
-          "size_bytes": 1929,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "cleanproccessbackups.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/cleanproccessbackups.md",
-          "extension": ".md",
-          "size_bytes": 1896,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "cleanup.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/cleanup.md",
-          "extension": ".md",
-          "size_bytes": 2251,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "delettempgistask1.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/delettempgistask1.md",
-          "extension": ".md",
-          "size_bytes": 1477,
-          "modified": "2026-04-16T10:57:39"
-        },
-        {
-          "name": "deletxmlprohistory.md",
-          "path": "רועי/תחזוקות של מערכת/Documents/deletxmlprohistory.md",
-          "extension": ".md",
-          "size_bytes": 1381,
-          "modified": "2026-04-16T10:57:39"
-        }
-      ],
+      "documents": [],
       "other": []
     },
     "איסוףזרעים": {

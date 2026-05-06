@@ -46,7 +46,8 @@ IGNORED_EXTENSIONS = {
     '.fdt', '.fdx', '.fnm', '.frq', '.nrm', '.prx', '.tii', '.tis', '.gen',
     # GIS / config sidecars
     '.xml', '.sde', '.rsd','.txt', '.lock','.pyproj','.config','.ini','.log','gitignore','.gitattributes',
-    '.rdl','.rptproj','.data','.pyt','.gpkx','.js','.cs','.db','.ts','.png','.jpg','.aspx','.asmx','.css'}
+    '.rdl','.rptproj','.data','.pyt','.gpkx','.js','.cs','.db','.ts',
+    '.png','.jpg','.aspx','.asmx','.css','.md','.gif','.dll','.exclude','.refresh'}
 
 # Filename stems (no extension) that are auto-generated index/lock files.
 IGNORED_STEM_RE = re.compile(r'^segments(_\d+)?$', re.IGNORECASE)
